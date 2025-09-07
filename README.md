@@ -217,24 +217,31 @@ La problematica se puede resumir en los siguientes puntos:
 En este contexto surge la necesidad de contar con soluciones accesibles, seguras y confiables que permitan democratizar el monitoreo de la cadena de frío, ofreciendo a las instituciones de salud herramientas simples para garantizar la trazabilidad y seguridad en el almacenamiento de medicamentos.
 
 **1. What (¿Qué?)**
+
 El sector salud enfrenta dificultades para garantizar la correcta conservación de medicamentos sensibles que requieren cadena de frío. Actualmente, muchas farmacias, hospitales, clínicas y centros de distribución dependen de controles manuales poco confiables, como registros en planillas o verificaciones esporádicas, que no permiten un monitoreo continuo ni la detección oportuna de desviaciones de temperatura. Las soluciones existentes suelen ser complejas o costosas, restringidas a grandes instituciones, dejando sin alternativas accesibles a la mayoría de actores del sistema.
 
 **2. Why (¿Por qué?)**
+
 Esto ocurre porque los métodos tradicionales presentan limitaciones significativas: los registros manuales son propensos a errores humanos, las soluciones de monitoreo actuales implican altos costos de hardware, licencias y soporte, y la mayoría carece de automatización para emitir alertas en tiempo real o generar reportes auditables. Como consecuencia, las instituciones del sector salud quedan expuestas a pérdidas económicas por medicamentos dañados y, lo más grave, a riesgos sanitarios para los pacientes.
 
 **3. Who (¿Quién?)**
+
 El problema afecta directamente a farmacias y boticas, que requieren monitoreo constante de inventarios pequeños pero sensibles; a hospitales y clínicas, que manejan grandes volúmenes de medicamentos críticos bajo presión de auditorías; y a centros de distribución y laboratorios farmacéuticos, que necesitan trazabilidad durante transporte y almacenamiento. De forma indirecta, impacta también en los pacientes, quienes pueden recibir tratamientos comprometidos por fallas en la cadena de frío.
 
 **4. Where (¿Dónde?)**
+
 La problemática se manifiesta en toda la cadena de suministro y almacenamiento de medicamentos: en farmacias locales con recursos limitados para implementar tecnología, en hospitales y clínicas que deben cumplir protocolos de bioseguridad y auditorías regulatorias, y en centros de distribución que requieren garantizar condiciones adecuadas desde el origen hasta la entrega final.
 
 **5. When (¿Cuándo?)**
+
 Este problema es actual y cada vez más urgente, ya que la demanda de medicamentos biológicos y tratamientos refrigerados crece constantemente. La pandemia de COVID-19 visibilizó la necesidad de cadenas de frío confiables y trazables, y hoy, en un contexto donde la digitalización y la seguridad del paciente son prioridades, seguir dependiendo de controles manuales representa un riesgo inaceptable.
 
 **6. How (¿Cómo?)**
+
 La situación se refleja en errores frecuentes por registros manuales incompletos o tardíos, en la ausencia de alertas en tiempo real que permitan acciones preventivas, en las dificultades para cumplir auditorías sanitarias por falta de reportes históricos confiables y en la exclusión de pequeños actores del sector, que no pueden acceder a soluciones diseñadas para instituciones de gran escala y alto presupuesto.
 
 **7. How much (¿Cuánto?)**
+
 El costo de esta problemática es elevado: la Organización Mundial de la Salud estima que más del 25 % de las vacunas a nivel global se pierde por fallas en la cadena de frío; una desviación de temperatura puede significar pérdidas de miles de dólares en inventario para una farmacia u hospital; y los sistemas de monitoreo actuales requieren inversiones que ascienden a decenas de miles de dólares, inaccesibles para instituciones pequeñas o medianas, sin garantizar siempre escalabilidad ni simplicidad en su uso.
 
 
