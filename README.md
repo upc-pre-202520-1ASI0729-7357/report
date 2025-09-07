@@ -4,8 +4,8 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Desarrollo de Aplicaciones Open Source - SV51</strong><br>
-    <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
+    <strong>Desarrollo de Aplicaciones Open Source - 7357</strong><br>
+    <strong>Profesor: Rafael Oswaldo Castro Veramendi </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
 
@@ -21,14 +21,14 @@
 
 | Member                           | Code       |
 |----------------------------------|------------|
-|   |  |
+|Axel Ordoñez Ricaldi| U202216827 |
 |        |  |
 |       |  |
 |  |  |
 |              |  |
 |          |  |
 
-<br> AGOSTO 2024
+<br> Setiembre 2025
 </center>  
 
 # Registro de Versiones del Informe
@@ -36,7 +36,7 @@
 
 | Version | Fecha | Autor | Descripcion de Modificacion |
 | ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 19/03/2024 |Grupo 1 |Se crea el documento |  
+| 0.0 | 30/08/2025 |Grupo 1 |Se crea el documento |  
 
 </center>
 
@@ -176,6 +176,16 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+Nuestra startup nace con un propósito claro: garantizar que los medicamentos sensibles se conserven siempre en las condiciones adecuadas, evitando riesgos para la salud y pérdidas económicas por fallas en la cadena de frío. Creemos que el acceso a tratamientos seguros no debe depender de controles manuales poco fiables, sino de herramientas tecnológicas simples y confiables.
+Nuestra plataforma digital ofrece un sistema intuitivo para monitorear, registrar y recibir alertas sobre la temperatura de refrigeración de medicamentos en tiempo real. A través de una experiencia visual y clara, los usuarios pueden supervisar el estado de sus equipos de refrigeración desde cualquier lugar, detectar desviaciones a tiempo y contar con reportes automáticos para auditorías y cumplimiento normativo.
+El sistema está diseñado pensando en farmacias, hospitales, clínicas y cadenas de distribución, que requieren un control constante y trazable de sus inventarios médicos. Inicialmente, ofrecemos una versión web con datos simulados para demostrar la experiencia de uso y el valor de la solución, con la visión de integrar sensores IoT, aplicaciones móviles y tecnologías adicionales en fases posteriores.
+Nuestra propuesta de valor combina seguridad, simplicidad y confiabilidad. Queremos que supervisar la cadena de frío sea tan fácil como abrir una aplicación, reduciendo riesgos, mejorando la eficiencia operativa y fortaleciendo la confianza de pacientes e instituciones.
+**Misión:** Democratizar el acceso a sistemas de monitoreo avanzados que aseguren la conservación óptima de medicamentos, protegiendo la salud de las personas y reduciendo pérdidas en el sector salud.
+**Visión:** Convertirnos en un referente global en soluciones de trazabilidad y monitoreo inteligente, impulsando un modelo de salud más seguro, eficiente y tecnológicamente conectado.
+Más que una plataforma, queremos ser un aliado estratégico para las instituciones de salud, construyendo un ecosistema donde la tecnología no sea un lujo, sino una garantía de confianza y bienestar para todos.
+
+
 #### 1.1.2. Perfiles de integrantes del equipo
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
@@ -183,14 +193,165 @@
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+En los últimos años, el sector salud ha enfrentado crecientes desafíos relacionados con la conservación y distribución segura de medicamentos sensibles, especialmente aquellos que requieren estrictos controles de temperatura, como vacunas, insulinas y productos biológicos. La pandemia de COVID-19 puso de relieve la importancia de la cadena de frío, evidenciando que un fallo en el control de condiciones de almacenamiento puede tener consecuencias graves en la efectividad de los tratamientos y en la seguridad de los pacientes.
+
+A nivel global, las tecnologías de monitoreo en tiempo real y trazabilidad mediante IoT han comenzado a consolidarse como herramientas clave para garantizar la calidad de los fármacos y cumplir con las normativas sanitarias. Sin embargo, en gran parte de Latinoamérica —y particularmente en el Perú—, la adopción de estas soluciones sigue siendo limitada. Los factores que explican esta brecha son la dependencia de controles manuales poco confiables, los altos costos de implementación de sistemas avanzados y la falta de plataformas intuitivas que simplifiquen el proceso para farmacias, hospitales y centros de distribución.
+
+Actualmente, muchas instituciones del sector salud carecen de mecanismos integrados para monitorear la temperatura en tiempo real. Cuando existen, suelen estar restringidos a grandes cadenas farmacéuticas o clínicas privadas con mayor presupuesto, dejando de lado a la mayoría de farmacias independientes, boticas locales y clínicas de menor escala. Esto genera un riesgo constante: pérdidas económicas por medicamentos dañados, incumplimiento de normativas y, lo más crítico, amenazas directas a la salud de los pacientes.
+
+La problematica se puede resumir en los siguientes puntos:
+
+**Dependencia de controles manuales poco confiables:** la mayoría de farmacias, hospitales y clínicas registran temperaturas en planillas físicas o sistemas aislados, lo que incrementa el riesgo de errores humanos y fallos de supervisión.
+
+**Accesibilidad limitada:** las soluciones tecnológicas de monitoreo existentes suelen estar dirigidas a grandes instituciones con alta capacidad de inversión, dejando excluidas a farmacias y centros pequeños.
+
+**Falta de trazabilidad y reportes automáticos:** los sistemas tradicionales no permiten generar registros auditables ni reportes en tiempo real, dificultando el cumplimiento de normas regulatorias y procesos de fiscalización sanitaria.
+
+**Altos costos de implementación:** integrar sensores avanzados o plataformas propietarias implica inversiones significativas en hardware, licencias y soporte técnico especializado, lo que limita su adopción masiva.
+
+**Impacto en la salud y en la economía:** las fallas en la cadena de frío no solo provocan pérdidas económicas por medicamentos dañados, sino que también pueden poner en riesgo la seguridad de los pacientes al administrar productos en mal estado.
+
+En este contexto surge la necesidad de contar con soluciones accesibles, seguras y confiables que permitan democratizar el monitoreo de la cadena de frío, ofreciendo a las instituciones de salud herramientas simples para garantizar la trazabilidad y seguridad en el almacenamiento de medicamentos.
+
+**1. What (¿Qué?)**
+El sector salud enfrenta dificultades para garantizar la correcta conservación de medicamentos sensibles que requieren cadena de frío. Actualmente, muchas farmacias, hospitales, clínicas y centros de distribución dependen de controles manuales poco confiables, como registros en planillas o verificaciones esporádicas, que no permiten un monitoreo continuo ni la detección oportuna de desviaciones de temperatura. Las soluciones existentes suelen ser complejas o costosas, restringidas a grandes instituciones, dejando sin alternativas accesibles a la mayoría de actores del sistema.
+
+**2. Why (¿Por qué?)**
+Esto ocurre porque los métodos tradicionales presentan limitaciones significativas: los registros manuales son propensos a errores humanos, las soluciones de monitoreo actuales implican altos costos de hardware, licencias y soporte, y la mayoría carece de automatización para emitir alertas en tiempo real o generar reportes auditables. Como consecuencia, las instituciones del sector salud quedan expuestas a pérdidas económicas por medicamentos dañados y, lo más grave, a riesgos sanitarios para los pacientes.
+
+**3. Who (¿Quién?)**
+El problema afecta directamente a farmacias y boticas, que requieren monitoreo constante de inventarios pequeños pero sensibles; a hospitales y clínicas, que manejan grandes volúmenes de medicamentos críticos bajo presión de auditorías; y a centros de distribución y laboratorios farmacéuticos, que necesitan trazabilidad durante transporte y almacenamiento. De forma indirecta, impacta también en los pacientes, quienes pueden recibir tratamientos comprometidos por fallas en la cadena de frío.
+
+**4. Where (¿Dónde?)**
+La problemática se manifiesta en toda la cadena de suministro y almacenamiento de medicamentos: en farmacias locales con recursos limitados para implementar tecnología, en hospitales y clínicas que deben cumplir protocolos de bioseguridad y auditorías regulatorias, y en centros de distribución que requieren garantizar condiciones adecuadas desde el origen hasta la entrega final.
+
+**5. When (¿Cuándo?)**
+Este problema es actual y cada vez más urgente, ya que la demanda de medicamentos biológicos y tratamientos refrigerados crece constantemente. La pandemia de COVID-19 visibilizó la necesidad de cadenas de frío confiables y trazables, y hoy, en un contexto donde la digitalización y la seguridad del paciente son prioridades, seguir dependiendo de controles manuales representa un riesgo inaceptable.
+
+**6. How (¿Cómo?)**
+La situación se refleja en errores frecuentes por registros manuales incompletos o tardíos, en la ausencia de alertas en tiempo real que permitan acciones preventivas, en las dificultades para cumplir auditorías sanitarias por falta de reportes históricos confiables y en la exclusión de pequeños actores del sector, que no pueden acceder a soluciones diseñadas para instituciones de gran escala y alto presupuesto.
+
+**7. How much (¿Cuánto?)**
+El costo de esta problemática es elevado: la Organización Mundial de la Salud estima que más del 25 % de las vacunas a nivel global se pierde por fallas en la cadena de frío; una desviación de temperatura puede significar pérdidas de miles de dólares en inventario para una farmacia u hospital; y los sistemas de monitoreo actuales requieren inversiones que ascienden a decenas de miles de dólares, inaccesibles para instituciones pequeñas o medianas, sin garantizar siempre escalabilidad ni simplicidad en su uso.
+
+
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
+Nuestra startup es una plataforma digital que permite a farmacias, hospitales, clínicas y centros de distribución garantizar la conservación adecuada de medicamentos sensibles mediante un sistema de monitoreo en tiempo real, accesible e intuitivo. Buscamos democratizar el acceso a tecnologías de cadena de frío seguras y confiables, reduciendo riesgos para la salud, pérdidas económicas y barreras técnicas en el sector salud.
+
+**Contexto:** Nuestra plataforma está diseñada para supervisar equipos de refrigeración de forma remota, generando alertas inmediatas ante desviaciones de temperatura y reportes automáticos para auditorías. El objetivo es ofrecer una herramienta sencilla y confiable que ayude a instituciones de salud a cumplir normativas sanitarias y a proteger la calidad de sus inventarios médicos.
+
+**Observación del problema:** Sin embargo, hemos identificado que muchas instituciones aún dependen de controles manuales poco confiables o de soluciones tecnológicas costosas y complejas, lo que limita la adopción de sistemas efectivos. Farmacias pequeñas y clínicas locales carecen de opciones accesibles, mientras que hospitales y centros de distribución enfrentan dificultades para garantizar trazabilidad y auditoría en toda la cadena de frío. Estas observaciones provienen de estudios del sector, organismos internacionales y entrevistas con actores de salud, quienes señalan la necesidad de soluciones simples y adaptables.
+
+**Impacto:** Esta situación genera pérdidas económicas considerables por medicamentos dañados, incumplimiento de requisitos regulatorios y, lo más grave, riesgos para la salud de los pacientes al administrar tratamientos comprometidos. Además, la falta de accesibilidad tecnológica profundiza la brecha entre instituciones grandes y pequeñas, afectando la equidad en el acceso a medicamentos seguros y disminuyendo la confianza en los servicios de salud.
+
+**Necesidad insatisfecha:** Actualmente, las instituciones requieren soluciones integradas, accesibles y fáciles de implementar que permitan monitorear y auditar la cadena de frío de manera continua y confiable. Al mismo tiempo, necesitan plataformas intuitivas que reduzcan la dependencia de registros manuales y soporte técnico especializado, optimizando la eficiencia operativa y garantizando la seguridad de los medicamentos.
+
+**Pregunta de mejora:** ¿Cómo podríamos simplificar y democratizar el monitoreo de la cadena de frío en el sector salud para que farmacias y hospitales adopten estas soluciones de forma accesible, incrementando así la seguridad de los pacientes, la eficiencia operativa y la confiabilidad en la conservación de medicamentos?
+
 #### 1.2.2.2. Lean UX Assumptions.
-|Business Assumptions|User Assumptions|
-|-|-|
-|1. - 12. |1. - 6.|
+En la fase inicial de desarrollo de nuestra plataforma para el sector salud, hemos identificado y estructurado un conjunto de supuestos siguiendo la metodología Lean UX. Estos supuestos representan nuestras creencias iniciales sobre quiénes son nuestros usuarios, cuáles son sus necesidades prioritarias, cómo funcionará el modelo de negocio, qué resultados esperamos alcanzar y cuáles son las funcionalidades clave que permitirán validar la propuesta de valor. Formalizar estas creencias nos permitirá enfocar el diseño y desarrollo en la validación temprana, minimizar riesgos y garantizar que la estrategia del producto esté alineada con las necesidades reales de farmacias, hospitales, clínicas y centros de distribución.
+
+Los supuestos se han clasificado en cinco categorías principales para una mejor estructuración:
+
+- **User Assumptions:** Nuestras creencias sobre las necesidades, motivaciones y comportamientos de farmacias, hospitales, clínicas y centros de distribución al buscar soluciones de monitoreo de cadena de frío accesibles, confiables y fáciles de usar.
+
+- **User Outcome Assumptions:** Los beneficios tangibles y mejoras en eficiencia, seguridad, cumplimiento regulatorio y satisfacción que anticipamos que experimenten los usuarios al integrar la plataforma en sus procesos.
+
+- **Business Assumptions:** Hipótesis sobre la viabilidad y escalabilidad del modelo de negocio en el sector salud, considerando dinámicas de adopción tecnológica, regulaciones y alianzas estratégicas.
+
+- **Business Outcome Assumptions:** Los resultados medibles que proyectamos generar para la startup, como aumento de ingresos recurrentes, reducción de costos operativos, diferenciación en el mercado y fortalecimiento de la retención de clientes.
+
+- **Feature Assumptions:** Nuestras creencias sobre cómo funcionalidades específicas de la plataforma (ej. monitoreo en tiempo real, alertas automáticas, reportes para auditorías, integración con IoT) resolverán problemas críticos de los usuarios y validarán nuestras hipótesis de negocio.
+
+Estos supuestos formarán la base de nuestra estrategia de diseño y validación continua, guiando la evolución de la plataforma hacia una solución que realmente democratice el acceso a tecnologías de conservación segura de medicamentos.
+
+**User Assumptions**
+- Creemos que el 70% de las farmacias pequeñas y clínicas locales buscan soluciones de monitoreo accesibles y fáciles de usar, porque actualmente carecen de alternativas tecnológicas confiables que no requieran inversión elevada.
+
+- Creemos que el 85% de los hospitales y centros de distribución valoran la trazabilidad completa de la cadena de frío, porque el cumplimiento normativo y la auditoría son críticos en sus operaciones.
+
+- Creemos que el 60% de los responsables de farmacia priorizan recibir alertas inmediatas ante desviaciones de temperatura, ya que los controles manuales generan errores humanos y pérdidas.
+
+- Creemos que el 75% de los usuarios no técnicos (farmacéuticos, asistentes, personal de enfermería) necesitan interfaces simples e intuitivas, porque no cuentan con formación en sistemas tecnológicos avanzados.
+
+- Creemos que el 50% de las instituciones medianas y grandes están dispuestas a migrar de sistemas manuales a plataformas digitales si estas reducen el riesgo de sanciones regulatorias y pérdidas económicas.
+
+**User Outcome Assumptions**
+- Creemos que si los usuarios tienen un sistema de monitoreo en tiempo real, entonces reducirán en al menos 30% las pérdidas por medicamentos dañados durante los primeros seis meses.
+
+- Creemos que si la plataforma genera reportes automáticos de cumplimiento, entonces al menos el 65 % de las instituciones los usarán como evidencia principal en auditorías.
+
+- Creemos que si los usuarios reciben alertas preventivas, entonces la confianza en la seguridad de sus inventarios médicos aumentará en un 40% en encuestas de satisfacción.
+
+- Creemos que si las farmacias pequeñas tienen acceso a una solución accesible, entonces su adopción de monitoreo digital se incrementará en un 50% en el primer año.
+
+**Business Assumptions**
+- Creemos que el 60% de los ingresos provendrá de suscripciones mensuales de farmacias, clínicas y hospitales, mientras que el 40% vendrá de contratos con centros de distribución y alianzas con proveedores de salud.
+
+- Creemos que la demanda inicial se concentrará en farmacias y clínicas pequeñas, porque son las más afectadas por pérdidas y la falta de cumplimiento regulatorio.
+
+- Creemos que un modelo SaaS con planes escalonados (básico, profesional y enterprise) será viable, ya que permite adaptarse a las necesidades de diferentes tamaños de instituciones.
+
+- Creemos que las regulaciones sanitarias cada vez más estrictas impulsarán la adopción de nuestra plataforma como una herramienta necesaria para el sector salud.
+
+- Creemos que podremos establecer al menos 5 alianzas estratégicas con distribuidores de equipos de refrigeración e IoT, lo que nos permitirá acelerar la penetración de mercado.
+
+**Business Outcome Assumptions**
+- Creemos que si la plataforma es adoptada por al menos 100 farmacias y clínicas en el primer año, entonces generaremos un flujo recurrente de ingresos que garantizará la sostenibilidad inicial.
+
+- Creemos que si reducimos los incidentes de pérdida de medicamentos en al menos un 30%, entonces aumentaremos la retención de clientes en un 70% tras el primer año.
+
+- Creemos que si las instituciones logran cumplir más fácilmente con normativas, entonces incrementaremos nuestra tasa de conversión de pruebas piloto a contratos pagos en un 25%.
+
+- Creemos que si cerramos alianzas con distribuidores de equipos, entonces reduciremos el costo de adquisición de clientes (CAC) en un 20% gracias a ventas indirectas.
+
+**Feature Assumptions**
+- Creemos que un panel de monitoreo en tiempo real permitirá a los usuarios supervisar fácilmente múltiples equipos, logrando que el 80 % lo consulte diariamente en el primer mes.
+
+- Creemos que la funcionalidad de alertas automáticas reducirá incidentes críticos, con el 70% de los usuarios configurando alertas personalizadas en los primeros 30 días.
+
+- Creemos que los reportes automáticos descargables serán usados como evidencia en auditorías, alcanzando al 60% de uso en instituciones con regulaciones estrictas.
+
+- Creemos que la integración con sensores IoT mejorará la confiabilidad del sistema, logrando que el 50% de los clientes adopten esta opción en el primer año.
+
+- Creemos que una interfaz intuitiva y multiusuario reducirá la dependencia de soporte técnico, alcanzando que el 40% de los problemas se resuelvan vía autoservicio (FAQs o chatbot).
 #### 1.2.2.3. Lean UX Hypothesis Statements.
-Texto
+
+**Accesibilidad para pequeñas farmacias y clínicas**
+Creemos que las farmacias y clínicas pequeñas adoptarán nuestra plataforma porque podrán monitorear la cadena de frío de manera accesible y sin necesidad de personal especializado en TI. Sabremos que hemos tenido éxito cuando al menos el 50% de los clientes iniciales sean instituciones pequeñas que antes usaban controles manuales.
+
+**Confianza y reducción de riesgos en hospitales y centros de distribución**
+Creemos que los hospitales y centros de distribución valorarán la plataforma porque les permitirá garantizar trazabilidad y auditoría en todo momento. Sabremos que hemos tenido éxito cuando al menos el 70% de los usuarios indiquen en encuestas que confían más en la conservación de medicamentos tras tres meses de uso
+
+**Ahorro de tiempo en gestión operativa**
+Creemos que la automatización de reportes reducirá significativamente el tiempo invertido en controles manuales. Sabremos que hemos tenido éxito cuando los usuarios reporten una reducción del 40% en el tiempo destinado a registros manuales en las primeras 6 semanas.
+
+**Prevención de pérdidas económicas**
+Creemos que las alertas en tiempo real disminuirán las pérdidas de medicamentos dañados. Sabremos que hemos tenido éxito cuando los usuarios reporten al menos un 30% de reducción en pérdidas por fallas de conservación tras seis meses de uso.
+
+**Democratización de la tecnología**
+Creemos que un modelo de precios flexible permitirá que instituciones pequeñas y grandes adopten la plataforma sin barreras económicas significativas.
+Sabremos que hemos tenido éxito cuando al menos el 60% de nuestros clientes correspondan a instituciones con presupuestos reducidos.
+
+**Escalabilidad en el sector salud**
+Creemos que nuestra solución podrá ser escalada desde farmacias hasta hospitales y cadenas de distribución sin necesidad de personalización costosa. Sabremos que hemos tenido éxito cuando logremos contratos con al menos tres tipos de instituciones diferentes en el primer año.
+
+**Crecimiento sostenido en la adopción**
+Creemos que al ofrecer una solución accesible y confiable, lograremos un crecimiento continuo en clientes. Sabremos que hemos tenido éxito cuando alcancemos una tasa de retención superior al 70% y un crecimiento mensual del 15% en usuarios activos durante el primer año.
+
+**Generación de confianza en el mercado**
+Creemos que ser percibidos como una herramienta que facilita el cumplimiento normativo aumentará nuestra credibilidad en el sector salud. Sabremos que hemos tenido éxito cuando al menos el 50% de los clientes indiquen que nos eligieron por apoyo en auditorías y normativas.
+
+**Alertas inmediatas como diferenciador**
+Creemos que las notificaciones en tiempo real serán el factor clave de diferenciación frente a controles manuales o sistemas costosos. Sabremos que hemos tenido éxito cuando al menos el 80% de los usuarios configuren y respondan a una alerta en el primer mes.
+
+**Reportes automáticos para auditorías**
+Creemos que la generación de reportes automáticos simplificará la preparación para auditorías sanitarias. Sabremos que hemos tenido éxito cuando el 70% de los usuarios utilicen los reportes generados por la plataforma en auditorías reales.
+
+**Interfaz intuitiva**
+Creemos que una interfaz simple permitirá que personal no técnico pueda manejar el sistema sin capacitaciones extensas. Sabremos que hemos tenido éxito cuando al menos el 60% de los nuevos usuarios logren configurar un equipo de refrigeración sin solicitar soporte.
+
 #### 1.2.2.4. Lean UX Canvas.
 (imagen con texto)
 ## 1.3. Segmentos objetivo.
