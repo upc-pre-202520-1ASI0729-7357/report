@@ -21,8 +21,8 @@
 
 | Member                           | Code       |
 |----------------------------------|------------|
-|Axel Ordoñez Ricaldi| U202216827 |
-|        |  |
+|Axel Ordoñez Ricaldi              | U202216827 |
+|Fabrizio Martin Panta Castro      | U20231A810 |
 |       |  |
 |  |  |
 |              |  |
