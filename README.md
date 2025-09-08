@@ -363,7 +363,8 @@ Creemos que la generación de reportes automáticos simplificará la preparació
 Creemos que una interfaz simple permitirá que personal no técnico pueda manejar el sistema sin capacitaciones extensas. Sabremos que hemos tenido éxito cuando al menos el 60% de los nuevos usuarios logren configurar un equipo de refrigeración sin solicitar soporte.
 
 #### 1.2.2.4. Lean UX Canvas.
-(imagen con texto)
+![Lean UX Canvas](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/541438532_2201510577010046_4593889727261903654_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=e_dOK1uFnK8Q7kNvwGsPOga&_nc_oc=AdngadvP5wGXzYHDz4KP17X5_TLBVFBpKe9XoWPVGpBadQXSrVPMf_MaDM4Ide1gX1KSedT0izZ2nW-tapukhLoA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFeVbumzdSkAUtAcfkDttukcfPkVBgOc7lvjuEeacSGug&oe=68E5D7FC)
+
 ## 1.3. Segmentos objetivo.
 | | Segmento 1 | Segmento 2  |
 | - | - |-|
