@@ -367,11 +367,11 @@ Creemos que una interfaz simple permitirá que personal no técnico pueda maneja
 ## 1.3. Segmentos objetivo.
 | | Segmento 1 | Segmento 2  |
 | - | - |-|
-| Variables                 |  |  |
-| Geográfica                |  |  |
-| Demográfica               |  |  |
-| Psicológica               |  |  |
-| Función de comportamiento |  |  |
+| Variables                 | Hospitales | Farmacias |
+| Geográfica                | Principalmente en áreas urbanas y semiurbanas de Perú y Latinoamérica, donde existe mayor concentración de hospitales públicos y privados que manejan altos volúmenes de medicamentos sensibles. | Ubicadas en zonas urbanas y suburbanas, incluyendo distritos céntricos y barrios residenciales con alta demanda de medicamentos, especialmente en farmacias independientes y cadenas locales. |
+| Demográfica               | Edad de directores y responsables: 35-60 años; Género: Mixto; Educación: Profesionales con estudios en medicina, farmacia o gestión hospitalaria; Ingresos: Institucionales (presupuestos medios y altos); Estado civil variado. | Propietarios o administradores de farmacias de 28-50 años; Género: Mixto; Educación: Técnicos en farmacia, farmacéuticos o administradores; Ingresos: Medio; Estado civil variado; generalmente familias o negocios familiares. |
+| Psicológica               | Orientados al cumplimiento normativo y la seguridad del paciente. Valoran soluciones confiables, escalables y auditables que garanticen trazabilidad completa. Personalidad práctica, orientada a procesos y resultados, con alta responsabilidad en la gestión de inventarios. | Buscan accesibilidad y simplicidad en la gestión. Valoran la facilidad de uso, el ahorro de tiempo y la reducción de pérdidas económicas. Prefieren soluciones intuitivas y de bajo costo que no requieran conocimientos técnicos avanzados. |
+| Función de comportamiento | Alta frecuencia en la necesidad de generar reportes auditables, trazabilidad completa de inventarios y cumplir protocolos regulatorios estrictos. Fidelidad a soluciones que reduzcan riesgos de sanciones y mejoren eficiencia operativa. Barreras: costos de integración tecnológica y resistencia al cambio organizacional. | Uso frecuente de herramientas básicas de control. Adoptan nuevas tecnologías si son intuitivas y económicas. Alta motivación por prevenir pérdidas y mejorar la rentabilidad. Barreras: limitaciones presupuestarias y escasa capacitación tecnológica del personal. |
 
 ---
 
