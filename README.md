@@ -19,14 +19,14 @@
 ### <center>Team  Members:</center>
 <center>
 
-| Member                           | Code       |
-|----------------------------------|------------|
-|Axel Ordoñez Ricaldi              | U202216827 |
-|Fabrizio Martin Panta Castro      | U20231A810 |
-|       |  |
-|  |  |
-|              |  |
-|          |  |
+| Member                       | Code       |
+|------------------------------|------------|
+| Axel Ordoñez Ricaldi         | U202216827 |
+| Fabrizio Martin Panta Castro | U20231A810 |
+| Jean Pierre Grandez Mansilla | U202212484 |
+|                              |            |
+|                              |            |
+|                              |            |
 
 <br> Setiembre 2025
 </center>  
@@ -378,11 +378,20 @@ Creemos que una interfaz simple permitirá que personal no técnico pueda maneja
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
+
+Se han identificado los siguientes competidores en el mercado de soluciones de monitoreo de cadena de frío para el sector salud:
+
+- **Competidor 1: Sensitech**
+  - **Descripción:** Sensitech es una empresa global que ofrece dispositivos de monitoreo en tiempo real, dataloggers desechables y reutilizables, y una plataforma de visibilidad llamada ColdStream®, que integra datos tanto en almacenamiento como en transporte.
+- **Competidor 2: Exolinked**
+  - **Descripción:** Exolinked es una empresa latinoamericana enfocada en soluciones IoT de cadena de frío. Su plataforma digital permite monitorear en tiempo real temperatura, humedad y consumo energético, centralizando los datos en la nube y generando alarmas automáticas cuando se detectan desviaciones predefinidas.
+- **Competidor 3: Netux**
+  - **Descripción:** Netux se especializa en tecnologías para el sector salud. Desarrolla un sistema de monitoreo en tiempo real que recopila variables críticas en refrigeración de medicamentos y vacunas, integrando datos en la nube para ofrecer trazabilidad completa, reportes automáticos e informes auditables.
 ### 2.1.1. Análisis competitivo.
 
-| Competitive Analysis Landscape                          |  |
-| ------------------------------------------------------- | -|
-| ¿Por qué llevar a cabo este análisis?                   | -- |
+| Competitive Analysis Landscape                          |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Por qué llevar a cabo este análisis?                   | Este análisis nos permite identificar a nuestros principales competidores que ya ofrecen soluciones digitales e IoT de monitoreo de la cadena de frío farmacéutica en Latinoamérica y a nivel global.<br/> Así podemos contrastar nuestra propuesta de valor, sobre el segmento objetivo y el posicionamiento local para poder desarrollar una solución que se destaque en el mercado y se diferencie de nuestros competidores. |
 
 
 | |  | (Nosotros) | Competidor  | Comptdor |
@@ -394,15 +403,25 @@ Creemos que una interfaz simple permitirá que personal no técnico pueda maneja
 | Perfil del producto                                     | Productos y servicios | Elementos Gráficos Interactivos Enseñanza de Matemáticas Lúdica y Autodidacta Educación matemática interactiva Ámbito Freemium | Educación matemática interactiva Mas de 100 cursos en 28 idiomas diferentes | Educación general interactiva Contratos con Movistar |
 || Precios y costos                                        | Freemium (Cuenta Premium permite personalizar los juegos) Gratis | Gratuito | Gratuito |
 || Canales de distribución (Web y/o Móvil)                 | Web y Móvil Web | Móvil Web | Web y móvil Web |
+
+
+|                        | **Nuestra Startup**             | **Exolinked (LatAm)**                                                                                                                                                         | **Netux (Col/LatAm)**                                                                                                            | **Sensitech (Global)**                                                                                                            |
+|------------------------|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **PERFIL**             | **Overview**                    | Plataforma **web** para monitoreo en tiempo real de medicamentos, con **alertas** y **reportes automáticos**. Foco inicial: **Perú/LatAm**, farmacias y clínicas subatendidas. | Empresa IoT de LatAm que ofrece **monitoreo de cadena de frío** (T°, HR, energía) con datos en la nube y **alarmas**. | Empresa colombiana especializada en **salud**, con **sistema de monitoreo** de T° para vacunas, medicamentos y bancos de sangre. | Multinacional Carrier con soluciones **end-to-end** para farma, usando **monitores en tiempo real** y plataforma **ColdStream®**. |
+| **PERFIL**             | **Ventaja competitiva (valor)** | **Simplicidad + accesibilidad**. Reportes alineados a **auditorías** y precios bajos.                                                                                         | **Protocolos de implementación claros**, escalabilidad IoT, consultoría en integración HW+SW.                         | **Vertical en salud**, reportes auditables listos para farmacias, clínicas y hospitales.                                         | **Cumplimiento global (GxP, 21 CFR, EU)** y trazabilidad **integral** en transporte y almacenamiento.                             |
+| **Perfil de Marketing** | **Mercado objetivo**            | Farmacias, boticas, clínicas, hospitales, centros de distribución.                                                                                                            | Sectores de logística, retail y salud que requieren trazabilidad.                                                     | Hospitales, clínicas, farmacias y bancos de sangre en LatAm.                                                                     | Empresas farmacéuticas, distribuidoras y operadores logísticos a nivel global.                                                    |
+| **Perfil de Marketing** | **Estrategia de marketing**     | Go-to-market local con **alianzas en Perú**, inbound con foco en **cumplimiento MINSA**.                                                                                      | Marketing consultivo y B2B, con **casos de uso** y servicios personalizados.                                          | Marketing orientado a **salud** (vacunas, medicamentos), casos clínicos y regulación.                                            | **Enterprise marketing** con whitepapers, casos globales y venta corporativa.                                                     |
+| **Perfil de Producto** | **Productos & servicios**       | Plataforma SaaS (dashboard, alertas, reportes). Roadmap IoT y app móvil.                                                                                                      | Monitoreo de T°, HR, consumo energético. Plataforma cloud + alarmas.                                                  | Monitoreo T° en tiempo real, trazabilidad, geolocalización, reportes automáticos.                                                | Monitores/dataloggers en tiempo real, **ColdStream®**, reportes de cumplimiento.                                                  |
+| **Perfil de Producto** | **Precios & costos**            | Modelo SaaS accesible para presupuestos limitados de farmacias y hospitales peruanos                                               | SaaS + HW bajo cotización.                                                                                            | SaaS + HW bajo cotización.                                                                                                       | Enterprise HW + SaaS, bajo cotización.                                                                                            |
+| **Perfil de Producto** | **Canales (Web/Móvil)**         | Web responsive, app móvil futura, distribución directa + alianzas farmacéuticas locales.                                                                                      | Web (cloud) + IoT.                                                                                                    | Web (nube), apps y módulos en salud.                                                                                             | Web (plataforma enterprise).                                                                                                      |
+| **Análisis SWOT**      | Fortalezas                      |                                                                                                                                                                               | lorem     | Lorem | lorem     |
+| **Análisis SWOT**      | Debilidades                     | lorem                                                                                                                                                                         | lorem     | lorem | lorem     | 
+| **Análisis SWOT**      | Oportunidades                   | lorem                                                                                                                                                                         | lorem     | lorem | lorem     | 
+|  **Análisis SWOT**     | Amenazas                        | lorem                                                                                                                                                                         | lorem     | lorem | lorem     |
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
-
-|Competidores ->|  | Nosotros | Competidor2| Competidor3|
-|-|-|-|-|-|
-| Análisis SWOT | Fortalezas | lorem | Lorem | lorem |
-|| Debilidades   | lorem | lorem | lorem | lorem | 
-|| Oportunidades | lorem | lorem | lorem | lorem | 
-|| Amenazas      | lorem | lorem | lorem | lorem |
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
