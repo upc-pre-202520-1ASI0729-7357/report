@@ -394,37 +394,55 @@ Se han identificado los siguientes competidores en el mercado de soluciones de m
 | ¿Por qué llevar a cabo este análisis?                   | Este análisis nos permite identificar a nuestros principales competidores que ya ofrecen soluciones digitales e IoT de monitoreo de la cadena de frío farmacéutica en Latinoamérica y a nivel global.<br/> Así podemos contrastar nuestra propuesta de valor, sobre el segmento objetivo y el posicionamiento local para poder desarrollar una solución que se destaque en el mercado y se diferencie de nuestros competidores. |
 
 
-| |  | (Nosotros) | Competidor  | Comptdor |
-|-|-|-|-|-|
-| PERFIL| Overview | lorem | ipsum | lorem |
-|| Ventaja competitiva ¿Qué valor ofrece a los clientes? |  ipsu | impuz |
-|| Mercado Objetivo                                        | Jeda | asa | asa2 |
-| Perfil de marketing                                     | Estrategia de Marketing | Redes Sociales | Redes Sociales | Televisión, Redes Sociales |
-| Perfil del producto                                     | Productos y servicios | Elementos Gráficos Interactivos Enseñanza de Matemáticas Lúdica y Autodidacta Educación matemática interactiva Ámbito Freemium | Educación matemática interactiva Mas de 100 cursos en 28 idiomas diferentes | Educación general interactiva Contratos con Movistar |
-|| Precios y costos                                        | Freemium (Cuenta Premium permite personalizar los juegos) Gratis | Gratuito | Gratuito |
-|| Canales de distribución (Web y/o Móvil)                 | Web y Móvil Web | Móvil Web | Web y móvil Web |
 
-
-|                        | **Nuestra Startup**             | **Exolinked (LatAm)**                                                                                                                                                         | **Netux (Col/LatAm)**                                                                                                            | **Sensitech (Global)**                                                                                                            |
-|------------------------|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **PERFIL**             | **Overview**                    | Plataforma **web** para monitoreo en tiempo real de medicamentos, con **alertas** y **reportes automáticos**. Foco inicial: **Perú/LatAm**, farmacias y clínicas subatendidas. | Empresa IoT de LatAm que ofrece **monitoreo de cadena de frío** (T°, HR, energía) con datos en la nube y **alarmas**. | Empresa colombiana especializada en **salud**, con **sistema de monitoreo** de T° para vacunas, medicamentos y bancos de sangre. | Multinacional Carrier con soluciones **end-to-end** para farma, usando **monitores en tiempo real** y plataforma **ColdStream®**. |
-| **PERFIL**             | **Ventaja competitiva (valor)** | **Simplicidad + accesibilidad**. Reportes alineados a **auditorías** y precios bajos.                                                                                         | **Protocolos de implementación claros**, escalabilidad IoT, consultoría en integración HW+SW.                         | **Vertical en salud**, reportes auditables listos para farmacias, clínicas y hospitales.                                         | **Cumplimiento global (GxP, 21 CFR, EU)** y trazabilidad **integral** en transporte y almacenamiento.                             |
-| **Perfil de Marketing** | **Mercado objetivo**            | Farmacias, boticas, clínicas, hospitales, centros de distribución.                                                                                                            | Sectores de logística, retail y salud que requieren trazabilidad.                                                     | Hospitales, clínicas, farmacias y bancos de sangre en LatAm.                                                                     | Empresas farmacéuticas, distribuidoras y operadores logísticos a nivel global.                                                    |
-| **Perfil de Marketing** | **Estrategia de marketing**     | Go-to-market local con **alianzas en Perú**, inbound con foco en **cumplimiento MINSA**.                                                                                      | Marketing consultivo y B2B, con **casos de uso** y servicios personalizados.                                          | Marketing orientado a **salud** (vacunas, medicamentos), casos clínicos y regulación.                                            | **Enterprise marketing** con whitepapers, casos globales y venta corporativa.                                                     |
-| **Perfil de Producto** | **Productos & servicios**       | Plataforma SaaS (dashboard, alertas, reportes). Roadmap IoT y app móvil.                                                                                                      | Monitoreo de T°, HR, consumo energético. Plataforma cloud + alarmas.                                                  | Monitoreo T° en tiempo real, trazabilidad, geolocalización, reportes automáticos.                                                | Monitores/dataloggers en tiempo real, **ColdStream®**, reportes de cumplimiento.                                                  |
-| **Perfil de Producto** | **Precios & costos**            | Modelo SaaS accesible para presupuestos limitados de farmacias y hospitales peruanos                                               | SaaS + HW bajo cotización.                                                                                            | SaaS + HW bajo cotización.                                                                                                       | Enterprise HW + SaaS, bajo cotización.                                                                                            |
-| **Perfil de Producto** | **Canales (Web/Móvil)**         | Web responsive, app móvil futura, distribución directa + alianzas farmacéuticas locales.                                                                                      | Web (cloud) + IoT.                                                                                                    | Web (nube), apps y módulos en salud.                                                                                             | Web (plataforma enterprise).                                                                                                      |
-| **Análisis SWOT**      | Fortalezas                      |                                                                                                                                                                               | lorem     | Lorem | lorem     |
-| **Análisis SWOT**      | Debilidades                     | lorem                                                                                                                                                                         | lorem     | lorem | lorem     | 
-| **Análisis SWOT**      | Oportunidades                   | lorem                                                                                                                                                                         | lorem     | lorem | lorem     | 
-|  **Análisis SWOT**     | Amenazas                        | lorem                                                                                                                                                                         | lorem     | lorem | lorem     |
+|                         |                             | **Nuestra Startup**                                                                                                                                                            | **Exolinked (LatAm)**                                                                                                 | **Netux (Col/LatAm)**                                                                                                             | **Sensitech (Global)**                                                                                                                          | 
+|-------------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **PERFIL**              | Overview                    | Plataforma **web** para monitoreo en tiempo real de medicamentos, con **alertas** y **reportes automáticos**. Foco inicial: **Perú/LatAm**, farmacias y clínicas subatendidas. | Empresa IoT de LatAm que ofrece **monitoreo de cadena de frío** (T°, HR, energía) con datos en la nube y **alarmas**. | Empresa colombiana especializada en **salud**, con **sistema de monitoreo** de T° para vacunas, medicamentos y bancos de sangre.  | Multinacional Carrier con soluciones **end-to-end** para farma, usando **monitores en tiempo real** y plataforma **ColdStream®**.               |
+| **PERFIL**              | Ventaja competitiva (valor) | **Simplicidad + accesibilidad**. Reportes alineados a **auditorías** y precios bajos.                                                                                          | **Protocolos de implementación claros**, escalabilidad IoT, consultoría en integración HW+SW.                         | **Vertical en salud**, reportes auditables listos para farmacias, clínicas y hospitales.                                          | **Cumplimiento global (GxP, 21 CFR, EU)** y trazabilidad **integral** en transporte y almacenamiento.                                           |
+| **Perfil de Marketing** | Mercado objetivo            | Farmacias, boticas, clínicas, hospitales, centros de distribución.                                                                                                             | Sectores de logística, retail y salud que requieren trazabilidad.                                                     | Hospitales, clínicas, farmacias y bancos de sangre en LatAm.                                                                      | Empresas farmacéuticas, distribuidoras y operadores logísticos a nivel global.                                                                  |
+| **Perfil de Marketing** | Estrategia de marketing     | Go-to-market local con **alianzas en Perú**, inbound con foco en **cumplimiento MINSA y DIGEMID**.                                                                             | Marketing consultivo y B2B, con **casos de uso** y servicios personalizados.                                          | Marketing orientado a **salud** (vacunas, medicamentos), casos clínicos y regulación.                                             | **Enterprise marketing** con whitepapers, casos globales y venta corporativa.                                                                   |
+| **Perfil de Producto**  | Productos & servicios       | Plataforma SaaS (dashboard, alertas, reportes). Roadmap IoT y app móvil.                                                                                                       | Monitoreo de T°, HR, consumo energético. Plataforma cloud + alarmas.                                                  | Monitoreo T° en tiempo real, trazabilidad, geolocalización, reportes automáticos.                                                 | Monitores/dataloggers en tiempo real, **ColdStream®**, reportes de cumplimiento.                                                                |
+| **Perfil de Producto**  | Precios & costos            | Modelo SaaS accesible para presupuestos limitados de farmacias y hospitales peruanos                                                                                           | SaaS + HW bajo cotización.                                                                                            | SaaS + HW bajo cotización.                                                                                                        | Enterprise HW + SaaS, bajo cotización.                                                                                                          |
+| **Perfil de Producto**  | Canales (Web/Móvil)         | Web responsive, app móvil futura, distribución directa + alianzas farmacéuticas locales.                                                                                       | Web (cloud) + IoT.                                                                                                    | Web (nube), apps y módulos en salud.                                                                                              | Web (plataforma enterprise).                                                                                                                    |
+| **Análisis SWOT**       | Fortalezas                  | Nuestra solución se enfoca cubrir las necesidades del sector farmaceutico Peruano sin competencia directa.                                                                     | Experiencia en IoT multisector, protocolos claros de implementación, escalabilidad en variables (T°, HR, energía).    | Cuentan con un enfoque total en salud, casos reales en vacunas y medicamentos, además de reportes auditables .                    | Son una solución consolidada y reconocida a nivel global además de contar con mas de 20 años en el mercado.                                     |
+| **Análisis SWOT**       | Debilidades                 | Recursos limitados para poder realizar un MVP con hardware propio y sin financiamiento para generar campañas para atraer usuarios de interés.                                  | Menor especialización 100% en farma (se reparte entre logística y retail).                                            | No son tan accesibles de cara a sus clientes dado que tiene un enfoque en farmaceuticas grandes ajustadas a cada tipo de cliente. | Costos elevados y una complejidad elevada para la integración en la mayoría de su público objetivo.                                             |
+| **Análisis SWOT**       | Oportunidades               | Un potencial crecimiento en la transformación digital en el sector salud y sin competencia directa que abarque el mercado Peruano.                                             | Expandir oferta verticalizada a salud; consolidar presencia regional con partners.                                    | Expandir su cobertura a farmacias y clínicas pequeñas para ofrecerles soluciones más asequibles y ganando gran parte del mercado. | Contratos directos con ministerios de salud o partnerships con clínicas reconocidas.                                                            |  
+| **Análisis SWOT**       | Amenazas                    | El ingreso de competidores consolidados en el rubro al sector peruano, modificaciones en la normativa del sector farmaceutico en el Perú.                                      | Nuevas startups especializadas en farmacia que ofrezcan soluciones más simples y económicas.                          | Soluciones con mayor acercamiento a un público menor pero con propuestas de menor costo para estandarizarse en el mercado.        | Soluciones más ligeras pero más faciles de integrar a sus clientes y con un costo menor con las mismas funcionalidades o propuesta de solución. |
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
+Para destacar nuestra startup en el competitivo mercado de soluciones de monitoreo de cadena de frío para el sector salud, hemos desarrollado una serie de estrategias y tácticas específicas que nos permitirán diferenciarnos efectivamente de nuestros competidores. Estas acciones están diseñadas para resaltar nuestras fortalezas, abordar nuestras debilidades, aprovechar las oportunidades del mercado y mitigar las amenazas potenciales.
+
+- **Diferenciación por Simplicidad y Accesibilidad**
+  - Desarrollar una plataforma intuitiva y fácil de usar, con un enfoque en la experiencia del usuario (UX) que permita a personal no técnico gestionar el monitoreo sin necesidad de capacitación extensa.
+  - Implementar un modelo de precios escalonado que ofrezca planes accesibles para pequeñas farmacias y clínicas, facilitando la adopción inicial y reduciendo barreras económicas.
+
+- **Enfoque en el Mercado Local**
+  - Establecer alianzas estratégicas con asociaciones farmacéuticas y proveedores de salud locales para aumentar la visibilidad y credibilidad en el mercado peruano.
+  - Adaptar la plataforma para cumplir con las normativas locales del MINSA y DIGEMID, asegurando que nuestra solución esté alineada con los requisitos regulatorios específicos del sector salud en Perú.
+
+- **Valor Añadido a través de Funcionalidades Clave**
+    - Desarrollar funcionalidades específicas como alertas en tiempo real y reportes automáticos alineados a auditorías, que respondan directamente a las necesidades críticas de nuestros usuarios.
+    - Integrar capacidades de monitoreo IoT en el roadmap de desarrollo, permitiendo una escalabilidad futura que pueda competir con soluciones más complejas.
 
 ## 2.2. Entrevistas.
+
+En esta sección se detallan las entrevistas realizadas a los segmentos objetivo identificados previamente, con el fin de comprender mejor sus necesidades, comportamientos y expectativas respecto a soluciones de monitoreo de cadena de frío en el sector salud.
 ### 2.2.1. Diseño de entrevistas.
+
+Se han diseñado entrevistas semiestructuradas para dos segmentos objetivo principales, con el objetivo de profundizar con sus necesidades y validar nuestras hipótesis iniciales.
+
+- Segmento 1 (Hospitales):
+  - Jefe/a de Farmacia Hospitalaria 
+  - Responsable de Almacén/Logística Farmacéutica 
+  - Ing. Biomédico / Mantenimiento (frío)
+
+- Segmento 2 (Farmacias):
+  - Propietario/a o Administrador/a de farmacia/bótica 
+  - Químico Farmacéutico/a responsable 
+  - Asistente de farmacia (usuario operativo)
+
 **Preguntas generales:**
 
 1. ¿Cuál es su nombre? 
@@ -432,17 +450,33 @@ Se han identificado los siguientes competidores en el mercado de soluciones de m
 3. ¿A qué se dedica? 
 4. ¿[Opinion de idea de propuesta]? 
 
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
+**Entrevistas usuario segmento objetivo 1 (Hospitales)**
+
+1. ¿Cómo gestionan actualmente el monitoreo de la cadena de frío en su institución?
+2. ¿Con qué frecuencia enfrentan problemas relacionados con la conservación de medicamentos sensibles?
+3. ¿Qué tan importante es para ustedes contar con reportes automáticos para auditorías regulatorias?
+4. ¿Estarían dispuestos a adoptar una solución digital si fuera accesible y fácil de usar?
+5. ¿Cuáles son las principales barreras que enfrentan para implementar nuevas tecnologías en su institución?
+6. ¿Han tenido experiencias previas con soluciones de monitoreo digital? Si es así, ¿cuáles fueron los principales desafíos?
+7. ¿De qué manera una solución de monitoreo en tiempo real podría mejorar sus operaciones diarias?
+8. ¿Qué características consideran imprescindibles en una plataforma de este tipo?
+9. ¿Cómo manejan las alertas o desviaciones en la temperatura actualmente?
+10. ¿Qué tan relevante es para ustedes la integración con dispositivos IoT?
    
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
+**Entrevistas usuario segmento objetivo 2 (Farmacias)**
+
+1. ¿Cómo realizan el control de la cadena de frío en su farmacia?
+2. ¿Con qué frecuencia enfrentan pérdidas de medicamentos debido a fallas en la conservación?
+3. ¿Consideran que una solución digital podría ayudar a reducir estas pérdidas?
+4. ¿Qué tan fácil o difícil sería para su personal adoptar una nueva tecnología?
+5. ¿Cuáles son las principales preocupaciones al implementar un sistema de monitoreo digital?
+6. ¿Han utilizado alguna vez soluciones tecnológicas para el monitoreo de temperatura?
+7. ¿Qué beneficios esperarían obtener de una plataforma de monitoreo en tiempo real?
+8. ¿Qué características serían esenciales para que consideren usar dicha plataforma?
+9. ¿Cómo reaccionarían ante alertas automáticas de desviaciones de temperatura?
+10. ¿Estarían interesados en una solución que ofrezca reportes automáticos para auditorías?
+
+
 ### 2.2.2. Registro de entrevistas.
 **Segmento 1**  
 Nombre: _____
@@ -460,22 +494,72 @@ Ocupación: _____
 
 ### 2.2.3. Análisis de entrevistas.
 **Segmento 1:**
-{texto}
-**Segmento 2:**
-{texto}
-## 2.3. Needfinding.
-### 2.3.1. User Personas.
-**Segmento 1:**  
-![Imagen User Persona 1](image.jpg)
+
+
+
 
 **Segmento 2:**
+
+
+
+
+## 2.3. Needfinding.
+
+En esta sección se presentan las herramientas y técnicas utilizadas para identificar y comprender las necesidades de los usuarios en relación con la solución propuesta.
+
+### 2.3.1. User Personas.
+
+Se han desarrollado dos user personas representativas de los segmentos objetivo identificados previamente, basadas en la información recopilada durante las entrevistas y el análisis de mercado.
+
+**Segmento 1 (Jefe de Farmacia Hospitalaria):**  
 ![Imagen User Persona 1](image.jpg)
+
+
+<!-- Data del user persona 1
+
+Objetivos: Garantizar conservación; pasar auditorías sin observaciones; reducir mermas; evidencias trazables.
+
+Dolores: Registros dispersos; respuesta lenta ante desvíos; preparar reportes manuales; múltiples sedes/equipos.
+
+Comportamiento digital: Email y WhatsApp; PC en oficina; acceso remoto ocasional.
+
+Criterios de adopción: Cumplimiento normativo, reportes automáticos, soporte y SLA, integración mínima con procesos.
+
+Éxito a 6 meses: −30% incidentes, reportes listos en 1 clic, auditorías “OK”.
+-->
+
+
+**Segmento 2(Administrador de una Farmacia independiente):**
+![Imagen User Persona 2](image.jpg)
+
+<!-- Data del user Persona 2 
+
+Objetivos: Cumplir inspecciones; evitar pérdidas; ahorrar tiempo en registros; operar sin TI.
+
+Dolores: Planillas manuales; no hay alertas fuera de horario; miedo a pérdidas por cortes.
+
+Comportamiento digital: WhatsApp como canal principal; móvil > PC.
+
+Criterios de adopción: Precio accesible, instalación rápida, alertas WhatsApp, interfaz simple.
+
+Éxito a 3–6 meses: Cero observaciones en inspecciones; −30% tiempo administrativo.
+-->
 
 ### 2.3.2. User Task Matrix.
-| --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
-| --- | ------ | ----------- | ------------ | ----------- | ---------- |
-| ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
-| U01X| {Texto}| Alta        | Alta         | Media       | Baja       |
+| --- | ------                                  | Segmento 1  | Jefe de Farmacia Hospitalaria    | Segmento 2  | Administrador de Farmacia Independiente    |
+| --- | --------------------------------------- | ----------- | -------------------------------- | ----------- | ------------------------------------------ |
+| ID  | Título                                  | Importancia | Frecuencia                       | Importancia | Frecuencia                                 |
+| U01 | Planificar & configurar equipos de frío | Alta        | Media (mensual/trimestral)       | Media       | Baja (al inicio, luego esporádico)         |
+| U02 | Medir & registrar T°/HR                 | Alta        | Alta (varias veces al día)       | Alta        | Alta (2–3 veces al día)                    |
+| U03 | Revisar registros & detectar desvíos    | Alta        | Alta (diaria)                    | Alta        | Media (cuando hay sospechas)               |
+| U04 | Responder a alertas de desviación       | Alta        | Media (eventual pero crítica)    | Alta        | Media (eventual pero crítica)              |
+| U05 | Documentar incidentes                   | Alta        | Media (cada incidente/auditoría) | Media       | Baja (solo en inspecciones puntuales)      |
+| U06 | Preparar reportes para auditorías       | Alta        | Media (mensual/trimestral)       | Media       | Baja (ocasional, en inspecciones)          |
+| U07 | Mantener equipos / calibración          | Media       | Media (programado por biomédico) | Baja        | Baja (cuando falla el equipo)              |
+| U08 | Capacitar personal                      | Media       | Baja (semestral/anual)           | Baja        | Baja (informal, al ingresar personal)      |
+| U09 | Coordinar compras                       | Media       | Media (mensual)                  | Alta        | Media (mensual, impacto directo en costos) |
+| U10 | Gestionar inspecciones                  | Alta        | Media (varias veces al año)      | Alta        | Media (DIGEMID u otras inspecciones)       |
+
 ### 2.3.3. User Journey Mapping.
 **Registration:**
 Why would they trust us?
