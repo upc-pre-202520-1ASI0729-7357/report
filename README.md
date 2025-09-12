@@ -561,10 +561,10 @@ Why would they invite others?
 
 ### 2.3.4. Empathy Mapping.
 **Segmento 1:**
-![Empathy Map Segmento1](image.jpg)
+![Empathy Map Segmento1](assets/empathy-map/emp1.png)
 
 **Segmento 2:**
-![Empathy Map Segmento1](image.jpg)
+![Empathy Map Segmento1](assets/empathy-map/emp2.png)
 ### 2.3.5. As-is Scenario Mapping.
 
 **Segmento 1**  
