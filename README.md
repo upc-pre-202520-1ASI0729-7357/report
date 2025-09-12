@@ -512,38 +512,14 @@ En esta sección se presentan las herramientas y técnicas utilizadas para ident
 Se han desarrollado dos user personas representativas de los segmentos objetivo identificados previamente, basadas en la información recopilada durante las entrevistas y el análisis de mercado.
 
 **Segmento 1 (Jefe de Farmacia Hospitalaria):**  
-![Imagen User Persona 1](image.jpg)
+![Imagen User Persona 1](assets/users-persona/persona1.png)
 
-
-<!-- Data del user persona 1
-
-Objetivos: Garantizar conservación; pasar auditorías sin observaciones; reducir mermas; evidencias trazables.
-
-Dolores: Registros dispersos; respuesta lenta ante desvíos; preparar reportes manuales; múltiples sedes/equipos.
-
-Comportamiento digital: Email y WhatsApp; PC en oficina; acceso remoto ocasional.
-
-Criterios de adopción: Cumplimiento normativo, reportes automáticos, soporte y SLA, integración mínima con procesos.
-
-Éxito a 6 meses: −30% incidentes, reportes listos en 1 clic, auditorías “OK”.
--->
 
 
 **Segmento 2(Administrador de una Farmacia independiente):**
-![Imagen User Persona 2](image.jpg)
+![Imagen User Persona 1](assets/users-persona/persona2.png)
 
-<!-- Data del user Persona 2 
 
-Objetivos: Cumplir inspecciones; evitar pérdidas; ahorrar tiempo en registros; operar sin TI.
-
-Dolores: Planillas manuales; no hay alertas fuera de horario; miedo a pérdidas por cortes.
-
-Comportamiento digital: WhatsApp como canal principal; móvil > PC.
-
-Criterios de adopción: Precio accesible, instalación rápida, alertas WhatsApp, interfaz simple.
-
-Éxito a 3–6 meses: Cero observaciones en inspecciones; −30% tiempo administrativo.
--->
 
 ### 2.3.2. User Task Matrix.
 | --- | ------                                  | Segmento 1  | Jefe de Farmacia Hospitalaria    | Segmento 2  | Administrador de Farmacia Independiente    |
@@ -561,6 +537,10 @@ Criterios de adopción: Precio accesible, instalación rápida, alertas WhatsApp
 | U10 | Gestionar inspecciones                  | Alta        | Media (varias veces al año)      | Alta        | Media (DIGEMID u otras inspecciones)       |
 
 ### 2.3.3. User Journey Mapping.
+
+
+
+
 **Registration:**
 Why would they trust us?
 - s
@@ -606,9 +586,34 @@ As Is:
 | Doing | texto| texto | texto| texto|
 | Thinking | texto| texto | texto| texto|
 | Feeling  | texto| texto | texto| texto|
+
+
+
 ## 2.4. Ubiquitous Language.
+
+El lenguaje ubicuo nos permite que todos los miembros del equipo, clientes y actores del sector salud se comuniquen utilizando un mismo vocabulario sin ambigüedad. Este glosario recoge los términos clave del dominio de la cadena de frío farmacéutica y del monitoreo digital, asegurando claridad en el diseño, desarrollo y uso de la plataforma.
+
 ```
-Texto ubiquo: Definicion de este
+Cadena de frío: Conjunto de procesos que aseguran que medicamentos sensibles se mantengan en rangos de temperatura adecuados desde la producción hasta su administración al paciente.
+
+Datalogger: Dispositivo electrónico que registra datos de temperatura y humedad en intervalos regulares, utilizado para monitorear condiciones ambientales.
+
+Reporte de cumplimiento: Documento generado automáticamente que registra y evidencia las condiciones de conservación de medicamentos, utilizado en auditorías y fiscalizaciones.
+
+Temperatura crítica: Rango específico de temperatura que debe mantenerse para garantizar la eficacia y seguridad de ciertos medicamentos y vacunas.
+
+Seguridad del inventario: Estado en el que los medicamentos se mantienen en condiciones óptimas, garantizando que son seguros y eficaces para los pacientes.
+
+Sensor IoT: Dispositivo electrónico conectado a internet que mide variables como temperatura y humedad, transmitiendo datos en tiempo real a la plataforma.
+
+Registro de incidentes: Documento o historial que recoge todas las desviaciones de temperatura, acciones correctivas y resultados de las mismas.
+
+Acción preventiva: Medida tomada para evitar pérdidas de medicamentos o sanciones regulatorias ante una alerta temprana de desviación.
+
+Acción correctiva: Medida tomada después de un incidente para mitigar sus consecuencias, como transferir medicamentos a otro equipo de frío.
+
+Autoridad regulatoria: Entidad encargada de fiscalizar el cumplimiento de las normativas sanitarias (ej. MINSA, DIGEMID en Perú).
+
 ```
 
 ---
