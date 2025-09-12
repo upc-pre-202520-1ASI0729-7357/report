@@ -538,26 +538,13 @@ Se han desarrollado dos user personas representativas de los segmentos objetivo 
 
 ### 2.3.3. User Journey Mapping.
 
+**Segmento 1:**
+![User Journey Segmento1](assets/user-journey/uj1.png)
+
+**Segmento 2:**
+![User Journey Segmento2](assets/user-journey/uj2.png)
 
 
-
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
-  
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
 
 ### 2.3.4. Empathy Mapping.
 **Segmento 1:**
@@ -565,31 +552,68 @@ Why would they invite others?
 
 **Segmento 2:**
 ![Empathy Map Segmento1](assets/empathy-map/emp2.png)
-### 2.3.5. As-is Scenario Mapping.
+### 2.4 Big Picture Event Storming.
 
-**Segmento 1**  
-Escenario: {escenario}
-
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
-
-**Segmento 2**  
-Escenario: Dificultad para entender Matemáticas
-
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
+En esta sección se presenta el Big Picture Event Storming, una técnica colaborativa utilizada para mapear y comprender los procesos clave y eventos relacionados con la solución propuesta.
 
 
+- **Big Picture Event Storming del Segmento 1:**
+    - Etapas del proceso:
+    - Domains Events
+    - Actors
+    - Actions/Commands
+    - Risks
+    - External Systems
+    - Opportunities
 
-## 2.4. Ubiquitous Language.
+**Identificación de los Domain Events:**
+![Domain Events Segmento1](assets/event-storming/event1.png)
+
+**Asociación de Actores:**
+![Actors Segmento1](assets/event-storming/event2.png)
+
+**Definición de Actions/Commands:**
+![Actions Segmento1](assets/event-storming/event3.png)
+
+**Mapeo de External Systems:**
+![Risks Segmento1](assets/event-storming/event4.png)
+
+**Identificación de Riesgos:**
+![External Systems Segmento1](assets/event-storming/event5.png)
+
+**Detección de Oportunidades:**
+![Opportunities Segmento1](assets/event-storming/event6.png)
+
+
+- **Big Picture Event Storming del Segmento 2:**
+    - Etapas del proceso:
+    - Domains Events
+    - Actors
+    - Actions/Commands
+    - Risks
+    - External Systems
+    - Opportunities
+
+**Identificación de los Domain Events:**
+![Domain Events Segmento1](assets/event-storming/e1.png)
+
+**Asociación de Actores:**
+![Actors Segmento1](assets/event-storming/e2.png)
+
+**Definición de Actions/Commands:**
+![Actions Segmento1](assets/event-storming/e3.png)
+
+**Mapeo de External Systems:**
+![Risks Segmento1](assets/event-storming/e4.png)
+
+**Identificación de Riesgos:**
+![External Systems Segmento1](assets/event-storming/e5.png)
+
+**Detección de Oportunidades:**
+![Opportunities Segmento1](assets/event-storming/e6.png)
+
+
+## 2.5. Ubiquitous Language.
 
 El lenguaje ubicuo nos permite que todos los miembros del equipo, clientes y actores del sector salud se comuniquen utilizando un mismo vocabulario sin ambigüedad. Este glosario recoge los términos clave del dominio de la cadena de frío farmacéutica y del monitoreo digital, asegurando claridad en el diseño, desarrollo y uso de la plataforma.
 
