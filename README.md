@@ -538,26 +538,13 @@ Se han desarrollado dos user personas representativas de los segmentos objetivo 
 
 ### 2.3.3. User Journey Mapping.
 
+**Segmento 1:**
+![User Journey Segmento1](assets/user-journey/uj1.png)
+
+**Segmento 2:**
+![User Journey Segmento2](assets/user-journey/uj2.png)
 
 
-
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
-  
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
 
 ### 2.3.4. Empathy Mapping.
 **Segmento 1:**
