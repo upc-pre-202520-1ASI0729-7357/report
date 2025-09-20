@@ -400,7 +400,7 @@ Asimismo, este Business Goal está profundamente alineado con las actividades y 
 
 En otras palabras, este objetivo busca demostrar que la tecnología, cuando está bien diseñada y centrada en el usuario real, no solo soluciona un problema operativo, sino que salva vidas, reduce costos y fortalece sistemas. Motiva a profesionales de la salud a dejar atrás los registros en papel y las revisiones manuales, para adoptar una herramienta que les da control, tranquilidad y respaldo técnico —convirtiéndose, naturalmente, en promotores de una cultura de prevención y excelencia en la gestión de medicamentos sensibles.
 
-![Impact Mapping](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/550730584_1293440929186233_7905846123045666302_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=THS_gqKAkXQQ7kNvwGzXj2e&_nc_oc=Adl9tUebF_9YoT2R7kTItpP-eQVYsXjlddvlGAgh9RiZ59ZOlpHvYs4g22LC5kJD5uI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QFCZpFMQxvx-hvCIzkjBZjnHkEW7-yz34GXcy6JSLX42w&oe=68F67258)
+![Impact Mapping](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/551490161_1886589838572619_6526430192860157796_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=89vbnWNkWlUQ7kNvwGCsoja&_nc_oc=AdkVWmGvZb7rIjrMoTkSZHJ7gInjHRvaCDLxXgxedtRNA1owTp5buBKqQSvBY7DuvKk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEuJKxsfswjqcOOOkWyofoHEvN-JmLAShCnKzAZtJM6_Q&oe=68F6B9DC)
 
 **Business Goal 2:**<br> Asegurar la conservación óptima de medicamentos sensibles en hospitales y farmacias, reduciendo pérdidas económicas y cumpliendo normativas regulatorias, mediante un sistema de monitoreo accesible, confiable e intuitivo.
 
@@ -412,7 +412,7 @@ Asimismo, este Business Goal está profundamente alineado con las actividades y 
 
 En otras palabras, este objetivo busca demostrar que la tecnología, cuando está bien diseñada y centrada en el usuario real, no solo soluciona un problema operativo, sino que salva vidas, reduce costos y fortalece sistemas. Motiva a profesionales de la salud a dejar atrás los registros en papel y las revisiones manuales, para adoptar una herramienta que les da control, tranquilidad y respaldo técnico —convirtiéndose, naturalmente, en promotores de una cultura de prevención y excelencia en la gestión de medicamentos sensibles.
 
-![Impact Mapping 2](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/550897818_24231829499846618_3179435540119802134_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=sMmG2nWtm8kQ7kNvwEgBOBp&_nc_oc=AdkeVpNmS5CrIFeFxJI6CgnX7Tyx-Vdzx5A_T3VlAbVqPdHigfI2SSl_Qne1dd3C-Yc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QFVZ8NdKKyCYW5McOHYndm68HTpc3zQ9NNK_vlOTUadig&oe=68F6B05D)
+![Impact Mapping 2](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/551324930_1116998453831577_5183654251968587498_n.png?_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=aiKfZDsexwYQ7kNvwGOrUyw&_nc_oc=AdmfRHSljiwkr1EzJFyVO24ZBKg4N9GkdOPl8d2_hvKAPtwcz_oppdA1RA5Ncehoq-4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QHiFjck3Jl3KAr-t7zLUIxumKSiPpAOjxtzOeqe8C8EkA&oe=68F69121)
 
 ## 3.3. Product Backlog.
 
