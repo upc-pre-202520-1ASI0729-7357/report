@@ -443,7 +443,7 @@ En otras palabras, este objetivo busca demostrar que la tecnología, cuando est�
 | 24     | TS04          | Asignar sensores a un refrigerador             | Como desarrollador, quiero asignar un sensor IoT a un refrigerador específico, para asociar los datos al equipo correcto.                              | 3                        |
 | 25     | TS05          | Implementar endpoint de alertas                | Como desarrollador, quiero implementar un endpoint para generar y consultar alertas, para que los farmaceuticos reciban notificaciones en tiempo real. | 8                        |
 | 26     | TS06          | Documentar API con Swagger                     | Como desarrollador, quiero documentar todos los endpoints del sistema con Swagger, para facilitar la integración con aplicaciones externas.            | 5                        |
-|
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
