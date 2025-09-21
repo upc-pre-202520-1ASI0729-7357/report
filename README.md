@@ -734,18 +734,71 @@ Link de desarrollo de Figma: https://goo.su/GgGEsmJ
 
 
 ## 4.6. Domain-Driven Software Architecture.
-### 4.6.1. Software Architecture Context Diagram.
-1. System Context Diagram: Diagrama que muestra la relacion del aplicativo con los usuarios
-se incluyen servicios externos (si hay pocos bounded context se incluyen ahi)
 
-2. Bounded Context Map: Muestra la relacion entre bounded contexts (los bounded context son como una burbuja que encapsula palabras clave en los procesos para poder diferenciarlos [Ej. Bounded context enfocado en las ventas(ventas), otro en revisar el stock(gestion) y otro enfocado en los proveedores (suministros)]) Se hace como un brainstorm y se ve en que pueden conectarse o comunicarse [se usa un circulo entre conexiones lineales (upstream o downstream) para definir comunicacion, algunos context se pueden integrar para representar por ejemplo un share model por database, tambien se mencionan los (third party context para definir los restful apis)]
-   
-### 4.6.2. Software Architecture Container Diagrams.
-1. Bounded Context Deployable / Container Diagrams. Sirve para entender como funciona y el proceso, Se especifican DB's, indexers, Search engine, las Apis que usen los bounded context y se conectan por flechas, las cuales tienen como objetivo explicar la direcion y relacion junto a que se esta enviando/comunicando (TCP) 
+### 4.6.1. Design-Level EventStorming.
+El evento storming presentado ilustra el flujo de valor en la gestión de medicamentos sensibles dentro de farmacias, destacando los principales actores, eventos de dominio, problemas actuales y oportunidades de mejora.
 
-### 4.6.3. Software Architecture Components Diagrams.
-1. Component diagrams: Estos van a mostrar las ordenes, procesos, mensajes y componentes utilizados en el uso del aplicativo, claro se deben hacer diferentes de estos para cada bounded o USER GOALS
+En el recorrido se observa cómo intervienen distintos roles —proveedor local, técnico de farmacia, administrador de farmacia, cliente, y contador externo— para garantizar la trazabilidad de los medicamentos desde la recepción, almacenamiento y monitoreo, hasta la auditoría y reportes normativos.
 
+Los eventos clave abarcan situaciones críticas como el registro manual de inventarios, la verificación de stock en refrigeradores, la detección de productos caducados, reclamos de clientes y la reposición urgente a proveedores. Estas actividades hoy en día dependen de procesos manuales que generan riesgos de errores, sanciones y pérdidas económicas.
+
+El mapa también evidencia oportunidades de mejora que el sistema ThermaTrace busca cubrir, tales como:
+
+- Automatizar el monitoreo de temperatura y stock en tiempo real.
+
+- Generar alertas inmediatas ante desviaciones o caducidad.
+
+- Optimizar la trazabilidad digital para auditorías sanitarias.
+
+- Simplificar la preparación de reportes regulatorios.
+
+Gracias a este análisis, se identifican los puntos críticos del proceso actual y se definen los beneficios de digitalizar y automatizar la cadena de frío, asegurando tanto la seguridad de los medicamentos como la eficiencia operativa de las farmacias.
+
+![imagen event storming](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552093384_1859106671485942_941564253455647534_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=o8sSaqW1e6YQ7kNvwGnBYUd&_nc_oc=Adk75T3tWuKBg6r4w6OkEYtWjy878f5Xo1BDNAY-vpuQN97OAaxPMLjmZ6yW5KX2904&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEQQEaxu--l58jRaaOvCopDYyREhTg1r7mf0leiG05kaw&oe=68F75D79)
+
+### 4.6.2. Software Architecture Context Diagram.
+El diagrama de contexto muestra la vista más general de ThermaTrace, destacando a sus actores principales y cómo se relacionan con la plataforma. En este nivel aparecen dos roles clave: las Pharmaceutical Companies, que utilizan ThermaTrace para garantizar la conservación y trazabilidad de medicamentos sensibles durante la distribución; y el Hospital Staff, que accede al sistema para supervisar las condiciones de refrigeración y asegurar la disponibilidad de tratamientos en entornos clínicos.
+
+Aunque sus objetivos son distintos, ambos se conectan a la misma plataforma, que hace posible que los medicamentos se mantengan en condiciones óptimas de seguridad, reduciendo riesgos para la salud y evitando pérdidas económicas por fallas en la cadena de frío.
+
+Este modelo refuerza la misión de ThermaTrace: democratizar el acceso a herramientas tecnológicas simples y confiables para el monitoreo de medicamentos. Además, gracias a su diseño modular y escalable, la plataforma puede adaptarse a diferentes instituciones del sector salud y escenarios de distribución sin perder su esencia.
+<br>
+![imagen context](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552056985_820465340375274_3361582920554422829_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=x0lDlToi8SsQ7kNvwHuqxFQ&_nc_oc=Adn29BGC95eC7iMbIf57yjD_YRcJnwHu3bptJOBGhEuhwmXfyzPfWLUo7jRUaX2iSMc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QF0Yl_B0YiEZTbWh3V0rH5vUlgqwyRavKmXgcINDnB0Yw&oe=68F79055)
+
+
+### 4.6.3. Software Architecture Container Diagrams.
+El diagrama de contenedores profundiza en la estructura interna del sistema y muestra cómo está organizado ThermaTrace en términos de sus principales componentes de ejecución. La aplicación se compone de tres contenedores principales: la Landing Page, la Web App en SPA y el API Backend. Cada uno cumple un rol específico dentro del modelo de negocio.
+
+La Landing Page funciona como el punto de entrada, presentando la propuesta de valor de ThermaTrace y explicando cómo la plataforma ayuda a garantizar la conservación adecuada de medicamentos sensibles. Desde allí, los usuarios —ya sean Pharmaceutical Companies o Hospital Staff— pueden acceder a la Web App, una interfaz de una sola página (SPA) que concentra las funcionalidades principales: monitoreo en tiempo real de refrigeradores, gestión de alertas por desviaciones de temperatura, generación de reportes automáticos y administración de usuarios.
+
+Esta SPA se conecta con un API Backend central, responsable de coordinar las operaciones entre los distintos módulos de la plataforma, como la recolección de datos de sensores, el procesamiento de telemetría, la detección de anomalías y la gestión de notificaciones.
+
+Gracias a este diseño modular, ThermaTrace mantiene una separación clara entre la experiencia de usuario y la lógica de negocio, lo que permite escalar sus capacidades, integrar nuevas tecnologías como IoT, y reducir el tiempo de despliegue de mejoras y nuevas funcionalidades.
+<br>
+![imagen container](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/550910542_1302101488271057_3444686991983191978_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ZBaupey2ymEQ7kNvwG-L6e5&_nc_oc=AdmPQ681HS5NN1YYqn2xN_EVKmvoatwb3YF7EZpdZZ_bDtGYDXanYRGjzJfoY3CkkV8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QGYFX_2Km77Uago0n9QsmIxGwS9QNJUEU1TkkWViQeXHA&oe=68F77A2F)
+
+### 4.6.4. Software Architecture Components Diagrams.
+El diagrama de componentes profundiza aún más en la vista del sistema, enfocándose en la arquitectura interna del API Backend de ThermaTrace. Aquí se muestra cómo las responsabilidades de la lógica de negocio se dividen en distintos controladores, servicios y repositorios, lo que garantiza una separación clara de preocupaciones y un código más mantenible.
+
+Los controladores (AuthController, UserController, MonitoringController, AlertController y ReportController) actúan como punto de entrada desde la SPA, procesando las solicitudes de los usuarios y redirigiéndolas hacia los servicios correspondientes.
+
+Los servicios concentran la lógica de negocio y representan los diferentes contextos funcionales de la plataforma:
+
+-　AuthService gestiona la autenticación y el control de accesos.
+
+-　UserService administra perfiles de usuarios y sus preferencias.
+
+-　MonitoringService procesa los datos de telemetría y valida las condiciones de refrigeración.
+
+-　AlertService aplica reglas de negocio para la detección de anomalías y generación de alertas.
+
+-　ReportService elabora reportes automáticos y paneles de auditoría para asegurar el cumplimiento normativo.
+
+Cada servicio se apoya en un repositorio especializado que gestiona la persistencia en la base de datos (UserRepository, MonitoringRepository, AlertRepository, ReportRepository).
+
+Finalmente, todos los repositorios interactúan con el contenedor externo de base de datos (MySQL), donde se almacenan los datos de usuarios, registros de monitoreo, alertas y reportes.
+<br>
+![imagen componente](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552450427_3141029769380694_6334333273828721259_n.png?stp=dst-png_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=I3MvSHeh1tUQ7kNvwH8Qx7y&_nc_oc=AdmQlsDklIEjooCwOoOS9OxhBip05blnDT4tZidK58mZnjHa7mmK60kt4YLlhxEZ9cU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEravrsxURqV94YGIVmBWF1rEl4nDZX8z8cAwj1dVYZTQ&oe=68F76A22)
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
