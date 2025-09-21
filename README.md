@@ -117,9 +117,9 @@ La comunicación fue constante a través de plataforma usada: Discord, WhatsApp,
 
 | Repository     | Branch     | Commit ID      | Commit Message                     | Commit Message Body                                        | Committed on Date     |
 |----------------|------------|----------------|-------------------------------------|-------------------------------------------------------------|------------------------|
-| ThermaTrace   | feature/      | a1c3f4e     | feat: add Home View                | Implementación de la vista de bienvenida personalizada       | 21 de septiembre de 2025    |
-| ThermaTrace   | feature/    | b7d8e2c     | feat: add Profile Page             | Creación del módulo de edición de perfil con campos dinámicos| 21 de septiembre de 2025    |
-| ThermaTrace   | feature/    | c2e9a8d     | feat: services page                | Diseño e implementación de la sección de servicios           | 21 de septiembre de 2025    |
-| ThermaTrace   | feature/        | d4b7f3a     | feat: plans section                | Incorporación de los tres planes de suscripción con botones  | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/         | e5f6b0d     | feat: FAQ page                     | Desarrollo de la sección FAQ con preguntas frecuentes        | 21 de septiembre de 2025    |
-| ThermaTrace   | deploy/ | f9c2a1b     | chore: deploy to GitHub Pages      | Despliegue de la landing actualizada en entorno de producción| 21 de septiembre de 2025    |
+| ThermaTrace   | feature/index      | a1c3f4e     | feat: add landing page view                | Implementación de la vista de bienvenida personalizada       | 21 de septiembre de 2025    |
+| ThermaTrace   | feature/components    | b7d8e2c     | feat: add Styles css            | Creación del módulo de edición de perfil con campos dinámicos| 21 de septiembre de 2025    |
+| ThermaTrace   | feature/layout    | c2e9a8d     | feat: Styles css                 | Diseño e implementación de la sección de servicios           | 21 de septiembre de 2025    |
+| ThermaTrace   | feature/base        | d4b7f3a     | feat: Styles css                | Incorporación de los tres planes de suscripción con botones  | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/LenguageSwitcher         | e5f6b0d     | feat: Cambio de idioma                     | Desarrollo de la sección FAQ con preguntas frecuentes        | 21 de septiembre de 2025    |
+| ThermaTrace   | deploy | f9c2a1b     | chore: deploy to GitHub Pages      | Despliegue de la landing actualizada en entorno de producción| 21 de septiembre de 2025    |
