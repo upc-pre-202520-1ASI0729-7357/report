@@ -194,8 +194,7 @@ Más que una plataforma, queremos ser un aliado estratégico para las institucio
 |-|-|-|-|
 |Axel Randall Ordoñez Ricaldi 	![Imagen del compañero](https://github.com/SoftCore-App-Web-1ASI0730-2510-4395/customhost-project-report/blob/develop/Assets/img/chapter-1/Axel-photo.jpg?raw=true)|U202216827|Ingenieria de software|C++, React, Vue, Angular, C#, SQL, MongoDB, Python. Paciencia y buen trabajo en equipo|
 |Panta Castro, Fabrizio Martin  ![Imagen del compañero](https://raw.githubusercontent.com/SoftCore-App-Web-1ASI0730-2510-4395/customhost-project-report/refs/heads/develop/Assets/img/chapter-1/Fabrizio%20Martin%20Panta%20Castro.jpg)|U20231A810|Ingeniería de Software|SQL, Python, Flutter, Vue, C++. Compañerismo y responsable con las entregas.|
-|Oscar Espinoza Quijandria <img width="392" height="422" alt="image" src="https://github.com/user-attachments/assets/f6da8b92-72ae-44c5-a3f0-f429fa91ac84" />
- |U202311842 | Ing. Software | Lenguajes: js py c# c++ pearl. Base de datos : SqlServer, Mysql, Sqlite, Mongodb . Frameworks: Angular, Vue, .net Core, Django. Soy alguien al que le gusta trabajar en equipo, soy perceverante y me gusta dar todo de mi mismo |
+|Oscar Espinoza Quijandria <img width="392" height="422" alt="image" src="https://github.com/user-attachments/assets/f6da8b92-72ae-44c5-a3f0-f429fa91ac84" /> |U202311842 | Ing. Software | Lenguajes: js py c# c++ pearl. Base de datos : SqlServer, Mysql, Sqlite, Mongodb . Frameworks: Angular, Vue, .net Core, Django. Soy alguien al que le gusta trabajar en equipo, soy perceverante y me gusta dar todo de mi mismo |
 |  |  |  |  |
 |  |  |  |  |
 
