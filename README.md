@@ -678,8 +678,17 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 ![Web Aplication Wireflow](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551393735_1812588996010424_4462557880510505087_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=mrZi8EgiM1kQ7kNvwHJSnwi&_nc_oc=Adkuzjgrc1VYOZ_SE-l3A44wNSB2rZIZPi8XsckZ9vJORLIPIVTjLV1Qah5q5XgMJ2egpr8BTJqGnzjy-vF3RyyR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEaSWxMaRiOvPf227JgM-hYeWD2642vqc0ftPQutxsBdQ&oe=68F6D7A2)
 
 ### 4.4.2. Web Applications Mock-ups.
-Diseño en todo aspecto
-![Web Aplication Mockup](image.jpg)
+![Web Application Mock-up Home](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551880997_2058659524878132_5916162712347533812_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=iwmviOxrCLsQ7kNvwHvsCcZ&_nc_oc=AdngHerW0YWbhtd1PvxcM2xQF3GZ0cuCDyKB9J5xyAIVJ7Z0R9gmV3XCCmhcBRzEbuAangx5HRfnq3zpg7cfypuI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEgdYX2kl96Y6gZP9GHr90ETxm-NLY-_zyrDJUwX2KTqg&oe=68F7287F)
+
+![Web Application Mock-up Profile](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551606189_31354094044239380_2369385178151158883_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Iw4pKMKREDYQ7kNvwFXkDU_&_nc_oc=AdkBs6pqMfQObzWKV3UpdZNLwm3jnvdHl-G6bBbGsB5hV86qX5wR4dRzekOrGFojeqDCzE6XNMdku-Gvyt3or-1U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFVMmZ5CdQAwctvsG55vud7VA_sDEpi2Efoe4D3RQoiYw&oe=68F6F6C1)
+
+![Web Application Mock-up Medications](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552063277_796016780261836_2434472456845484608_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=AqbTLntwu1gQ7kNvwET3PW2&_nc_oc=Adn3__C9HQ_wQGLgHPtw8aYrjRt8E4Nby1eRZTNvx3hqjgqnREWIBmPefbiVn8tVhrrtMqXQpfCORTkjQfDBMK60&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGCak3U_QCNTbut7F-HYTRtFV-DPJRMdSvdaQt9dw0lLQ&oe=68F70433)
+
+![Web Application WirefraMock-upme Temperature Management](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552028856_795212612968117_589327344764506_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=u-IB9S1IobsQ7kNvwGsr1Ga&_nc_oc=Adl6mwAQC199mJS7jrz3edERjS_-DFzOEuUYdT3q9wZanY3PZRCrkqRXTJ_ErpnVFmF4w68v4AHLHfF2Jalt8hOp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QEFVB9o0V10GfCyvx8stVEB9ytgXJixBzG_7umuKki4og&oe=68F709F3)
+
+![Web Application Mock-up Configuration](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552641563_1355015796016438_873113837991350119_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=fUgfnH2ikuIQ7kNvwHhorL0&_nc_oc=Adkxdq4V6TkOxavrl1rCIlGzwCMbZfdrCIKswIFssUEhJ-j2Ins9axBpYVLcVciuXvbRXJUB23DnQT3n-1tJPgfH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QHadcWfY2GU8_T8SKGNEJM6mtcPJwU9pm5D9WpynBCp5w&oe=68F71329)
+
+
 ### 4.4.3. Web Applications User Flow Diagrams.
 un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]** 
 ![Web Aplication User Flow Diagram](image.jpg)
