@@ -48,7 +48,7 @@ El Sprint Backlog 1 consolida todas las funcionalidades principales de ThermaTra
 | HU4                 | T04      |              | 5h                | Frabrizzio       | Done   |
 | HU5                 | T05      |                 | 4h                | Frezzia       | Done   |
 | HU6                 | T06      |           | 3h                | Oscar      | Done   |
-| HU6                 | T06      |          | 3h                | Oscar      | Done   |
+| HU6                 | T07      |          | 3h                | Oscar      | Done   |
 ### 5.2.1.4. Development Evidence for Sprint Review.
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
