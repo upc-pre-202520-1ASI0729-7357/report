@@ -1,6 +1,51 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
+La gestion de la configuración del software es un proceso esencial para garantizar la integridad y coherencia del producto a lo largo de su ciclo de vida. En este capítulo, se detallan las prácticas y herramientas utilizadas para gestionar eficazmente la configuración del software en el proyecto ThermaTrace.
+
 ### 5.1.1. Software Development Environment Configuration.
+
+**Project Management**
+
+- Discord:
+
+Se utiliza Discord como plataforma principal de comunicación y coordinación del equipo. Aquí se llevan a cabo reuniones, discusiones y se comparten actualizaciones del proyecto.
+
+- Trello:
+
+Trello se emplea para la gestión de tareas y seguimiento del progreso del proyecto. Se crean tableros, listas y tarjetas para organizar las actividades y asignarlas a los miembros del equipo.
+
+**Requirements Management**
+- Miro:
+Utilizamos Miro para la gestión y visualización de requisitos. Esta herramienta permite crear diagramas, mapas mentales y flujos de trabajo que facilitan la comprensión y el seguimiento de los requisitos del proyecto.
+
+- UXPressia:
+
+Utilizamos UXPressia para crear mapas de empatía, customer journeys y otros artefactos de experiencia de usuario que ayudan a definir y gestionar los requisitos desde la perspectiva del usuario.
+
+- Structurizr:
+Utilizamos Structurizr para modelar y documentar la arquitectura del software, lo que ayuda a gestionar los requisitos técnicos y de diseño del proyecto.
+
+**Product UX/UI Desingn**
+
+- Figma:
+Utilizamos Figma para el diseño de la interfaz de usuario y la experiencia de usuario (UX/UI). Esta herramienta permite la colaboración en tiempo real y facilita la creación de prototipos interactivos.
+
+- LucidChart:
+LucidChart se utiliza para crear diagramas de flujo, wireframes y otros elementos visuales que apoyan el diseño UX/UI del producto.
+
+**Software Development**
+- HTML5:
+Usamos HTML5 como el lenguaje de marcado principal para estructurar el contenido de las páginas web del proyecto.
+
+- CSS:
+CSS se utiliza para diseñar y estilizar las páginas web, asegurando una apariencia atractiva y coherente con la identidad visual del proyecto.
+
+- Javascript:
+Utilizamos JavaScript para agregar interactividad y funcionalidades dinámicas a las páginas web del proyecto.
+
+- WebStorm:
+Utilizamos WebStorm como entorno de desarrollo integrado (IDE) para escribir, depurar y probar el código del proyecto.
+
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
