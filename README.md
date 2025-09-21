@@ -192,7 +192,11 @@ Más que una plataforma, queremos ser un aliado estratégico para las institucio
 #### 1.1.2. Perfiles de integrantes del equipo
 |Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
 |-|-|-|-|
-|Compañero 1 	![Imagen del compañero](image.jpg)|U20...|Ingenieria de software|C++, piton .etc|
+|Axel Randall Ordoñez Ricaldi 	![Imagen del compañero](https://github.com/SoftCore-App-Web-1ASI0730-2510-4395/customhost-project-report/blob/develop/Assets/img/chapter-1/Axel-photo.jpg?raw=true)|U202216827|Ingenieria de software|C++, React, Vue, Angular, C#, SQL, MongoDB, Python. Paciencia y buen trabajo en equipo|
+|Panta Castro, Fabrizio Martin  ![Imagen del compañero](https://raw.githubusercontent.com/SoftCore-App-Web-1ASI0730-2510-4395/customhost-project-report/refs/heads/develop/Assets/img/chapter-1/Fabrizio%20Martin%20Panta%20Castro.jpg)|U20231A810|Ingeniería de Software|SQL, Python, Flutter, Vue, C++. Compañerismo y responsable con las entregas.|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
