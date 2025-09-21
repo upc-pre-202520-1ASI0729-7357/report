@@ -179,10 +179,12 @@
 [Anexos](#anexos)  
 
 # Student Outcome
-|Criterio Especifico|Acciones Realizadas|Conclusiones|
-|-|-|-|
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|Compañero1:<br> *TB1:*  Su texto *TB2:* texto etc.. |Su texto de conclusion|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|Compañero1:<br> *TB1:*  Su texto<br> *TB2:* texto etc.. |Su texto de conclusion|
+| Criterio Especifico                                        |Acciones Realizadas      |Conclusiones             |
+|------------------------------------------------------------|-------------------------|-------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 |Axel Randall Ordoñez Ricaldi:<br> **Acciones TB1:** Participó activamente en reuniones grupales y sesiones de trabajo donde explicó claramente conceptos técnicos relacionados con el perfil de la Startup y Problemática, documentó la descripción de IoBuild y el problem statement bajo Lean UX, y elaboró historias de usuario y product backlog. Su comunicación fue adaptada al nivel técnico de sus compañeros y docente, facilitando una comprensión general del proyecto.<br><br> Fabrizio Martin Panta Castro:<br> **Acciones TB1:** Intervino durante las reuniones de equipo comunicando avances sobre entrevistas realizadas, style guidelines, information architecture y landing page UI design. También participó en presentaciones formales frente al docente, mostrando claridad y dominio del contenido relacionado con el diseño UX/UI.<br><br> Jean Pierre Grandez Mansilla:<br> **Acciones TB1:** <br><br> Oscar Espinoza Quijandria:<br> **Acciones TB1:** <br><br> Frezzia Eldaa Isabel Espinoza Paredes:<br> **Acciones TB1:** <br><br>|**Conclusión grupal TB1:**<br> |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |Axel Randall Ordoñez Ricaldi:<br> **Acciones TB1:** Participó activamente en reuniones grupales y sesiones de trabajo donde explicó claramente conceptos técnicos relacionados con el perfil de la Startup y Problemática, documentó la descripción de IoBuild y el problem statement bajo Lean UX, y elaboró historias de usuario y product backlog. Su comunicación fue adaptada al nivel técnico de sus compañeros y docente, facilitando una comprensión general del proyecto.<br><br> Fabrizio Martin Panta Castro:<br> **Acciones TB1:** Intervino durante las reuniones de equipo comunicando avances sobre entrevistas realizadas, style guidelines, information architecture y landing page UI design. También participó en presentaciones formales frente al docente, mostrando claridad y dominio del contenido relacionado con el diseño UX/UI.<br><br> Jean Pierre Grandez Mansilla:<br> **Acciones TB1:** <br><br> Oscar Espinoza Quijandria: <br> **Acciones TB1:** <br><br> Frezzia Eldaa Isabel Espinoza Paredes:<br> **Acciones TB1:** <br><br>|**Conclusión grupal TB1:**|
+
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
