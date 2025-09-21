@@ -690,8 +690,16 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 
 
 ### 4.4.3. Web Applications User Flow Diagrams.
-un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]** 
-![Web Aplication User Flow Diagram](image.jpg)
+En el Happy Path se modeló el flujo ideal que sigue este tipo de usuario desde el menú Home hasta la consulta del estado de los componentes de uno de sus clientes. El recorrido inicia en el menú Home, donde el médico o farmacéutico encuentra accesos a los menús Profile, Medicaments, Temperature Management y Configuration. Al ingresar a Temperature Management, se muestra un listado de medicinas con información básica, como temperatura, fecha de expiración y opciones de acciones. Finalmente, al seleccionar una de estas opciones, el usuario puede visualizar las distintas acciones disponibles.
+
+**Happy Path:**
+![Web Aplication User Flow Diagram Happy Path](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551383472_1743258933060137_5660664688873956591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Rozyc2V7DWgQ7kNvwGJ2Qrm&_nc_oc=AdmFqc77eQohdhV8wktSE5_0cR0lBgQoCFNSz0kAf_tjxgZ5QEYyRkWSRtojZQFWVk4c385b0Tp19RjFqo5o33T0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QF8Ou2qtVOtD0AOoA5c2_trcr8kuaBtnWxGAWkQ6ASKMg&oe=68F70F19)
+
+**Unhappy Path:**
+![Web Aplication User Flow Diagram Unhappy Path](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551436278_1325295242299192_3845563985249782317_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=3Mb2Z54h8A0Q7kNvwGcy-ky&_nc_oc=AdktF0Gyb0hjKsV1xEO30uX5NYPXPVdOxhGiMxtB98QLapOU0b1v_-u-PEnYTevjdhJ98kps38qybB0bb4xtIheg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGuKy7KeQ_1KCEbd4PH3sYbcHrGTn3SPf0rmZFplbkjFQ&oe=68F7268A)
+
+
+
 ## 4.5. Web Applications Prototyping.
 [URL del Prototipo (Hecho en figma)](https://www.example.com)
 ## 4.6. Domain-Driven Software Architecture.
