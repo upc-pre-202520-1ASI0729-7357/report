@@ -397,13 +397,40 @@ Descripcion de los elementos que se utilizaran en el web app
 **Misc** (Cosas como nav var o slideshows que pensemos usar)
 ![Miscellaneos preview web](image.jpg)
 ## 4.2. Information Architecture.
+UX Heuristics & Principles Evaluation<br>
+Usability – Inclusive Design – Information Architecture<br>
+CARRERA: Ingeniería de Software<br>
+CURSO: Desarrollo de Aplicaciones Open Source<br>
+NRC: 7357<br>
+PROFESOR: Rafael Oswaldo Castro Veramendi<br>
+SITE o APP A EVALUAR: ThermaTrace
+
+TAREAS A EVALUAR:<br>
+El alcance de esta evaluación contempla el análisis de la usabilidad en la ejecución de las siguientes tareas:
+
+Segmento Objetivo #1: Hospitales
+- **Monitorear equipos de refrigeración:** Claridad y facilidad de uso del panel en tiempo real.
+- **Configurar alertas automáticas:** Simplicidad en la personalización de umbrales y notificaciones.
+- **Generar reportes para auditorías:** Accesibilidad y precisión de los reportes automáticos descargables.
+- **Supervisar múltiples áreas:** Capacidad de visualizar y diferenciar varios equipos o unidades de almacenamiento en un solo panel.
+
+Segmento Objetivo #2: Farmacias
+- **Revisar estado de la temperatura:** Rapidez y claridad en la visualización del estado actual de los medicamentos.
+- **Recibir alertas en tiempo real:** Facilidad para comprender y responder a notificaciones críticas.
+- **Registrar nuevos equipos:** Sencillez en la incorporación de un nuevo refrigerador o congelador al sistema.
+- **Acceder a historial básico:** Disponibilidad y claridad en la consulta de registros recientes de temperatura.
+
+
 ### 4.2.1. Organization Systems.
-Descripcion corta respecto a los sistemas de organizacion que usaremos  (Escoger)
-"Hierarchical. This structures advices to present the content in a way to distinguish the level of importance by making use of physical differences, such as size, colour, contrast, alignment etc.
+En el diseño de interfaces digitales orientadas a la experiencia del usuario, el Organization System constituye un elemento central de la arquitectura de información, pues define cómo se estructuran, agrupan y presentan los contenidos dentro de una plataforma. Su objetivo principal es garantizar que la navegación sea intuitiva, reduciendo la carga cognitiva y permitiendo que los usuarios accedan de manera clara y rápida a los elementos más relevantes de la propuesta de valor.
 
-Sequential. Guide users to follow a specific path towards their goal and provide content step-by-step based on the current step. 
+En el caso de ThermaTrace, la landing page implementa un sistema de organización jerárquico-temático, en el que la información se distribuye en bloques progresivos que responden a las prioridades de comunicación. En la parte superior, se destacan las llamadas a la acción principales (“Request a Demo” y “Learn More”), acompañadas de un enunciado breve y contundente que sintetiza la propuesta de valor: garantizar la conservación segura de medicamentos mediante monitoreo en tiempo real.
 
-Matrix. You can always give the users the option to choose the type of navigation they prefer, i.e. Alphabetical, Chronological, by topic."
+Posteriormente, se despliega una sección que refuerza la credibilidad y el propósito del startup, explicando los beneficios clave para hospitales, farmacias y centros de distribución. A continuación, se organiza un bloque dedicado a las funcionalidades principales (alertas en tiempo real, historial de temperatura, reportes de cumplimiento y acceso web), presentadas en tarjetas visuales que facilitan la exploración rápida.
+
+El sistema de organización se complementa con una sección de planes de precios, estructurada de forma comparativa para que diferentes segmentos (farmacias pequeñas, clínicas, hospitales o redes de distribución) identifiquen fácilmente la opción que mejor se ajusta a sus necesidades. Finalmente, el footer agrupa accesos secundarios (información legal, enlaces a redes sociales y contacto), reforzando la estructura jerárquica y asegurando que el usuario pueda orientarse en cualquier momento de la navegación.
+
+
 ### 4.2.2. Labeling Systems.
 The labeling system aims at uniting the data effectively and represent them in simple way and avoid confusing great amount of information. A widely adopted way to achieve this is by creating the labels which represent loads of data in few words. 
 
