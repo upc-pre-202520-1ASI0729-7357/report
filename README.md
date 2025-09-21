@@ -29,12 +29,13 @@ El Sprint Planning 1 establece la organización inicial del equipo para desarrol
 
 Para asegurar una ejecución eficiente del Sprint 1, se definieron líderes y colaboradores responsables de las principales áreas del proyecto. Cada miembro del equipo lidera o apoya aspectos específicos como el desarrollo de páginas, integración de funcionalidades, diseño visual y animaciones. Esta matriz garantiza una asignación clara de tareas y fomenta el trabajo colaborativo.
 
-| Team Member | GitHub Username |  |  |  |  |  | 
-| Oscar Espinoza | Carbocnito5443 | L | C | C | C | C | 
-| Axel Ordoñez | noomzzzzz | C | L | C | C | C | 
-| Jean Grandez | JeanGrandez | C | C | L | C | C | 
-| Fabrizio Panta | F4brizio24 | C | C | C | L | C | 
-| Frezzia Espinoza |  | C | C | C | C | L | 
+| Team Member      | GitHub Username |   |   |   |   |   | 
+|------------------|-----------------|---|---|---|---|---|
+| Oscar Espinoza   | Carbocnito5443  | L | C | C | C | C | 
+| Axel Ordoñez     | noomzzzzz       | C | L | C | C | C | 
+| Jean Grandez     | JeanGrandez     | C | C | L | C | C | 
+| Fabrizio Panta   | F4brizio24      | C | C | C | L | C | 
+| Frezzia Espinoza |                 | C | C | C | C | L | 
 
 ### 5.2.1.3. Sprint Backlog 1
 El Sprint Backlog 1 consolida todas las funcionalidades principales de ThermaTrace, enfocándose en completar toda la experiencia de usuario inicial: About, Home, Pricing, Team, Features.
