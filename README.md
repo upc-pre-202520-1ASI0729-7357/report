@@ -12,21 +12,25 @@
 <center>
 
 #### Startup: **--**
-#### Product: **--**
+#### Product: **THERMATRACE**
 
 </center>
 
 ### <center>Team  Members:</center>
 <center>
 
+
 | Member                       | Code       |
 |------------------------------|------------|
 | Axel Ordoñez Ricaldi         | U202216827 |
 | Fabrizio Martin Panta Castro | U20231A810 |
 | Jean Pierre Grandez Mansilla | U202212484 |
-|                              |            |
-|                              |            |
-|                              |            |
+| Oscar Espinoza Quijandria    | u202311842 |
+
+|  |  |
+|              |  |
+|          |  |
+
 
 <br> Setiembre 2025
 </center>  
@@ -34,9 +38,19 @@
 # Registro de Versiones del Informe
 <center>
 
-| Version | Fecha | Autor | Descripcion de Modificacion |
-| ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 30/08/2025 |Grupo 1 |Se crea el documento |  
+| Version | Fecha      | Autor                                 | Descripcion de Modificacion                                                                                                                                                                                                                                                                                            |
+|---------|------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0.0     | 28/08/2025 | IoTrack                               | Se crea el documento.                                                                                                                                                                                                                                                                                              |
+| 0.1     | 30/08/2025 | Axel Ordoñez Ricaldi                  | Se agregaron las imágenes y se elaboró la descripción de cada participante, junto con una presentación general de la startup dentro del perfil.                                                                                                                          |  
+| 0.2     | 01/09/2025 | Axel Ordoñez Ricaldi                  | Se realizó el primer avance del Capítulo 1, que abarca el desarrollo inicial de los antecedentes y la problemática, junto con la elaboración del Lean UX Problem Statement, el registro de Assumptions y la formulación de los Hypothesis Statements.                                                                                                                      |
+| 0.3     | 05/09/2025 | Oscar Leonardo Espinoza Quijandria    | Se revisó y actualizó el Capítulo 1, incorporando la sección del Lean UX Process y asegurando coherencia y claridad en el contenido. Asimismo, se integraron los aportes de los colaboradores y finalmente se subió el informe a la rama develop.                                                                                                                         |
+| 0.4     | 08/09/2025 | Oscar Leonardo Espinoza Quijandria    | Se avanzó en el desarrollo del Capítulo 2, incorporando el análisis competitivo y la documentación de las entrevistas, que incluyó su diseño, registro y análisis. Además, se dejó constancia del progreso en el needfinding dentro del informe.                                                                                                                         |
+| 0.5     | 12/09/2025 | Frezzia Eldaa Isabel Espinoza Paredes | Se completó el Capítulo 2 con la finalización del needfinding, el desarrollo del Big Picture EventStorming y la creación del Ubiquitous Language. Posteriormente, se revisó y editó todo el capítulo para garantizar coherencia y claridad. Finalmente, el informe actualizado fue subido a la rama develop.                                                                                        |
+| 0.6     | 15/09/2025 | Frezzia Eldaa Isabel Espinoza Paredes | Se avanzó en el desarrollo del Capítulo 3, identificando las épicas que servirán de base para las user stories. Además, se registró el progreso de dichas historias de usuario y se incorporó el impact map correspondiente.                                                                                                                 |
+| 0.7     | 17/09/2025 | Jean Pierre Grandez Mansilla          | Se completó el desarrollo del Capítulo 3, integrando el avance del product backlog y el trabajo colaborativo realizado en Trello. Asimismo, se fusionó la rama correspondiente al Capítulo 3 con la rama develop.                                                                                                                         |
+| 0.8     | 18/09/2025 | Fabrizio Panta Castro                 | Se avanzó en el desarrollo del Capítulo 4, enfocado en el diseño del producto a través de lineamientos visuales, arquitectura de información y propuestas UI/UX. Este trabajo incluyó guías de estilo, wireframes, mock-ups y flujos de interacción que garantizan consistencia, usabilidad y coherencia en la solución tecnológica.                                                     |
+| 0.9     | 20/09/2025 | Fabrizio Panta Castro                 | Se completó el desarrollo del Capítulo 4, consolidando el diseño del producto a través de prototipos, arquitectura de software, diagramas orientados a objetos y diseño de base de datos, asegurando coherencia estructural y soporte técnico para la implementación de la solución. Finalmente, se fusionó la rama correspondiente al Capítulo 4 con la rama develop.                                      |
+| 1.0     | 21/09/2025 | Jean Pierre Grandez Mansilla          | Se avanzó y concluyó el desarrollo del Capítulo 5, abarcando la configuración del entorno de desarrollo, la gestión del código fuente y el despliegue de la solución tecnológica. Asimismo, se documentó el progreso de los sprints, junto con las evidencias de desarrollo, pruebas y despliegue del software. Finalmente, se fusionó la rama correspondiente al Capítulo 5 con la rama develop. |
 
 </center>
 
@@ -190,9 +204,13 @@ Más que una plataforma, queremos ser un aliado estratégico para las institucio
 
 
 #### 1.1.2. Perfiles de integrantes del equipo
-|Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
-|-|-|-|-|
-|Compañero 1 	![Imagen del compañero](image.jpg)|U20...|Ingenieria de software|C++, piton .etc|
+| Miembros del equipo                                                                                                                                                                                                                    | Codigo Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Axel Randall Ordoñez Ricaldi 	![Imagen del compañero](https://github.com/SoftCore-App-Web-1ASI0730-2510-4395/customhost-project-report/blob/develop/Assets/img/chapter-1/Axel-photo.jpg?raw=true)                                      | U202216827        | Ingenieria de software | C++, React, Vue, Angular, C#, SQL, MongoDB, Python. Paciencia y buen trabajo en equipo                                                                                                                                           |
+| Panta Castro, Fabrizio Martin  ![Imagen del compañero](https://raw.githubusercontent.com/SoftCore-App-Web-1ASI0730-2510-4395/customhost-project-report/refs/heads/develop/Assets/img/chapter-1/Fabrizio%20Martin%20Panta%20Castro.jpg) | U20231A810        | Ingeniería de Software | SQL, Python, Flutter, Vue, C++. Compañerismo y responsable con las entregas.                                                                                                                                                     |
+| Oscar Espinoza Quijandria <img width="392" height="422" alt="image" src="https://github.com/user-attachments/assets/f6da8b92-72ae-44c5-a3f0-f429fa91ac84" />                                                                           | U202311842        | Ing. Software          | Lenguajes: js py c# c++ pearl. Base de datos : SqlServer, Mysql, Sqlite, Mongodb . Frameworks: Angular, Vue, .net Core, Django. Soy alguien al que le gusta trabajar en equipo, soy perceverante y me gusta dar todo de mi mismo |
+| Jean Pierre Grandez Mansilla ![Imagen del compañero](https://raw.githubusercontent.com/Latte-WebApps/FoodSuiteLandingPage/refs/heads/main/assets/images/team-members/jp.png)                                                           | U202212484        | Ing. de Software       | JS, Python, React, C#, SQL, AWS, NextJ, MongoDB. Entusiasta por la tecnología y dispuesto a aprender.                                                                                                                            |
+|                                                                                                                                                                                                                                        |                   |                        |                                                                                                                                                                                                                                  |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
