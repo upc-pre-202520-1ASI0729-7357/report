@@ -729,7 +729,7 @@ Las farmacéuticas requieren garantizar la conservación adecuada de los medicam
 
 Con estos flujos, los prototipos muestran cómo cada tipo de usuario —personal de salud y farmacéuticas— interactúa con ThermaTrace, asegurando una navegación coherente y adaptada a sus necesidades específicas.
 
-A continuación se presenta el video con los prototipos navegables: https://goo.su/SS12G8
+A continuación se presenta el video con los prototipos navegables: https://goo.su/SS12G8<br>
 Link de desarrollo de Figma: https://goo.su/GgGEsmJ
 
 
