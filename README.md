@@ -432,9 +432,26 @@ El sistema de organización se complementa con una sección de planes de precios
 
 
 ### 4.2.2. Labeling Systems.
-The labeling system aims at uniting the data effectively and represent them in simple way and avoid confusing great amount of information. A widely adopted way to achieve this is by creating the labels which represent loads of data in few words. 
+En el marco del diseño de la arquitectura de información, los Labeling Systems cumplen la función de comunicar de forma clara, coherente y predecible los elementos de interacción presentes en la interfaz. En ThermaTrace, cada etiqueta textual empleada en botones, menús, enlaces y secciones tiene como propósito guiar al usuario de manera intuitiva a lo largo de la landing page, facilitando la comprensión inmediata de la propuesta de valor y apoyando la toma de decisiones. Esta sección analiza el sistema de etiquetado implementado en la Landing Page, evaluando la pertinencia del lenguaje empleado según principios de UX y usabilidad.
 
-Como decir "home, about us, etc" basicamente lo que iria en un nav var y asi
+La siguiente tabla resume las etiquetas implementadas, su ubicación y su función en la experiencia de usuario:
+
+| Etiqueta | Ubicación/Componente | Función |
+|----------|----------------------|---------|
+| Home | Header | Retorno directo a la página principal. Breve y estándar en interfaces web. |
+| Features | Header | Acceso a las funcionalidades clave (monitoreo, alertas, reportes). Lenguaje claro y técnico sin ser complejo. |
+| Pricing | Header | Acceso a los planes de suscripción. Etiqueta corta, reconocida y orientada a decisión. |
+| About | Header | Describe la misión y visión de ThermaTrace. Genera confianza y contexto. |
+| Request a Demo | Hero Section (CTA principal) | Llamada a la acción central. Imperativo que motiva la interacción inmediata. |
+| Learn More | Hero Section (CTA principal) | Enlace hacia una explicación más detallada de la solución. Conciso y neutro. |
+| Benefits | Sección informativa | Lista de ventajas competitivas para hospitales y farmacias. Claro y directo. |
+| Choose your Plan | Sección de precios (CTA) | Motiva la selección de un plan. Lenguaje imperativo y orientado a la acción. |
+| Follow Us | Footer / Redes Sociales | Agrupa enlaces a redes sociales. Convencional y de fácil identificación. |
+| ThermaTrace | Marca | Nombre distintivo en mayúsculas. Funciona como ancla visual y de identidad. |
+
+El sistema de etiquetado en la landing page de ThermaTrace demuestra una aplicación consistente de buenas prácticas en arquitectura de información. Las etiquetas seleccionadas utilizan un lenguaje simple, familiar y orientado a la acción, lo que permite al usuario comprender rápidamente la propuesta de valor y navegar sin fricciones. Además, se observa coherencia semántica entre el header, el cuerpo de la página y el footer, reforzada con frases imperativas y sustantivos comunes que favorecen la escaneabilidad. Este Labeling System fortalece la accesibilidad cognitiva del sitio y garantiza una experiencia clara, confiable y profesional para los distintos segmentos objetivos.
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 **Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
