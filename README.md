@@ -749,8 +749,8 @@ se incluyen servicios externos (si hay pocos bounded context se incluyen ahi)
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
-Esta yaselasaben (diagrama de clases)
-Clases(name), objetos(nombre-objeto [como objeto]), metodos("Accion") y atributos(Correo, edad,nombre como valor, ID)
+
+<img width="853" height="897" alt="image" src="https://github.com/user-attachments/assets/74019296-0b63-4025-99b8-301ba1a29359" />
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
