@@ -168,7 +168,7 @@ Durante el Sprint 1, el equipo ejecutó las tareas de desarrollo de la Landing P
 
 <img width="1900" height="978" alt="image" src="https://github.com/user-attachments/assets/853de6a2-e10b-41c0-89e0-607652ed05a5" />
 
--Enlace al Landing Page desplegado:
+-Enlace al Landing Page desplegado: <https://upc-pre-202520-1asi0729-7357.github.io/LANDING-PAGE-/>
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
