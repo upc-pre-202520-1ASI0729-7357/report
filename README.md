@@ -449,6 +449,15 @@ Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseñ
 
 
 ## 4.4. Web Applications UX/UI Design.
+La sección de Diseño UX/UI de Aplicaciones Web en ThermaTrace se centra en la definición de interfaces y experiencias digitales que transmitan confianza, innovación y facilidad de uso en el monitoreo térmico. El proceso abarca desde la conceptualización de las vistas principales hasta la estructuración de flujos de navegación.
+
+En esta primera fase, se elaboraron mockups de alta fidelidad que responden a la identidad visual definida para la marca, aplicando un estilo tecnológico y minimalista que refuerza la seriedad y precisión del proyecto. La organización de los elementos se diseñó con base en los flujos de usuario establecidos, asegurando que cada sección, Home, About, Features, Pricing y Team, tenga un propósito claro y facilite una experiencia intuitiva.
+
+La navegación está construida bajo principios de accesibilidad y usabilidad, con una barra superior persistente, contrastes adecuados y disposición responsive que permite una visualización óptima en dispositivos móviles y de escritorio. Además, se ha contemplado la internacionalización (i18n) como parte de la estrategia de expansión futura.
+
+En fases posteriores, se prevé la integración del backend mediante servicios RESTful y la creación de prototipos navegables para validar interacciones clave con usuarios reales. Este enfoque garantiza que la solución digital de ThermaTrace no solo sea atractiva a nivel visual, sino también robusta, inclusiva y alineada con las expectativas de su público objetivo.
+
+
 ### 4.4.1. Web Applications Wireframes.
 lo funcional de cada aspecto del wireframe 
 ![Web Aplication Wireframe](image.jpg)
