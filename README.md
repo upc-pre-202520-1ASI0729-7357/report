@@ -11,14 +11,13 @@
 
 <center>
 
-#### Startup: **--**
-#### Product: **THERMATRACE**
+#### Startup: **IoTracker**
+#### Product: **ThermaTrace**
 
 </center>
 
 ### <center>Team  Members:</center>
 <center>
-
 
 | Member                       | Code       |
 |------------------------------|------------|
@@ -26,10 +25,7 @@
 | Fabrizio Martin Panta Castro | U20231A810 |
 | Jean Pierre Grandez Mansilla | U202212484 |
 | Oscar Espinoza Quijandria    | u202311842 |
-
-|  |  |
-|              |  |
-|          |  |
+| Frezzia Eldaa Isabel Espinoza Paredes |  |
 
 
 <br> Setiembre 2025
