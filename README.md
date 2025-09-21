@@ -478,29 +478,138 @@ Se han diseñado entrevistas semiestructuradas para dos segmentos objetivo princ
 
 
 ### 2.2.2. Registro de entrevistas.
+
+
 **Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
+
+Nombre: Daniel del Castillo
+
+Edad: 26 años
+
+Ocupación: Enfermero
+
+![Imagen de entrevista](assets/entrevistas/daniel.png)  
+[Entrevista Eduardo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
+**Resumen de la entrevista:**
+
+Daniel nos comenta que en el hospital que trabaja ellos se abastecen de un cuarto de almacen frío que es compartido con otros departamentos, y que ellos no gestionan el control de la temperatura directamente dado que cuentan con un térmostato que les proporciona el área de mantenimiento. Nos comenta que no tienen un registro formal de las temperaturas, y que en caso de una desviación, ellos mismos se encargan de reportarlo al área de mantenimiento para que puedan revisar el equipo.
+Nos menciona que generalmente no tienen problemas con los equipos de frío, pero que en una ocasión tuvieron un problema con un congelador que afectó a las vacunas, y que tuvieron que desechar todo el lote. Nos comenta que no tienen reportes formales para auditorías, y que en caso de una inspección, ellos mismos se encargan de proporcionar la información necesaria.
+También nos comenta que él está dispuesto a optar por una solución digital si es accesible y fácil de usar, pero que le preocupa la resistencia al cambio del personal y la falta de capacitación técnica. Nos menciona que una solución de monitoreo en tiempo real podría mejorar sus operaciones diarias al reducir el riesgo de pérdidas y garantizar la seguridad de los medicamentos.
+Además, comenta que anteriormente intentaron implementar un sistema de monitoreo digital, pero que tuvieron problemas con la integración y el costo, y que finalmente decidieron no continuar con el proyecto. Nos menciona que las características imprescindibles para una plataforma de este tipo serían la facilidad de uso, la generación automática de reportes y sobre todo que era demasiado general respecto a lo que debería ser una solución específica para el sector salud.
+Daniel considera que la integración con dispositivos IoT sería relevante, pero que dependería del costo y la facilidad de implementación, sobre las funcionalidades clave, el nos menciona que el servicio debe ser funcional las 24 horas dado que ellos trabajan en turnos y necesitan monitorear la cadena de frío en todo momento, incluso preferiría no tener que acercarse al equipo de frío para revisar la temperatura, y que le gustaría recibir alertas automáticas en caso de desviaciones para poder actuar rápidamente.
+
+
+
+**Segmento 1**  
+Nombre: Eduardo Ventura
+Edad: 23 años 
+Ocupación: Responsable de almacén de farmacia hospitalaria
+![Imagen de entrevista](assets/entrevistas/eduardo.png)  
+[Entrevista Eduardo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
+**Resumen de la entrevista:**
+Eduardo nos menciona que actualmente ellos realizan el monitoreo de la cadena de frío de manera manual, utilizando termómetros y registros en papel. Nos comenta que enfrentan problemas ocasionales con la conservación de medicamentos sensibles, especialmente durante los fines de semana cuando el personal es reducido.
+Considera que los reportes automaticos serían muy útiles para facilitar las auditorías regulatorias, ya que actualmente dedican mucho tiempo a preparar la documentación necesaria. Nos menciona que estarían dispuestos a adoptar una solución digital si fuera accesible y fácil de usar, pero que les preocupa la resistencia al cambio del personal y la falta de capacitación técnica.
+Sin embargo, nos comenta que han tenido experiencias previas con soluciones de monitoreo digital, pero que enfrentaron desafíos relacionados con la integración con sus sistemas existentes y el costo de implementación. Nos menciona que una solución de monitoreo en tiempo real podría mejorar sus operaciones diarias al reducir el riesgo de pérdidas y garantizar la seguridad de los medicamentos.
+Considera que se implementaran alertas via SMS o correo electrónico para notificar desviaciones de temperatura, lo que les permitiría actuar rápidamente y minimizar el impacto en la conservación de los medicamentos.
+
 
 **Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
+Nombre: Fernando Zamora
+Edad: 26 años 
+Ocupación: Administrador de farmacia
+![Imagen de entrevista](assets/entrevistas/fernando.png)
+[Entrevista Fernando](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
+**Resumen de la entrevista:**
+
+Fernando nos comenta que en su farmacia ellos realizan el control de la cadena de frío utilizando termómetros y registros en papel. Fernando cree que los reportes automáticos serían muy útiles para facilitar las auditorías regulatorias, ya que actualmente dedican mucho tiempo a preparar la documentación necesaria.
+Nos menciona que estarían dispuestos a adoptar una solución digital si fuera accesible y fácil de usar, pero que les preocupa la resistencia al cambio del personal y la falta de capacitación técnica.
+Sin embargo, nos comenta que no han tenido experiencias previas con soluciones de monitoreo digital, pero que están abiertos a explorar nuevas tecnologías si pueden demostrar un valor claro para su operación.
+Pero está abierto a explorar nuevas tecnologías si pueden demostrar un valor claro para su operación. Nos menciona que una solución de monitoreo en tiempo real podría mejorar sus operaciones diarias al reducir el riesgo de pérdidas y garantizar la seguridad de los medicamentos.
+
+**Segmento 2**  
+Nombre: Mateo Casa
+Edad: 30 años
+Ocupación: Técnico en farmacia
+![Imagen de entrevista](assets/entrevistas/mateo.png)
+[Entrevista Fernando](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
+**Resumen de la entrevista:**
+Mateo al ser un técnico en farmacia, nos comenta que él es el encargado de realizar el control de la cadena de frío en la farmacia donde trabaja. Nos menciona que actualmente utilizan termómetros y registros en papel para monitorear la temperatura de los equipos de frío.
+Nos comenta que enfrentan problemas ocasionales con la conservación de medicamentos sensibles, especialmente durante los fines de semana cuando el personal es reducido.
+Opina que la propuesta de valor de la plataforma es interesante, pero que le preocupa la resistencia al cambio del personal y la falta de capacitación técnica. Nos menciona que una solución de monitoreo en tiempo real podría mejorar sus operaciones diarias al reducir el riesgo de pérdidas y garantizar la seguridad de los medicamentos.
+
+
+**Segmento 2**  
+Nombre: Joseph Pillaca
+Edad: 26 años
+Ocupación: Químico farmacéutico
+![Imagen de entrevista](assets/entrevistas/joseph.png)
+[Entrevista Fernando](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
+**Resumen de la entrevista:**
+Joseph nos dice que hacen controles manuales para su cadena de frío, pero que son calibrados y que cumplen con las normativas del sector salud. Nos comenta que enfrentan problemas ocasionales con la conservación de medicamentos sensibles, especialmente durante los fines de semana cuando el personal es reducido.
+Los controles se hacen al inicio de la jornada y al final, y que en caso de una desviación, ellos mismos se encargan de reportarlo al área de mantenimiento para que puedan revisar el equipo.
+Nos menciona que una solución de monitoreo en tiempo real podría mejorar sus operaciones diarias al reducir el riesgo de pérdidas y garantizar la seguridad de los medicamentos.
+Él usa un control digital, pero que no está conectado a internet, y que le gustaría recibir alertas automáticas en caso de desviaciones para poder actuar rápidamente.
+Usa equipos de frío que son alquilados, y que le gustaría que la solución sea compatible con los equipos que ellos usan actualmente.
+
+
 
 ### 2.2.3. Análisis de entrevistas.
-**Segmento 1:**
+En este apartado se presenta un análisis detallado de las entrevistas realizadas a los segmentos objetivo, identificando patrones, necesidades comunes y diferencias clave entre los grupos entrevistados.
+
+**Segmento 1 – Hospitales (Jefe de Farmacia, Responsable de Almacén, Enfermería)**
+
+
+- **Método actual:** Predominan los controles manuales (termómetros, planillas en papel o Excel). La responsabilidad recae en áreas de farmacia, almacén o mantenimiento.
+- **Problemas recurrentes:**
+    - Reportes manuales no estandarizados, que consumen tiempo y dificultan auditorías.
+    - Resistencia al cambio y falta de capacitación técnica en el personal.
+    - Eventos críticos como fallas en congeladores han llevado a pérdidas de vacunas y medicamentos sensibles.
+- **Necesidades:**
+    - Reportes automáticos para auditorías regulatorias (DIGEMID/MINSA).
+    - **Alertas en tiempo real (SMS, correo o notificaciones) que permitan actuar de inmediato.
+    - Monitoreo 24/7, sin depender de turnos o presencia física frente al equipo.
+- **Apertura tecnológica:** Disposición a adoptar soluciones digitales si son accesibles, fáciles de usar y específicas para el sector salud (no genéricas).
+
+**Segmento 2 – Farmacias Independientes (Administrador, Técnico, Químico Farmacéutico)**
+
+
+- **Método actual:** Uso de registros manuales en papel o Excel; algunos cuentan con controles digitales, pero no conectados a internet.
+- **Problemas recurrentes:**
+    - Pérdidas económicas por medicamentos dañados o vencidos.
+    - Dependencia de proveedores locales para reponer inventario.
+    - **Reclamos de clientes que afectan la reputación.
+    - Falta de reportes auditables para SUNAT u otras inspecciones.
+- **Necesidades:**
+    - Una plataforma sencilla que automatice registros y genere reportes de forma clara.
+    - Compatibilidad con equipos de refrigeración existentes, incluso alquilados.
+    - Alertas inmediatas para evitar pérdidas y reforzar confianza con clientes.
+- **Apertura tecnológica:** Mayor cautela al invertir en nuevas soluciones, pero reconocen el valor si se traduce en reducción de pérdidas y eficiencia operativa.
+
+
+**Patrones comunes entre ambos segmentos**
+
+- Fuerte dependencia de procesos manuales, con riesgo de errores humanos.
+- Alta carga administrativa para preparar reportes en auditorías.
+- Reconocimiento de que un sistema digital con alertas en tiempo real y reportes automáticos puede mejorar sus operaciones.
+- Preocupación por la capacitación y la resistencia del personal frente a nuevas tecnologías.
 
 
 
+**Principales diferencias**
 
-**Segmento 2:**
+- **Hospitales:** Se enfocan en cumplimiento normativo y trazabilidad, con énfasis en auditorías y reportes para DIGEMID/MINSA.
+- **Farmacias:** Se enfocan en la reducción de pérdidas económicas y satisfacción del cliente, con reportes más orientados a SUNAT y gestión operativa.
+- **Hospitales:** Tienen experiencias previas con soluciones digitales, pero enfrentaron problemas de integración y costos.
+- **Farmacias:** Menor exposición a tecnologías de monitoreo, aunque muestran interés si la solución es compatible con sus equipos actuales y fácil de adoptar.
 
 
+**Conclusión del análisis:**  
+Ambos segmentos coinciden en que una solución digital de monitoreo en tiempo real, con alertas inmediatas y generación automática de reportes, sería de alto valor. Sin embargo, las motivaciones difieren: en **hospitales**, el foco está en **cumplimiento normativo y seguridad clínica**, mientras que en **farmacias**, el énfasis está en **reducir pérdidas económicas y mejorar la confianza del cliente**.
 
 
 ## 2.3. Needfinding.
