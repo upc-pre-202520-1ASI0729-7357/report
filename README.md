@@ -11,8 +11,8 @@
 
 <center>
 
-#### Startup: **--**
-#### Product: **THERMATRACE**
+#### Startup: **IoTracker**
+#### Product: **ThermaTrace**
 
 </center>
 
@@ -24,10 +24,8 @@
 |Axel Ordoñez Ricaldi              | U202216827 |
 |Fabrizio Martin Panta Castro      | U20231A810 |
 |Oscar Espinoza Quijandria       | u202311842   |
-
 |  |  |
-|              |  |
-|          |  |
+| Frezzia Eldaa Isabel Espinoza Paredes |  |
 
 <br> Setiembre 2025
 </center>  
