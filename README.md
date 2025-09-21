@@ -469,10 +469,26 @@ La estructura de la página se apoya en un recorrido progresivo: primero se pres
 
 
 ### 4.2.5. Navigation Systems.
-Basicamente aqui definimos como funciona la navegacion del web app
-**Hierarchical Navigation System:** Main page a destination pages.
-**Global Navigation Systems** (Complemento del Hierachical) Movimiento vertical (te mueves por la pagina)con nav(debe poder regresar a la principal)
-**Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
+La navegación es un elemento central en el diseño de interfaces web, ya que define el recorrido del usuario y asegura que pueda acceder a la información clave de forma clara y eficiente. En la landing page de ThermaTrace, el sistema de navegación se ha diseñado bajo principios de jerarquía visual, simplicidad funcional y adaptabilidad, con el fin de comunicar la propuesta de valor desde el primer contacto y guiar al visitante hacia acciones concretas como solicitar una demostración o conocer más sobre la plataforma.
+
+ThermaTrace implementa un sistema de navegación global, horizontal y persistente, ubicado en la parte superior del sitio. Este sistema está compuesto actualmente por los siguientes elementos esenciales:
+- **Home:** vinculado al logotipo de la marca, permite retornar a la página principal desde cualquier sección.
+- **About:** ofrece información institucional sobre la plataforma, su propósito y visión.
+- **Feautures:** describe las funcionalidades más importantes, como las alertas en tiempo real, los reportes automáticos y la trazabilidad de la cadena de frío.
+- **Pricing:** presenta los distintos planes y modelos de precios adaptados a farmacias, clínicas y hospitales.
+- **Team:** muestra al equipo detrás del proyecto, generando confianza y cercanía con los usuarios.
+
+El diseño del header se presenta con un fondo claro y tipografía de alto contraste, lo que garantiza buena legibilidad y consistencia visual. El logotipo, ubicado a la izquierda, funciona como ancla semántica hacia la página principal, mientras que los enlaces centrales organizan la navegación informativa. A la derecha,los botones de cambio de idioma que se resaltan visualmente mediante color y peso tipográfico, reforzando su carácter de acción prioritaria dentro del flujo de interacción.
+
+El sistema de navegación se ha desarrollado bajo un enfoque mobile-first, adaptándose automáticamente a distintas resoluciones de pantalla. En móviles, el menú horizontal se transforma en un menú tipo hamburguesa, que organiza los cinco elementos en un panel desplegable, manteniendo la coherencia y accesibilidad del recorrido.
+
+Finalmente, la navegación de ThermaTrace cumple con principios de usabilidad clave:
+- **Claridad:** los enlaces están claramente etiquetados con términos familiares para los usuarios.
+- **Consistencia:** el menú permanece idéntico en toda la landing page.
+- **Jerarquía:** el logotipo y el acceso a las secciones principales se destacan de forma estratégica.
+- **Retroalimentación visual:** los enlaces presentan cambios de estado (hover/focus), reforzando la interacción.
+
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 la pagina donde te registras y ves info del web app (te manda al web app)
