@@ -374,28 +374,120 @@ Segmento 2:
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
-Descripcion del porque estos elementos seran importantes
+#### **Tipografía**
+La tipografía seleccionada para nuestro proyecto es **Roboto**, una fuente ampliamente utilizada en entornos digitales gracias a su excelente legibilidad y estética moderna. Su diseño equilibrado combina formas geométricas con trazos amigables, lo que transmite cercanía sin perder profesionalismo. Al ser versátil, Roboto funciona tanto en títulos como en cuerpos de texto, asegurando coherencia visual en diferentes plataformas.
 
-**Color:** (Descripcion de los colores escogidos y porque)  
-![Colores generales](image.jpg)
+Las jerarquías tipográficas se establecieron con tamaños bien diferenciados: desde 0.75rem (12px) para textos auxiliares o detalles informativos, hasta 2.25rem (36px) para encabezados principales. Esta escala facilita una lectura ordenada y clara, permitiendo resaltar la información más importante sin perder armonía.
 
-**Tipografia:** (Descripcion de la tipografia escogida para el proyecto y porque)
-![Tipografias generales](image.jpg)
-**Branding** (Describir logotipo y porque)
-![Branding general](image.jpg)
+La elección de Roboto, además de responder a criterios de legibilidad y accesibilidad, refleja un enfoque contemporáneo y adaptable a medios digitales e impresos, reforzando la identidad visual de nuestro trabajo.
+
+#### **Colores**
+La elección de la paleta de colores en nuestro proyecto obedece a una estrategia visual cuidadosamente planificada, orientada a reflejar tecnología, confianza y sofisticación, valores fundamentales en la propuesta de CcaritaTech.
+
+- **Landing Page** <br>
+![Imagen de la paleta de colores del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551467552_1204326681534642_7846861878436825793_n.png?stp=dst-png_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_yJEc8uNcNgQ7kNvwE3J9ba&_nc_oc=AdlEqKkEFMuVuEUG5LCo8hhGoibPc4kMuN9DZNErNylLdUqcwujOq6RjV9I1XPBoVS_8SvZmLr3qyv1eifdEVKVB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGd7zGVhfdZc5ybOms216R9L3g90CLfzz_d_1Ab9NhD6Q&oe=68F6E051)
+
+En la sección de inicio, se utiliza un degradado entre el **azul brillante (#389DFB)** y el **verde agua (#69E8CC)**. Esta combinación transmite frescura, dinamismo y modernidad, generando un impacto visual inmediato que invita al usuario a explorar la interfaz. El degradado no solo aporta profundidad y movimiento, sino que también refuerza una identidad vibrante y tecnológica.
+
+Para los íconos, se emplean dos tonos complementarios: el **azul claro (#50ACF9)** y el **verde turquesa (#48E6D0)**. Estos colores mantienen coherencia con el degradado principal, asegurando consistencia visual en la navegación. Su viveza facilita la rápida identificación de elementos interactivos, reforzando una experiencia intuitiva y atractiva.
+
+En los botones y textos destacados dentro de ellos, se recurre al **azul intenso (#389DFB)** junto con un tono más profundo, el **azul marino (#0F52A3)**. El primero garantiza que los botones resalten como llamadas a la acción principales, mientras que el segundo asegura legibilidad en textos pequeños, otorgando claridad y profesionalismo. Esta dupla crea jerarquía visual, diferenciando acciones prioritarias de textos de apoyo.
+
+Respecto a la tipografía en contraste con los fondos, se utiliza el **negro absoluto (#000000)** sobre superficies blancas, logrando máxima claridad y seriedad en los mensajes. A la inversa, cuando el fondo es azul, el **blanco puro (#FFFFFF)** se reserva para los textos, asegurando un contraste fuerte y una lectura fluida en cualquier dispositivo. Esta combinación clásica aporta balance, elegancia y enfoque.
+
+En el footer, se incorpora el **azul oscuro casi negro (#031F40)**. Este color establece una base sólida y sobria en la parte inferior de la interfaz, transmitiendo estabilidad y cierre visual. Además, diferencia claramente el área de navegación secundaria, aportando orden y reforzando la identidad profesional del diseño.
+
+Finalmente, la selección coordinada de estos colores genera una estética coherente, moderna y funcional. Los tonos principales transmiten energía y frescura, mientras que los contrastes garantizan legibilidad y jerarquía. El uso estratégico de acentos y fondos asegura que la experiencia sea clara, atractiva y alineada con los valores de innovación y accesibilidad de nuestro proyecto.
+
+#### **Lenguaje**
+En ThermaTrace, utilizaremos un lenguaje que refleje nuestra misión de proteger la salud mediante la conservación óptima de medicamentos sensibles. Queremos conectar tanto con profesionales de la salud como con instituciones del sector, transmitiendo confianza, claridad y compromiso a través de cada mensaje. La comunicación será un puente entre la tecnología y las personas, mostrando que la innovación puede ser cercana, accesible y confiable:
+
+1. **Profesional pero accesible:** Nos dirigimos a un público que exige precisión y confiabilidad, como hospitales, farmacias, clínicas y cadenas de distribución. Por ello, hablaremos con un tono experto en tecnología aplicada a la cadena de frío, pero sin caer en tecnicismos innecesarios. Queremos que cualquier usuario, independientemente de su nivel técnico, pueda comprender fácilmente cómo funciona la solución y el valor que aporta.
+
+2. **Formal pero humano:** Entendemos que trabajamos en un entorno crítico para la vida de las personas. Por eso, nuestra comunicación refleja seriedad y responsabilidad, pero sin perder cercanía. Nos proponemos hablar con calidez y empatía, transmitiendo la seguridad de que detrás de cada herramienta tecnológica hay un aliado comprometido con la salud y el bienestar de los pacientes.
+
+3. **Respetuoso y empático:** Sabemos que los usuarios tienen diferentes necesidades, desde un farmacéutico que controla un pequeño refrigerador hasta un administrador de una red hospitalaria. Nos comunicaremos con respeto hacia cada uno de ellos, reconociendo la diversidad de contextos y acompañándolos con un lenguaje inclusivo y considerado, que fomente confianza y colaboración.
+
+4. **Inspirador y optimista:** Creemos que la tecnología puede transformar la gestión de la cadena de frío en salud. Por eso, hablaremos con entusiasmo y visión de futuro, mostrando cómo nuestra solución contribuye a un sistema más seguro, eficiente y conectado. Queremos inspirar a nuestros usuarios a confiar en que supervisar la conservación de medicamentos puede ser tan sencillo como abrir una aplicación, garantizando seguridad y tranquilidad.
+
+
 ### 4.1.2. Web Style Guidelines.
-Descripcion de los elementos que se utilizaran en el web app
+#### **Descripción General**
+Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tecnológica enfocada en garantizar la correcta conservación de medicamentos sensibles a la temperatura. La interfaz incluye una pantalla de inicio que refleja un estilo visual moderno y profesional, apoyado en una paleta de colores frescos y confiables como los azules y verdes, que transmiten seguridad e innovación. Asimismo, se emplea una tipografía clara y legible que refuerza la identidad accesible y tecnológica de la marca, asegurando una experiencia intuitiva para profesionales de la salud y administradores de cadena de frío. 
 
-**Background:** (primary, secondary, terniary)  
-![Background Preview web](image.jpg)
-**Text Styles:** (H1, H2, p, a,)  
-![Text Style Preview web](image.jpg)
-**Button Styles:** (Button, dropdowns, Switches)
-![Button Preview web](image.jpg)
-**Icons:** (Fondo blanco con los iconos que vamos a usar)
-![Icons Preview web](image.jpg)
-**Misc** (Cosas como nav var o slideshows que pensemos usar)
-![Miscellaneos preview web](image.jpg)
+**Header:**
+- Logo (esquina superior izquierda)
+- Menú de navegación con las opciones: Home, About, Features, Pricing y Team.
+- Selector de idioma (inglés y español).
+
+![Imagen del Header del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552517489_1509003707105479_8981678970381266145_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=FOhn2O4JIKEQ7kNvwFeqk4D&_nc_oc=AdlObFdLAuVzQFzMjlIGkROA43V0DFKLPDSK3YiFBSHN7bSZM9ZIyW1kgDPNvnpZ8fnlEGsoiVKc2XT2uGhxxGZH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QFPgvawWqGHm-PwyoM3xGdT0n0OCKpzIzCO6DbNQvjP8A&oe=68F6C003)
+<br>
+
+**Home:**
+- Presentamos una solución de monitoreo en tiempo real para el almacenamiento seguro de medicamentos.
+- También contamos con dos botones claros para guiar al usuario (CTAs):
+    - **“Request a Demo”:** Para una demostración personalizada del producto.
+    - **"Learn More":** Para los que necesitan más información.
+
+![Imagen de la sección Home del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551980900_1455555945559627_2539296983521088313_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=n5Eoac-1s8YQ7kNvwE9TRyC&_nc_oc=Adl5lr6fouI6WsprMso3_Vc6Rsf39cCuutk5gVhkR9-DF4Kb3yGV2CJ7aPTISC4R90o9yxdjzhhXLRFSjY49Moe2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGbG0eTAkFhbB2PusWAl5DlmZcAaRwWeXunXdgasTRAZw&oe=68F6C9E9)
+<br>
+
+**About:**
+- Esta sección se presentar la empresa ThermaTrace y su propuesta de valor en el sector farmacéutico.
+- Se habla de beneficios clave para los clientes:
+    - Mantener el cumplimiento normativo 
+    - Reducir el desperdicio de medicamentos 
+    - Garantizar la seguridad del paciente 
+    - Sistema de alertas instantáneas
+
+![Imagen de la sección About del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551625397_788590637241916_1633254094399550872_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DZvaMGAjZ2EQ7kNvwF771A-&_nc_oc=AdkkzynTEkoeBywTChyzmZ4UXunkCBQTdORx5xmRe3hyBW2Zj_iULhwLBl1_2xx3-0px3ZVCWc01CEm0h2AYVwA6&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QG6T6buecRJF3vTvNWGeiLKkH38KnU5skYPLs_eY_CCpA&oe=68F6B250)
+<br>
+
+**Features:**
+- En esta sección se presentan las características principales de la solución de monitoreo de cadena de frío de ThermaTrace.
+- Características técnicas en secciones destacadas, la información central se presenta en tarjetas, cada uno explicando un beneficio específico:
+    - Alertas en tiempo real 
+    - Historial de temperatura 
+    - Reportes de cumplimiento
+    - Acceso multiplataforma
+- También se cuenta con un llamado a la acción final (CTA):
+    - **“Request a Demo”:** Para una demostración personalizada del producto.
+    - **"Learn More":** Para los que necesitan más información.
+
+![Imagen de la sección Features 1 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551508554_1428802668209421_1980168407098881757_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=izDLsief3LIQ7kNvwHOqk8Q&_nc_oc=AdkIX6iJFz2uLY5IRSpb1a1dVRcvbWRF1xO_LocNA9Asx9uq3MhCtWxxmYM5asR9NxukAqIHw9DRxbAf7i0WMyhK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGXxnOScMl2hUQppHbeVa_c-LOYxawS5ZME7nn2ZllUqA&oe=68F6E3A0)
+![Imagen de la sección Features 2 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551988888_795952772901996_4051626875202561435_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=l_o4h10K-zgQ7kNvwFk9Qq4&_nc_oc=AdnxTDTxNKWuK5_Z0-c8Cd24l_lCBNRA1qy-2koDRuPt-ideSLtPyjFzLx3Z2RYm7qEYbxkeZymN0LlCYv359XLE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QHiFEbL3D5EHlRTsdw7lsGJ04twEckIMrCmkgQCHro5VQ&oe=68F6E6B4)
+<br>
+
+**Pricing:**
+- En esta sección se presentan los planes de precios y suscripción de la plataforma, diseñados para adaptarse a diferentes escalas de proyectos.
+- Se presentan tres planes escalonados con diferentes niveles de funcionalidad y precio:
+    - **Freemium ($0/mes):** Plan para clínicas pequeñas que comienzan, hasta 2 puntos de monitoreo.
+    - **Premium ($60/mes):** Plan para farmacias y centros médicos, hasta 15 puntos de monitoreo.
+    - **Enterprise (Personalizado):** Plan para redes hospitalarias o laboratorios, con puntos de monitoreo ilimitado.
+- También contamos con dos botones claros para guiar al usuario (CTAs):
+    - **"Get Started":** Para planes Freemium y Premium
+    - **"Contact Us":** Para el plan Enterprise
+
+![Imagen de la sección Pricing 1 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551367873_2865558340296441_5739976421169864080_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=MkUDXBisvcgQ7kNvwHyH4WV&_nc_oc=Adlul_weGYjiiiWLI4lYI-MDQBD-qNuz2FExZCtmiJ6fs4JfiAFGmJAlD1li2ox5dVNSOLFl4nkoTGMpVrFwTs8S&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFBk82qkr4zv2YGRJ_7sqH66WA6WtMCcaWS6eC9tXjraA&oe=68F6DC93)
+![Imagen de la sección Pricing 2 del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552179408_1453972955870141_3540120401386792185_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9T2F5tRQFMQQ7kNvwEjJXII&_nc_oc=AdlkPvwYQe7JQ6-5G62jEtqptHIn-zOhzUnKTHM5ClINas_2_xRR-x08WIpCOWkCHNqLnTQx5agVKJ1EUM1KAFnu&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEHNEgjbI7RNeDkC35Lo8qJaiaFEf7fnZ6lFsI078-BWQ&oe=68F6D255)
+<br>
+
+**Team:**
+- En esta sección se presentan a los cinco miembros que trabajamos en ThermaTrace, en las tarjetas podemos ver las fotos de los miembros junto a una pequeña descripción de cada uno de ellos.
+
+![Imagen de la sección Team del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551573701_807759051728158_8074941570635994558_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cudlvw6WkXoQ7kNvwESyRsl&_nc_oc=AdkmZy0GXexyBmlymnD6dLg7qRpXekSKq7WbtdFH8nky9MmOmVzr0aodiomzJW64b8UfV714WqVj4bYyLpzVTPZ9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHXTWUq84IF8s3GHvOpgp8j_TZr8hwxFYSm_1Oo5wzpgQ&oe=68F6B69A)
+<br>
+
+**Footer:**
+- Esta sección es el pie de página del sitio web, proporcionando información esencial de la marca y acceso clave.
+- Presenta el nombre **"ThermaTrace™"** con símbolo de marca registrada.
+- También se cuenta con un llamado a la acción final (CTA):
+    - **“Request a Demo”:** Para una demostración personalizada del producto.
+
+![Imagen del Footer del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551278630_1310296877312907_5488212415700416345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=1Dy62vy85CsQ7kNvwExCS8Q&_nc_oc=AdkYETHrLp52u4Dj8uzGJ1kAQYawci_ocDW3l3od97ZHhWibsiLYXQeNgYzLUrDIQegOU5pfTPisO-oZKLQ4kDtV&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGAH6FT2-Pl2DTdhxmoxPsY_JXsGKwIFgkDfOmYCXeFGQ&oe=68F6C786)
+<br>
+
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 Descripcion corta respecto a los sistemas de organizacion que usaremos  (Escoger)
