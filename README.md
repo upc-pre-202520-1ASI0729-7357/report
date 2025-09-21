@@ -614,17 +614,92 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 
 
 ### 4.4.1. Web Applications Wireframes.
-lo funcional de cada aspecto del wireframe 
-![Web Aplication Wireframe](image.jpg)
+![Web Application Wireframe Home](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552727029_1145427430983711_8170167009929062933_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=aHpO8CFxj_4Q7kNvwGhNNMX&_nc_oc=AdkUTV_aVxLZSunHIjJk6GPdlQpoOeEP9X5_Ck7Kd-WR2SYf-I4TDfbySAaPIJRF8BTIS3K68ql90WZx40Ei94I9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QE5bCISPRTpblOfWSssswuPlQ9XxTliY-3yZsnlDy_P0w&oe=68F6D359)
+
+![Web Application Wireframe Profile](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551306779_1304600621413466_1924840106879520977_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=xHmh3yHu-JUQ7kNvwF03Ec8&_nc_oc=AdkFNWQpN_EjZ0ubFgxwo5nlSq8INPhifmjLS4Ijo15zGriFcVHvYImTBD7NDSmg5UCeqRq9ylX9Ztr9xum0EhSH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGWkbmDYrt-fvyHSPAoWuCmBN44hEcGG5z08mFWTvMv2w&oe=68F6DBEF)
+
+![Web Application Wireframe Medications](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550909985_1156427363024210_7991027152396015937_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=L4c5WfgfGigQ7kNvwFg72h8&_nc_oc=AdlJBJg6uBY6eLcygFlGFYHr4-j_Rsm11vq0k_Iz9Nf2SjmN3UF-JhKMNW-GqFaSJcZIoPUSrkMeiCdoftAOv43y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHfmDt1I4kyv3vbu7mPbfNHPujkvhVmMPQoP5rMXLzxRg&oe=68F70248)
+
+![Web Application Wireframe Temperature Management](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552577646_1127060045590960_7933546858104650091_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=dlA3AfYMZxwQ7kNvwF96Wsz&_nc_oc=AdlWLe9RXH7N8UH5vVwUOw6r0AO4sgvhRPSgpqw5pWos0mJlTFJ0Z9Eu3tL2CidIOEPOhJ5nfrZuL5NBwNMAEx1e&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHlMWp-Nh0Ipcqa-VJs8wdnHHMIEt5IjJiCvV1-rwz8Vw&oe=68F6E98E)
+
+![Web Application Wireframe Configuration](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552094790_1939322060256727_1400558595771695713_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cikGB8TVvi4Q7kNvwFGebDL&_nc_oc=Adk9F3bAN08IcOmalTUpwF52ms1j9U0kDCv6_sfEvcCT1zScJRQUliXhNhFKj2TKulGkgj-mK45GETob6jtyTrIO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHnsXTJcz_D_eUIzbJ1u66HisOc4uBPysTUd90QPDqqmA&oe=68F6EDBF)
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
-Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y este me regresa)
-![Web Aplication Wireflow](image.jpg)
+**Login / Create Account**
+
+**1. Login:**
+- El personal del hospital o de la farmacia introduce su correo empresarial y contraseña.
+- Selecciona la opción “Login” para ingresar a la plataforma.
+
+**Create Account:**
+- En caso de ser un nuevo usuario, completa un formulario con datos de la institución (hospital o farmacia), representante responsable y correo corporativo.
+- Selecciona “Create” para registrar la cuenta en el sistema.
+
+**Acción esperada:** Autenticarse correctamente y acceder al Dashboard principal de gestión.<br><br>
+
+**2. Dashboard**
+- Una vez autenticado, el usuario accede al panel central de control, que incluye un menú lateral persistente con accesos a secciones clave:
+    - Home
+    - Profile
+    - Medications
+    - Temperature Management
+    - Configuration
+- Este espacio funciona como punto de partida para navegar y gestionar la información clínica y farmacéutica.
+
+**Acción esperada:** Ubicarse rápidamente y seleccionar la sección que se requiere supervisar o administrar.<br><br>
+
+**3. Profile**
+- Permite a hospitales y farmacias visualizar y actualizar la información de su cuenta: datos de contacto, plan activo, zona horaria e idioma de la aplicación.
+- Incluye opciones de personalización y gestión del perfil institucional.
+
+**Acción esperada:** Mantener actualizados los datos de la institución y ajustar las preferencias de uso según el contexto operativo.<br><br>
+
+**4. Medications**
+- En esta sección se despliega un catálogo de medicamentos registrados en la institución.
+- Los fármacos se presentan en tarjetas visuales que facilitan la consulta rápida y la organización del inventario.
+
+**Acción esperada:** Visualizar, gestionar o crear proyectos residenciales vinculados a la constructora.<br><br>
+
+**5. Temperature Management**
+- Aquí los usuarios acceden a una tabla de monitoreo de temperaturas asociadas a medicamentos sensibles.
+- Se presentan datos como nombre del responsable, proyecto o área asociada, estado actual y acciones disponibles.
+- ncluye el botón “+ Add Medication” para registrar nuevos medicamentos que requieran supervisión térmica.
+
+**Acción esperada:** Supervisar y mantener un control riguroso de la temperatura, garantizando la conservación adecuada de los fármacos.<br><br>
+
+**6. Configuration**
+- El módulo de configuración permite administrar aspectos relacionados con notificaciones, seguridad y soporte.
+- Incluye opciones como cambio de contraseña, gestión de sesiones activas, autenticación en dos pasos y guías de ayuda.
+
+**Acción esperada:** Personalizar el uso de la plataforma y asegurar un entorno confiable y seguro para hospitales y farmacias<br><br>
+
+[Web Applications Wireflow Diagrams] <https://shorturl.at/brHvb><br>
+![Web Aplication Wireflow](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551393735_1812588996010424_4462557880510505087_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=mrZi8EgiM1kQ7kNvwHJSnwi&_nc_oc=Adkuzjgrc1VYOZ_SE-l3A44wNSB2rZIZPi8XsckZ9vJORLIPIVTjLV1Qah5q5XgMJ2egpr8BTJqGnzjy-vF3RyyR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEaSWxMaRiOvPf227JgM-hYeWD2642vqc0ftPQutxsBdQ&oe=68F6D7A2)
+
 ### 4.4.2. Web Applications Mock-ups.
-Diseño en todo aspecto
-![Web Aplication Mockup](image.jpg)
+![Web Application Mock-up Home](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551880997_2058659524878132_5916162712347533812_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=iwmviOxrCLsQ7kNvwHvsCcZ&_nc_oc=AdngHerW0YWbhtd1PvxcM2xQF3GZ0cuCDyKB9J5xyAIVJ7Z0R9gmV3XCCmhcBRzEbuAangx5HRfnq3zpg7cfypuI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEgdYX2kl96Y6gZP9GHr90ETxm-NLY-_zyrDJUwX2KTqg&oe=68F7287F)
+
+![Web Application Mock-up Profile](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551606189_31354094044239380_2369385178151158883_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Iw4pKMKREDYQ7kNvwFXkDU_&_nc_oc=AdkBs6pqMfQObzWKV3UpdZNLwm3jnvdHl-G6bBbGsB5hV86qX5wR4dRzekOrGFojeqDCzE6XNMdku-Gvyt3or-1U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFVMmZ5CdQAwctvsG55vud7VA_sDEpi2Efoe4D3RQoiYw&oe=68F6F6C1)
+
+![Web Application Mock-up Medications](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552063277_796016780261836_2434472456845484608_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=AqbTLntwu1gQ7kNvwET3PW2&_nc_oc=Adn3__C9HQ_wQGLgHPtw8aYrjRt8E4Nby1eRZTNvx3hqjgqnREWIBmPefbiVn8tVhrrtMqXQpfCORTkjQfDBMK60&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGCak3U_QCNTbut7F-HYTRtFV-DPJRMdSvdaQt9dw0lLQ&oe=68F70433)
+
+![Web Application WirefraMock-upme Temperature Management](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552028856_795212612968117_589327344764506_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=u-IB9S1IobsQ7kNvwGsr1Ga&_nc_oc=Adl6mwAQC199mJS7jrz3edERjS_-DFzOEuUYdT3q9wZanY3PZRCrkqRXTJ_ErpnVFmF4w68v4AHLHfF2Jalt8hOp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QEFVB9o0V10GfCyvx8stVEB9ytgXJixBzG_7umuKki4og&oe=68F709F3)
+
+![Web Application Mock-up Configuration](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552641563_1355015796016438_873113837991350119_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=fUgfnH2ikuIQ7kNvwHhorL0&_nc_oc=Adkxdq4V6TkOxavrl1rCIlGzwCMbZfdrCIKswIFssUEhJ-j2Ins9axBpYVLcVciuXvbRXJUB23DnQT3n-1tJPgfH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QHadcWfY2GU8_T8SKGNEJM6mtcPJwU9pm5D9WpynBCp5w&oe=68F71329)
+
+
 ### 4.4.3. Web Applications User Flow Diagrams.
-un flow diagram de como el usuario utilizara la pagina **[PARA CADA USER GOAL]** 
-![Web Aplication User Flow Diagram](image.jpg)
+En el Happy Path se modeló el flujo ideal que sigue este tipo de usuario desde el menú Home hasta la consulta del estado de los componentes de uno de sus clientes. El recorrido inicia en el menú Home, donde el médico o farmacéutico encuentra accesos a los menús Profile, Medicaments, Temperature Management y Configuration. Al ingresar a Temperature Management, se muestra un listado de medicinas con información básica, como temperatura, fecha de expiración y opciones de acciones. Finalmente, al seleccionar una de estas opciones, el usuario puede visualizar las distintas acciones disponibles.
+
+**Happy Path:**
+![Web Aplication User Flow Diagram Happy Path](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551383472_1743258933060137_5660664688873956591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Rozyc2V7DWgQ7kNvwGJ2Qrm&_nc_oc=AdmFqc77eQohdhV8wktSE5_0cR0lBgQoCFNSz0kAf_tjxgZ5QEYyRkWSRtojZQFWVk4c385b0Tp19RjFqo5o33T0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QF8Ou2qtVOtD0AOoA5c2_trcr8kuaBtnWxGAWkQ6ASKMg&oe=68F70F19)
+
+**Unhappy Path:**
+![Web Aplication User Flow Diagram Unhappy Path](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551436278_1325295242299192_3845563985249782317_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=3Mb2Z54h8A0Q7kNvwGcy-ky&_nc_oc=AdktF0Gyb0hjKsV1xEO30uX5NYPXPVdOxhGiMxtB98QLapOU0b1v_-u-PEnYTevjdhJ98kps38qybB0bb4xtIheg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGuKy7KeQ_1KCEbd4PH3sYbcHrGTn3SPf0rmZFplbkjFQ&oe=68F7268A)
+
+
+
 ## 4.5. Web Applications Prototyping.
 [URL del Prototipo (Hecho en figma)](https://www.example.com)
 ## 4.6. Domain-Driven Software Architecture.
