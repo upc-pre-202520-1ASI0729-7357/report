@@ -701,7 +701,38 @@ En el Happy Path se modeló el flujo ideal que sigue este tipo de usuario desde 
 
 
 ## 4.5. Web Applications Prototyping.
-[URL del Prototipo (Hecho en figma)](https://www.example.com)
+En esta etapa se presentan los prototipos de la aplicación web ThermaTrace, diseñados para navegadores de escritorio. El enfoque está en simular los flujos principales de cada segmento objetivo, garantizando una experiencia clara y funcional en pantallas grandes.
+
+**Segmento Personal de Salud**
+
+Los profesionales sanitarios utilizan la plataforma para supervisar medicamentos sensibles, controlar condiciones de almacenamiento y configurar alertas personalizadas.
+
+- Desde el menú Home, acceden a un Dashboard con información general del estado de los medicamentos y gráficos sobre próximas fechas de expiración.
+
+- La barra lateral incluye cinco menús principales: Home, Profile, Medicaments, Temperature Management y Configuration.
+
+- En Medicaments, se despliega la lista de fármacos registrados con datos como nombre, fecha de vencimiento y estado (vigente, próximo a expirar o expirado). El usuario puede agregar nuevos medicamentos, editarlos o consultar detalles adicionales.
+
+- En Temperature Management, se muestra el estado de los medicamentos con respecto a la temperatura requerida. Si algún dispositivo presenta una anomalía, el sistema ofrece opciones de gestión o muestra un aviso de error en caso de restricciones.
+
+**Segmento Farmacéuticas**
+
+Las farmacéuticas requieren garantizar la conservación adecuada de los medicamentos en toda su cadena de almacenamiento, así como prevenir pérdidas económicas por fallas en la cadena de frío.
+
+- El recorrido inicia en Home, donde se muestra un Dashboard con métricas globales de stock, reportes de caducidad y notificaciones sobre incidencias críticas.
+
+- En este caso, el menú lateral incluye cuatro opciones: Home, Profile, Temperature Management y Configuration.
+
+- En Temperature Management, la farmacéutica puede visualizar la lista completa de medicamentos con información clave como temperatura actual, estado de validez y fecha de expiración. Además, el sistema permite generar alertas de riesgo, configurar parámetros de almacenamiento y recibir advertencias en caso de fallos en los dispositivos de monitoreo.
+
+**Conclusión**
+
+Con estos flujos, los prototipos muestran cómo cada tipo de usuario —personal de salud y farmacéuticas— interactúa con ThermaTrace, asegurando una navegación coherente y adaptada a sus necesidades específicas.
+
+A continuación se presenta el video con los prototipos navegables: https://goo.su/SS12G8
+Link de desarrollo de Figma: https://goo.su/GgGEsmJ
+
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
 1. System Context Diagram: Diagrama que muestra la relacion del aplicativo con los usuarios
