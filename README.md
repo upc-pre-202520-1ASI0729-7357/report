@@ -36,31 +36,31 @@ Para asegurar una ejecución eficiente del Sprint 1, se definieron líderes y co
 | Fabrizio Panta | F4brizio24 | C | C | C | L | C | 
 | Frezzia Espinoza |  | C | C | C | C | L | 
 
-### 5.2.1.3. Sprint Backlog 1 
+### 5.2.1.3. Sprint Backlog 1
+El Sprint Backlog 1 consolida todas las funcionalidades principales de ThermaTrace, enfocándose en completar toda la experiencia de usuario inicial: About, Home, Pricing, Team, Features.
 
-El Sprint Backlog 1 consolida todas las funcionalidades principales de ThermaTrace, enfocándose en completar toda la experiencia de usuario inicial: About, Home, Precing, Team, Features.
+| Historia de Usuario | Tarea ID | Descripción de la Tarea | Duración Estimada | Responsable | Estado |
+|---------------------|----------|--------------------------|-------------------|-------------|--------|
+| HU1 | T01 | Implementar sección **Home** con encabezado, logo y menú de navegación responsive. | 6h | Oscar | Done |
+| HU2 | T02 | Desarrollar sección **About** con misión, visión, historia de la startup y valores del equipo. | 4h | Axel | Done |
+| HU3 | T03 | Construir sección **Pricing** con tarjetas de planes (Basic, Pro, Enterprise), estilos y botón de registro. | 5h | Jean | Done |
+| HU4 | T04 | Diseñar sección **Team** con fotos, nombres, roles y enlaces de contacto de los integrantes. | 5h | Fabrizzio | Done |
+| HU5 | T05 | Crear sección **Features** listando los servicios principales con íconos, descripciones y opción “ver más”. | 4h | Frezzia | Done |
+| HU6 | T06 | Implementar sección **FAQ** con acordeón desplegable para resolver dudas frecuentes. | 3h | Oscar | Done |
+| HU6 | T07 | Añadir funcionalidad de **Internacionalización (i18n)** en la landing page (ES/EN), guardando preferencia de idioma. | 3h | Oscar | Done |
 
-| Historia de Usuario | Tarea ID | Descripción de la Tarea                                           | Duración Estimada | Responsable | Estado |
-| ------------------- | -------- | ----------------------------------------------------------------- | ----------------- | ----------- | ------ |
-| HU1                 | T01      |           | 6h                | Oscar       | Done   |
-| HU2                 | T02      |              | 4h                | Axel    | Done   |
-| HU3                 | T03      |                             | 5h                | Jean      | Done   |
-| HU4                 | T04      |              | 5h                | Frabrizzio       | Done   |
-| HU5                 | T05      |                 | 4h                | Frezzia       | Done   |
-| HU6                 | T06      |           | 3h                | Oscar      | Done   |
-| HU6                 | T07      |          | 3h                | Oscar      | Done   |
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
 
 
 | Repository   | Branch               | Commit ID | Commit Message                  | Commit Message Body | Committed on Date     |
 |--------------|----------------------|-----------|----------------------------------|----------------------|------------------------|
-| ThermaTrace  | feature/             | 298c45a   | feat:         | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/             | e856efe   | feat:                | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/             | d08a274   | feat:             | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/             | b8fe11d   | feat:            | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/             | afe5753   | feat:                | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/             | b1a74fa   | Feature:  | -                 | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/index             | 298c45a   | feat: add index.html         | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/components             | e856efe   | feat: add components.css                | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/layout             | d08a274   | feat: add layout.css             | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/base             | b8fe11d   | feat: add base.css            | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/LenguageSwitcher             | afe5753   | feat: add LenguageSwitcher.js                | -                    | 21 de septiembre de 2025    |
+|
 
 ## Detalles
 Cada feature fue desarrollado en una branch diferente siguiendo buenas prácticas de control de versiones y trabajo en equipo. Se utilizaron mensajes de commit descriptivos y cada cambio fue verificado.
