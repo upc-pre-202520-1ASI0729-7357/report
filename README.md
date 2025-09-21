@@ -754,7 +754,9 @@ se incluyen servicios externos (si hay pocos bounded context se incluyen ahi)
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
-Diagrama de base de datos (la relacion entre clases PK FK el Normalizar tmbn, isiyisi 🕸)
+
+<img width="1751" height="614" alt="image" src="https://github.com/user-attachments/assets/5e3cc943-5220-4e02-85a2-7e377b57bfa1" />
+
 
 
 
