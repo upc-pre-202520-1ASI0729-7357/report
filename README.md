@@ -47,7 +47,38 @@ Utilizamos JavaScript para agregar interactividad y funcionalidades dinámicas a
 Utilizamos WebStorm como entorno de desarrollo integrado (IDE) para escribir, depurar y probar el código del proyecto.
 
 ### 5.1.2. Source Code Management.
+El proyecto ThermaTrace, una solución digital orientada a hospitales y farmacias, se desarrolla bajo un enfoque profesional que prioriza la calidad, la seguridad de los datos y la escalabilidad del sistema. La arquitectura se fundamenta en principios de diseño modular y la metodología de Clean Architecture, lo que garantiza una separación clara de responsabilidades, la reutilización de componentes y la facilidad de mantener y evolucionar la plataforma en el tiempo. Este enfoque permite integrar nuevos módulos relacionados con el control de temperatura, gestión de inventario y trazabilidad de medicamentos sin comprometer la estabilidad general del sistema.
+
+Para el desarrollo frontend, el equipo utiliza un entorno moderno optimizado para la creación de interfaces intuitivas y accesibles, que ofrecen a los médicos y farmaceuticos una experiencia ágil y clara. La interfaz está diseñada para priorizar la visualización de datos críticos como reportes de temperatura, estado del inventario y alertas de seguridad, aplicando principios de usabilidad y accesibilidad que garantizan su correcto uso en contextos de alta exigencia como hospitales y cadenas de farmacias. Además, la organización modular de los componentes permite mantener la coherencia visual y facilitar futuras ampliaciones en la experiencia de usuario.
+
+En cuanto a la estructura técnica, se adoptan buenas prácticas de colaboración en equipo, control de versiones y automatización de flujos de trabajo, lo cual asegura uniformidad y calidad en el código. Se incorporan metodologías ágiles para iterar en el diseño y validación de prototipos con usuarios reales, verificando que los flujos de interacción respondan a las necesidades específicas de las instituciones de salud. Con ello, ThermaTrace no solo se consolida como una herramienta tecnológica robusta, sino también como una plataforma confiable que fortalece la seguridad en la gestión de medicamentos y optimiza los procesos internos en hospitales y farmacias.
+
+Finalmente, se mantiene un repositorio denominado upc-pre-202520-1ASI0729-7357 (https://github.com/upc-pre-202520-1ASI0729-7357), donde se concentran versiones exploratorias y entornos de prueba orientados a hospitales y farmacias. Este repositorio funciona como espacio experimental para validar nuevas funcionalidades relacionadas con la gestión de temperatura, trazabilidad de medicamentos y optimización de inventarios, antes de su incorporación al sistema central de producción. Además, permite realizar pruebas funcionales y demostraciones internas con usuarios clave, asegurando que las mejoras propuestas respondan a las necesidades reales del sector salud.
+
+![Repositorios de ThermaTrace](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551311708_1323660692748451_3932849482348297948_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=dJu0MelnnfEQ7kNvwGjEPuJ&_nc_oc=AdkwQjuJrYOZrD6Cdh0tSjsHqFvTlv_qG7yvHDI127Xs5b21ei5PSNgqIxWtj3nLOdTAG9NQQsGrlwbl8zTocC29&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHdjnqPex30s0KJaw66HYPHW3BnFRk4unhWH4G6i13FPw&oe=68F75E84)
+<br>
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+El mantenimiento de un estilo de código estandarizado y una arquitectura bien definida es fundamental para garantizar la escalabilidad, mantenibilidad y colaboración efectiva en el desarrollo de ThermaTrace. En este proyecto se han adoptado convenciones de codificación y lineamientos de arquitectura que aseguran calidad técnica, legibilidad y consistencia en todos los módulos, alineándose con prácticas recomendadas de la industria y metodologías modernas de ingeniería de software.
+
+**Arquitectura y organización del sistema**
+
+Desde el punto de vista arquitectónico, se emplea el modelo C4 de Simon Brown, que permite describir el sistema en distintos niveles: contexto, contenedor, componente y código. Este enfoque facilita la comunicación entre perfiles técnicos y no técnicos, permitiendo que tanto desarrolladores como stakeholders de hospitales y farmacias comprendan la lógica del sistema. La organización sigue principios de Domain-Driven Design (DDD) y Clean Architecture, lo que asegura una clara separación entre presentación, aplicación, dominio e infraestructura. Gracias a esta estructura, se logra un bajo acoplamiento, pruebas más efectivas y flexibilidad para incorporar nuevas funcionalidades como módulos de trazabilidad, control de temperatura en tiempo real o gestión de inventarios críticos.
+
+**Frontend: Angular**
+
+En el frontend, se utiliza Angular como framework principal, con una arquitectura basada en módulos y componentes reutilizables. La estructura generada por el Angular CLI facilita la estandarización entre miembros del equipo. La nomenclatura sigue convenciones claras: clases en PascalCase y archivos en kebab-case. Además, se aplican prácticas recomendadas como:
+
+- Detección de cambios con OnPush.
+- Separación entre lógica y presentación.
+- Inyección de dependencias vía constructor.
+- Internacionalización con @angular/localize, gestionando archivos JSON de idioma.
+
+**Alineación con guías de estilo estándar**
+
+Aunque el detalle completo de las guías externas (como la Google HTML/CSS Style Guide o la Angular Style Guide) no se incluye de manera exhaustiva en el reporte, la organización y convenciones observadas en el código de ThermaTrace demuestran una alineación con estas prácticas. El uso del inglés en nombres de variables, funciones y componentes asegura coherencia internacional, mientras que la aplicación de linting automatizado refuerza la mantenibilidad y la calidad del sistema.
+
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ## 5.2.1. Sprint 1
