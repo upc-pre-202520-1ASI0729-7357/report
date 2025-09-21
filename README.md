@@ -1436,6 +1436,7 @@ El Sprint Backlog 1 consolida todas las funcionalidades principales de ThermaTra
 | HU6 | T06 | Implementar sección **FAQ** con acordeón desplegable para resolver dudas frecuentes. | 3h | Oscar | Done |
 | HU6 | T07 | Añadir funcionalidad de **Internacionalización (i18n)** en la landing page (ES/EN), guardando preferencia de idioma. | 3h | Oscar | Done |
 
+<img width="1280" height="522" alt="image" src="https://github.com/user-attachments/assets/abbed86b-8f7a-4c47-b489-7ef0a7359a5f" />
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
 
