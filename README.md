@@ -441,8 +441,13 @@ Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseñ
 
 
 ### 4.3.2. Landing Page Mock-up.
-Mockup es todo lo relacionado al diseño de la pagina
-![Landing page mockup](image.jpg)
+[Link ded Figma]<https://shorturl.at/Ugeev>
+
+#### 1. Home
+![Landing page Home Wireframe](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552094212_1082920210706136_1194857642523743090_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9a0P015tZ4oQ7kNvwEe57DU&_nc_oc=AdnE9Qx2o5nsgwHOCXPo7bOqX_oWWTkF7sRZZjGdvCNlMYIPsHfPjaNpQeaQBCgicHoDZbhum6UEwsJgLKctp80G&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QEdn0i5x3FoMQOvUg0jYdnsKtqgQsNSBJHJbDhiYfGBQg&oe=68F6D4BA)
+<br>
+
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 lo funcional de cada aspecto del wireframe 
