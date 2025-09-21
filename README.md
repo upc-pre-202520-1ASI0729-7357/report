@@ -80,6 +80,14 @@ En el frontend, se utiliza Angular como framework principal, con una arquitectur
 Aunque el detalle completo de las guías externas (como la Google HTML/CSS Style Guide o la Angular Style Guide) no se incluye de manera exhaustiva en el reporte, la organización y convenciones observadas en el código de ThermaTrace demuestran una alineación con estas prácticas. El uso del inglés en nombres de variables, funciones y componentes asegura coherencia internacional, mientras que la aplicación de linting automatizado refuerza la mantenibilidad y la calidad del sistema.
 
 ### 5.1.4. Software Deployment Configuration.
+Para gestionar el desarrollo de ThermaTrace de manera colaborativa, el equipo empleó la funcionalidad de forks en GitHub. Cada integrante creó un fork del repositorio principal alojado en la cuenta oficial, asignando un nombre identificador. Esta práctica permitió a los miembros del grupo disponer de un entorno propio donde experimentar, probar nuevas funciones o realizar ajustes sin comprometer directamente la estabilidad del código base.
+
+Una vez creado, el fork quedaba disponible en el perfil de cada colaborador como una copia independiente del repositorio original, lista para ser modificada y sincronizada según el avance del proyecto. Este flujo de trabajo garantizó la seguridad e integridad del repositorio upstream, mientras fomentaba la autonomía individual y la organización del equipo, asegurando que todas las mejoras o correcciones pasaran por un proceso de validación antes de incorporarse oficialmente al sistema central de ThermaTrace.
+
+![imagen deploy 1](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552223944_1701654900496595_1803262069206559475_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=fCsE5_KsgoEQ7kNvwG3rLII&_nc_oc=AdkTGB493FgiNCQwgtFHSbbDtqDD-3G3A38irKxA2bgLWz45Wc-a79x1LZbYpHy-yy6X1lctu_XC575-Y6ZchPoC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QESHZ8HZuobdmmHm2wGfDPxEcUZcBjzCoIaSSin0C8LPA&oe=68F78028)
+![imagen deploy 2](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551712165_1139658748260941_9019660909457222181_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9f936UuILAsQ7kNvwGkWLRJ&_nc_oc=Adl7KuWGcCZtRvliQR2jK9AWnmo_CqdFhZtnDooMd6-6m4ArdzvEVnJcBLUY1K2BvbVW0NQTjhj1_o_wtYGrFERK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QFcwaRaLPiQPuPdrY42PbauW2ERYxF-nqRfq0Cj90g5XQ&oe=68F75F26)
+![imagen deploy 3](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550981287_1424460261979165_2063420566730392179_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=brCVl0LZ7P4Q7kNvwFkbnQp&_nc_oc=AdnmbXIJnTETzsU-fgCuwDbi_RWwxixHy7udFtXOmVT1KNqHVFdwYeN_CEO7xsQSjtqiOPUZSlqZhMesgk8TWoxB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QERic9QDaBvpA0yPQ-W72p0mX5IKYIW9et7u43p9EAaiQ&oe=68F77C84)
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 ## 5.2.1. Sprint 1
 ### 5.2.1.1. Sprint Planning 1.
