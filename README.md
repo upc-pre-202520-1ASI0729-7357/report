@@ -1060,9 +1060,50 @@ Ocupación: _____
 ## 5.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
-{texto}
+
 # Conclusiones y recomendaciones.
-{texto}
+
+## Conclusiones
+
+1. **Validación del problema:**  
+   Se confirmó que la falta de monitoreo confiable en la cadena de frío es un problema crítico que impacta tanto en la seguridad de los pacientes como en la economía de hospitales y farmacias. Los procesos manuales actuales generan pérdidas, riesgos sanitarios y sobrecarga administrativa.
+
+2. **Alineamiento con Problem Statements e Hypotheses:**
+    - Los Problem Statements fueron validados en relación con pérdidas económicas y dificultades normativas.
+    - Los Hypotheses sobre adopción tecnológica se validaron parcialmente: los usuarios muestran interés, pero condicionado a facilidad de uso, accesibilidad en costos y capacitación adecuada.
+
+3. **Resultados de validaciones:**
+    - Las funciones más valoradas por los usuarios fueron **alertas inmediatas**, **monitoreo en tiempo real** y **reportes automáticos**.
+    - La integración con infraestructura existente se identificó como un requisito esencial para lograr adopción.
+    - Se cumplieron criterios de éxito vinculados a reducción de pérdidas y cumplimiento regulatorio.
+
+4. **Impacto esperado:**  
+   El proyecto **ThermaTrace** tiene potencial de posicionarse como una solución diferenciada en el sector salud, ofreciendo simplicidad, confiabilidad y escalabilidad. El desarrollo de un MVP enfocado en funcionalidades críticas es el siguiente paso lógico y validado.
+
+---
+
+## Recomendaciones
+
+1. **Desarrollar un MVP** que priorice:
+    - Monitoreo en tiempo real.
+    - Alertas inmediatas.
+    - Reportes automáticos.
+    - Panel intuitivo y multidioma.
+
+2. **Roadmap:**
+    - Corto plazo: lanzamiento de MVP y pruebas piloto.
+    - Mediano plazo: personalización, mejor UX y compatibilidad ampliada.
+    - Largo plazo: escalamiento regional y mantenimiento predictivo.
+
+3. **Capacitación y adopción:**  
+   Diseñar programas de formación para reducir resistencia al cambio.
+
+4. **Monetización:**  
+   Implementar modelo freemium: plan básico para farmacias pequeñas y plan premium hospitalario.
+
+5. **Alianzas estratégicas:**  
+   Colaborar con proveedores de equipos y distribuidores farmacéuticos para acelerar adopción y confianza del mercado.
+
 # Video About-the-Team.
 [URL del video about the team](https://www.example.com)
 
