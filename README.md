@@ -433,10 +433,13 @@ Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseñ
 
 
 ### 4.3.1. Landing Page Wireframe.
-la pagina donde te registras y ves info del web app (te manda al web app)
+[Link ded Figma]<https://shorturl.at/Ugeev>
 
-Wireframe es todo lo funcional de la pagina
-![Landing page Wireframe](image.jpg)
+#### 1. Home
+![Landing page Home Wireframe](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550907381_1162581522431402_5217389235647826514_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Wc5KTtxjw8wQ7kNvwGLnrXP&_nc_oc=AdkHd4Ba47howOwOWccvwa4LZA-n-adO-K57TSTwxGUBzhrGvnfgqINkruzyNnqKN0QzCh7WXnxOhPxwQEmob0_B&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEp3lO1BGz-5QeRW90s2T3X9WNHbZi_4sexM566DFcnPw&oe=68F6E75E)
+<br>
+
+
 ### 4.3.2. Landing Page Mock-up.
 Mockup es todo lo relacionado al diseño de la pagina
 ![Landing page mockup](image.jpg)
