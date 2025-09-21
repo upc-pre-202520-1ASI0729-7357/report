@@ -1061,14 +1061,6 @@ Ocupación: _____
 [URL del video about the product](https://www.example.com)
 # Conclusiones
 
-En el desarrollo de ThermaTrace, los segmentos objetivos (hospitales y farmacias) nos ayudaron a comprender lo que los profesionales de la salud esperan de una solución de monitoreo de cadena de frío. Esto nos permitió identificar las características clave que deben incluirse en la plataforma para responder a sus necesidades reales. Gracias a ello, se diseñó una propuesta práctica y confiable que contribuye a reducir riesgos, optimizar la gestión de medicamentos y asegurar el cumplimiento normativo.
-
-El diseño de entrevistas fue esencial para recopilar información valiosa sobre los problemas y desafíos actuales en la conservación de medicamentos. Nos permitió conocer en detalle cómo se realizan hoy los procesos de control, las limitaciones del monitoreo manual y la disposición de los usuarios a adoptar soluciones digitales. Esta información sirvió de base para validar nuestras hipótesis y ajustar los requerimientos del producto.
-
-Asimismo, el análisis de competidores y la construcción de herramientas colaborativas como el Big Picture Event Storming y el Impact Mapping hicieron posible visualizar de manera clara los procesos críticos, los puntos de dolor y las oportunidades de mejora. Esto permitió definir un backlog priorizado y alineado tanto a las necesidades de los usuarios como a los objetivos estratégicos del negocio.
-
-En conjunto, el proyecto nos permitió consolidar un modelo de solución digital que aporta valor tangible a hospitales y farmacias, ofreciendo una plataforma accesible, intuitiva y confiable que asegura la conservación de medicamentos sensibles y fortalece la seguridad del paciente.
-
 # Conclusiones y recomendaciones.
 
 ## Conclusiones
