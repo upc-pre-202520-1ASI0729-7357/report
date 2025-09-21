@@ -2,6 +2,17 @@
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
 ### 5.1.2. Source Code Management.
+El proyecto ThermaTrace, una solución digital orientada a hospitales y farmacias, se desarrolla bajo un enfoque profesional que prioriza la calidad, la seguridad de los datos y la escalabilidad del sistema. La arquitectura se fundamenta en principios de diseño modular y la metodología de Clean Architecture, lo que garantiza una separación clara de responsabilidades, la reutilización de componentes y la facilidad de mantener y evolucionar la plataforma en el tiempo. Este enfoque permite integrar nuevos módulos relacionados con el control de temperatura, gestión de inventario y trazabilidad de medicamentos sin comprometer la estabilidad general del sistema.
+
+Para el desarrollo frontend, el equipo utiliza un entorno moderno optimizado para la creación de interfaces intuitivas y accesibles, que ofrecen a los médicos y farmaceuticos una experiencia ágil y clara. La interfaz está diseñada para priorizar la visualización de datos críticos como reportes de temperatura, estado del inventario y alertas de seguridad, aplicando principios de usabilidad y accesibilidad que garantizan su correcto uso en contextos de alta exigencia como hospitales y cadenas de farmacias. Además, la organización modular de los componentes permite mantener la coherencia visual y facilitar futuras ampliaciones en la experiencia de usuario.
+
+En cuanto a la estructura técnica, se adoptan buenas prácticas de colaboración en equipo, control de versiones y automatización de flujos de trabajo, lo cual asegura uniformidad y calidad en el código. Se incorporan metodologías ágiles para iterar en el diseño y validación de prototipos con usuarios reales, verificando que los flujos de interacción respondan a las necesidades específicas de las instituciones de salud. Con ello, ThermaTrace no solo se consolida como una herramienta tecnológica robusta, sino también como una plataforma confiable que fortalece la seguridad en la gestión de medicamentos y optimiza los procesos internos en hospitales y farmacias.
+
+Finalmente, se mantiene un repositorio denominado upc-pre-202520-1ASI0729-7357 (https://github.com/upc-pre-202520-1ASI0729-7357), donde se concentran versiones exploratorias y entornos de prueba orientados a hospitales y farmacias. Este repositorio funciona como espacio experimental para validar nuevas funcionalidades relacionadas con la gestión de temperatura, trazabilidad de medicamentos y optimización de inventarios, antes de su incorporación al sistema central de producción. Además, permite realizar pruebas funcionales y demostraciones internas con usuarios clave, asegurando que las mejoras propuestas respondan a las necesidades reales del sector salud.
+
+![Repositorios de ThermaTrace](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551311708_1323660692748451_3932849482348297948_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=dJu0MelnnfEQ7kNvwGjEPuJ&_nc_oc=AdkwQjuJrYOZrD6Cdh0tSjsHqFvTlv_qG7yvHDI127Xs5b21ei5PSNgqIxWtj3nLOdTAG9NQQsGrlwbl8zTocC29&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHdjnqPex30s0KJaw66HYPHW3BnFRk4unhWH4G6i13FPw&oe=68F75E84)
+<br>
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
