@@ -397,35 +397,98 @@ Descripcion de los elementos que se utilizaran en el web app
 **Misc** (Cosas como nav var o slideshows que pensemos usar)
 ![Miscellaneos preview web](image.jpg)
 ## 4.2. Information Architecture.
+UX Heuristics & Principles Evaluation<br>
+Usability – Inclusive Design – Information Architecture<br>
+CARRERA: Ingeniería de Software<br>
+CURSO: Desarrollo de Aplicaciones Open Source<br>
+NRC: 7357<br>
+PROFESOR: Rafael Oswaldo Castro Veramendi<br>
+SITE o APP A EVALUAR: ThermaTrace
+
+TAREAS A EVALUAR:<br>
+El alcance de esta evaluación contempla el análisis de la usabilidad en la ejecución de las siguientes tareas:
+
+Segmento Objetivo #1: Hospitales
+- **Monitorear equipos de refrigeración:** Claridad y facilidad de uso del panel en tiempo real.
+- **Configurar alertas automáticas:** Simplicidad en la personalización de umbrales y notificaciones.
+- **Generar reportes para auditorías:** Accesibilidad y precisión de los reportes automáticos descargables.
+- **Supervisar múltiples áreas:** Capacidad de visualizar y diferenciar varios equipos o unidades de almacenamiento en un solo panel.
+
+Segmento Objetivo #2: Farmacias
+- **Revisar estado de la temperatura:** Rapidez y claridad en la visualización del estado actual de los medicamentos.
+- **Recibir alertas en tiempo real:** Facilidad para comprender y responder a notificaciones críticas.
+- **Registrar nuevos equipos:** Sencillez en la incorporación de un nuevo refrigerador o congelador al sistema.
+- **Acceder a historial básico:** Disponibilidad y claridad en la consulta de registros recientes de temperatura.
+
+
 ### 4.2.1. Organization Systems.
-Descripcion corta respecto a los sistemas de organizacion que usaremos  (Escoger)
-"Hierarchical. This structures advices to present the content in a way to distinguish the level of importance by making use of physical differences, such as size, colour, contrast, alignment etc.
+En el diseño de interfaces digitales orientadas a la experiencia del usuario, el Organization System constituye un elemento central de la arquitectura de información, pues define cómo se estructuran, agrupan y presentan los contenidos dentro de una plataforma. Su objetivo principal es garantizar que la navegación sea intuitiva, reduciendo la carga cognitiva y permitiendo que los usuarios accedan de manera clara y rápida a los elementos más relevantes de la propuesta de valor.
 
-Sequential. Guide users to follow a specific path towards their goal and provide content step-by-step based on the current step. 
+En el caso de ThermaTrace, la landing page implementa un sistema de organización jerárquico-temático, en el que la información se distribuye en bloques progresivos que responden a las prioridades de comunicación. En la parte superior, se destacan las llamadas a la acción principales (“Request a Demo” y “Learn More”), acompañadas de un enunciado breve y contundente que sintetiza la propuesta de valor: garantizar la conservación segura de medicamentos mediante monitoreo en tiempo real.
 
-Matrix. You can always give the users the option to choose the type of navigation they prefer, i.e. Alphabetical, Chronological, by topic."
+Posteriormente, se despliega una sección que refuerza la credibilidad y el propósito del startup, explicando los beneficios clave para hospitales, farmacias y centros de distribución. A continuación, se organiza un bloque dedicado a las funcionalidades principales (alertas en tiempo real, historial de temperatura, reportes de cumplimiento y acceso web), presentadas en tarjetas visuales que facilitan la exploración rápida.
+
+El sistema de organización se complementa con una sección de planes de precios, estructurada de forma comparativa para que diferentes segmentos (farmacias pequeñas, clínicas, hospitales o redes de distribución) identifiquen fácilmente la opción que mejor se ajusta a sus necesidades. Finalmente, el footer agrupa accesos secundarios (información legal, enlaces a redes sociales y contacto), reforzando la estructura jerárquica y asegurando que el usuario pueda orientarse en cualquier momento de la navegación.
+
+
 ### 4.2.2. Labeling Systems.
-The labeling system aims at uniting the data effectively and represent them in simple way and avoid confusing great amount of information. A widely adopted way to achieve this is by creating the labels which represent loads of data in few words. 
+En el marco del diseño de la arquitectura de información, los Labeling Systems cumplen la función de comunicar de forma clara, coherente y predecible los elementos de interacción presentes en la interfaz. En ThermaTrace, cada etiqueta textual empleada en botones, menús, enlaces y secciones tiene como propósito guiar al usuario de manera intuitiva a lo largo de la landing page, facilitando la comprensión inmediata de la propuesta de valor y apoyando la toma de decisiones. Esta sección analiza el sistema de etiquetado implementado en la Landing Page, evaluando la pertinencia del lenguaje empleado según principios de UX y usabilidad.
 
-Como decir "home, about us, etc" basicamente lo que iria en un nav var y asi
+La siguiente tabla resume las etiquetas implementadas, su ubicación y su función en la experiencia de usuario:
+
+| Etiqueta | Ubicación/Componente | Función |
+|----------|----------------------|---------|
+| Home | Header | Retorno directo a la página principal. Breve y estándar en interfaces web. |
+| Features | Header | Acceso a las funcionalidades clave (monitoreo, alertas, reportes). Lenguaje claro y técnico sin ser complejo. |
+| Pricing | Header | Acceso a los planes de suscripción. Etiqueta corta, reconocida y orientada a decisión. |
+| About | Header | Describe la misión y visión de ThermaTrace. Genera confianza y contexto. |
+| Request a Demo | Hero Section (CTA principal) | Llamada a la acción central. Imperativo que motiva la interacción inmediata. |
+| Learn More | Hero Section (CTA principal) | Enlace hacia una explicación más detallada de la solución. Conciso y neutro. |
+| Benefits | Sección informativa | Lista de ventajas competitivas para hospitales y farmacias. Claro y directo. |
+| Choose your Plan | Sección de precios (CTA) | Motiva la selección de un plan. Lenguaje imperativo y orientado a la acción. |
+| Follow Us | Footer / Redes Sociales | Agrupa enlaces a redes sociales. Convencional y de fácil identificación. |
+| ThermaTrace | Marca | Nombre distintivo en mayúsculas. Funciona como ancla visual y de identidad. |
+
+El sistema de etiquetado en la landing page de ThermaTrace demuestra una aplicación consistente de buenas prácticas en arquitectura de información. Las etiquetas seleccionadas utilizan un lenguaje simple, familiar y orientado a la acción, lo que permite al usuario comprender rápidamente la propuesta de valor y navegar sin fricciones. Además, se observa coherencia semántica entre el header, el cuerpo de la página y el footer, reforzada con frases imperativas y sustantivos comunes que favorecen la escaneabilidad. Este Labeling System fortalece la accesibilidad cognitiva del sitio y garantiza una experiencia clara, confiable y profesional para los distintos segmentos objetivos.
+
+
 ### 4.2.3. SEO Tags and Meta Tags
+Los meta tags y etiquetas SEO representan un componente esencial en la estructura de cualquier página web, ya que permiten definir cómo será interpretado, indexado y presentado el contenido por parte de los motores de búsqueda, así como por las redes sociales al momento de compartir enlaces. Aunque no son visibles directamente para los usuarios, cumplen un papel determinante en el posicionamiento del sitio, en la claridad con la que comunica su propuesta y en la manera en que se muestra en diferentes plataformas digitales.
 
-**Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
-* Titulo: ```<title> ___ </title> ```
-* Descripcion: ```<meta name = "description" content = "texto descipcion"/> ```
-* Palabras Clave: ```<meta name = "keyword" content = "keyword1, 2 3"/> ```
+En el caso de la landing page de ThermaTrace, se han implementado meta etiquetas específicas que contribuyen a mejorar tanto la visibilidad como la coherencia de la marca en entornos digitales. El meta title resume en pocas palabras la esencia del producto, destacando la solución de monitoreo inteligente de temperatura aplicada al sector farmacéutico. A su vez, la meta description expone de manera concisa los beneficios clave de la plataforma, como la seguridad de los medicamentos, el cumplimiento regulatorio y el seguimiento en tiempo real, incentivando al usuario a visitar la página.
+
+#### 1. Index
+La página principal de ThermaTrace integra etiquetas esenciales que aseguran su correcta visualización y compatibilidad en distintos dispositivos. La declaración ```<meta charset="UTF-8" />``` define la codificación de caracteres para evitar errores en la interpretación del contenido, mientras que ```<meta name="viewport" content="width=device-width, initial-scale=1.0"/>``` garantiza un diseño responsivo adaptable a móviles y computadoras. Además, la etiqueta ```<title>ThermaTrace</title>``` comunica la identidad del sitio en navegadores y motores de búsqueda, y el enlace a la hoja de estilos externos (styles.css) permite mantener un diseño coherente y escalable.
+![Imagen de Meta Tags Index](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551037625_1403827341084256_2440517561009606020_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=NLOv8tVg9ZcQ7kNvwHSCGOa&_nc_oc=AdlTRClVRxaLav4S-jXXcEUvscNi-rFteRBq2uAAEFdovD4SrmPXMAEN0cRDgmY9L7Z0i4uJAk4ZyqERIhYoFg3L&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFhiHegV_4ykYiMV5EJnGddutsp8fVi_5osSvQp_KQUew&oe=68F6D663)
+
 
 ### 4.2.4. Searching Systems.
-**Que se busca?:** Que buscara el usuario  
-**Que resultados se mostraran?:** Que se mostrara  
-**Interface de busqueda:** Descripcion de como ayuda a encontrar lo deseado 
-![Search interface preview web](image.jpg)
+Al ingresar a la landing page de ThermaTrace, el usuario se encuentra con una interfaz clara y directa, diseñada para comunicar de inmediato la propuesta de valor de la plataforma. En la parte superior, la navegación está organizada con botones visibles como “Request a Demo” y “Learn More”, que funcionan como accesos principales y guían al visitante hacia la acción deseada sin generar confusión.
+
+La estructura de la página se apoya en un recorrido progresivo: primero se presenta un mensaje inicial que resume el propósito de la plataforma, el monitoreo inteligente de temperatura para garantizar la conservación de medicamentos, seguido de bloques informativos que explican sus beneficios y funcionalidades. Posteriormente, el usuario puede desplazarse hacia secciones complementarias como planes de precios, FAQ o contacto, reforzadas tanto en el header como en el footer para garantizar accesibilidad en cualquier punto de la navegación.
+
 
 ### 4.2.5. Navigation Systems.
-Basicamente aqui definimos como funciona la navegacion del web app
-**Hierarchical Navigation System:** Main page a destination pages.
-**Global Navigation Systems** (Complemento del Hierachical) Movimiento vertical (te mueves por la pagina)con nav(debe poder regresar a la principal)
-**Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
+La navegación es un elemento central en el diseño de interfaces web, ya que define el recorrido del usuario y asegura que pueda acceder a la información clave de forma clara y eficiente. En la landing page de ThermaTrace, el sistema de navegación se ha diseñado bajo principios de jerarquía visual, simplicidad funcional y adaptabilidad, con el fin de comunicar la propuesta de valor desde el primer contacto y guiar al visitante hacia acciones concretas como solicitar una demostración o conocer más sobre la plataforma.
+
+ThermaTrace implementa un sistema de navegación global, horizontal y persistente, ubicado en la parte superior del sitio. Este sistema está compuesto actualmente por los siguientes elementos esenciales:
+- **Home:** vinculado al logotipo de la marca, permite retornar a la página principal desde cualquier sección.
+- **About:** ofrece información institucional sobre la plataforma, su propósito y visión.
+- **Feautures:** describe las funcionalidades más importantes, como las alertas en tiempo real, los reportes automáticos y la trazabilidad de la cadena de frío.
+- **Pricing:** presenta los distintos planes y modelos de precios adaptados a farmacias, clínicas y hospitales.
+- **Team:** muestra al equipo detrás del proyecto, generando confianza y cercanía con los usuarios.
+
+El diseño del header se presenta con un fondo claro y tipografía de alto contraste, lo que garantiza buena legibilidad y consistencia visual. El logotipo, ubicado a la izquierda, funciona como ancla semántica hacia la página principal, mientras que los enlaces centrales organizan la navegación informativa. A la derecha,los botones de cambio de idioma que se resaltan visualmente mediante color y peso tipográfico, reforzando su carácter de acción prioritaria dentro del flujo de interacción.
+
+El sistema de navegación se ha desarrollado bajo un enfoque mobile-first, adaptándose automáticamente a distintas resoluciones de pantalla. En móviles, el menú horizontal se transforma en un menú tipo hamburguesa, que organiza los cinco elementos en un panel desplegable, manteniendo la coherencia y accesibilidad del recorrido.
+
+Finalmente, la navegación de ThermaTrace cumple con principios de usabilidad clave:
+- **Claridad:** los enlaces están claramente etiquetados con términos familiares para los usuarios.
+- **Consistencia:** el menú permanece idéntico en toda la landing page.
+- **Jerarquía:** el logotipo y el acceso a las secciones principales se destacan de forma estratégica.
+- **Retroalimentación visual:** los enlaces presentan cambios de estado (hover/focus), reforzando la interacción.
+
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 la pagina donde te registras y ves info del web app (te manda al web app)
