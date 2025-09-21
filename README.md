@@ -453,11 +453,14 @@ El sistema de etiquetado en la landing page de ThermaTrace demuestra una aplicac
 
 
 ### 4.2.3. SEO Tags and Meta Tags
+Los meta tags y etiquetas SEO representan un componente esencial en la estructura de cualquier página web, ya que permiten definir cómo será interpretado, indexado y presentado el contenido por parte de los motores de búsqueda, así como por las redes sociales al momento de compartir enlaces. Aunque no son visibles directamente para los usuarios, cumplen un papel determinante en el posicionamiento del sitio, en la claridad con la que comunica su propuesta y en la manera en que se muestra en diferentes plataformas digitales.
 
-**Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
-* Titulo: ```<title> ___ </title> ```
-* Descripcion: ```<meta name = "description" content = "texto descipcion"/> ```
-* Palabras Clave: ```<meta name = "keyword" content = "keyword1, 2 3"/> ```
+En el caso de la landing page de ThermaTrace, se han implementado meta etiquetas específicas que contribuyen a mejorar tanto la visibilidad como la coherencia de la marca en entornos digitales. El meta title resume en pocas palabras la esencia del producto, destacando la solución de monitoreo inteligente de temperatura aplicada al sector farmacéutico. A su vez, la meta description expone de manera concisa los beneficios clave de la plataforma, como la seguridad de los medicamentos, el cumplimiento regulatorio y el seguimiento en tiempo real, incentivando al usuario a visitar la página.
+
+#### 1. Index
+La página principal de ThermaTrace integra etiquetas esenciales que aseguran su correcta visualización y compatibilidad en distintos dispositivos. La declaración ```<meta charset="UTF-8" />``` define la codificación de caracteres para evitar errores en la interpretación del contenido, mientras que ```<meta name="viewport" content="width=device-width, initial-scale=1.0"/>``` garantiza un diseño responsivo adaptable a móviles y computadoras. Además, la etiqueta ```<title>ThermaTrace</title>``` comunica la identidad del sitio en navegadores y motores de búsqueda, y el enlace a la hoja de estilos externos (styles.css) permite mantener un diseño coherente y escalable.
+![Imagen de Meta Tags Index](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551037625_1403827341084256_2440517561009606020_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=NLOv8tVg9ZcQ7kNvwHSCGOa&_nc_oc=AdlTRClVRxaLav4S-jXXcEUvscNi-rFteRBq2uAAEFdovD4SrmPXMAEN0cRDgmY9L7Z0i4uJAk4ZyqERIhYoFg3L&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFhiHegV_4ykYiMV5EJnGddutsp8fVi_5osSvQp_KQUew&oe=68F6D663)
+
 
 ### 4.2.4. Searching Systems.
 **Que se busca?:** Que buscara el usuario  
