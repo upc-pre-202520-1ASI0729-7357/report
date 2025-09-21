@@ -49,8 +49,77 @@ El Sprint Backlog 1 consolida todas las funcionalidades principales de ThermaTra
 | HU5                 | T05      |                 | 4h                | Frezzia       | Done   |
 | HU6                 | T06      |           | 3h                | Oscar      | Done   |
 | HU6                 | T07      |          | 3h                | Oscar      | Done   |
+
 ### 5.2.1.4. Development Evidence for Sprint Review.
+
+
+| Repository   | Branch               | Commit ID | Commit Message                  | Commit Message Body | Committed on Date     |
+|--------------|----------------------|-----------|----------------------------------|----------------------|------------------------|
+| ThermaTrace  | feature/             | 298c45a   | feat:         | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/             | e856efe   | feat:                | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/             | d08a274   | feat:             | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/             | b8fe11d   | feat:            | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/             | afe5753   | feat:                | -                    | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/             | b1a74fa   | Feature:  | -                 | 21 de septiembre de 2025    |
+
+## Detalles
+Cada feature fue desarrollado en una branch diferente siguiendo buenas prácticas de control de versiones y trabajo en equipo. Se utilizaron mensajes de commit descriptivos y cada cambio fue verificado.
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 1, el equipo ejecutó las tareas de desarrollo de la Landing Page de MascotaMatch siguiendo el plan establecido. Se completó el objetivo de crear, implementar y desplegar la página con una estructura HTML básica, diseño UX/UI optimizado y estilos responsivos, todo dentro del plazo asignado.
+
+<img width="1899" height="942" alt="image" src="https://github.com/user-attachments/assets/ea59668f-a472-414b-b16e-253a875d035b" />
+
+<img width="1905" height="944" alt="image" src="https://github.com/user-attachments/assets/45f4e51f-0027-4ce4-8c04-173e7b5f3fb9" />
+
+<img width="1896" height="946" alt="image" src="https://github.com/user-attachments/assets/0cb431a1-293a-48bf-9b91-7a5fe8e5899c" />
+
+<img width="1899" height="939" alt="image" src="https://github.com/user-attachments/assets/94af8220-cb60-433f-af4f-ec5a98ca6ef9" />
+
+<img width="1894" height="943" alt="image" src="https://github.com/user-attachments/assets/5ba7db68-cccb-4e6f-9a8c-8d60f2f2aa9a" />
+
+<img width="1896" height="935" alt="image" src="https://github.com/user-attachments/assets/7a38cdb1-ba98-4f6c-ac4a-132197f48900" />
+
+<img width="1900" height="978" alt="image" src="https://github.com/user-attachments/assets/853de6a2-e10b-41c0-89e0-607652ed05a5" />
+
+-Enlace al Landing Page desplegado:
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 1, el equipo de ThermaTrace se enfocó en el desarrollo de la Landing Page del proyecto, por lo que no se implementaron ni consumieron servicios (APIs) en esta etapa. La documentación de servicios se realizará en futuros sprints, conforme se avance en el desarrollo del backend y las funcionalidades dinámicas de la aplicación.
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En el Sprint 1 se realizó el lanzamiento de la primera versión del Landing Page, la cual fue publicada mediante GitHub Pages. A continuación, se muestran las evidencias correspondientes al despliegue.
+
+Cómo acceder a la landing page:
+
+<img width="1899" height="942" alt="image" src="https://github.com/user-attachments/assets/ea59668f-a472-414b-b16e-253a875d035b" />
+
+<img width="1905" height="944" alt="image" src="https://github.com/user-attachments/assets/45f4e51f-0027-4ce4-8c04-173e7b5f3fb9" />
+
+<img width="1896" height="946" alt="image" src="https://github.com/user-attachments/assets/0cb431a1-293a-48bf-9b91-7a5fe8e5899c" />
+
+<img width="1899" height="939" alt="image" src="https://github.com/user-attachments/assets/94af8220-cb60-433f-af4f-ec5a98ca6ef9" />
+
+<img width="1894" height="943" alt="image" src="https://github.com/user-attachments/assets/5ba7db68-cccb-4e6f-9a8c-8d60f2f2aa9a" />
+
+<img width="1896" height="935" alt="image" src="https://github.com/user-attachments/assets/7a38cdb1-ba98-4f6c-ac4a-132197f48900" />
+
+<img width="1900" height="978" alt="image" src="https://github.com/user-attachments/assets/853de6a2-e10b-41c0-89e0-607652ed05a5" />
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+En el Sprint 1, el equipo se centró en el desarrollo, implementación y despliegue de la Landing Page de MascotaMatch. El trabajo se distribuyó de manera colaborativa, con cada miembro asumiendo responsabilidades en áreas clave como el desarrollo de la estructura HTML, el diseño de la interfaz y la experiencia de usuario, y la creación de estilos responsivos. Además, algunos miembros se encargaron del control de versiones y del despliegue en GitHub Pages.
+
+La comunicación fue constante a través de plataforma usada: Discord, WhatsApp, Slack; y utilizamos herramientas como Trello, GitHub Projects para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
+
+| Repository     | Branch     | Commit ID      | Commit Message                     | Commit Message Body                                        | Committed on Date     |
+|----------------|------------|----------------|-------------------------------------|-------------------------------------------------------------|------------------------|
+| ThermaTrace   | feature/      | a1c3f4e     | feat: add Home View                | Implementación de la vista de bienvenida personalizada       | 21 de septiembre de 2025    |
+| ThermaTrace   | feature/    | b7d8e2c     | feat: add Profile Page             | Creación del módulo de edición de perfil con campos dinámicos| 21 de septiembre de 2025    |
+| ThermaTrace   | feature/    | c2e9a8d     | feat: services page                | Diseño e implementación de la sección de servicios           | 21 de septiembre de 2025    |
+| ThermaTrace   | feature/        | d4b7f3a     | feat: plans section                | Incorporación de los tres planes de suscripción con botones  | 21 de septiembre de 2025    |
+| ThermaTrace  | feature/         | e5f6b0d     | feat: FAQ page                     | Desarrollo de la sección FAQ con preguntas frecuentes        | 21 de septiembre de 2025    |
+| ThermaTrace   | deploy/ | f9c2a1b     | chore: deploy to GitHub Pages      | Despliegue de la landing actualizada en entorno de producción| 21 de septiembre de 2025    |
