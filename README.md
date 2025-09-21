@@ -463,10 +463,10 @@ La página principal de ThermaTrace integra etiquetas esenciales que aseguran su
 
 
 ### 4.2.4. Searching Systems.
-**Que se busca?:** Que buscara el usuario  
-**Que resultados se mostraran?:** Que se mostrara  
-**Interface de busqueda:** Descripcion de como ayuda a encontrar lo deseado 
-![Search interface preview web](image.jpg)
+Al ingresar a la landing page de ThermaTrace, el usuario se encuentra con una interfaz clara y directa, diseñada para comunicar de inmediato la propuesta de valor de la plataforma. En la parte superior, la navegación está organizada con botones visibles como “Request a Demo” y “Learn More”, que funcionan como accesos principales y guían al visitante hacia la acción deseada sin generar confusión.
+
+La estructura de la página se apoya en un recorrido progresivo: primero se presenta un mensaje inicial que resume el propósito de la plataforma, el monitoreo inteligente de temperatura para garantizar la conservación de medicamentos, seguido de bloques informativos que explican sus beneficios y funcionalidades. Posteriormente, el usuario puede desplazarse hacia secciones complementarias como planes de precios, FAQ o contacto, reforzadas tanto en el header como en el footer para garantizar accesibilidad en cualquier punto de la navegación.
+
 
 ### 4.2.5. Navigation Systems.
 Basicamente aqui definimos como funciona la navegacion del web app
