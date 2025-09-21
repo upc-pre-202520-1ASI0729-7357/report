@@ -626,8 +626,57 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-Wireflow es como se va a navegar por la pagina (boton me lleva a esta pagina y este me regresa)
-![Web Aplication Wireflow](image.jpg)
+**Login / Create Account**
+
+**1. Login:**
+- El personal del hospital o de la farmacia introduce su correo empresarial y contraseña.
+- Selecciona la opción “Login” para ingresar a la plataforma.
+
+**Create Account:**
+- En caso de ser un nuevo usuario, completa un formulario con datos de la institución (hospital o farmacia), representante responsable y correo corporativo.
+- Selecciona “Create” para registrar la cuenta en el sistema.
+
+**Acción esperada:** Autenticarse correctamente y acceder al Dashboard principal de gestión.<br><br>
+
+**2. Dashboard**
+- Una vez autenticado, el usuario accede al panel central de control, que incluye un menú lateral persistente con accesos a secciones clave:
+    - Home
+    - Profile
+    - Medications
+    - Temperature Management
+    - Configuration
+- Este espacio funciona como punto de partida para navegar y gestionar la información clínica y farmacéutica.
+
+**Acción esperada:** Ubicarse rápidamente y seleccionar la sección que se requiere supervisar o administrar.<br><br>
+
+**3. Profile**
+- Permite a hospitales y farmacias visualizar y actualizar la información de su cuenta: datos de contacto, plan activo, zona horaria e idioma de la aplicación.
+- Incluye opciones de personalización y gestión del perfil institucional.
+
+**Acción esperada:** Mantener actualizados los datos de la institución y ajustar las preferencias de uso según el contexto operativo.<br><br>
+
+**4. Medications**
+- En esta sección se despliega un catálogo de medicamentos registrados en la institución.
+- Los fármacos se presentan en tarjetas visuales que facilitan la consulta rápida y la organización del inventario.
+
+**Acción esperada:** Visualizar, gestionar o crear proyectos residenciales vinculados a la constructora.<br><br>
+
+**5. Temperature Management**
+- Aquí los usuarios acceden a una tabla de monitoreo de temperaturas asociadas a medicamentos sensibles.
+- Se presentan datos como nombre del responsable, proyecto o área asociada, estado actual y acciones disponibles.
+- ncluye el botón “+ Add Medication” para registrar nuevos medicamentos que requieran supervisión térmica.
+
+**Acción esperada:** Supervisar y mantener un control riguroso de la temperatura, garantizando la conservación adecuada de los fármacos.<br><br>
+
+**6. Configuration**
+- El módulo de configuración permite administrar aspectos relacionados con notificaciones, seguridad y soporte.
+- Incluye opciones como cambio de contraseña, gestión de sesiones activas, autenticación en dos pasos y guías de ayuda.
+
+**Acción esperada:** Personalizar el uso de la plataforma y asegurar un entorno confiable y seguro para hospitales y farmacias<br><br>
+
+[Web Applications Wireflow Diagrams] <https://shorturl.at/brHvb><br>
+![Web Aplication Wireflow](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551393735_1812588996010424_4462557880510505087_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=mrZi8EgiM1kQ7kNvwHJSnwi&_nc_oc=Adkuzjgrc1VYOZ_SE-l3A44wNSB2rZIZPi8XsckZ9vJORLIPIVTjLV1Qah5q5XgMJ2egpr8BTJqGnzjy-vF3RyyR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEaSWxMaRiOvPf227JgM-hYeWD2642vqc0ftPQutxsBdQ&oe=68F6D7A2)
+
 ### 4.4.2. Web Applications Mock-ups.
 Diseño en todo aspecto
 ![Web Aplication Mockup](image.jpg)
