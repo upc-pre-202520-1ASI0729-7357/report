@@ -374,15 +374,44 @@ Segmento 2:
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
-Descripcion del porque estos elementos seran importantes
+#### **Tipografía**
+La tipografía seleccionada para nuestro proyecto es **Roboto**, una fuente ampliamente utilizada en entornos digitales gracias a su excelente legibilidad y estética moderna. Su diseño equilibrado combina formas geométricas con trazos amigables, lo que transmite cercanía sin perder profesionalismo. Al ser versátil, Roboto funciona tanto en títulos como en cuerpos de texto, asegurando coherencia visual en diferentes plataformas.
 
-**Color:** (Descripcion de los colores escogidos y porque)  
-![Colores generales](image.jpg)
+Las jerarquías tipográficas se establecieron con tamaños bien diferenciados: desde 0.75rem (12px) para textos auxiliares o detalles informativos, hasta 2.25rem (36px) para encabezados principales. Esta escala facilita una lectura ordenada y clara, permitiendo resaltar la información más importante sin perder armonía.
 
-**Tipografia:** (Descripcion de la tipografia escogida para el proyecto y porque)
-![Tipografias generales](image.jpg)
-**Branding** (Describir logotipo y porque)
-![Branding general](image.jpg)
+La elección de Roboto, además de responder a criterios de legibilidad y accesibilidad, refleja un enfoque contemporáneo y adaptable a medios digitales e impresos, reforzando la identidad visual de nuestro trabajo.
+
+#### **Colores**
+La elección de la paleta de colores en nuestro proyecto obedece a una estrategia visual cuidadosamente planificada, orientada a reflejar tecnología, confianza y sofisticación, valores fundamentales en la propuesta de CcaritaTech.
+
+- **Landing Page** <br>
+![Imagen de la paleta de colores del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551467552_1204326681534642_7846861878436825793_n.png?stp=dst-png_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_yJEc8uNcNgQ7kNvwE3J9ba&_nc_oc=AdlEqKkEFMuVuEUG5LCo8hhGoibPc4kMuN9DZNErNylLdUqcwujOq6RjV9I1XPBoVS_8SvZmLr3qyv1eifdEVKVB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGd7zGVhfdZc5ybOms216R9L3g90CLfzz_d_1Ab9NhD6Q&oe=68F6E051)
+
+En la sección de inicio, se utiliza un degradado entre el **azul brillante (#389DFB)** y el **verde agua (#69E8CC)**. Esta combinación transmite frescura, dinamismo y modernidad, generando un impacto visual inmediato que invita al usuario a explorar la interfaz. El degradado no solo aporta profundidad y movimiento, sino que también refuerza una identidad vibrante y tecnológica.
+
+Para los íconos, se emplean dos tonos complementarios: el **azul claro (#50ACF9)** y el **verde turquesa (#48E6D0)**. Estos colores mantienen coherencia con el degradado principal, asegurando consistencia visual en la navegación. Su viveza facilita la rápida identificación de elementos interactivos, reforzando una experiencia intuitiva y atractiva.
+
+En los botones y textos destacados dentro de ellos, se recurre al **azul intenso (#389DFB)** junto con un tono más profundo, el **azul marino (#0F52A3)**. El primero garantiza que los botones resalten como llamadas a la acción principales, mientras que el segundo asegura legibilidad en textos pequeños, otorgando claridad y profesionalismo. Esta dupla crea jerarquía visual, diferenciando acciones prioritarias de textos de apoyo.
+
+Respecto a la tipografía en contraste con los fondos, se utiliza el **negro absoluto (#000000)** sobre superficies blancas, logrando máxima claridad y seriedad en los mensajes. A la inversa, cuando el fondo es azul, el **blanco puro (#FFFFFF)** se reserva para los textos, asegurando un contraste fuerte y una lectura fluida en cualquier dispositivo. Esta combinación clásica aporta balance, elegancia y enfoque.
+
+En el footer, se incorpora el **azul oscuro casi negro (#031F40)**. Este color establece una base sólida y sobria en la parte inferior de la interfaz, transmitiendo estabilidad y cierre visual. Además, diferencia claramente el área de navegación secundaria, aportando orden y reforzando la identidad profesional del diseño.
+
+Finalmente, la selección coordinada de estos colores genera una estética coherente, moderna y funcional. Los tonos principales transmiten energía y frescura, mientras que los contrastes garantizan legibilidad y jerarquía. El uso estratégico de acentos y fondos asegura que la experiencia sea clara, atractiva y alineada con los valores de innovación y accesibilidad de nuestro proyecto.
+
+#### **Lenguaje**
+En ThermaTrace, utilizaremos un lenguaje que refleje nuestra misión de proteger la salud mediante la conservación óptima de medicamentos sensibles. Queremos conectar tanto con profesionales de la salud como con instituciones del sector, transmitiendo confianza, claridad y compromiso a través de cada mensaje. La comunicación será un puente entre la tecnología y las personas, mostrando que la innovación puede ser cercana, accesible y confiable:
+
+1. **Profesional pero accesible:** Nos dirigimos a un público que exige precisión y confiabilidad, como hospitales, farmacias, clínicas y cadenas de distribución. Por ello, hablaremos con un tono experto en tecnología aplicada a la cadena de frío, pero sin caer en tecnicismos innecesarios. Queremos que cualquier usuario, independientemente de su nivel técnico, pueda comprender fácilmente cómo funciona la solución y el valor que aporta.
+
+2. **Formal pero humano:** Entendemos que trabajamos en un entorno crítico para la vida de las personas. Por eso, nuestra comunicación refleja seriedad y responsabilidad, pero sin perder cercanía. Nos proponemos hablar con calidez y empatía, transmitiendo la seguridad de que detrás de cada herramienta tecnológica hay un aliado comprometido con la salud y el bienestar de los pacientes.
+
+3. **Respetuoso y empático:** Sabemos que los usuarios tienen diferentes necesidades, desde un farmacéutico que controla un pequeño refrigerador hasta un administrador de una red hospitalaria. Nos comunicaremos con respeto hacia cada uno de ellos, reconociendo la diversidad de contextos y acompañándolos con un lenguaje inclusivo y considerado, que fomente confianza y colaboración.
+
+4. **Inspirador y optimista:** Creemos que la tecnología puede transformar la gestión de la cadena de frío en salud. Por eso, hablaremos con entusiasmo y visión de futuro, mostrando cómo nuestra solución contribuye a un sistema más seguro, eficiente y conectado. Queremos inspirar a nuestros usuarios a confiar en que supervisar la conservación de medicamentos puede ser tan sencillo como abrir una aplicación, garantizando seguridad y tranquilidad.
+
+
+
 ### 4.1.2. Web Style Guidelines.
 Descripcion de los elementos que se utilizaran en el web app
 
