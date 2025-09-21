@@ -1060,9 +1060,58 @@ Ocupación: _____
 ## 5.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
-{texto}
+
+En el desarrollo de ThermaTrace, los segmentos objetivos (hospitales y farmacias) nos ayudaron a comprender lo que los profesionales de la salud esperan de una solución de monitoreo de cadena de frío. Esto nos permitió identificar las características clave que deben incluirse en la plataforma para responder a sus necesidades reales. Gracias a ello, se diseñó una propuesta práctica y confiable que contribuye a reducir riesgos, optimizar la gestión de medicamentos y asegurar el cumplimiento normativo.
+
+El diseño de entrevistas fue esencial para recopilar información valiosa sobre los problemas y desafíos actuales en la conservación de medicamentos. Nos permitió conocer en detalle cómo se realizan hoy los procesos de control, las limitaciones del monitoreo manual y la disposición de los usuarios a adoptar soluciones digitales. Esta información sirvió de base para validar nuestras hipótesis y ajustar los requerimientos del producto.
+
+Asimismo, el análisis de competidores y la construcción de herramientas colaborativas como el Big Picture Event Storming y el Impact Mapping hicieron posible visualizar de manera clara los procesos críticos, los puntos de dolor y las oportunidades de mejora. Esto permitió definir un backlog priorizado y alineado tanto a las necesidades de los usuarios como a los objetivos estratégicos del negocio.
+
+En conjunto, el proyecto nos permitió consolidar un modelo de solución digital que aporta valor tangible a hospitales y farmacias, ofreciendo una plataforma accesible, intuitiva y confiable que asegura la conservación de medicamentos sensibles y fortalece la seguridad del paciente.
+
 # Conclusiones y recomendaciones.
-{texto}
+
+## Conclusiones
+
+1. **Validación del problema:**  
+   Se confirmó que la falta de monitoreo confiable en la cadena de frío es un problema crítico que impacta tanto en la seguridad de los pacientes como en la economía de hospitales y farmacias. Los procesos manuales actuales generan pérdidas, riesgos sanitarios y sobrecarga administrativa.
+
+2. **Alineamiento con Problem Statements e Hypotheses:**
+    - Los Problem Statements fueron validados en relación con pérdidas económicas y dificultades normativas.
+    - Los Hypotheses sobre adopción tecnológica se validaron parcialmente: los usuarios muestran interés, pero condicionado a facilidad de uso, accesibilidad en costos y capacitación adecuada.
+
+3. **Resultados de validaciones:**
+    - Las funciones más valoradas por los usuarios fueron **alertas inmediatas**, **monitoreo en tiempo real** y **reportes automáticos**.
+    - La integración con infraestructura existente se identificó como un requisito esencial para lograr adopción.
+    - Se cumplieron criterios de éxito vinculados a reducción de pérdidas y cumplimiento regulatorio.
+
+4. **Impacto esperado:**  
+   El proyecto **ThermaTrace** tiene potencial de posicionarse como una solución diferenciada en el sector salud, ofreciendo simplicidad, confiabilidad y escalabilidad. El desarrollo de un MVP enfocado en funcionalidades críticas es el siguiente paso lógico y validado.
+
+---
+
+## Recomendaciones
+
+1. **Desarrollar un MVP** que priorice:
+    - Monitoreo en tiempo real.
+    - Alertas inmediatas.
+    - Reportes automáticos.
+    - Panel intuitivo y multidioma.
+
+2. **Roadmap:**
+    - Corto plazo: lanzamiento de MVP y pruebas piloto.
+    - Mediano plazo: personalización, mejor UX y compatibilidad ampliada.
+    - Largo plazo: escalamiento regional y mantenimiento predictivo.
+
+3. **Capacitación y adopción:**  
+   Diseñar programas de formación para reducir resistencia al cambio.
+
+4. **Monetización:**  
+   Implementar modelo freemium: plan básico para farmacias pequeñas y plan premium hospitalario.
+
+5. **Alianzas estratégicas:**  
+   Colaborar con proveedores de equipos y distribuidores farmacéuticos para acelerar adopción y confianza del mercado.
+
 # Video About-the-Team.
 [URL del video about the team](https://www.example.com)
 
