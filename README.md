@@ -14,6 +14,26 @@ Finalmente, se mantiene un repositorio denominado upc-pre-202520-1ASI0729-7357 (
 <br>
 
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+El mantenimiento de un estilo de código estandarizado y una arquitectura bien definida es fundamental para garantizar la escalabilidad, mantenibilidad y colaboración efectiva en el desarrollo de ThermaTrace. En este proyecto se han adoptado convenciones de codificación y lineamientos de arquitectura que aseguran calidad técnica, legibilidad y consistencia en todos los módulos, alineándose con prácticas recomendadas de la industria y metodologías modernas de ingeniería de software.
+
+**Arquitectura y organización del sistema**
+
+Desde el punto de vista arquitectónico, se emplea el modelo C4 de Simon Brown, que permite describir el sistema en distintos niveles: contexto, contenedor, componente y código. Este enfoque facilita la comunicación entre perfiles técnicos y no técnicos, permitiendo que tanto desarrolladores como stakeholders de hospitales y farmacias comprendan la lógica del sistema. La organización sigue principios de Domain-Driven Design (DDD) y Clean Architecture, lo que asegura una clara separación entre presentación, aplicación, dominio e infraestructura. Gracias a esta estructura, se logra un bajo acoplamiento, pruebas más efectivas y flexibilidad para incorporar nuevas funcionalidades como módulos de trazabilidad, control de temperatura en tiempo real o gestión de inventarios críticos.
+
+**Frontend: Angular**
+
+En el frontend, se utiliza Angular como framework principal, con una arquitectura basada en módulos y componentes reutilizables. La estructura generada por el Angular CLI facilita la estandarización entre miembros del equipo. La nomenclatura sigue convenciones claras: clases en PascalCase y archivos en kebab-case. Además, se aplican prácticas recomendadas como:
+
+- Detección de cambios con OnPush.
+- Separación entre lógica y presentación.
+- Inyección de dependencias vía constructor.
+- Internacionalización con @angular/localize, gestionando archivos JSON de idioma.
+
+**Alineación con guías de estilo estándar**
+
+Aunque el detalle completo de las guías externas (como la Google HTML/CSS Style Guide o la Angular Style Guide) no se incluye de manera exhaustiva en el reporte, la organización y convenciones observadas en el código de ThermaTrace demuestran una alineación con estas prácticas. El uso del inglés en nombres de variables, funciones y componentes asegura coherencia internacional, mientras que la aplicación de linting automatizado refuerza la mantenibilidad y la calidad del sistema.
+
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ## 5.2.1. Sprint 1
