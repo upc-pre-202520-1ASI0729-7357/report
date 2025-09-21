@@ -427,6 +427,11 @@ Basicamente aqui definimos como funciona la navegacion del web app
 **Global Navigation Systems** (Complemento del Hierachical) Movimiento vertical (te mueves por la pagina)con nav(debe poder regresar a la principal)
 **Local Navigation Systems** (vas a otras paginas) (complemento del global nav sistem sub-site) Usas otras paginas
 ## 4.3. Landing Page UI Design.
+La sección de Landing Page UI Design tiene como propósito definir, estructurar y validar la interfaz visual de la página principal de ThermaTrace, asegurando que los usuarios comprendan la propuesta de valor desde el primer contacto. En esta etapa se elaboraron wireframes los cuales permitieron organizar los contenidos clave como la presentación del sistema, la sección de beneficios, el desglose de características principales, los planes de precios y el equipo de desarrollo, complementados con un footer que integra enlaces de contacto y redes sociales.
+
+Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseño minimalista y tecnológico, con una paleta cromática sobria y tipografía legible, garantizando coherencia visual, jerarquía clara y consistencia entre dispositivos. Además, el diseño considera principios de accesibilidad como etiquetas semánticas, contraste adecuado y disposición adaptable a distintos tamaños de pantalla.
+
+
 ### 4.3.1. Landing Page Wireframe.
 la pagina donde te registras y ves info del web app (te manda al web app)
 
