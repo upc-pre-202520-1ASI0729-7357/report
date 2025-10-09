@@ -1514,6 +1514,336 @@ La comunicación fue constante a través de plataforma usada: Discord, WhatsApp,
 | ThermaTrace  | feature/LenguageSwitcher         | e5f6b0d     | feat: Cambio de idioma                     | Desarrollo de la sección FAQ con preguntas frecuentes        | 21 de septiembre de 2025    |
 | ThermaTrace   | deploy | f9c2a1b     | chore: deploy to GitHub Pages      | Despliegue de la landing actualizada en entorno de producción| 21 de septiembre de 2025    |
 
+
+## 5.2.2. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2, enfocado en el desarrollo del 70% del frontend de ThermaTrace utilizando Angular 20. Se implementan los bounded contexts principales: Dashboard, User (Profile), Medicaments, Configuration, junto con la estructura base del proyecto, layout, shared components, internacionalización (i18n) y mock API con JSON Server. Este sprint no incluye autenticación IAM, permitiendo acceso directo a la aplicación web.
+
+### 5.2.2.1. Sprint Planning 2
+
+El Sprint Planning 2 establece la organización del equipo para desarrollar el 70% del frontend de la aplicación web ThermaTrace en Angular 20. Se definen los bounded contexts a implementar, las responsabilidades de cada miembro, y los entregables esperados para alcanzar una versión funcional y desplegable de la plataforma en Netlify.
+
+| **Sprint #**                           | **Sprint 2**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|:---------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Date**                               | 2025-10-09                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Time**                               | 06:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Location**                           | Virtual (Discord y Zoom)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Prepared By**                        | Grandez Mansilla, Jean Pierre                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)**    | Oscar Espinoza, Fabrizio Panta, Axel Ordoñez, Jean Grandez, Frezzia Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint 2 – 1 Review Summary**        | En el Sprint 1 se logró implementar y desplegar exitosamente la Landing Page de ThermaTrace con las secciones Home, About, Features, Pricing, Team y FAQ. Se implementó internacionalización (ES/EN) y se desplegó en GitHub Pages. El feedback del product owner fue positivo, destacando la claridad del diseño y la facilidad de navegación. Los usuarios objetivo (hospitales y farmacias) validaron la propuesta de valor presentada. Se identificó la necesidad de iniciar el desarrollo del frontend de la aplicación web para permitir la gestión real de medicamentos y monitoreo de temperatura.                                                                                                        |
+| **Sprint 2 – 1 Retrospective Summary** | El equipo identificó como aciertos la buena comunicación, distribución equitativa de tareas y el cumplimiento de los plazos establecidos. Como oportunidades de mejora se destacó la necesidad de establecer convenciones de código más claras desde el inicio del proyecto Angular, realizar más code reviews durante el desarrollo y documentar mejor los componentes compartidos. Para el Sprint 2 se acordó implementar pair programming en tareas de arquitectura base, establecer checkpoints diarios de 15 minutos, y utilizar un style guide de Angular desde el inicio.                                                                                                                                  |
+| **Sprint 2 Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint 2 Goal**                      | **Our focus is on** implementing the core frontend architecture and 70% of the main features of ThermaTrace web application using Angular 20, including Dashboard, Profile, Medicaments catalog, and Configuration module.<br>**We believe it delivers** a functional, navigable, and visually consistent user interface with internationalization support to hospitals and pharmacies staff.<br>**This will be confirmed when** users can navigate through the dashboard viewing key metrics, manage their profile information, visualize and add medications to the catalog, and configure system preferences successfully in a deployed environment on Netlify with both Spanish and English language support. |
+| **Sprint 2 Velocity**                  | **45 Story Points**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sum of Story Points**                | **42 Story Points**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+**User Stories incluidas en Sprint 2:**
+- US09: Visualización de temperatura actual (3 SP)
+- US14: Panel de inicio intuitivo (5 SP)
+- US18: Actualización de datos personales (5 SP)
+- US19: Configuración de preferencias (3 SP)
+- Tareas técnicas: Layout & Shared Components (8 SP), Routing & Navigation (5 SP), i18n Configuration (3 SP), JSON Server Setup (4 SP), Medicaments Module (6 SP)
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para asegurar una ejecución eficiente del Sprint 2, se definieron líderes y colaboradores responsables de los principales bounded contexts y aspectos técnicos del proyecto. Los aspectos principales incluyen: la estructura base del proyecto y layout (Layout & Shared), el panel principal con métricas (Dashboard/Home), el perfil de usuario (User/Profile), el catálogo de medicamentos (Medicaments), la configuración del sistema (Configuration), y la internacionalización con routing (i18n & Routing). Cada miembro del equipo lidera un aspecto específico mientras colabora en otros para garantizar integración y coherencia en todo el frontend.
+
+| **Team Member** | **GitHub Username** | **Layout & Shared** | **Dashboard/Home** | **User/Profile** | **Medicaments** | **Configuration** | **i18n & Routing** |
+|------------------|---------------------|---------------------|--------------------|--------------------|------------------|-------------------|---------------------|
+| Grandez Mansilla, Jean Pierre | JeanGrandez | **L** | C | C | C | C | **L** |
+| Espinoza Quijandria, Oscar Leonardo | Carbocnito5443 | C | **L** | C | C | C | C |
+| Espinoza Samaniego, Frezzia Milagros | FrezziaEspinoza | C | C | **L** | C | C | C |
+| Ordoñez Chirinos, Axel Brahan | noomzzzzz | C | C | C | **L** | C | C |
+| Panta Salazar, Fabrizio Gabriel | F4brizio24 | C | C | C | C | **L** | C |
+
+**L** = Leader (Líder del aspecto)
+**C** = Collaborator (Colaborador)
+
+### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 consolida las funcionalidades principales del frontend de ThermaTrace, enfocándose en completar el 70% de la aplicación web en Angular 20. Se implementan los bounded contexts clave: Dashboard para visualización de métricas, User/Profile para gestión de datos personales, Medicaments para el catálogo de fármacos con capacidad de agregar nuevos medicamentos, Configuration para preferencias del sistema, junto con la estructura base del proyecto, componentes compartidos (Layout/Shared), sistema de routing, internacionalización (i18n) y mock API con JSON Server.
+
+**URL del Board en Trello:** [Insertar URL del board de Trello para Sprint 2]
+
+![Sprint 2 Backlog Board en Trello](Referencia: Captura de pantalla del tablero de Trello mostrando las columnas To-do, In-Process, To-Review, Done con todas las tareas del Sprint 2)
+
+| **User Story** | **Work-Item / Task**                |        |                                                |                                                                                                                                        |                        |                 |
+|----------------|-------------------------------------|--------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------------|-----------------|
+| **Id**         | **Title**                           | **Id** | **Title**                                      | **Description**                                                                                                                        | **Estimation (Hours)** | **Assigned To** | **Status** |
+| -              | Base Architecture                   | T01    | Configurar proyecto Angular 20                 | Inicializar proyecto con Angular CLI v20, configurar estructura de carpetas según bounded contexts, instalar dependencias base         | 3h                     | Jean            | Done |
+| -              | Base Architecture                   | T02    | Configurar routing principal                   | Definir rutas principales de la aplicación, configurar lazy loading para módulos                                                       | 4h                     | Jean            | Done |
+| -              | Layout & Shared                     | T03    | Crear componente Header                        | Implementar header con logo, navegación y selector de idioma                                                                           | 4h                     | Jean            | Done |
+| -              | Layout & Shared                     | T04    | Crear componente Sidebar                       | Desarrollar sidebar con menú de navegación a Dashboard, Profile, Medicaments, Configuration                                            | 5h                     | Jean            | Done |
+| -              | Layout & Shared                     | T05    | Crear componente Footer                        | Implementar footer con información de copyright y enlaces                                                                              | 2h                     | Jean            | Done |
+| -              | Layout & Shared                     | T06    | Crear Layout principal                         | Integrar Header, Sidebar, Footer en un layout reutilizable                                                                             | 3h                     | Jean            | Done |
+| -              | Internationalization                | T07    | Configurar i18n con @angular/localize          | Setup de internacionalización para español e inglés                                                                                    | 4h                     | Jean            | Done |
+| -              | Internationalization                | T08    | Crear archivos de traducción                   | Generar archivos de traducción en.json y es.json con textos de la aplicación                                                           | 3h                     | Jean            | Done |
+| -              | Internationalization                | T09    | Implementar language switcher                  | Crear servicio y componente para cambio de idioma dinámico                                                                             | 3h                     | Jean            | Done |
+| US14           | Panel de inicio intuitivo           | T10    | Crear módulo Dashboard                         | Configurar módulo Dashboard con routing lazy loading                                                                                   | 2h                     | Oscar           | Done |
+| US14           | Panel de inicio intuitivo           | T11    | Diseñar vista principal del Dashboard          | Implementar layout del dashboard con grid responsive                                                                                   | 4h                     | Oscar           | Done |
+| US14           | Panel de inicio intuitivo           | T12    | Crear componente de métricas clave             | Desarrollar cards para mostrar resumen de refrigeradores, medicamentos y alertas                                                       | 5h                     | Oscar           | Done |
+| US09           | Visualización de temperatura actual | T13    | Crear componente de temperatura en tiempo real | Mostrar temperatura actual por refrigerador con indicadores visuales                                                                   | 4h                     | Oscar           | Done |
+| US14           | Panel de inicio intuitivo           | T14    | Implementar gráficos de temperatura            | Integrar librería de charts (Chart.js o ng2-charts) para visualización de datos históricos                                             | 6h                     | Oscar           | Done |
+| US14           | Panel de inicio intuitivo           | T15    | Crear servicio Dashboard                       | Implementar servicio para obtener datos del dashboard desde JSON Server                                                                | 3h                     | Oscar           | Done |
+| US18           | Actualización de datos personales   | T16    | Crear módulo User/Profile                      | Configurar módulo User con routing lazy loading                                                                                        | 2h                     | Frezzia         | Done |
+| US18           | Actualización de datos personales   | T17    | Crear componente Profile                       | Desarrollar vista de perfil con información del usuario                                                                                | 3h                     | Frezzia         | Done |
+| US18           | Actualización de datos personales   | T18    | Desarrollar formulario de edición de perfil    | Implementar formulario reactivo con validaciones para nombre, email, teléfono, institución                                             | 5h                     | Frezzia         | Done |
+| US18           | Actualización de datos personales   | T19    | Implementar servicio de User                   | Crear servicio para obtener y actualizar datos del perfil desde JSON Server                                                            | 3h                     | Frezzia         | Done |
+| US18           | Actualización de datos personales   | T20    | Agregar validaciones y mensajes de feedback    | Implementar validaciones de formulario y mensajes de éxito/error                                                                       | 3h                     | Frezzia         | Done |
+| -              | Medicaments Module                  | T21    | Crear módulo Medicaments                       | Configurar módulo Medicaments con routing lazy loading                                                                                 | 2h                     | Axel            | Done |
+| -              | Medicaments Module                  | T22    | Desarrollar listado de medicamentos            | Implementar grid de cards con datos de medicamentos (imagen, nombre, estado, fecha de expiración)                                      | 5h                     | Axel            | Done |
+| -              | Medicaments Module                  | T23    | Crear componente card de medicamento           | Desarrollar card component mostrando imagen, nombre, status, expiration date y botón "More details"                                    | 4h                     | Axel            | Done |
+| -              | Medicaments Module                  | T24    | Crear componente de detalle de medicamento     | Mostrar información completa de un medicamento en vista de detalle                                                                     | 4h                     | Axel            | Done |
+| -              | Medicaments Module                  | T25    | Implementar formulario de agregar medicamento  | Crear formulario reactivo para agregar medicamento con campos: nombre, fecha de expiración, imagen URL, y cálculo automático de status | 5h                     | Axel            | Done |
+| -              | Medicaments Module                  | T26    | Implementar servicio de Medicaments            | Conectar con JSON Server para CRUD básico de medicamentos (GET, POST)                                                                  | 3h                     | Axel            | Done |
+| US19           | Configuración de preferencias       | T27    | Crear módulo Configuration                     | Configurar módulo Configuration con routing lazy loading                                                                               | 2h                     | Fabrizio        | Done |
+| US19           | Configuración de preferencias       | T28    | Desarrollar componente de preferencias         | Implementar vista con opciones de idioma, zona horaria y notificaciones                                                                | 5h                     | Fabrizio        | Done |
+| US19           | Configuración de preferencias       | T29    | Crear componente de seguridad                  | Implementar sección para cambio de contraseña y sesiones activas                                                                       | 4h                     | Fabrizio        | Done |
+| US19           | Configuración de preferencias       | T30    | Implementar servicio de Configuration          | Crear servicio para guardar y recuperar preferencias                                                                                   | 3h                     | Fabrizio        | Done |
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo implementó los principales bounded contexts del frontend de ThermaTrace utilizando Angular 20. Se desarrolló la estructura base del proyecto con arquitectura modular, implementando los módulos Dashboard, User (Profile), Medicaments y Configuration. Se configuró el sistema de internacionalización (i18n) con soporte para español e inglés, se crearon los componentes compartidos del layout (header, sidebar, footer), y se estableció la conexión con JSON Server como mock API para simular el backend. A continuación se presentan los commits más relevantes relacionados con la implementación de cada módulo y funcionalidad.
+
+| **Repository**        | **Branch**                | **Commit Id** | **Commit Message**                                                | **Commit Message Body** | **Committed on (Date)** |
+|-----------------------|---------------------------|---------------|-------------------------------------------------------------------|-------------------------|-------------------------|
+| therma-trace-frontend | feature/shared-components | 1883ed8       | chore: add dependencies for Angular Material and internationalization | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | 791d9b8       | feat: configure i18n with English and Spanish translations        | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | 6209670       | feat: add base entity interface for domain layer                  | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | f89906f       | feat: implement language switcher component with EN/ES toggle     | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | 73483a1       | feat: implement responsive top bar with notifications and user info | -                     | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | c7fc0da       | feat: implement sidebar navigation with responsive design and i18n | -                      | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | 3ff2811       | feat: implement main layout with responsive sidenav               | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | e6a5858       | feat: add home and 404 views with routing configuration           | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | 80ce1c1       | style: add global styles and Material Icons fonts                 | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/shared-components | 1529416       | fix: refactor on sidebar styles                                   | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/profile           | -             | feat: add shared infrastructure base classes for DDD architecture | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/profile           | -             | feat: add environment configuration for API URL                   | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/profile           | -             | feat: add user module with DDD layers (domain, infrastructure, application, presentation) | -  | 09/10/2025              |
+| therma-trace-frontend | feature/profile           | -             | feat: add confirmation and payment modals                         | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/profile           | -             | feat: add profile route to app routing                            | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/profile           | -             | feat: add translations for profile and payment features           | -                       | 09/10/2025              |
+| therma-trace-frontend | feature/profile           | -             | feat: add JSON server configuration and dependencies              | -                       | 09/10/2025              |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo ejecutó exitosamente las tareas de desarrollo del frontend de ThermaTrace en Angular 20, cumpliendo con el objetivo de implementar el 70% de la aplicación web. Se completaron todos los bounded contexts principales: Dashboard con visualización de métricas y gráficos de temperatura, User/Profile para gestión de datos personales, Medicaments con catálogo completo de fármacos y capacidad de agregar nuevos medicamentos, y Configuration para preferencias del sistema. Se implementó la estructura base con layout responsive, internacionalización completa (ES/EN), y se desplegó la aplicación en Netlify con conexión a JSON Server como mock API.
+
+A continuación se presentan las principales vistas implementadas:
+
+**Vista 1: Dashboard Principal**
+
+![Dashboard Home View](Referencia: Captura de pantalla mostrando el dashboard principal con cards de métricas (total refrigeradores, medicamentos, alertas activas), gráficos de temperatura histórica y panel de alertas recientes. Header con logo ThermaTrace, selector de idioma. Sidebar con opciones Dashboard, Profile, Medicaments, Configuration)
+
+**Vista 2: Dashboard - Gráficos de Temperatura**
+
+![Dashboard Temperature Charts](Referencia: Captura de pantalla mostrando gráficos de línea con histórico de temperatura de los últimos 7 días para diferentes refrigeradores, con leyenda y tooltips interactivos)
+
+**Vista 3: User Profile - Visualización**
+
+![User Profile View](Referencia: Captura de pantalla del perfil de usuario mostrando foto de perfil, nombre, email, teléfono, institución (hospital/farmacia), rol, plan activo, con botón "Edit Profile")
+
+**Vista 4: User Profile - Edición**
+
+![User Profile Edit Form](Referencia: Captura de pantalla del formulario de edición de perfil con campos: nombre, email, teléfono, institución, zona horaria, con validaciones activas y botones "Save Changes" y "Cancel")
+
+**Vista 5: Medicaments - Catálogo (Grid de Cards)**
+
+![Medicaments Grid View](Referencia: Captura de pantalla mostrando grid responsivo de cards de medicamentos. Cada card contiene: imagen del medicamento (URL), nombre del medicamento, badge de status (Vigente en verde/Por expirar en amarillo/Expirado en rojo), fecha de expiración, y botón "More Details". Incluir botón "+ Add Medication" en la parte superior)
+
+**Vista 6: Medicaments - Detalle**
+
+![Medication Detail View](Referencia: Captura de pantalla mostrando vista de detalle de un medicamento con: imagen grande, nombre completo, status con badge de color, fecha de expiración, fecha de registro, descripción adicional si existe, botón "Back to List")
+
+**Vista 7: Medicaments - Agregar Medicamento**
+
+![Add Medication Form](Referencia: Captura de pantalla del formulario para agregar medicamento con campos: Nombre del medicamento (input text), Fecha de expiración (date picker), URL de imagen (input text con preview de la imagen), el status se calcula automáticamente según la fecha de expiración, botones "Save" y "Cancel")
+
+**Vista 8: Medicaments - Status automático**
+
+![Medication Status Example](Referencia: Captura de pantalla mostrando ejemplos de los tres estados posibles: Card con badge verde "Vigente" (expiración > 30 días), Card con badge amarillo "Por expirar" (expiración entre 1-30 días), Card con badge rojo "Expirado" (expiración ya pasada))
+
+**Vista 9: Configuration - Preferencias**
+
+![Configuration Preferences](Referencia: Captura de pantalla de la sección de configuración mostrando opciones: idioma (selector ES/EN), zona horaria (dropdown), notificaciones (toggles para email, push, SMS), con botón "Save Preferences")
+
+**Vista 10: Configuration - Seguridad**
+
+![Configuration Security](Referencia: Captura de pantalla de la sección de seguridad mostrando: formulario de cambio de contraseña, lista de sesiones activas con dispositivos y ubicación, opción de autenticación en dos pasos)
+
+**Vista 11: Responsive - Mobile View**
+
+![Mobile Responsive View](Referencia: Captura de pantalla mostrando la aplicación en vista móvil con menú hamburguesa, dashboard adaptado a pantalla pequeña, cards apiladas verticalmente)
+
+**Vista 12: Internacionalización - English Version**
+
+![English Language Version](Referencia: Captura de pantalla mostrando la aplicación completamente en inglés después de cambiar idioma, con todos los textos traducidos: Dashboard, Profile, Medications, Settings, etc.)
+
+**Video demostrativo del Sprint 2:**
+
+Enlace al video: [Insertar URL del video en YouTube/Vimeo]
+
+El video muestra la navegación completa por todas las vistas implementadas, cambio de idioma dinámico, interacción con formularios, visualización de gráficos, agregar medicamentos con cálculo automático de status, y funcionalidades responsivas.
+
+**Enlace a la aplicación desplegada en Netlify:**
+
+URL: [Insertar URL de Netlify, ejemplo: https://thermatrace-app.netlify.app]
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo de ThermaTrace se enfocó principalmente en el desarrollo del frontend en Angular 20. No se implementaron Web Services backend en este sprint, ya que el alcance se limitó al 70% del frontend utilizando JSON Server como mock API para simular las respuestas del backend. La documentación de Web Services con OpenAPI se realizará en sprints posteriores cuando se implemente el backend real con Spring Boot.
+
+Para este Sprint, se configuró JSON Server con endpoints mock que permiten el desarrollo y testing del frontend de manera independiente. A continuación se detallan los endpoints utilizados:
+
+
+**Capturas de interacción con JSON Server:**
+
+![JSON Server Running](Referencia: Captura de pantalla de la terminal mostrando JSON Server ejecutándose en puerto 3000 con los recursos disponibles: users, medications, temperatures, refrigerators, alerts, configurations)
+
+![Postman/Thunder Client - GET Medications](Referencia: Captura de Postman/Thunder Client mostrando request GET a http://localhost:3000/medications con response JSON mostrando array de medicamentos con sus propiedades: id, name, imageUrl, expiryDate, status)
+
+![Postman/Thunder Client - POST Medication](Referencia: Captura de Postman/Thunder Client mostrando request POST a http://localhost:3000/medications con body JSON conteniendo name, imageUrl, expiryDate y response exitoso con el medicamento creado)
+
+![Postman/Thunder Client - PUT User Profile](Referencia: Captura de Postman/Thunder Client mostrando request PUT a http://localhost:3000/users/1 con body JSON actualizado y response exitoso)
+
+**Repositorio del Mock API:**
+
+URL del repositorio: [Insertar URL del repositorio therma-trace-frontend, carpeta /json-server o /server]
+
+**Commits relacionados con la documentación:**
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
+|----------------|------------|---------------|-------------------|------------------------|
+| therma-trace-frontend | feature/shared-components | e3a8c51 | feat: configure JSON Server | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | f7b2d94 | feat: create mock database with sample data | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | a2b9e45 | docs: add API endpoints documentation | 09/10/2025 |
+
+**Nota:** La documentación completa de Web Services con especificación OpenAPI/Swagger se incluirá en el Sprint 3, cuando se desarrolle el API Backend real.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizó el despliegue completo del frontend de ThermaTrace en Netlify, configurando el proceso de deployment automático desde el repositorio de GitHub. El deployment incluye la aplicación Angular 20 compilada con soporte para internacionalización (i18n) en español e inglés. A continuación se detallan los pasos realizados y la evidencia del proceso de despliegue.
+
+**Proceso de Deployment realizado:**
+
+1. **Creación de cuenta en Netlify**
+  - Se creó una cuenta de equipo en Netlify para ThermaTrace
+  - Se vinculó la cuenta con el repositorio de GitHub de la organización
+
+![Netlify Account Dashboard](Referencia: Captura de pantalla del dashboard de Netlify mostrando la cuenta de ThermaTrace con el sitio creado)
+
+2. **Configuración del proyecto Angular para producción**
+  - Se configuró el archivo `angular.json` con optimizaciones para producción
+  - Se creó el archivo `netlify.toml` en la raíz del proyecto con la siguiente configuración:
+
+```toml
+[build]
+  publish = "dist/therma-trace-frontend"
+  command = "ng build --configuration production"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+![netlify.toml Configuration File](Referencia: Captura de pantalla del archivo netlify.toml en el IDE mostrando la configuración de build y redirects)
+
+3. **Vinculación del repositorio con Netlify**
+  - Se conectó el repositorio `therma-trace-frontend` con Netlify
+  - Se configuró el branch `main` como rama de producción para deployment automático
+
+![Netlify Site Settings](Referencia: Captura de pantalla de la configuración del sitio en Netlify mostrando el repositorio vinculado y la rama main configurada)
+
+4. **Configuración de variables de entorno**
+  - Se configuraron las variables de entorno necesarias para la aplicación en Netlify:
+    - `API_URL`: URL del JSON Server (para desarrollo: http://localhost:3000)
+    - `PRODUCTION`: true
+
+![Netlify Environment Variables](Referencia: Captura de pantalla de la sección de variables de entorno en Netlify mostrando las variables configuradas)
+
+5. **Primer deployment**
+  - Se realizó el primer deployment ejecutando el build command
+  - Se verificó que todos los assets se generaron correctamente
+  - Build time: ~3 minutos
+
+![Netlify Build Log](Referencia: Captura de pantalla del log de build en Netlify mostrando el proceso de compilación de Angular exitoso)
+
+6. **Configuración de dominio**
+  - Se asignó el dominio generado automáticamente por Netlify
+  - URL del sitio: `https://thermatrace-app.netlify.app` (o el dominio asignado)
+
+![Netlify Domain Settings](Referencia: Captura de pantalla de la configuración de dominio en Netlify mostrando la URL asignada)
+
+7. **Verificación del deployment**
+  - Se accedió a la aplicación desplegada y se verificó el funcionamiento correcto
+  - Se probó la navegación entre módulos: Home, Profile, Medicaments, Configuration
+  - Se verificó el cambio de idioma (i18n) entre español e inglés
+  - Se comprobó la responsividad en diferentes dispositivos
+  - Se probó la funcionalidad de agregar medicamentos con cálculo automático de status
+
+![Deployed Application - Dashboard](Referencia: Captura de pantalla de la aplicación desplegada en Netlify mostrando el dashboard funcionando correctamente)
+
+![Deployed Application - Mobile View](Referencia: Captura de pantalla de la aplicación desplegada visualizada en modo responsivo móvil)
+
+8. **Configuración de deployment automático**
+  - Se configuró Netlify para realizar deployment automático con cada push a la rama `main`
+  - Se configuraron deploy previews para pull requests
+
+![Netlify Deploy Settings](Referencia: Captura de pantalla de la configuración de deploy automático en Netlify)
+
+**URL de la aplicación desplegada:**
+
+- **Producción:** https://thermatrace-app.netlify.app [Insertar URL real]
+- **Badge de estado:** [![Netlify Status](https://api.netlify.com/api/v1/badges/[ID]/deploy-status)](https://app.netlify.com/sites/thermatrace-app/deploys)
+
+**Evidencia de deployments:**
+
+![Netlify Deploys History](Referencia: Captura de pantalla del historial de deployments en Netlify mostrando múltiples deploys exitosos durante el Sprint 2)
+
+**Commits relacionados con deployment:**
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
+|----------------|------------|---------------|-------------------|------------------------|
+| therma-trace-frontend | develop | a4c9e68 | feat: configure Netlify deployment | 09/10/2025 |
+| therma-trace-frontend | develop | b8d5f31 | feat: add netlify.toml configuration | 09/10/2025 |
+| therma-trace-frontend | main | c1e6a74 | chore: deploy to Netlify production | 09/10/2025 |
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajó de manera colaborativa en el desarrollo del frontend de ThermaTrace, con cada miembro liderando un bounded context específico mientras colaboraba en otros aspectos del proyecto. La comunicación fue constante a través de Discord para reuniones diarias y WhatsApp para coordinaciones rápidas. Se utilizó Trello para la gestión de tareas y GitHub para el control de versiones, siguiendo la metodología GitFlow con feature branches.
+
+**Distribución del trabajo:**
+
+- **Jean Grandez:** Lideró la arquitectura base del proyecto, configuración del layout y shared components (feature/shared-components), implementación de i18n y routing, setup de JSON Server, y configuración del deployment en Netlify. Colaboró en la integración de todos los módulos.
+
+- **Oscar Espinoza:** Lideró el desarrollo del módulo Dashboard/Home (feature/home), implementando las vistas principales, componentes de métricas, gráficos de temperatura y servicios de conexión con el mock API. Colaboró en la definición de estilos globales.
+
+- **Frezzia Espinoza:** Lideró el desarrollo del módulo User/Profile (feature/profile), creando los componentes de visualización y edición de perfil, formularios reactivos con validaciones, y servicios de usuario. Colaboró en el testing de componentes.
+
+- **Axel Ordoñez:** Lideró el desarrollo del módulo Medicaments (feature/medicaments), implementando el catálogo de medicamentos con cards mostrando imagen/nombre/status/fecha de expiración, formulario para agregar medicamentos con cálculo automático de status, y vistas de detalle. Colaboró en la definición de modelos de datos compartidos.
+
+- **Fabrizio Panta:** Lideró el desarrollo del módulo Configuration (feature/configuration), creando las vistas de preferencias y seguridad, y servicios de configuración. Colaboró en la implementación de guards y interceptors.
+
+**Analíticos de colaboración en GitHub:**
+
+![GitHub Insights - Contributors](Referencia: Captura de pantalla de GitHub Insights mostrando las contribuciones de cada miembro del equipo durante el Sprint 2, con gráfico de commits por autor)
+
+![GitHub Insights - Commit Activity](Referencia: Captura de pantalla de GitHub Insights mostrando la actividad de commits a lo largo del Sprint 2)
+
+![GitHub Network Graph](Referencia: Captura de pantalla del network graph de GitHub mostrando las diferentes feature branches: feature/shared-components, feature/home, feature/profile, feature/medicaments, feature/configuration y sus merges a develop durante el Sprint 2)
+
+**Pull Requests durante el Sprint 2:**
+
+![GitHub Pull Requests](Referencia: Captura de pantalla de la lista de Pull Requests del Sprint 2 mostrando: PR #1 feat: add shared components and layout (merged), PR #2 feat: add home dashboard module (merged), PR #3 feat: add user profile module (merged), PR #4 feat: add medicaments module (merged), PR #5 feat: add configuration module (merged))
+
+**Tablero de Trello - Estado final:**
+
+![Trello Board Final State](Referencia: Captura de pantalla del tablero de Trello al finalizar el Sprint 2 mostrando todas las tareas en la columna "Done", con indicadores de miembros asignados y etiquetas de prioridad)
+
+
+
 ### 5.2.X. Sprint n
 #### 5.2.X.1. Sprint Planning n.
 Explicar como vamos a plannear el sprint?
