@@ -1606,25 +1606,44 @@ El Sprint Backlog 2 consolida las funcionalidades principales del frontend de Th
 
 Durante el Sprint 2, el equipo implementó los principales bounded contexts del frontend de ThermaTrace utilizando Angular 20. Se desarrolló la estructura base del proyecto con arquitectura modular, implementando los módulos Dashboard, User (Profile), Medicaments y Configuration. Se configuró el sistema de internacionalización (i18n) con soporte para español e inglés, se crearon los componentes compartidos del layout (header, sidebar, footer), y se estableció la conexión con JSON Server como mock API para simular el backend. A continuación se presentan los commits más relevantes relacionados con la implementación de cada módulo y funcionalidad.
 
-| **Repository**        | **Branch**                | **Commit Id** | **Commit Message**                                                | **Commit Message Body** | **Committed on (Date)** |
-|-----------------------|---------------------------|---------------|-------------------------------------------------------------------|-------------------------|-------------------------|
-| therma-trace-frontend | feature/shared-components | 1883ed8       | chore: add dependencies for Angular Material and internationalization | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | 791d9b8       | feat: configure i18n with English and Spanish translations        | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | 6209670       | feat: add base entity interface for domain layer                  | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | f89906f       | feat: implement language switcher component with EN/ES toggle     | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | 73483a1       | feat: implement responsive top bar with notifications and user info | -                     | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | c7fc0da       | feat: implement sidebar navigation with responsive design and i18n | -                      | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | 3ff2811       | feat: implement main layout with responsive sidenav               | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | e6a5858       | feat: add home and 404 views with routing configuration           | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | 80ce1c1       | style: add global styles and Material Icons fonts                 | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/shared-components | 1529416       | fix: refactor on sidebar styles                                   | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/profile           | -             | feat: add shared infrastructure base classes for DDD architecture | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/profile           | -             | feat: add environment configuration for API URL                   | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/profile           | -             | feat: add user module with DDD layers (domain, infrastructure, application, presentation) | -  | 09/10/2025              |
-| therma-trace-frontend | feature/profile           | -             | feat: add confirmation and payment modals                         | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/profile           | -             | feat: add profile route to app routing                            | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/profile           | -             | feat: add translations for profile and payment features           | -                       | 09/10/2025              |
-| therma-trace-frontend | feature/profile           | -             | feat: add JSON server configuration and dependencies              | -                       | 09/10/2025              |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|-------------|---------|------------|----------------|----------------------|---------------------|
+| therma-trace-frontend | feature/shared-components | 1883ed8 | chore: add dependencies for Angular Material and internationalization | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | 791d9b8 | feat: configure i18n with English and Spanish translations | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | 6209670 | feat: add base entity interface for domain layer | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | f89906f | feat: implement language switcher component with EN/ES toggle | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | 73483a1 | feat: implement responsive top bar with notifications and user info | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | c7fc0da | feat: implement sidebar navigation with responsive design and i18n | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | 3ff2811 | feat: implement main layout with responsive sidenav | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | e6a5858 | feat: add home and 404 views with routing configuration | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | 80ce1c1 | style: add global styles and Material Icons fonts | - | 09/10/2025 |
+| therma-trace-frontend | feature/shared-components | 1529416 | fix: refactor on sidebar styles | - | 09/10/2025 |
+| therma-trace-frontend | feature/home | 7351361 | feat: add home view components | - | 10/10/2025 |
+| therma-trace-frontend | feature/home | 8c1ddd0 | feat: add funcionalidad del server | - | 10/10/2025 |
+| therma-trace-frontend | feature/home | c3c9c0e | feat: add i18n internacionalización | - | 10/10/2025 |
+| therma-trace-frontend | feature/profile | 047da31 | feat: added shared infrastructure and base classes for Domain | - | 09/10/2025 |
+| therma-trace-frontend | feature/profile | 2c1a32b | feat: add environment configuration for Mock API | - | 09/10/2025 |
+| therma-trace-frontend | feature/profile | 34e4ed9 | feat: add profile module | - | 09/10/2025 |
+| therma-trace-frontend | feature/profile | 8f15855 | feat: add shared components view for payment and confirmation modals | - | 09/10/2025 |
+| therma-trace-frontend | feature/profile | 7f42526 | feat: add translations for profile feature | - | 09/10/2025 |
+| therma-trace-frontend | feature/profile | 7572752 | feat: add environment configuration for Mock API | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 59eb1de | merge: branch 'develop' into feature/temperature | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 43955e2 | merge: pull request #2 from pre-202520-1A501729-7357/feature/profile | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | e26a6be | feat: add routing for temperature management and medicament control components; enhance language initialization logic | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 664deb8 | feat: add temperature management components including form, table, and toolbar with styles | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 6526367 | feat: add medicament card, form, grid, and toolbar components with styles | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 7aa3986 | feat: add confirm, empty, error, and loading state components | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | f4a809d | feat: update language files and enhance language switcher functionality | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | b5e6c41 | feat: add medicament control component with loading, error, and empty states | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 81a36a6 | feat: implement temperature management component with loading, error, and empty states | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 9e7fd8d | feat: add TemperatureMedicineStore for managing temperature medicines | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 1941ffa | feat: add MedicamentStore for managing medicament state and CRUD operations | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 38d54d8 | feat: add MedicamentApiService for CRUD operations on medicaments | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | d4f48fe | feat: add MedicamentApiService and TemperatureMedicineApiService for CRUD operations | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 49a22b5 | feat: add Medicament entity and request interfaces | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | df06d29 | feat: add initial db.json with profile, timezones, alerts, and medicines data | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | bc4b4ef | feat: add TemperatureMedicine entity and request interfaces | - | 09/10/2025 |
+| therma-trace-frontend | feature/temperature | 7572752 | feat: add environment configuration for Mock API | - | 09/10/2025 |
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 
