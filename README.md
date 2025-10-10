@@ -1564,9 +1564,6 @@ Para asegurar una ejecución eficiente del Sprint 2, se definieron líderes y co
 
 El Sprint Backlog 2 consolida las funcionalidades principales del frontend de ThermaTrace, enfocándose en completar el 70% de la aplicación web en Angular 20. Se implementan los bounded contexts clave: Dashboard para visualización de métricas, User/Profile para gestión de datos personales, Medicaments para el catálogo de fármacos con capacidad de agregar nuevos medicamentos, Configuration para preferencias del sistema, junto con la estructura base del proyecto, componentes compartidos (Layout/Shared), sistema de routing, internacionalización (i18n) y mock API con JSON Server.
 
-**URL del Board en Trello:** [Insertar URL del board de Trello para Sprint 2]
-
-![Sprint 2 Backlog Board en Trello](Referencia: Captura de pantalla del tablero de Trello mostrando las columnas To-do, In-Process, To-Review, Done con todas las tareas del Sprint 2)
 
 | **User Story** | **Work-Item / Task**                |        |                                                |                                                                                                                                        |                        |                 |
 |----------------|-------------------------------------|--------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------------|-----------------|
@@ -1713,13 +1710,13 @@ A continuación se presentan las principales vistas implementadas:
 
 **Video demostrativo del Sprint 2:**
 
-Enlace al video: [Insertar URL del video en YouTube/Vimeo]
+Enlace al video: [Video About the product]()
 
 El video muestra la navegación completa por todas las vistas implementadas, cambio de idioma dinámico, interacción con formularios, visualización de gráficos, agregar medicamentos con cálculo automático de status, y funcionalidades responsivas.
 
 **Enlace a la aplicación desplegada en Netlify:**
 
-URL: [Insertar URL de Netlify, ejemplo: https://thermatrace-app.netlify.app]
+URL: [https://therma-trace.netlify.app/](https://therma-trace.netlify.app/)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -1730,17 +1727,17 @@ Para este Sprint, se configuró JSON Server con endpoints mock que permiten el d
 
 **Capturas de interacción con JSON Server:**
 
-![JSON Server Running](Referencia: Captura de pantalla de la terminal mostrando JSON Server ejecutándose en puerto 3000 con los recursos disponibles: users, medications, temperatures, refrigerators, alerts, configurations)
+![JSON Server Running](assets/deploy6.png)
 
-![Postman/Thunder Client - GET Medications](Referencia: Captura de Postman/Thunder Client mostrando request GET a http://localhost:3000/medications con response JSON mostrando array de medicamentos con sus propiedades: id, name, imageUrl, expiryDate, status)
+![GET Medications](assets/deploy7.png)
 
-![Postman/Thunder Client - POST Medication](Referencia: Captura de Postman/Thunder Client mostrando request POST a http://localhost:3000/medications con body JSON conteniendo name, imageUrl, expiryDate y response exitoso con el medicamento creado)
+![GET Plans](assets/deploy8.png)
 
-![Postman/Thunder Client - PUT User Profile](Referencia: Captura de Postman/Thunder Client mostrando request PUT a http://localhost:3000/users/1 con body JSON actualizado y response exitoso)
+![GET Profile](assets/deploy9.png)
 
 **Repositorio del Mock API:**
 
-URL del repositorio: [Insertar URL del repositorio therma-trace-frontend, carpeta /json-server o /server]
+URL del repositorio: [Repositorio del mock API](https://github.com/upc-pre-202520-1ASI0729-7357/therma-trace-mockapi)
 
 **Commits relacionados con la documentación:**
 
@@ -1762,7 +1759,7 @@ Durante el Sprint 2 se realizó el despliegue completo del frontend de ThermaTra
   - Se creó una cuenta de equipo en Netlify para ThermaTrace
   - Se vinculó la cuenta con el repositorio de GitHub de la organización
 
-![Netlify Account Dashboard](Referencia: Captura de pantalla del dashboard de Netlify mostrando la cuenta de ThermaTrace con el sitio creado)
+![Netlify Account Dashboard](assets/deploy11.png)
 
 2. **Configuración del proyecto Angular para producción**
   - Se configuró el archivo `angular.json` con optimizaciones para producción
@@ -1779,33 +1776,29 @@ Durante el Sprint 2 se realizó el despliegue completo del frontend de ThermaTra
   status = 200
 ```
 
-![netlify.toml Configuration File](Referencia: Captura de pantalla del archivo netlify.toml en el IDE mostrando la configuración de build y redirects)
-
 3. **Vinculación del repositorio con Netlify**
   - Se conectó el repositorio `therma-trace-frontend` con Netlify
-  - Se configuró el branch `main` como rama de producción para deployment automático
+  - Se configuró el branch `develop` como rama de producción para deployment automático
 
-![Netlify Site Settings](Referencia: Captura de pantalla de la configuración del sitio en Netlify mostrando el repositorio vinculado y la rama main configurada)
 
 4. **Configuración de variables de entorno**
   - Se configuraron las variables de entorno necesarias para la aplicación en Netlify:
-    - `API_URL`: URL del JSON Server (para desarrollo: http://localhost:3000)
+    - `API_URL`: URL del JSON Server (mock API)
     - `PRODUCTION`: true
 
-![Netlify Environment Variables](Referencia: Captura de pantalla de la sección de variables de entorno en Netlify mostrando las variables configuradas)
 
 5. **Primer deployment**
   - Se realizó el primer deployment ejecutando el build command
   - Se verificó que todos los assets se generaron correctamente
   - Build time: ~3 minutos
 
-![Netlify Build Log](Referencia: Captura de pantalla del log de build en Netlify mostrando el proceso de compilación de Angular exitoso)
+![Netlify Build Log](assets/deploy5.png)
 
 6. **Configuración de dominio**
   - Se asignó el dominio generado automáticamente por Netlify
-  - URL del sitio: `https://thermatrace-app.netlify.app` (o el dominio asignado)
+  - URL del sitio: `https://therma-trace.netlify.app/` 
 
-![Netlify Domain Settings](Referencia: Captura de pantalla de la configuración de dominio en Netlify mostrando la URL asignada)
+![Netlify Domain Settings](assets/deploy2.png)
 
 7. **Verificación del deployment**
   - Se accedió a la aplicación desplegada y se verificó el funcionamiento correcto
@@ -1814,24 +1807,23 @@ Durante el Sprint 2 se realizó el despliegue completo del frontend de ThermaTra
   - Se comprobó la responsividad en diferentes dispositivos
   - Se probó la funcionalidad de agregar medicamentos con cálculo automático de status
 
-![Deployed Application - Dashboard](Referencia: Captura de pantalla de la aplicación desplegada en Netlify mostrando el dashboard funcionando correctamente)
+![Deployed Application - Dashboard](assets/deploy3.png)
 
-![Deployed Application - Mobile View](Referencia: Captura de pantalla de la aplicación desplegada visualizada en modo responsivo móvil)
+![Deployed Application - Mobile View](assets/deploy4.jpeg)
 
 8. **Configuración de deployment automático**
-  - Se configuró Netlify para realizar deployment automático con cada push a la rama `main`
+  - Se configuró Netlify para realizar deployment automático con cada push a la rama `develop`
   - Se configuraron deploy previews para pull requests
 
-![Netlify Deploy Settings](Referencia: Captura de pantalla de la configuración de deploy automático en Netlify)
+
 
 **URL de la aplicación desplegada:**
 
-- **Producción:** https://thermatrace-app.netlify.app [Insertar URL real]
-- **Badge de estado:** [![Netlify Status](https://api.netlify.com/api/v1/badges/[ID]/deploy-status)](https://app.netlify.com/sites/thermatrace-app/deploys)
+- **Producción:** https://therma-trace.netlify.app/
+- **Badge de estado:** ![Netlify Status Badge](assets/deploy.png)
 
 **Evidencia de deployments:**
 
-![Netlify Deploys History](Referencia: Captura de pantalla del historial de deployments en Netlify mostrando múltiples deploys exitosos durante el Sprint 2)
 
 **Commits relacionados con deployment:**
 
@@ -1874,7 +1866,7 @@ Durante el Sprint 2, el equipo trabajó de manera colaborativa en el desarrollo 
 #### 5.2.X.1. Sprint Planning n.
 Explicar como vamos a plannear el sprint?
 #### 5.2.X.2. Sprint Backlog n.
-![SprintBacklog n](image.jpg) Nica hago la tabla 
+![SprintBacklog n](image.jpg)  
 #### 5.2.X.3. Development Evidence for Sprint Review.
 ![Sprint review development Evidence](image.jpg)
 #### 5.2.X.4. Testing Suite Evidence for Sprint Review.
