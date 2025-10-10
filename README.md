@@ -1602,6 +1602,11 @@ El Sprint Backlog 2 consolida las funcionalidades principales del frontend de Th
 | US19           | Configuración de preferencias       | T29    | Crear componente de seguridad                  | Implementar sección para cambio de contraseña y sesiones activas                                                                       | 4h                     | Fabrizio        | Done |
 | US19           | Configuración de preferencias       | T30    | Implementar servicio de Configuration          | Crear servicio para guardar y recuperar preferencias                                                                                   | 3h                     | Fabrizio        | Done |
 
+LINK TRELLO: https://trello.com/invite/b/6848e2b60ba3f36ce32a8389/ATTIcb7029afd0faa3f55865b2e86411ed5aC8661FBD/mi-tablero-de-trello
+
+<img width="1915" height="887" alt="image" src="https://github.com/user-attachments/assets/f4fd1308-592a-40b2-a1bb-a676f03dd2d5" />
+
+
 ### 5.2.2.4. Development Evidence for Sprint Review
 
 Durante el Sprint 2, el equipo implementó los principales bounded contexts del frontend de ThermaTrace utilizando Angular 20. Se desarrolló la estructura base del proyecto con arquitectura modular, implementando los módulos Dashboard, User (Profile), Medicaments y Configuration. Se configuró el sistema de internacionalización (i18n) con soporte para español e inglés, se crearon los componentes compartidos del layout (header, sidebar, footer), y se estableció la conexión con JSON Server como mock API para simular el backend. A continuación se presentan los commits más relevantes relacionados con la implementación de cada módulo y funcionalidad.
