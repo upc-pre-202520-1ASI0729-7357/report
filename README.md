@@ -1990,41 +1990,199 @@ Se utilizó **Trello** para la gestión de tareas y **GitHub** para el control d
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
-**Preguntas generales:**
+
+Se realizaron entrevistas semiestructuradas con los **mismos segmentos objetivo** definidos en la fase inicial del proyecto, para obtener retroalimentación directa sobre el **rendimiento funcional y valor percibido de ThermaTrace** en el contexto real de uso.
+
+**Segmento 1 (Hospitales):**
+- Jefe/a de Farmacia Hospitalaria  
+- Responsable de Almacén/Logística Farmacéutica  
+- Ingeniero Biomédico / Mantenimiento (frío)  
+
+**Segmento 2 (Farmacias):**
+- Propietario/a o Administrador/a de farmacia/bótica  
+- Químico Farmacéutico/a responsable  
+- Asistente de farmacia (usuario operativo)  
+
+---
+
+### Preguntas generales:
+
+1. ¿Podría indicar su nombre y cargo actual?  
+2. ¿Cuánto tiempo lleva desempeñándose en su puesto?  
+3. ¿En qué tipo de institución trabaja (hospital público, privado o farmacia independiente)?  
+4. ¿Conocía previamente el proyecto ThermaTrace antes de probar la plataforma?  
+5. ¿Cómo describiría su primera impresión al utilizar la aplicación?
+
+---
+
+### Entrevistas usuario segmento objetivo 1 (Hospitales)
+
+1. ¿Qué tan intuitiva le resultó la interfaz del panel principal (Dashboard) para visualizar las temperaturas?  
+2. ¿Considera que la integración con sensores IoT funcionó de manera confiable y precisa durante las pruebas?  
+3. ¿Qué tanto le facilitó el sistema la **gestión y supervisión de refrigeradores hospitalarios** respecto al método tradicional?  
+4. ¿En qué medida los **reportes automáticos** contribuyen a optimizar los procesos de auditoría o trazabilidad?  
+5. ¿Hubo alguna dificultad técnica o de conectividad durante el uso de la plataforma?  
+6. ¿Qué funciones o módulos considera más útiles (usuarios, medicamentos, alertas, reportes, configuración)?  
+7. ¿Qué tan útil le resultó la función de **alertas en tiempo real** frente a desviaciones de temperatura?  
+8. ¿Percibe que la solución es adaptable a su flujo de trabajo diario dentro del hospital?  
+9. ¿Qué mejoras sugeriría en futuras versiones de la aplicación backend o frontend?  
+10. ¿Recomendaría la implementación de ThermaTrace en otras áreas o instituciones hospitalarias?
+
+---
+
+### Entrevistas usuario segmento objetivo 2 (Farmacias)
+
+1. ¿Qué tan fácil fue registrar medicamentos y monitorear su estado mediante la aplicación?  
+2. ¿La interfaz de usuario le resultó clara para identificar la temperatura de los equipos en tiempo real?  
+3. ¿Considera que el sistema ayuda a reducir el riesgo de pérdida de medicamentos por fallas de refrigeración?  
+4. ¿Qué tan útil encontró la funcionalidad de **reportes automáticos y alertas de temperatura**?  
+5. ¿Le resultó sencillo modificar configuraciones, idioma o preferencias dentro de la plataforma?  
+6. ¿Percibe que la aplicación se adapta al flujo operativo de su farmacia (turnos, almacenamiento, roles de usuario)?  
+7. ¿Experimentó algún problema técnico o lentitud en la respuesta del sistema?  
+8. ¿Qué aspectos considera más valiosos en la experiencia de uso (velocidad, diseño, precisión de datos, accesibilidad)?  
+9. ¿Qué nivel de confianza le genera el sistema al gestionar información sensible como medicamentos refrigerados?  
+10. ¿Qué sugerencias o mejoras agregaría para optimizar la experiencia del usuario farmacéutico?
+
+---
+### 5.3.2. Registro de entrevistas.
+
+#### Segmento 1  
+**Nombre:** Daniel del Castillo  
+**Edad:** 26 años  
+**Ocupación:** Enfermero  
+
+**Resumen de la entrevista:**  
+Daniel comenta que tras probar la aplicación ThermaTrace en su hospital, la experiencia fue positiva, destacando principalmente la **facilidad de uso del panel principal** y la claridad con que se muestran las alertas de temperatura.  
+Menciona que la **interfaz es intuitiva y rápida**, permitiendo visualizar el estado de los refrigeradores sin necesidad de ingresar a múltiples menús.  
+Considera que el sistema le facilita la supervisión diaria y reduce la dependencia del área de mantenimiento, ya que puede detectar desviaciones de temperatura y **recibir notificaciones en tiempo real**, lo que mejora la capacidad de respuesta ante emergencias.  
+Además, señala que la **generación automática de reportes** representa una ventaja significativa frente al método manual que utilizaban anteriormente.  
+Sugiere, sin embargo, que se agreguen más indicadores de estado y métricas comparativas históricas para analizar tendencias de temperatura.  
+Concluye que el sistema le resulta confiable, estable y aplicable para su entorno hospitalario.
+
+---
+
+#### Segmento 1  
+**Nombre:** Eduardo Ventura  
+**Edad:** 23 años  
+**Ocupación:** Responsable de almacén de farmacia hospitalaria  
+
+**Resumen de la entrevista:**  
+Eduardo señala que el uso de ThermaTrace ha simplificado notablemente el proceso de monitoreo de cadena de frío en su almacén, ya que el sistema centraliza toda la información y elimina la necesidad de registros en papel.  
+Resalta la **precisión de los sensores IoT** y la facilidad para interpretar los gráficos del dashboard.  
+Indica que la **función de alertas automáticas** por desviación de temperatura es una de las más útiles, ya que permite reaccionar de forma inmediata y prevenir pérdidas de medicamentos.  
+Comenta que el despliegue en la nube y la posibilidad de acceder desde distintos dispositivos les da flexibilidad para monitorear el estado de los refrigeradores fuera del horario laboral.  
+Como sugerencia, menciona que sería conveniente incluir **niveles de permiso diferenciados** para cada usuario, de modo que el personal técnico solo acceda a la información que le corresponde.
+
+---
+
+#### Segmento 2  
+**Nombre:** Fernando Zamora  
+**Edad:** 26 años  
+**Ocupación:** Administrador de farmacia  
+
+**Resumen de la entrevista:**  
+Fernando comenta que la implementación de ThermaTrace en su farmacia le permitió **automatizar el control de la cadena de frío** y reducir errores humanos asociados al registro manual.  
+Destaca que la plataforma es clara y fácil de utilizar incluso para personal sin experiencia previa en sistemas digitales.  
+Señala que las **alertas en tiempo real y los reportes automáticos** mejoraron la trazabilidad de los productos y facilitaron las inspecciones sanitarias.  
+Considera que la función más valiosa es la **visualización del estado de refrigeradores** desde el panel principal, lo que le permite tomar decisiones rápidas.  
+Menciona que la estabilidad del sistema en la nube ha sido adecuada y que le gustaría que futuras versiones incluyan una opción de exportar reportes directamente a formatos compatibles con DIGEMID y SUNAT.
+
+---
+
+#### Segmento 2  
+**Nombre:** Mateo Casa  
+**Edad:** 30 años  
+**Ocupación:** Técnico en farmacia  
+
+**Resumen de la entrevista:**  
+Mateo comenta que ThermaTrace le ha facilitado el control operativo de la temperatura diaria de los equipos de refrigeración.  
+Señala que la **interfaz gráfica es intuitiva** y que la posibilidad de acceder al sistema desde un celular o laptop agiliza su trabajo.  
+Resalta la precisión del monitoreo en tiempo real y la confiabilidad de las alertas.  
+Menciona que antes debía realizar registros manuales con termómetros y ahora puede **consultar valores históricos** para cada refrigerador, lo que reduce tiempos de control.  
+Sugiere incorporar una función que permita **etiquetar equipos críticos** o asignar colores por prioridad para mejorar la identificación visual dentro del panel.
+
+---
+
+#### Segmento 2  
+**Nombre:** Joseph Pillaca  
+**Edad:** 26 años  
+**Ocupación:** Químico farmacéutico  
+
+**Resumen de la entrevista:**  
+Joseph destaca que ThermaTrace ha aportado una mejora sustancial en la **trazabilidad de los medicamentos refrigerados**, eliminando la dependencia de hojas físicas.  
+Menciona que el sistema es estable, las lecturas de temperatura son precisas y las notificaciones automáticas resultan confiables.  
+Resalta que el módulo de reportes le permite exportar información útil para auditorías y control interno, ahorrando tiempo en la preparación de documentación.  
+Aprecia la posibilidad de monitorear remotamente sin necesidad de estar conectado físicamente a los equipos.  
+Sugiere como mejora integrar un **módulo de inventario vinculado con las alertas de temperatura**, para relacionar cada lote con su estado de conservación y detectar riesgos antes de tiempo.
+
+---
+
+En esta sección se presenta un análisis detallado de las entrevistas realizadas tras la implementación de la plataforma **ThermaTrace**, con el propósito de identificar percepciones comunes, beneficios observados y oportunidades de mejora.
+
+---
+
+#### Segmento 1 – Hospitales (Enfermería, Almacén, Logística Farmacéutica)
+
+**Percepción general:**  
+Los entrevistados perciben a ThermaTrace como una herramienta confiable, fácil de usar y de rápida adaptación.  
+El sistema ha facilitado la **supervisión continua de equipos de refrigeración**, reduciendo el tiempo invertido en tareas manuales.
+
+**Beneficios principales observados:**  
+- Alertas automáticas precisas que permiten actuar ante desviaciones de temperatura.  
+- Reportes digitales útiles para auditorías y controles internos.  
+- Acceso remoto al panel desde distintos dispositivos.  
+- Interfaz intuitiva y aprendizaje rápido por parte del personal operativo.  
+
+**Oportunidades de mejora:**  
+- Incluir métricas comparativas históricas y gráficos por periodo.  
+- Añadir roles diferenciados de acceso para mejorar la seguridad del sistema.  
+- Integrar módulos adicionales de mantenimiento preventivo.
+
+---
+
+#### Segmento 2 – Farmacias Independientes (Administrador, Técnico, Químico Farmacéutico)
+
+**Percepción general:**  
+El grupo destaca que la aplicación ha permitido **reducir errores humanos** y **mejorar la trazabilidad de medicamentos sensibles**.  
+Los usuarios valoran la facilidad de uso y la presentación visual de los datos en el dashboard.
+
+**Beneficios principales observados:**  
+- Reportes automáticos descargables en PDF y Excel.  
+- Monitoreo en tiempo real con alertas visuales y auditivas.  
+- Reducción de pérdidas económicas por fallas de refrigeración.  
+- Mayor organización y transparencia frente a auditorías.  
+
+**Oportunidades de mejora:**  
+- Integrar módulo de inventario conectado a alertas de temperatura.  
+- Compatibilidad con sistemas de reporte para DIGEMID y SUNAT.  
+- Incorporar personalización visual (etiquetas, colores y prioridad por equipos).
+
+---
+
+#### Patrones comunes en ambos segmentos
+
+- Alta satisfacción con la **precisión del monitoreo** y las alertas automáticas.  
+- Consideran que la aplicación mejora la **eficiencia operativa** y reduce errores.  
+- Valoran la posibilidad de generar reportes digitales para inspecciones.  
+- Perciben que la herramienta es escalable y aplicable a diferentes entornos del sector salud.  
+
+#### Principales diferencias
+
+- Hospitales destacan la importancia de los reportes de auditoría y trazabilidad institucional.  
+- Farmacias valoran más la **usabilidad y rapidez** del sistema para operaciones diarias.  
+- En hospitales, la adopción depende de la coordinación con mantenimiento; en farmacias, del administrador.  
+
+---
+
+**Conclusión del análisis:**  
+Las entrevistas posteriores al despliegue demuestran que **ThermaTrace es percibido como una solución efectiva, confiable y escalable**, que mejora la trazabilidad, reduce tiempos de supervisión y fortalece el control térmico de medicamentos.  
+Los usuarios de ambos segmentos coinciden en que el sistema representa un **avance tecnológico significativo** frente a los métodos manuales tradicionales.
 
 
-Los eventos clave abarcan situaciones críticas como el registro manual de inventarios, la verificación de stock en refrigeradores, la detección de productos caducados, reclamos de clientes y la reposición urgente a proveedores. Estas actividades hoy en día dependen de procesos manuales que generan riesgos de errores, sanciones y pérdidas económicas.
+**Conclusión general:**  
+Los resultados de estas entrevistas permitirán **evaluar la efectividad del sistema ThermaTrace en contexto real**, identificando percepciones de usabilidad, eficiencia y valor agregado tanto en hospitales como en farmacias.  
+Esta retroalimentación será clave para definir **mejoras técnicas, de interfaz y de integración IoT** en los próximos sprints del proyecto.
 
-
-El mapa también evidencia oportunidades de mejora que el sistema ThermaTrace busca cubrir, tales como:
-
-- Automatizar el monitoreo de temperatura y stock en tiempo real.
-=======
-**Entrevistas farmaceutico segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas farmaceutico segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 5.3.2. Registro de Entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
-
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
 ### 5.3.3. Evaluaciones según heurísticas.
 | HEURÍSTICA   | EVALUACIÓN ✅❌ | NOTA      |
 | --------------------------------------------- | ---------- | --------- |
