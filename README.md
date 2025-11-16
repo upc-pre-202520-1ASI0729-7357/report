@@ -2199,18 +2199,21 @@ Los resultados de estas entrevistas permitirán **evaluar la efectividad del sis
 Esta retroalimentación será clave para definir **mejoras técnicas, de interfaz y de integración IoT** en los próximos sprints del proyecto.
 
 ### 5.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN ✅❌ | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del farmaceutico                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
+
+| **HEURÍSTICA** | **EVALUACIÓN** | **NOTA** |
+|:----------------|::--------------:|:----------|
+| **Visibilidad del estado del sistema** | ✅ | Los usuarios perciben que el sistema comunica claramente el estado de los refrigeradores mediante indicadores visuales y alertas en tiempo real. El dashboard actualiza los datos sin necesidad de recargar la página. |
+| **Coincidencia entre el sistema y el mundo real** | ✅ | La terminología utilizada (temperatura, alerta, equipo activo/inactivo) es fácilmente comprendida por el personal hospitalario y farmacéutico. El lenguaje y los íconos coinciden con los procesos reales de monitoreo. |
+| **Control y libertad del farmacéutico** | ⚠️ | El sistema permite navegar y consultar información libremente, pero los usuarios sugieren incluir niveles de acceso diferenciados según el rol (administrador, técnico, farmacia). |
+| **Consistencia y estándares** | ✅ | La interfaz mantiene coherencia visual entre módulos (usuarios, sensores, alertas, reportes). Los botones, colores y tipografía son uniformes, favoreciendo la predictibilidad en las acciones. |
+| **Prevención de errores** | ⚠️ | Las alertas ayudan a prevenir pérdidas por fallas térmicas, pero aún no existen validaciones avanzadas para evitar registros duplicados o configuraciones incorrectas en sensores. |
+| **Mostrar antes que recordar** | ✅ | Toda la información crítica (temperaturas, estado, alertas) está visible en el dashboard principal, sin necesidad de navegar entre menús. Esto reduce la carga de memoria operativa. |
+| **Flexibilidad y eficiencia de uso** | ✅ | Los usuarios valoran la rapidez con la que se consultan datos, la capacidad de acceder desde diferentes dispositivos y la generación automática de reportes, lo que optimiza su flujo de trabajo. |
+| **Diseño estético y minimalista** | ✅ | La interfaz es limpia, con distribución clara de módulos y uso adecuado del color para resaltar información relevante. Los usuarios destacaron su facilidad de lectura y navegación. |
+| **Comunicar errores con facilidad** | ⚠️ | El sistema muestra mensajes básicos al detectar fallos de conexión o sensores inactivos. Se sugiere incorporar mensajes más detallados que orienten al usuario sobre cómo resolver el problema. |
+| **Ayuda y documentación** | ⚠️ | El sistema incluye tooltips y etiquetas informativas, pero aún no cuenta con una guía o manual integrado en la plataforma. Los usuarios sugieren añadir una sección de ayuda accesible desde el menú principal. |
+
+
 ## 5.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
