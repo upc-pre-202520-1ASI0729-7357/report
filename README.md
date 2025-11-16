@@ -2051,6 +2051,9 @@ Se realizaron entrevistas semiestructuradas con los **mismos segmentos objetivo*
 **Edad:** 26 años  
 **Ocupación:** Enfermero  
 
+![Imagen de entrevista](assets/entrevistas/daniel.png)  
+[Entrevista Eduardo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
 **Resumen de la entrevista:**  
 Daniel comenta que tras probar la aplicación ThermaTrace en su hospital, la experiencia fue positiva, destacando principalmente la **facilidad de uso del panel principal** y la claridad con que se muestran las alertas de temperatura.  
 Menciona que la **interfaz es intuitiva y rápida**, permitiendo visualizar el estado de los refrigeradores sin necesidad de ingresar a múltiples menús.  
@@ -2066,6 +2069,9 @@ Concluye que el sistema le resulta confiable, estable y aplicable para su entorn
 **Edad:** 23 años  
 **Ocupación:** Responsable de almacén de farmacia hospitalaria  
 
+![Imagen de entrevista](assets/entrevistas/eduardo.png)  
+[Entrevista Eduardo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
 **Resumen de la entrevista:**  
 Eduardo señala que el uso de ThermaTrace ha simplificado notablemente el proceso de monitoreo de cadena de frío en su almacén, ya que el sistema centraliza toda la información y elimina la necesidad de registros en papel.  
 Resalta la **precisión de los sensores IoT** y la facilidad para interpretar los gráficos del dashboard.  
@@ -2079,6 +2085,9 @@ Como sugerencia, menciona que sería conveniente incluir **niveles de permiso di
 **Nombre:** Fernando Zamora  
 **Edad:** 26 años  
 **Ocupación:** Administrador de farmacia  
+
+![Imagen de entrevista](assets/entrevistas/fernando.png)
+[Entrevista Fernando](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
 
 **Resumen de la entrevista:**  
 Fernando comenta que la implementación de ThermaTrace en su farmacia le permitió **automatizar el control de la cadena de frío** y reducir errores humanos asociados al registro manual.  
@@ -2094,6 +2103,9 @@ Menciona que la estabilidad del sistema en la nube ha sido adecuada y que le gus
 **Edad:** 30 años  
 **Ocupación:** Técnico en farmacia  
 
+![Imagen de entrevista](assets/entrevistas/mateo.png)
+[Entrevista Fernando](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
+
 **Resumen de la entrevista:**  
 Mateo comenta que ThermaTrace le ha facilitado el control operativo de la temperatura diaria de los equipos de refrigeración.  
 Señala que la **interfaz gráfica es intuitiva** y que la posibilidad de acceder al sistema desde un celular o laptop agiliza su trabajo.  
@@ -2107,6 +2119,9 @@ Sugiere incorporar una función que permita **etiquetar equipos críticos** o as
 **Nombre:** Joseph Pillaca  
 **Edad:** 26 años  
 **Ocupación:** Químico farmacéutico  
+
+![Imagen de entrevista](assets/entrevistas/joseph.png)
+[Entrevista Fernando](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/EdVUKA-zVg9Js4EQocCBz7cBZ_RROWHLt8e-DzDUZFek4g?e=ewaU61)
 
 **Resumen de la entrevista:**  
 Joseph destaca que ThermaTrace ha aportado una mejora sustancial en la **trazabilidad de los medicamentos refrigerados**, eliminando la dependencia de hojas físicas.  
