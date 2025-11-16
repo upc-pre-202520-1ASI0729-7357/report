@@ -1861,24 +1861,61 @@ Durante el Sprint 2, el equipo trabajó de manera colaborativa en el desarrollo 
 
 ![GitHub Pull Requests](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/562943632_783115777966874_4078534639669109928_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=OuafLw_Hp14Q7kNvwGpwJLR&_nc_oc=AdnWrZx7vLUp6pJcgOwh9N3y_hNuCUQ7KzRRLfE8n_cErApowRJ58jn2Y0Ds25oBqnc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gGg_3O91LEigBiKR2FKWH4yQaQtNVuq15BB2EqPxhDPvg&oe=691033C8)
 
+## 5.2.3. Sprint 3
+### 5.2.3.1. Sprint Planning 3.
 
-### 5.2.X. Sprint n
-#### 5.2.X.1. Sprint Planning n.
-Explicar como vamos a plannear el sprint?
-#### 5.2.X.2. Sprint Backlog n.
-![SprintBacklog n](image.jpg)  
-#### 5.2.X.3. Development Evidence for Sprint Review.
-![Sprint review development Evidence](image.jpg)
-#### 5.2.X.4. Testing Suite Evidence for Sprint Review.
-![Sprint review Testing suite Evidence](image.jpg)
-#### 5.2.X.5. Execution Evidence for Sprint Review.
-![Sprint review Execution Evidence](image.jpg)
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
-![Sprint review Services Documentation Evidence](image.jpg)
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
-![Sprint review Software Deployment Evidence](image.jpg)
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
-![Sprint review Team Collaboration Insights](image.jpg) imagenes de colaboraciones github
+El Sprint Planning 1 establece la organización inicial del equipo para desarrollar el MVP de ThermaTrace. Se definen el objetivo del Sprint, las User Stories que serán trabajadas, la capacidad del equipo, y los entregables esperados. Este proceso permite una planificación clara y el alineamiento de todo el equipo hacia un mismo objetivo para la entrega de valor.
+
+| Field | Information |
+|:------|:------------|
+| **Sprint #** | Sprint 3 |
+| **Date** | 2025-09-05 |
+| **Time** | 05:00 PM |
+| **Location** | Virtual (Discord y Zoom) |
+| **Prepared By** | Espinoza Quijandria, Oscar Leonardo |
+| **Attendees (to planning meeting)** | Oscar Espinoza, Fabrizio Panta, Axel Ordoñez, Jean Grandez, Frezzia Espinoza |
+| **Sprint n – 1 Review Summary** | Not applicable (First Sprint of the Mascota Match project) |
+| **Sprint n – 1 Retrospective Summary** | Not applicable (First Sprint of the Mascota Match project). |
+| **Sprint n Goal** | Finalize the first version of Therma Trace, including the sections of Home, features, precing , Team and about.<br><br>**Sprint Goal:**<br>Our focus is on launching ThermaTrace MVP.<br>We believe it delivers essential functionality and first user experience.<br>This will be confirmed when users can register, navigate, consult services, choose a plan successfully. |
+| **Sprint n Velocity** | 23 Story Points |
+| **Sprint Goal & User Stories** | **User Stories:**<br> HU1, HU2, HU3, HU4 , HU5, HU6, HU7 |
+| **Sum of Story Points** | **23 Story Points** |
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para asegurar una ejecución eficiente del Sprint 1, se definieron líderes y colaboradores responsables de las principales áreas del proyecto. Cada miembro del equipo lidera o apoya aspectos específicos como el desarrollo de páginas, integración de funcionalidades, diseño visual y animaciones. Esta matriz garantiza una asignación clara de tareas y fomenta el trabajo colaborativo.
+
+
+### 5.2.3.3. Sprint Backlog 3
+El Sprint Backlog 3 consolida todas las funcionalidades principales de ThermaTrace, enfocándose en completar toda la experiencia de usuario inicial: About, Home, Pricing, Team, Features.
+
+
+### 5.2.3.4. Development Evidence for Sprint Review.
+
+## Detalles
+Cada feature fue desarrollado en una branch diferente siguiendo buenas prácticas de control de versiones y trabajo en equipo. Se utilizaron mensajes de commit descriptivos y cada cambio fue verificado.
+
+### 5.2.3.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 1, el equipo ejecutó las tareas de desarrollo de la Landing Page de MascotaMatch siguiendo el plan establecido. Se completó el objetivo de crear, implementar y desplegar la página con una estructura HTML básica, diseño UX/UI optimizado y estilos responsivos, todo dentro del plazo asignado.
+
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 1, el equipo de ThermaTrace se enfocó en el desarrollo de la Landing Page del proyecto, por lo que no se implementaron ni consumieron servicios (APIs) en esta etapa. La documentación de servicios se realizará en futuros sprints, conforme se avance en el desarrollo del backend y las funcionalidades dinámicas de la aplicación.
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+En el Sprint 1 se realizó el lanzamiento de la primera versión del Landing Page, la cual fue publicada mediante GitHub Pages. A continuación, se muestran las evidencias correspondientes al despliegue.
+
+
+### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+En el Sprint 1, el equipo se centró en el desarrollo, implementación y despliegue de la Landing Page de MascotaMatch. El trabajo se distribuyó de manera colaborativa, con cada miembro asumiendo responsabilidades en áreas clave como el desarrollo de la estructura HTML, el diseño de la interfaz y la experiencia de usuario, y la creación de estilos responsivos. Además, algunos miembros se encargaron del control de versiones y del despliegue en GitHub Pages.
+
+La comunicación fue constante a través de plataforma usada: Discord, WhatsApp, Slack; y utilizamos herramientas como Trello, GitHub Projects para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
+
+
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
