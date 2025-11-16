@@ -1849,33 +1849,73 @@ Durante el Sprint 2, el equipo trabajó de manera colaborativa en el desarrollo 
 
 - **Fabrizio Panta:** Lideró el desarrollo del módulo Configuration (feature/configuration), creando las vistas de preferencias y seguridad, y servicios de configuración. Colaboró en la implementación de guards y interceptors.
 
-## 5.2.3. Sprint 3
-### 5.2.3.1. Sprint Planning 3.
+## 5.2.3. Sprint Planning 3
 
-El Sprint Planning 1 establece la organización inicial del equipo para desarrollar el MVP de ThermaTrace. Se definen el objetivo del Sprint, las User Stories que serán trabajadas, la capacidad del equipo, y los entregables esperados. Este proceso permite una planificación clara y el alineamiento de todo el equipo hacia un mismo objetivo para la entrega de valor.
+El Sprint Planning 3 establece la organización del equipo para completar el desarrollo del **backend** de la aplicación web **ThermaTrace**, alcanzando el 80 % de las funcionalidades principales de los bounded contexts: autenticación, usuarios, sensores IoT, medicamentos y alertas.  
+Se definen los bounded contexts a implementar, las responsabilidades de cada miembro y los entregables esperados para alcanzar una versión funcional y desplegable en **Render con MySQL y JWT Security**.
 
-| Field | Information |
-|:------|:------------|
-| **Sprint #** | Sprint 3 |
-| **Date** | 2025-09-05 |
-| **Time** | 05:00 PM |
+| **Sprint #** | **Sprint 3** |
+|---------------|--------------|
+| **Sprint Planning Background** | El equipo continúa con la arquitectura modular del proyecto, ahora enfocándose en los servicios backend. Se implementa el enfoque **DDD (Domain-Driven Design)** con paquetes por contexto (Auth, User, Medicaments, Sensors, Alerts, Configuration). |
+| **Date** | 2025-11-15 |
+| **Time** | 06:00 PM |
 | **Location** | Virtual (Discord y Zoom) |
-| **Prepared By** | Espinoza Quijandria, Oscar Leonardo |
+| **Prepared By** | Grandez Mansilla, Jean Pierre |
 | **Attendees (to planning meeting)** | Oscar Espinoza, Fabrizio Panta, Axel Ordoñez, Jean Grandez, Frezzia Espinoza |
-| **Sprint n – 1 Review Summary** | Not applicable (First Sprint of the Mascota Match project) |
-| **Sprint n – 1 Retrospective Summary** | Not applicable (First Sprint of the Mascota Match project). |
-| **Sprint n Goal** | Finalize the first version of Therma Trace, including the sections of Home, features, precing , Team and about.<br><br>**Sprint Goal:**<br>Our focus is on launching ThermaTrace MVP.<br>We believe it delivers essential functionality and first user experience.<br>This will be confirmed when users can register, navigate, consult services, choose a plan successfully. |
-| **Sprint n Velocity** | 23 Story Points |
-| **Sprint Goal & User Stories** | **User Stories:**<br> HU1, HU2, HU3, HU4 , HU5, HU6, HU7 |
-| **Sum of Story Points** | **23 Story Points** |
+| **Sprint 3 – Review Summary** | Durante el Sprint 2 se completó exitosamente el frontend de ThermaTrace con Angular 20 y su despliegue en Netlify. En este Sprint 3, el enfoque se trasladó al **backend**, implementando la arquitectura base de **Spring Boot**, integración con **MySQL**, y simulación de datos mediante **JSON Server** para pruebas locales.<br><br>Los avances incluyen:<br>• Creación de endpoints REST para **Users, Medicaments, Sensors y Alerts**.<br>• Implementación de **autenticación JWT** para rutas seguras (**TS01**).<br>• Registro de sensores IoT mediante API (**TS02**).<br>• Documentación automática con **Swagger/OpenAPI (TS06)**.<br>• Integración y pruebas unitarias con datos persistentes en MySQL.<br><br>Los entregables fueron validados correctamente desde el frontend, confirmando la comunicación entre Angular y el backend vía API REST. |
+| **Sprint 3 – Retrospective Summary** | **Aciertos:**<br>• Integración estable entre frontend y backend.<br>• Correcta configuración de MySQL y despliegue en Render.<br>• Fluida comunicación y commits organizados por ramas.<br><br>**Oportunidades de mejora:**<br>• Aumentar la cobertura de pruebas unitarias y documentación de controladores.<br>• Mejorar manejo de errores global con `ResponseEntityExceptionHandler`.<br><br>**Acciones acordadas:**<br>• Implementar métricas de rendimiento (**Actuator**).<br>• Configurar CI/CD con GitHub Actions.<br>• Mantener commits diarios y revisiones cruzadas. |
+| **Sprint 3 Goal** | **Our focus is** on implementing 80 % of the backend functionality of ThermaTrace, providing secure RESTful APIs for authentication, sensors management, medicaments catalog, and real-time alerts.<br><br>**We believe it delivers** a reliable, modular, and scalable backend aligned with DDD principles, ensuring smooth integration with the Angular frontend.<br><br>**This will be confirmed when** the frontend successfully consumes endpoints for authentication, CRUD operations, alerts, and IoT data synchronization from the deployed backend on Render. |
+| **Sprint 3 Velocity** | 48 Story Points |
+| **Sum of Story Points** | 47 Story Points |
+| **User Stories incluidas en Sprint 3** | • **TS01:** Crear ruta segura y mostrar datos de monitoreo mediante JWT. (8 SP)<br>• **TS02:** Registro de sensores IoT a través del API. (8 SP)<br>• **TS03:** Modificar información de sensor IoT. (5 SP)<br>• **TS04:** Asignar sensores a refrigeradores. (3 SP)<br>• **TS05:** Implementar endpoint de alertas. (8 SP)<br>• **TS06:** Documentar todos los endpoints con Swagger/OpenAPI. (5 SP)<br>• **US18:** Actualización de datos personales (5 SP)<br>• **US19:** Configuración de preferencias (3 SP)<br>• **US13:** Creación y gestión de cuentas de usuario (2 SP) |
+---
 
-### 5.2.3.2. Aspect Leaders and Collaborators
+## 5.2.3.2 Aspect Leaders and Collaborators
 
-Para asegurar una ejecución eficiente del Sprint 1, se definieron líderes y colaboradores responsables de las principales áreas del proyecto. Cada miembro del equipo lidera o apoya aspectos específicos como el desarrollo de páginas, integración de funcionalidades, diseño visual y animaciones. Esta matriz garantiza una asignación clara de tareas y fomenta el trabajo colaborativo.
+| **Team Member** | **GitHub Username** | **Auth / Security** | **Users** | **Sensors** | **Medicaments** | **Alerts** | **Configuration** |
+|:----------------|:--------------------|:--------------------:|:----------:|:-------------:|:----------------:|:------------:|:------------------:|
+| Grandez Mansilla, Jean Pierre | JeanGrandez | C | C | C | **L** | C | C |
+| Espinoza Quijandría, Oscar Leonardo | Carboncito5443 | **L** | C | C | C | C | C |
+| Espinoza Samaniego, Frezzia Milagros | FrezziaEspinoza | C | **L** | C | C | C | C |
+| Ordóñez Chirinos, Axel Brahan | noomzzzzz | C | C | **L** | C | C | C |
+| Panta Salazar, Fabrizio Gabriel | F4brizio24 | C | C | C | C | **L** | **L** |
 
+> **L = Leader (Líder del aspecto)** **C = Collaborator (Colaborador)**
 
-### 5.2.3.3. Sprint Backlog 3
-El Sprint Backlog 3 consolida todas las funcionalidades principales de ThermaTrace, enfocándose en completar toda la experiencia de usuario inicial: About, Home, Pricing, Team, Features.
+---
+
+## 5.2.3.3 Sprint Backlog 3
+
+| **User Story** | **Id** | **Título** | **Descripción** | **Estimación (Hours)** | **Asignado a** |
+|:----------------|:------:|:------------|:----------------|:----------------------:|:---------------|
+| TS01 | T31 | Implementar seguridad JWT | Configurar Spring Security y JWT para autenticación y autorización de usuarios. | 6 h | Oscar |
+| TS01 | T32 | Endpoint protegido `/monitor` | Crear endpoint con acceso restringido para farmacéuticos autenticados. | 4 h | Oscar |
+| TS02 | T33 | Registrar sensores IoT | Implementar endpoint POST `/sensors` para registrar sensores en MySQL. | 5 h | Axel |
+| TS03 | T34 | Actualizar información de sensor | Implementar PUT `/sensors/{id}` para actualizar información y estado. | 4 h | Axel |
+| TS04 | T35 | Asignar sensor a refrigerador | Crear servicio para asociar sensor con ID de refrigerador. | 3 h | Axel |
+| TS05 | T36 | Endpoint de alertas | Crear endpoints GET/POST `/alerts` para registrar y consultar alertas. | 5 h | Fabrizio |
+| TS06 | T37 | Configurar Swagger/OpenAPI | Documentar todos los endpoints REST en Swagger UI. | 3 h | Jean |
+| US13 | T38 | CRUD usuarios | Implementar CRUD completo de usuarios con roles. | 6 h | Frezzia |
+| US18 | T39 | Actualización de perfil | Endpoint PATCH `/users/profile` para editar información personal. | 4 h | Frezzia |
+| US19 | T40 | Configuración de preferencias | Endpoint `/config/preferences` para actualizar idioma, zona horaria y notificaciones. | 3 h | Fabrizio |
+| – | T41 | Integración MySQL | Configurar conexión persistente con base de datos MySQL y repositorios JPA. | 4 h | Jean |
+| – | T42 | Pruebas y despliegue | Testear y desplegar backend en Render. | 4 h | Equipo |
+
+---
+
+## 5.2.3.4 Development Evidence for Sprint Review
+
+Durante el Sprint 3, se implementaron los principales **bounded contexts del backend** utilizando **Spring Boot 3.3.0**, con arquitectura modular y conexión a MySQL.  
+Se configuró **JWT Security**, CRUD completo para las entidades principales, y se documentó la API en **Swagger UI**.  
+A continuación, se presentan los commits más relevantes:
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|:----------------|:------------|:---------------|:-------------------|:-------------------------|:-------------------------|
+| therma-trace-backend | feature/auth-security | a81f2c7 | `feat: implement JWT authentication and refresh token` | Added login/register endpoints with JWT validation. | 15/11/2025 |
+| therma-trace-backend | feature/sensors-module | c39b5fa | `feat: add sensors CRUD and repository layer` | Created endpoints for registering and updating IoT sensors. | 15/11/2025 |
+| therma-trace-backend | feature/alerts-module | d5e3a4c | `feat: implement alerts endpoint with real-time notifications` | Added controller and service for managing alerts. | 15/11/2025 |
+| therma-trace-backend | feature/swagger-docs | e91d234 | `chore: add Swagger configuration for REST documentation` | Exposed OpenAPI UI for all endpoints. | 15/11/2025 |
+| therma-trace-backend | feature/mysql-integration | f02b1de | `fix: configure MySQL connection and JPA entities` | Updated application.properties for Render deployment. | 15/11/2025 |
 
 
 ### 5.2.3.4. Development Evidence for Sprint Review.
@@ -1883,26 +1923,69 @@ El Sprint Backlog 3 consolida todas las funcionalidades principales de ThermaTra
 ## Detalles
 Cada feature fue desarrollado en una branch diferente siguiendo buenas prácticas de control de versiones y trabajo en equipo. Se utilizaron mensajes de commit descriptivos y cada cambio fue verificado.
 
+<img width="1280" height="619" alt="image" src="https://github.com/user-attachments/assets/6f08f204-10a8-4bd9-87c5-8abee9d5e1b8" />
+<img width="1280" height="504" alt="image" src="https://github.com/user-attachments/assets/129a0f04-f951-4330-b867-ec64af27bbc8" />
+<img width="1280" height="661" alt="image" src="https://github.com/user-attachments/assets/12b21538-0fb4-4429-8407-2b3295ef43da" />
+<img width="1280" height="666" alt="image" src="https://github.com/user-attachments/assets/dbb72058-2d98-43ea-adad-603f3e423fed" />
+<img width="488" height="912" alt="image" src="https://github.com/user-attachments/assets/7f634d53-ad4b-4a76-ba29-134d37910e46" />
+
+
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Durante el Sprint 1, el equipo ejecutó las tareas de desarrollo de la Landing Page de MascotaMatch siguiendo el plan establecido. Se completó el objetivo de crear, implementar y desplegar la página con una estructura HTML básica, diseño UX/UI optimizado y estilos responsivos, todo dentro del plazo asignado.
+Durante el Sprint 3, el equipo ejecutó las tareas de desarrollo de la Landing Page de MascotaMatch siguiendo el plan establecido. Se completó el objetivo de crear, implementar y desplegar la página con una estructura HTML básica, diseño UX/UI optimizado y estilos responsivos, todo dentro del plazo asignado.
 
+<img width="1280" height="619" alt="image" src="https://github.com/user-attachments/assets/6f08f204-10a8-4bd9-87c5-8abee9d5e1b8" />
+<img width="1280" height="504" alt="image" src="https://github.com/user-attachments/assets/129a0f04-f951-4330-b867-ec64af27bbc8" />
+<img width="1280" height="661" alt="image" src="https://github.com/user-attachments/assets/12b21538-0fb4-4429-8407-2b3295ef43da" />
+<img width="1280" height="666" alt="image" src="https://github.com/user-attachments/assets/dbb72058-2d98-43ea-adad-603f3e423fed" />
+<img width="488" height="912" alt="image" src="https://github.com/user-attachments/assets/7f634d53-ad4b-4a76-ba29-134d37910e46" />
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 1, el equipo de ThermaTrace se enfocó en el desarrollo de la Landing Page del proyecto, por lo que no se implementaron ni consumieron servicios (APIs) en esta etapa. La documentación de servicios se realizará en futuros sprints, conforme se avance en el desarrollo del backend y las funcionalidades dinámicas de la aplicación.
+Durante el Sprint 3, el equipo de ThermaTrace se enfocó en el desarrollo de la Backend del proyecto, por lo que no se implementaron ni consumieron servicios (APIs) en esta etapa. La documentación de servicios se realizará en futuros sprints, conforme se avance en el desarrollo del backend y las funcionalidades dinámicas de la aplicación.
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-En el Sprint 1 se realizó el lanzamiento de la primera versión del Landing Page, la cual fue publicada mediante GitHub Pages. A continuación, se muestran las evidencias correspondientes al despliegue.
+En el Sprint 3 se realizó el lanzamiento de la primera versión del BackEnd, la cual fue publicada mediante GitHub Pages. A continuación, se muestran las evidencias correspondientes al despliegue.
 
+<img width="1280" height="619" alt="image" src="https://github.com/user-attachments/assets/6f08f204-10a8-4bd9-87c5-8abee9d5e1b8" />
+<img width="1280" height="504" alt="image" src="https://github.com/user-attachments/assets/129a0f04-f951-4330-b867-ec64af27bbc8" />
+<img width="1280" height="661" alt="image" src="https://github.com/user-attachments/assets/12b21538-0fb4-4429-8407-2b3295ef43da" />
+<img width="1280" height="666" alt="image" src="https://github.com/user-attachments/assets/dbb72058-2d98-43ea-adad-603f3e423fed" />
+<img width="488" height="912" alt="image" src="https://github.com/user-attachments/assets/7f634d53-ad4b-4a76-ba29-134d37910e46" />
 
-### 5.2.3.8. Team Collaboration Insights during Sprint.
+### 5.2.3.8 Team Collaboration Insights during Sprint
 
-En el Sprint 1, el equipo se centró en el desarrollo, implementación y despliegue de la Landing Page de MascotaMatch. El trabajo se distribuyó de manera colaborativa, con cada miembro asumiendo responsabilidades en áreas clave como el desarrollo de la estructura HTML, el diseño de la interfaz y la experiencia de usuario, y la creación de estilos responsivos. Además, algunos miembros se encargaron del control de versiones y del despliegue en GitHub Pages.
+Durante el Sprint 3, el equipo trabajó de manera colaborativa en el desarrollo del **backend de ThermaTrace**, con cada miembro liderando un bounded context específico mientras colaboraba en otros aspectos del proyecto.  
+La comunicación fue constante a través de **Discord** para reuniones diarias y **WhatsApp** para coordinación rápida.  
+Se utilizó **Trello** para la gestión de tareas y **GitHub** para el control de versiones, siguiendo la metodología **GitFlow** con feature branches.
 
-La comunicación fue constante a través de plataforma usada: Discord, WhatsApp, Slack; y utilizamos herramientas como Trello, GitHub Projects para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
+**Distribución del trabajo:**
 
+- **Jean Grandez:**  
+  Lideró la **arquitectura base del backend**, configuración de paquetes DDD y conexión con **MySQL**.  
+  Implementó la **documentación con Swagger/OpenAPI (feature/swagger-docs)** y la integración con **Render**.  
+  Colaboró en la configuración de entidades JPA y en la estructuración de controladores principales.
+
+- **Oscar Espinoza:**  
+  Lideró la **implementación de seguridad JWT (feature/auth-security)**, incluyendo endpoints de login, registro y validación de tokens.  
+  Desarrolló el endpoint protegido `/monitor` y apoyó en la verificación de roles y permisos.  
+  Colaboró en la integración del módulo de usuarios con los servicios de autenticación.
+
+- **Frezzia Espinoza:**  
+  Lideró el **módulo de usuarios (feature/users)**, implementando CRUD completo y actualización de perfil mediante endpoints REST.  
+  Desarrolló los servicios de edición de usuario y validaciones en los DTOs.  
+  Colaboró en la integración de respuestas HTTP y pruebas unitarias con JUnit.
+
+- **Axel Ordóñez:**  
+  Lideró el **módulo de sensores IoT (feature/sensors-module)**, desarrollando endpoints para el registro, modificación y asignación de sensores.  
+  Implementó servicios para asociar sensores con refrigeradores y conexión con la base de datos.  
+  Colaboró en la estructura de entidades del dominio y validaciones de entrada.
+
+- **Fabrizio Panta:**  
+  Lideró el **módulo de alertas y configuración (feature/alerts-module y feature/configuration)**, implementando endpoints para gestión de alertas en tiempo real y preferencias del sistema.  
+  Desarrolló la lógica para manejo de notificaciones y parámetros configurables de usuario.  
+  Colaboró en la integración final y despliegue del backend en Render.
 
 
 ## 5.3. Validation Interviews.
