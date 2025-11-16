@@ -1942,7 +1942,38 @@ Durante el Sprint 3, el equipo ejecutó las tareas de desarrollo de la Landing P
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 3, el equipo de ThermaTrace se enfocó en el desarrollo de la Backend del proyecto, por lo que no se implementaron ni consumieron servicios (APIs) en esta etapa. La documentación de servicios se realizará en futuros sprints, conforme se avance en el desarrollo del backend y las funcionalidades dinámicas de la aplicación.
+Para esta entrega se desplegaron los servicios REST del backend de ThermaTrace en Render, incluyendo la documentación automática generada con Swagger/OpenAPI. A continuación se presentan las evidencias correspondientes a la documentación de los endpoints implementados durante el Sprint 3.
+
+URL del Swagger UI desplegado: [URL del Swagger UI](https://therma-trace-backend.onrender.com/swagger-ui/index.html#/)
+
+
+ENDPOINTS DOCUMENTADOS:
+
+- **Authentication / Security:**
+  - POST `/auth/login` - Autenticación de usuario y generación de JWT.
+  - POST `/auth/register` - Registro de nuevos usuarios.
+
+- **Profiles / Users:**
+  - GET `/users/{id}` - Obtener información de usuario por ID.
+  - PATCH `/users/profile` - Actualizar datos personales del usuario.
+
+- **Auxiliariy Data**:
+  - GET `/config/preferences` - Obtener y actualizar preferencias del usuario.
+  - GET `/config/language` - Obtener lista de idiomas soportados.
+  - GET `/config/timezones` - Obtener lista de zonas horarias.
+  - POST `/config/plans` - Configurar preferencias de notificaciones.
+
+- **Medicines:**
+  - GET `/medicines` - Listar todos los medicamentos.
+  - POST `/medicines` - Agregar nuevo medicamento.
+  - PUT `/medicines/{id}` - Actualizar información de medicamento.
+  - DELETE `/medicines/{id}` - Eliminar medicamento por ID.
+
+- **Medicines Monitoring**:
+    - GET `/medicine-monitoring` - Obtener datos de monitoreo de temperatura (protegido).
+    - POST `/medicine-monitoring` - Registrar datos de monitoreo.
+    - GET `/medicine-monitoring/alerts` - Obtener alertas generadas.
+    - DELETE `/medicine-monitoring/alerts/{id}` - Eliminar alerta por ID.
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
@@ -2218,7 +2249,7 @@ Esta retroalimentación será clave para definir **mejoras técnicas, de interfa
 
 
 ## 5.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
+[URL del video about the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212484_upc_edu_pe/IQDr4ZasiJ57QLkTi2dPD5lOAUhwFLvOXQBtbtj4f1O1CCw?e=RNZ4ia)
 # Conclusiones
 
 En el desarrollo de ThermaTrace, los segmentos objetivos (hospitales y farmacias) nos ayudaron a comprender lo que los profesionales de la salud esperan de una solución de monitoreo de cadena de frío. Esto nos permitió identificar las características clave que deben incluirse en la plataforma para responder a sus necesidades reales. Gracias a ello, se diseñó una propuesta práctica y confiable que contribuye a reducir riesgos, optimizar la gestión de medicamentos y asegurar el cumplimiento normativo.
