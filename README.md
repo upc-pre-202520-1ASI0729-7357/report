@@ -2214,6 +2214,7 @@ Esta retroalimentación será clave para definir **mejoras técnicas, de interfa
 | **Ayuda y documentación** | ⚠️ | El sistema incluye tooltips y etiquetas informativas, pero aún no cuenta con una guía o manual integrado en la plataforma. Los usuarios sugieren añadir una sección de ayuda accesible desde el menú principal. |
 
 
+
 ## 5.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
