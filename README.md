@@ -1849,18 +1849,6 @@ Durante el Sprint 2, el equipo trabajó de manera colaborativa en el desarrollo 
 
 - **Fabrizio Panta:** Lideró el desarrollo del módulo Configuration (feature/configuration), creando las vistas de preferencias y seguridad, y servicios de configuración. Colaboró en la implementación de guards y interceptors.
 
-**Analíticos de colaboración en GitHub:**
-
-![GitHub Insights - Contributors](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/553584944_1330057795242018_3201857840752760450_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=3_k8thH_2nQQ7kNvwEdBE9h&_nc_oc=AdkXHetHRWth19bRsaK2WprfZfxYgwTjfSBbLJ3u6NrWnyBr_o2LaInjBXKXbK6iNcI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gEa2GialChSn1pl7UwiRvdNvu9HajDUjqaC9AwJ2UDD9Q&oe=691025BB)
-
-![GitHub Insights - Commit Activity](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552648036_1300918048453097_4631742992030739388_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=RupY61xEJzMQ7kNvwETPyXW&_nc_oc=Adk2dSfUhPWex5crNUQUyyqTckLP9JPolV3eaYccG7qYo98mtPcLCE7DbAi0ADgZPA4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gH52bOJuzsL-Kv34ywvr2CnT8JdbzuWtGSTmuixGDAliw&oe=69103567)
-
-![GitHub Network Graph](https://scontent.flim33-1.fna.fbcdn.net/v/t1.15752-9/552889881_1280728827136063_4453401889481037748_n.png?stp=dst-png_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=uXU1Fh7jRZEQ7kNvwGNKQPL&_nc_oc=Adk818VCZrRhP1s4oqRA7IY5x3qMXcyXQpB7zrJepXXDS2a89kXfpJtttZIRJIzHoh8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&oh=03_Q7cD3gFEnMw9AoJeuFR2J6VjapcWltgI_jeZSjLmonsCWMER6Q&oe=69102D89)
-
-**Pull Requests durante el Sprint 2:**
-
-![GitHub Pull Requests](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/562943632_783115777966874_4078534639669109928_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=OuafLw_Hp14Q7kNvwGpwJLR&_nc_oc=AdnWrZx7vLUp6pJcgOwh9N3y_hNuCUQ7KzRRLfE8n_cErApowRJ58jn2Y0Ds25oBqnc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gGg_3O91LEigBiKR2FKWH4yQaQtNVuq15BB2EqPxhDPvg&oe=691033C8)
-
 ## 5.2.3. Sprint 3
 ### 5.2.3.1. Sprint Planning 3.
 
