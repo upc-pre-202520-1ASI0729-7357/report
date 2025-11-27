@@ -1,7 +1,7 @@
 
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Facultad: Ingeniería</strong><br>
     <strong>Carrera: Ingeniería de Software</strong><br>
     <strong>Codigo de curso: 1ASI0729</strong><br>
