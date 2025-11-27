@@ -5,11 +5,11 @@
     <strong>Facultad: Ingeniería</strong><br>
     <strong>Carrera: Ingeniería de Software</strong><br>
     <strong>Periodo: 202520</strong><br>
-    <strong>Codigo de curso: 1ASI0729</strong><br>
-    <strong>Nombre del curso: Desarrollo de Aplicaciones Open Source - NRC: 7357</strong><br>
-    <strong>Profesor: Rafael Oswaldo Castro Veramendi </strong><br>
-    
-    <br>Informe de trabajo final
+    <strong>Código de curso: 1ASI0729</strong><br>
+    <strong>Nombre del curso: Desarrollo de Aplicaciones Open Source</strong><br>
+    <strong>NRC: 7357</strong><br>
+    <strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi </strong><br>
+    <br>Informe de Trabajo Final
 </p>
 
 
@@ -29,7 +29,7 @@
 | Espinoza Paredes, Frezzia Eldaa Isabel  | u815121 |
 
 
-<br> Noviembre 2025
+<br> Diciembre 2025
  
 
 
