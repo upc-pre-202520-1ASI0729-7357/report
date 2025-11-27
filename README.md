@@ -4,7 +4,8 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Facultad: Ingeniería</strong><br>
     <strong>Carrera: Ingeniería de Software</strong><br>
-    <strong>Curso: Desarrollo de Aplicaciones Open Source - NRC: 7357</strong><br>
+    <strong>Codigo de Curso: 1ASI0729</strong><br>
+    <strong>Nombre del curso: Desarrollo de Aplicaciones Open Source - NRC: 7357</strong><br>
     <strong>Profesor: Rafael Oswaldo Castro Veramendi </strong><br>
     <strong>Periodo 202520</strong><br>
     <br>INFORME TRABAJO FINAL
