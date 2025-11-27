@@ -28,7 +28,7 @@
 | Espinoza Paredes, Frezzia Eldaa Isabel  | u815121 |
 
 
-<br> Setiembre 2025
+<br> Noviembre 2025
  
 
 
