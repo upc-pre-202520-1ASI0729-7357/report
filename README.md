@@ -2,8 +2,9 @@
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>Desarrollo de Aplicaciones Open Source - 7357</strong><br>
+    <strong>Facultad: Ingeniería</strong><br>
+    <strong>Carrera: Ingeniería de Software</strong><br>
+    <strong>Curso: Desarrollo de Aplicaciones Open Source - NRC: 7357</strong><br>
     <strong>Profesor: Rafael Oswaldo Castro Veramendi </strong><br>
     <strong>Periodo 202520</strong><br>
     <br>INFORME TRABAJO FINAL
