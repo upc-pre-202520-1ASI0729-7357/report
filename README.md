@@ -8,7 +8,7 @@
     <strong>Nombre del curso: Desarrollo de Aplicaciones Open Source - NRC: 7357</strong><br>
     <strong>Profesor: Rafael Oswaldo Castro Veramendi </strong><br>
     <strong>Periodo 202520</strong><br>
-    <br>INFORME DE TRABAJO FINAL
+    <br>Informe de trabajo final
 </p>
 
 
