@@ -15,8 +15,8 @@
 **Project Management**
 
 
-#### Startup: **IoTracker**
-#### Product: **ThermaTrace**
+#### Nombre del startup: **IoTracker**
+#### Nombre del producto: **ThermaTrace**
 
 
 | Member                       | Code       |
