@@ -5,6 +5,7 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>Desarrollo de Aplicaciones Open Source - 7357</strong><br>
     <strong>Profesor: Rafael Oswaldo Castro Veramendi </strong><br>
+    <strong>Periodo 202520</strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
 
