@@ -9,7 +9,7 @@
     <strong>Nombre del curso: Desarrollo de Aplicaciones Open Source</strong><br>
     <strong>NRC: 7357</strong><br>
     <strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi </strong><br>
-    <br>Informe de Trabajo Final
+    <br><strong>Informe de Trabajo Final</strong>
 </p>
 
 
@@ -19,8 +19,8 @@
 #### Nombre del startup: **IoTracker**
 #### Nombre del producto: **ThermaTrace**
 
-
-| Member                       | Code       |
+#### Relación de Integrantes
+| Apellidos y Nombres          | Código     |
 |------------------------------|------------|
 | Ordoñez Ricaldi, Axel        | U202216827 |
 | Panta Castro, Fabrizio Martin| U20231A810 |
@@ -29,8 +29,8 @@
 | Espinoza Paredes, Frezzia Eldaa Isabel  | u815121 |
 
 
-<br> Diciembre 2025
- 
+<br> Diciembre, 2025
+ <div style="page-break-after:always;"></div>
 
 
 | Version | Fecha      | Autor                                 | Descripcion de Modificacion                                                                                                                                                                                                                                                                                            |
