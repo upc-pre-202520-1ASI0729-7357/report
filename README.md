@@ -5,7 +5,7 @@
     <strong>Facultad: Ingeniería</strong><br>
     <strong>Carrera: Ingeniería de Software</strong><br>
     <strong>Periodo: 202520</strong><br>
-    <strong>Código de curso: 1ASI0729</strong><br>
+    <strong>Código del curso: 1ASI0729</strong><br>
     <strong>Nombre del curso: Desarrollo de Aplicaciones Open Source</strong><br>
     <strong>NRC: 7357</strong><br>
     <strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi </strong><br>
