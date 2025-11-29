@@ -13,11 +13,12 @@
 </p>
 
 
-**Project Management**
-
 
 #### Nombre del startup: **IoTracker**
 #### Nombre del producto: **ThermaTrace**
+
+<div style="display: flex; justify-content: center;">
+<div>
 
 #### Relación de Integrantes
 | Apellidos y Nombres          | Código     |
@@ -28,9 +29,11 @@
 | Espinoza Quijandria, Oscar   | u202311842 |
 | Espinoza Paredes, Frezzia Eldaa Isabel  | u815121 |
 
+</div>
+</div>
 
 <br> Diciembre, 2025
- <div style="page-break-after:always;"></div>
+<div style="page-break-after:always;"></div>
 
 
 | Version | Fecha      | Autor                                 | Descripcion de Modificacion                                                                                                                                                                                                                                                                                            |
