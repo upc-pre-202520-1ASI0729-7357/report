@@ -838,7 +838,7 @@ A continuación, se presenta el Product Backlog del proyecto: una lista prioriza
 Utilizamos Trello para gestionar el backlog de forma visual y colaborativa, organizando las tareas en columnas por etapa de desarrollo. Esto nos permite mantener el foco en lo que más importa para farmacias, clínicas y distribuidores: alertas oportunas, trazabilidad y cumplimiento normativo — sin perder agilidad ni claridad en el proceso.
 
 Link de colaboración en trello: https://goo.su/3eGJh
-![product-backlog](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/550910542_827641979934080_4493449354233394785_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=8TTZp7xo574Q7kNvwH1yyhp&_nc_oc=AdmT7l0-AdNkeyuNOtbz6Y-x4ODk4KGLqn9U16Dy-5AdGntuFdi8K9X4_3cNHAsJrGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEs-USume2sJ4xxp9f35IbHYxOfpwTM48SYbwhBy6ROnQ&oe=68F71C6A)
+![product-backlog](assets/product-backlog/Product_Backlog_#1.png)
 
 | #Orden | User Story ID | Titulo                                         | Descripción                                                                                                                                            | Story Points (1/2/3/5/8) |
 |--------|---------------|------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
