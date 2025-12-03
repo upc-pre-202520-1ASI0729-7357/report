@@ -2034,24 +2034,24 @@ En el Sprint 4 se organizaron los roles en función de **mejoras transversales**
 
 El Sprint Backlog 4 agrupa las tareas de **pulido funcional y técnico** sobre los artefactos existentes.
 
-| **User Story / Tipo** | **Task Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|-----------------------|------------|-----------|-----------------|------------------------|-----------------|-----------|
-| US20 – Mejora de UX en Landing | T43 | Refinar estructura de Home | Ajustar jerarquía visual, tipografía y espaciado de la sección principal para mejorar legibilidad y foco en el valor de ThermaTrace. | 4h | Oscar | Done |
-| US20 – Mejora de UX en Landing | T44 | Optimizar sección Pricing | Homogeneizar tarjetas de planes, mejorar contraste de botones y destacar plan recomendado. | 3h | Jean | Done |
-| US20 – Mejora de UX en Landing | T45 | Accesibilidad básica | Agregar atributos ARIA, textos alternativos y mejorar contraste para usuarios con discapacidad visual. | 3h | Frezzia | Done |
-| US21 – Unificación visual | T46 | Actualizar paleta y componentes | Alinear colores, tipografías y estilos de botones entre Landing y Dashboard. | 4h | Oscar | Done |
-| US21 – Unificación visual | T47 | Revisar responsive design | Ajustar breakpoints para que la experiencia sea consistente en móviles, tablets y desktop en todas las vistas. | 3h | Axel | Done |
-| TS07 – Tests backend | T48 | Pruebas unitarias servicios | Implementar pruebas JUnit para servicios de Users, Medicaments y Sensors. | 6h | Jean | Done |
-| TS07 – Tests backend | T49 | Pruebas de repositorios JPA | Validar consultas y relaciones con base MySQL en entorno de prueba. | 4h | Fabrizio | In Progress |
-| TS08 – Tests integración | T50 | Pruebas de integración API | Crear colecciones Postman/Rest Client para flujos completos: login → dashboard → medicamentos → alertas. | 4h | Oscar | Done |
-| TS08 – Tests integración | T51 | E2E básicos frontend | Definir y ejecutar 2–3 flujos críticos con herramientas E2E (por ejemplo, Cypress/Playwright) para navegación general. | 5h | Frezzia | To Do |
-| TS09 – Manejo de errores frontend | T52 | Interceptor HTTP global | Implementar interceptor Angular para capturar errores HTTP y mostrar mensajes consistentes al usuario. | 4h | Oscar | Done |
-| TS09 – Manejo de errores frontend | T53 | Estados vacíos y loading | Revisar vistas de Dashboard, Medicaments y Profile agregando estados vacíos, loaders y mensajes de error. | 4h | Axel | Done |
-| TS10 – Errores backend | T54 | Handler global de excepciones | Implementar `@ControllerAdvice` y respuestas estandarizadas de error con códigos HTTP adecuados. | 4h | Jean | Done |
-| TS10 – Logs y monitoreo | T55 | Añadir logs estructurados | Incluir logs en puntos clave (login, creación de alertas, registro de sensores) y configurar niveles de log. | 3h | Fabrizio | Done |
-| TS11 – CI/CD | T56 | Pipeline frontend en GitHub Actions | Configurar workflow para ejecutar tests y build de Angular en cada push a `develop`. | 4h | Jean | Done |
-| TS11 – CI/CD | T57 | Pipeline backend en GitHub Actions | Configurar workflow para ejecutar tests y build de Spring Boot antes del despliegue a Render. | 4h | Oscar | Done |
-| TS11 – CI/CD | T58 | Documentar flujo de despliegue | Crear guía interna con pasos de build, variables de entorno y endpoints de verificación post-deploy. | 3h | Fabrizio | Done |
+| **User Story / Tipo**             | **Task Id** | **Title**                           | **Description**                                                                                                                      | **Estimation (Hours)** | **Assigned To** | **Status**  |
+|-----------------------------------|-------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------|-----------------|-------------|
+| US20 – Mejora de UX en Landing    | T43         | Refinar estructura de Home          | Ajustar jerarquía visual, tipografía y espaciado de la sección principal para mejorar legibilidad y foco en el valor de ThermaTrace. | 4h                     | Oscar           | Done        |
+| US20 – Mejora de UX en Landing    | T44         | Optimizar sección Pricing           | Homogeneizar tarjetas de planes, mejorar contraste de botones y destacar plan recomendado.                                           | 3h                     | Jean            | Done        |
+| US20 – Mejora de UX en Landing    | T45         | Accesibilidad básica                | Agregar atributos ARIA, textos alternativos y mejorar contraste para usuarios con discapacidad visual.                               | 3h                     | Frezzia         | Done        |
+| US21 – Unificación visual         | T46         | Actualizar paleta y componentes     | Alinear colores, tipografías y estilos de botones entre Landing y Dashboard.                                                         | 4h                     | Oscar           | Done        |
+| US21 – Unificación visual         | T47         | Revisar responsive design           | Ajustar breakpoints para que la experiencia sea consistente en móviles, tablets y desktop en todas las vistas.                       | 3h                     | Axel            | Done        |
+| TS07 – Tests backend              | T48         | Pruebas unitarias servicios         | Implementar pruebas JUnit para servicios de Users, Medicaments y Sensors.                                                            | 6h                     | Jean            | Done        |
+| TS07 – Tests backend              | T49         | Pruebas de repositorios JPA         | Validar consultas y relaciones con base MySQL en entorno de prueba.                                                                  | 4h                     | Fabrizio        | In Progress |
+| TS08 – Tests integración          | T50         | Pruebas de integración API          | Crear colecciones Postman/Rest Client para flujos completos: login → dashboard → medicamentos → alertas.                             | 4h                     | Oscar           | Done        |
+| TS08 – Tests integración          | T51         | E2E básicos frontend                | Definir y ejecutar 2–3 flujos críticos con herramientas E2E (por ejemplo, Cypress/Playwright) para navegación general.               | 5h                     | Frezzia         | To Do       |
+| TS09 – Manejo de errores frontend | T52         | Interceptor HTTP global             | Implementar interceptor Angular para capturar errores HTTP y mostrar mensajes consistentes al usuario.                               | 4h                     | Oscar           | Done        |
+| TS09 – Manejo de errores frontend | T53         | Estados vacíos y loading            | Revisar vistas de Dashboard, Medicaments y Profile agregando estados vacíos, loaders y mensajes de error.                            | 4h                     | Axel            | Done        |
+| TS10 – Errores backend            | T54         | Handler global de excepciones       | Implementar `@ControllerAdvice` y respuestas estandarizadas de error con códigos HTTP adecuados.                                     | 4h                     | Jean            | Done        |
+| TS10 – Logs y monitoreo           | T55         | Añadir logs estructurados           | Incluir logs en puntos clave (login, creación de alertas, registro de sensores) y configurar niveles de log.                         | 3h                     | Fabrizio        | Done        |
+| TS11 – CI/CD                      | T56         | Pipeline frontend en GitHub Actions | Configurar workflow para ejecutar tests y build de Angular en cada push a `develop`.                                                 | 4h                     | Jean            | Done        |
+| TS11 – CI/CD                      | T57         | Pipeline backend en GitHub Actions  | Configurar workflow para ejecutar tests y build de Spring Boot antes del despliegue a Render.                                        | 4h                     | Oscar           | Done        |
+| TS11 – CI/CD                      | T58         | Documentar flujo de despliegue      | Crear guía interna con pasos de build, variables de entorno y endpoints de verificación post-deploy.                                 | 3h                     | Fabrizio        | Done        |
 
 --- Trello link : https://trello.com/invite/b/6930319929d72e8309d91426/ATTI8c85ef1021c753afca28a504c66591a4C0DA09BD/sprint-4
 
@@ -2063,29 +2063,38 @@ Durante el Sprint 4 se realizaron refactorizaciones y mejoras sobre los reposito
 
 #### Commits destacados – Landing Page (`ThermaTrace / LANDING-PAGE`)
 
-| Repository | Branch | Commit Id | Commit Message | Committed on Date |
-|-----------|--------|-----------|----------------|-------------------|
-| ThermaTrace | feature/ux-landing | 4c9f2a1 | feat: improve landing hero section and CTA buttons | 04/12/2025 |
-| ThermaTrace | feature/ux-landing | a8d3e5c | feat: update pricing cards and highlight recommended plan | 04/12/2025 |
-| ThermaTrace | feature/ux-landing | f2b1c7d | chore: add accessibility tags and alt texts | 05/12/2025 |
+LINK DEL REPO: https://github.com/upc-pre-202520-1ASI0729-7357/LANDING-PAGE-
+
+| Repository  | Branch             | Commit Id | Commit Message                                            | Committed on Date |
+|-------------|--------------------|-----------|-----------------------------------------------------------|-------------------|
+| ThermaTrace | feature/ux-landing | 4c9f2a1   | feat: improve landing hero section and CTA buttons        | 03/12/2025        |
+| ThermaTrace | feature/ux-landing | a8d3e5c   | feat: update pricing cards and highlight recommended plan | 03/12/2025        |
+| ThermaTrace | feature/ux-landing | f2b1c7d   | chore: add accessibility tags and alt texts               | 03/12/2025        |
 
 #### Commits destacados – Frontend (`therma-trace-frontend`)
 
-| Repository | Branch | Commit Id | Commit Message | Committed on Date |
-|-----------|--------|-----------|----------------|-------------------|
-| therma-trace-frontend | feature/ | 91c3e8b | feat: add global http error interceptor and toast notifications | 05/12/2025 |
-| therma-trace-frontend | feature/ui-consistency | 7bd4a23 | style: align dashboard theme with landing page palette | 05/12/2025 |
-| therma-trace-frontend | feature/tests | c4e2f90 | test: add unit tests for dashboard and profile components | 06/12/2025 |
-| therma-trace-frontend | ci/frontend-pipeline | d7a5e31 | chore: add GitHub Actions workflow for Angular build | 06/12/2025 |
+LINK DEL REPO: https://github.com/upc-pre-202520-1ASI0729-7357/therma-trace-frontend
+
+| Repository            | Branch              | Commit Id | Commit Message                                                                                     | Committed on Date |
+|-----------------------|---------------------|-----------|----------------------------------------------------------------------------------------------------|-------------------|
+| therma-trace-frontend | feature/payments    | 30343aa   | feat(payment): enhance payment method management with detailed request interfaces and update logic | 03/12/2025        |
+| therma-trace-frontend | feature/payments    | db336eb   | feat(payment): refactor payment method handling and improve request structure                      | 03/12/2025        |
+| therma-trace-frontend | feature/payments    | e18e8f1   | feat(profile, user): standardize plan IDs to uppercase and enhance payment method handling         | 03/12/2025        |
+| therma-trace-frontend | feature/medicaments | fb39aa7   | feat(image-upload): implement Cloudinary image upload functionality and enhance validation         | 03/12/2025        |
+| therma-trace-frontend | feature/medicaments | 6e6a8e9   | feat(env): define environment variable types and access methods                                    | 03/12/2025        |
 
 #### Commits destacados – Backend (`therma-trace-backend`)
 
-| Repository | Branch | Commit Id | Commit Message | Committed on Date |
-|-----------|--------|-----------|----------------|-------------------|
-| therma-trace-backend | feature/data | e3c7b1a | feat: add global exception handler with standardized error responses | 05/12/2025 |
-| therma-trace-backend | feature/data | f1a9d4c | test: add unit tests for user, sensor and alert services | 06/12/2025 |
-| therma-trace-backend | feature/data | b5d8c9e | chore: improve structured logging for critical operations | 06/12/2025 |
-| therma-trace-backend | feature/data | a0c3f7d | chore: configure GitHub Actions pipeline for Spring Boot build and tests | 06/12/2025 |
+LINK DEL REPO: https://github.com/upc-pre-202520-1ASI0729-7357/therma-trace-backend 
+
+| Repository           | Branch                  | Commit Id | Commit Message                                                                            | Committed on Date |
+|----------------------|-------------------------|-----------|-------------------------------------------------------------------------------------------|-------------------|
+| therma-trace-backend | feature/data-separation | 67a3eb7   | feat(data-separation): implement user-specific access for medicine and monitoring entries | 03/12/2025        |
+| therma-trace-backend | feature/data-separation | 9007a3b   | feat(data-separation): add user-specific fields and queries for monitoring entries        | 03/12/2025        |
+| therma-trace-backend | feature/data-separation | c020553   | feat(data-separation): add payment method commands and validation logic                   | 03/12/2025        |
+| therma-trace-backend | feature/data-separation | 0c1b21e   | feat(data-separation): implement payment method management with commands and queries      | 03/12/2025        |
+| therma-trace-backend | feature/data-separation | 2664412   | feat(data-separation): add payment method resource and command assemblers                 | 03/12/2025        |
+
 
 **Detalles:**  
 Igual que en sprints anteriores, cada mejora se desarrolló en una **branch independiente**, se realizó **code review** y luego se integró a las ramas principales (`develop` / `main`) tras verificar el correcto funcionamiento en local.
@@ -2208,13 +2217,14 @@ En el Sprint 4, el equipo se enfocó en **mejorar la calidad global del producto
 **Distribución del trabajo en el Sprint 4:**
 
 - **Jean Grandez:**  
-  Lideró las mejoras de **UX/UI** y manejo de errores en el frontend, refinando la Landing Page y la experiencia general de navegación. También participó en la configuración del pipeline del backend.  
+    Lidero el despliegue final del backend en Render y la configuración del pipeline de CI/CD para el mismo.  
+    Colaboró en la implementación del handler global de excepciones, ajusto errores HTTP y mejoró la documentación Swagger. Además, refactorizó servicios para mejorar la separación de datos por usuario.
 
 - **Fabrizio Panta:**  
   Lideró la parte de **calidad backend y DevOps**, implementando pruebas unitarias, el *handler* global de excepciones, logs estructurados y los workflows de GitHub Actions.    
 
 - **Axel Ordoñez:**  
-  Colaboró en la mejora de vistas de Medicaments, estados vacíos y pruebas de integración ligadas a sensores y datos simulados.  
+  Colaboró en la mejora de vistas de Medicaments, estados vacíos y pruebas de integración ligadas a sensores y datos simulados e integro un servicio externo para la gestion para la subida de imagenes.
 
 - **Oscar Espinoza:**  
   Apoyó en la mejora del módulo de alertas y configuración, así como en la documentación del proceso de despliegue y configuración de parámetros del sistema.
@@ -2434,18 +2444,18 @@ Esta retroalimentación será clave para definir **mejoras técnicas, de interfa
 ### 5.3.3. Evaluaciones según heurísticas.
 
 
-| **HEURÍSTICA** | **EVALUACIÓN** | **NOTA** |
-|:-------------------------------------------|:----------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Visibilidad del estado del sistema** | ✅ | Los usuarios perciben que el sistema comunica claramente el estado de los refrigeradores mediante indicadores visuales y alertas en tiempo real. El dashboard actualiza los datos automáticamente, lo que refuerza la confianza y reduce la incertidumbre durante la supervisión. |
-| **Coincidencia entre el sistema y el mundo real** | ✅ | La terminología y los íconos utilizados coinciden con el lenguaje técnico del personal de salud (temperatura, alerta, equipo activo/inactivo). Esto facilita la comprensión inmediata de las funciones y evita confusiones en la operación diaria. |
-| **Control y libertad del farmacéutico** | ⚠️ | El sistema permite navegar libremente entre módulos y cancelar acciones sin perder datos, pero los usuarios sugieren incluir **niveles de acceso diferenciados** según el rol (administrador, técnico, farmacia) para mejorar la gestión de permisos. |
-| **Consistencia y estándares** | ✅ | La interfaz mantiene coherencia visual en todos los módulos (Usuarios, Sensores, Alertas, Reportes). Los colores, tipografía y estilo de botones son uniformes, lo que genera familiaridad y reduce errores al interactuar con el sistema. |
-| **Prevención de errores** | ⚠️ | Las alertas automáticas ayudan a evitar pérdidas por fallas térmicas, aunque aún no existen validaciones avanzadas que prevengan configuraciones erróneas o duplicadas en el registro de sensores. Se recomienda incluir confirmaciones y mensajes de advertencia previos a cambios críticos. |
-| **Mostrar antes que recordar** | ✅ | La información clave (temperaturas, estado de equipos, alertas activas) está siempre visible en el **dashboard principal**, evitando que el usuario tenga que memorizar o buscar información en múltiples menús. |
-| **Flexibilidad y eficiencia de uso** | ✅ | El sistema ofrece acceso desde múltiples dispositivos (PC, laptop, tablet) y genera reportes automáticos, permitiendo al usuario adaptar su flujo de trabajo. La carga es rápida y las acciones se completan con pocos clics. |
-| **Diseño estético y minimalista** | ✅ | La interfaz es clara y ordenada, con uso equilibrado del color y jerarquía visual adecuada. Los usuarios valoran su diseño profesional y la facilidad de interpretación de gráficos e indicadores. |
-| **Comunicar errores con facilidad** | ⚠️ | Los mensajes de error básicos cumplen su función, pero podrían incorporar **sugerencias contextuales** o pasos de solución rápida. Esto facilitaría la resolución de incidencias sin asistencia técnica externa. |
-| **Ayuda y documentación** | ⚠️ | El sistema incluye tooltips y etiquetas descriptivas, pero carece de un módulo de ayuda estructurado. Se recomienda incorporar una guía rápida o sección de soporte accesible desde el menú principal para fortalecer la autoasistencia del usuario. |
+| **HEURÍSTICA**                                    | **EVALUACIÓN** | **NOTA**                                                                                                                                                                                                                                                                                      |
+|:--------------------------------------------------|:--------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Visibilidad del estado del sistema**            |       ✅        | Los usuarios perciben que el sistema comunica claramente el estado de los refrigeradores mediante indicadores visuales y alertas en tiempo real. El dashboard actualiza los datos automáticamente, lo que refuerza la confianza y reduce la incertidumbre durante la supervisión.             |
+| **Coincidencia entre el sistema y el mundo real** |       ✅        | La terminología y los íconos utilizados coinciden con el lenguaje técnico del personal de salud (temperatura, alerta, equipo activo/inactivo). Esto facilita la comprensión inmediata de las funciones y evita confusiones en la operación diaria.                                            |
+| **Control y libertad del farmacéutico**           |       ⚠️       | El sistema permite navegar libremente entre módulos y cancelar acciones sin perder datos, pero los usuarios sugieren incluir **niveles de acceso diferenciados** según el rol (administrador, técnico, farmacia) para mejorar la gestión de permisos.                                         |
+| **Consistencia y estándares**                     |       ✅        | La interfaz mantiene coherencia visual en todos los módulos (Usuarios, Sensores, Alertas, Reportes). Los colores, tipografía y estilo de botones son uniformes, lo que genera familiaridad y reduce errores al interactuar con el sistema.                                                    |
+| **Prevención de errores**                         |       ⚠️       | Las alertas automáticas ayudan a evitar pérdidas por fallas térmicas, aunque aún no existen validaciones avanzadas que prevengan configuraciones erróneas o duplicadas en el registro de sensores. Se recomienda incluir confirmaciones y mensajes de advertencia previos a cambios críticos. |
+| **Mostrar antes que recordar**                    |       ✅        | La información clave (temperaturas, estado de equipos, alertas activas) está siempre visible en el **dashboard principal**, evitando que el usuario tenga que memorizar o buscar información en múltiples menús.                                                                              |
+| **Flexibilidad y eficiencia de uso**              |       ✅        | El sistema ofrece acceso desde múltiples dispositivos (PC, laptop, tablet) y genera reportes automáticos, permitiendo al usuario adaptar su flujo de trabajo. La carga es rápida y las acciones se completan con pocos clics.                                                                 |
+| **Diseño estético y minimalista**                 |       ✅        | La interfaz es clara y ordenada, con uso equilibrado del color y jerarquía visual adecuada. Los usuarios valoran su diseño profesional y la facilidad de interpretación de gráficos e indicadores.                                                                                            |
+| **Comunicar errores con facilidad**               |       ⚠️       | Los mensajes de error básicos cumplen su función, pero podrían incorporar **sugerencias contextuales** o pasos de solución rápida. Esto facilitaría la resolución de incidencias sin asistencia técnica externa.                                                                              |
+| **Ayuda y documentación**                         |       ⚠️       | El sistema incluye tooltips y etiquetas descriptivas, pero carece de un módulo de ayuda estructurado. Se recomienda incorporar una guía rápida o sección de soporte accesible desde el menú principal para fortalecer la autoasistencia del usuario.                                          |
 
 
 
