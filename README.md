@@ -2128,7 +2128,7 @@ Durante el Sprint 4 se realizaron refactorizaciones y mejoras sobre los reposito
 
 | Repository | Branch | Commit Id | Commit Message | Committed on Date |
 |-----------|--------|-----------|----------------|-------------------|
-| therma-trace-frontend | feature/error-handling | 91c3e8b | feat: add global http error interceptor and toast notifications | 05/12/2025 |
+| therma-trace-frontend | feature/ | 91c3e8b | feat: add global http error interceptor and toast notifications | 05/12/2025 |
 | therma-trace-frontend | feature/ui-consistency | 7bd4a23 | style: align dashboard theme with landing page palette | 05/12/2025 |
 | therma-trace-frontend | feature/tests | c4e2f90 | test: add unit tests for dashboard and profile components | 06/12/2025 |
 | therma-trace-frontend | ci/frontend-pipeline | d7a5e31 | chore: add GitHub Actions workflow for Angular build | 06/12/2025 |
@@ -2137,15 +2137,34 @@ Durante el Sprint 4 se realizaron refactorizaciones y mejoras sobre los reposito
 
 | Repository | Branch | Commit Id | Commit Message | Committed on Date |
 |-----------|--------|-----------|----------------|-------------------|
-| therma-trace-backend | feature/exception-handler | e3c7b1a | feat: add global exception handler with standardized error responses | 05/12/2025 |
-| therma-trace-backend | feature/tests | f1a9d4c | test: add unit tests for user, sensor and alert services | 06/12/2025 |
-| therma-trace-backend | feature/logging | b5d8c9e | chore: improve structured logging for critical operations | 06/12/2025 |
-| therma-trace-backend | ci/backend-pipeline | a0c3f7d | chore: configure GitHub Actions pipeline for Spring Boot build and tests | 06/12/2025 |
+| therma-trace-backend | feature/data | e3c7b1a | feat: add global exception handler with standardized error responses | 05/12/2025 |
+| therma-trace-backend | feature/data | f1a9d4c | test: add unit tests for user, sensor and alert services | 06/12/2025 |
+| therma-trace-backend | feature/data | b5d8c9e | chore: improve structured logging for critical operations | 06/12/2025 |
+| therma-trace-backend | feature/data | a0c3f7d | chore: configure GitHub Actions pipeline for Spring Boot build and tests | 06/12/2025 |
 
 **Detalles:**  
 Igual que en sprints anteriores, cada mejora se desarrolló en una **branch independiente**, se realizó **code review** y luego se integró a las ramas principales (`develop` / `main`) tras verificar el correcto funcionamiento en local.
 
 ---
+## Swagger
+
+![Swagger 1](assets/swagger_1.jpeg)
+![Swagger 2](assets/swagger_2.jpeg)
+![Swagger 3](assets/swagger_3.jpeg)
+
+## Backend
+
+![Backend 1](assets/back_1.jpeg)
+![Backend 2](assets/back_2.jpeg)
+
+## Frontend
+
+![Frontend](assets/front_1.jpeg)
+
+## Base de Datos
+
+![DB](assets/DB_1.jpeg)
+
 
 ### 5.2.4.5. Execution Evidence for Sprint Review
 
@@ -2190,7 +2209,10 @@ En el Sprint 4 no se crearon nuevos endpoints, pero sí se **actualizó y refin�
 
 **URL de Swagger UI:**  
 `https://therma-trace-backend.onrender.com/swagger-ui/index.html#/`  
-<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/4754c7e3-fd74-494a-80cf-4efd8f9a7b15" />
+
+![Swagger 1](assets/swagger_1.jpeg)
+![Swagger 2](assets/swagger_2.jpeg)
+![Swagger 3](assets/swagger_3.jpeg)
 
 
 ---
@@ -2211,12 +2233,22 @@ En este Sprint se reforzó el proceso de despliegue tanto para frontend como bac
      - `mvn -DskipTests=false clean package`  
    - Solo se despliega a Render cuando los tests pasan correctamente.
 
-3. **Evidencias sugeridas (capturas):**
+3. **Evidencias sugeridas:**
    - Logs de build exitoso en Netlify y Render.  
    - Panel de Netlify mostrando la última versión desplegada.  
    - Panel de Render con el servicio backend en estado “Healthy”.
+## Backend
 
----
+![Backend 1](assets/back_1.jpeg)
+![Backend 2](assets/back_2.jpeg)
+
+## Frontend
+
+![Frontend](assets/front_1.jpeg)
+
+## Base de Datos
+
+![DB](assets/DB_1.jpeg)
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -2230,19 +2262,16 @@ En el Sprint 4, el equipo se enfocó en **mejorar la calidad global del producto
 
 **Distribución del trabajo en el Sprint 4:**
 
-- **Oscar Espinoza:**  
+- **Jean Grandez:**  
   Lideró las mejoras de **UX/UI** y manejo de errores en el frontend, refinando la Landing Page y la experiencia general de navegación. También participó en la configuración del pipeline del backend.  
 
-- **Jean Grandez:**  
-  Lideró la parte de **calidad backend y DevOps**, implementando pruebas unitarias, el *handler* global de excepciones, logs estructurados y los workflows de GitHub Actions.  
-
-- **Frezzia Espinoza:**  
-  Apoyó en la mejora de formularios y validaciones, así como en pruebas manuales y documentación funcional de flujos de usuario.  
+- **Fabrizio Panta:**  
+  Lideró la parte de **calidad backend y DevOps**, implementando pruebas unitarias, el *handler* global de excepciones, logs estructurados y los workflows de GitHub Actions.    
 
 - **Axel Ordoñez:**  
   Colaboró en la mejora de vistas de Medicaments, estados vacíos y pruebas de integración ligadas a sensores y datos simulados.  
 
-- **Fabrizio Panta:**  
+- **Oscar Espinoza:**  
   Apoyó en la mejora del módulo de alertas y configuración, así como en la documentación del proceso de despliegue y configuración de parámetros del sistema.
 
 
