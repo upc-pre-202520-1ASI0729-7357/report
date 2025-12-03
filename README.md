@@ -2112,7 +2112,7 @@ El Sprint Backlog 4 agrupa las tareas de **pulido funcional y técnico** sobre l
 
 --- Trello link : https://trello.com/invite/b/6930319929d72e8309d91426/ATTI8c85ef1021c753afca28a504c66591a4C0DA09BD/sprint-4
 
-
+![TRELLO_1](assets/TRELLO_1.jpeg)
 
 ### 5.2.4.4. Development Evidence for Sprint Review
 
