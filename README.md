@@ -2190,7 +2190,8 @@ En el Sprint 4 no se crearon nuevos endpoints, pero sí se **actualizó y refin�
 
 **URL de Swagger UI:**  
 `https://therma-trace-backend.onrender.com/swagger-ui/index.html#/`  
-(A)
+<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/4754c7e3-fd74-494a-80cf-4efd8f9a7b15" />
+
 
 ---
 
