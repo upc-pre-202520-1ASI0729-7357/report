@@ -9,7 +9,7 @@
     <strong>Nombre del curso: Desarrollo de Aplicaciones Open Source</strong><br>
     <strong>NRC: 7357</strong><br>
     <strong>Nombre del profesor: Rafael Oswaldo Castro Veramendi </strong><br>
-    <br><strong>Informe de Trabajo Final</strong>
+    <br><strong><span style="font-size: 26px;">Informe de Trabajo Final</span></strong>
 </p>
 
 
@@ -369,7 +369,7 @@ Creemos que la generación de reportes automáticos simplificará la preparació
 Creemos que una interfaz simple permitirá que personal no técnico pueda manejar el sistema sin capacitaciones extensas. Sabremos que hemos tenido éxito cuando al menos el 60% de los nuevos usuarios logren configurar un equipo de refrigeración sin solicitar soporte.
 
 #### 1.2.2.4. Lean UX Canvas.
-![Lean UX Canvas](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/541438532_2201510577010046_4593889727261903654_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=e_dOK1uFnK8Q7kNvwGsPOga&_nc_oc=AdngadvP5wGXzYHDz4KP17X5_TLBVFBpKe9XoWPVGpBadQXSrVPMf_MaDM4Ide1gX1KSedT0izZ2nW-tapukhLoA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFeVbumzdSkAUtAcfkDttukcfPkVBgOc7lvjuEeacSGug&oe=68E5D7FC)
+![Lean UX Canvas](assets/Lean%20UX%20Canvas/Lean_UX_Canvas.png)
 
 ## 1.3. Segmentos objetivo.
 | | Segmento 1 | Segmento 2  |
@@ -818,7 +818,7 @@ Asimismo, este Business Goal está profundamente alineado con las actividades y 
 
 En otras palabras, este objetivo busca demostrar que la tecnología, cuando está bien diseñada y centrada en el usuario real, no solo soluciona un problema operativo, sino que salva vidas, reduce costos y fortalece sistemas. Motiva a profesionales de la salud a dejar atrás los registros en papel y las revisiones manuales, para adoptar una herramienta que les da control, tranquilidad y respaldo técnico —convirtiéndose, naturalmente, en promotores de una cultura de prevención y excelencia en la gestión de medicamentos sensibles.
 
-![Impact Mapping](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/551490161_1886589838572619_6526430192860157796_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=89vbnWNkWlUQ7kNvwGCsoja&_nc_oc=AdkVWmGvZb7rIjrMoTkSZHJ7gInjHRvaCDLxXgxedtRNA1owTp5buBKqQSvBY7DuvKk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEuJKxsfswjqcOOOkWyofoHEvN-JmLAShCnKzAZtJM6_Q&oe=68F6B9DC)
+![Impact Mapping 1](assets/impact-mapping/Impact_Mapping_1.png)
 
 **Business Goal 2:**<br> Asegurar la conservación óptima de medicamentos sensibles en hospitales y farmacias, reduciendo pérdidas económicas y cumpliendo normativas regulatorias, mediante un sistema de monitoreo accesible, confiable e intuitivo.
 
@@ -830,7 +830,7 @@ Asimismo, este Business Goal está profundamente alineado con las actividades y 
 
 En otras palabras, este objetivo busca demostrar que la tecnología, cuando está bien diseñada y centrada en el usuario real, no solo soluciona un problema operativo, sino que salva vidas, reduce costos y fortalece sistemas. Motiva a profesionales de la salud a dejar atrás los registros en papel y las revisiones manuales, para adoptar una herramienta que les da control, tranquilidad y respaldo técnico —convirtiéndose, naturalmente, en promotores de una cultura de prevención y excelencia en la gestión de medicamentos sensibles.
 
-![Impact Mapping 2](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/551324930_1116998453831577_5183654251968587498_n.png?_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=aiKfZDsexwYQ7kNvwGOrUyw&_nc_oc=AdmfRHSljiwkr1EzJFyVO24ZBKg4N9GkdOPl8d2_hvKAPtwcz_oppdA1RA5Ncehoq-4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QHiFjck3Jl3KAr-t7zLUIxumKSiPpAOjxtzOeqe8C8EkA&oe=68F69121)
+![Impact Mapping 2](assets/impact-mapping/Impact_Mapping_2.png)
 
 ## 3.3. Product Backlog.
 A continuación, se presenta el Product Backlog del proyecto: una lista priorizada de historias de usuario y tareas técnicas para desarrollar nuestra plataforma de monitoreo de la cadena de frío farmacéutica. Cada ítem incluye identificación, descripción y estimación en puntos de historia, alineado con nuestro objetivo de proteger medicamentos mediante tecnología simple, segura y en tiempo real.
@@ -838,7 +838,7 @@ A continuación, se presenta el Product Backlog del proyecto: una lista prioriza
 Utilizamos Trello para gestionar el backlog de forma visual y colaborativa, organizando las tareas en columnas por etapa de desarrollo. Esto nos permite mantener el foco en lo que más importa para farmacias, clínicas y distribuidores: alertas oportunas, trazabilidad y cumplimiento normativo — sin perder agilidad ni claridad en el proceso.
 
 Link de colaboración en trello: https://goo.su/3eGJh
-![product-backlog](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/550910542_827641979934080_4493449354233394785_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=8TTZp7xo574Q7kNvwH1yyhp&_nc_oc=AdmT7l0-AdNkeyuNOtbz6Y-x4ODk4KGLqn9U16Dy-5AdGntuFdi8K9X4_3cNHAsJrGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEs-USume2sJ4xxp9f35IbHYxOfpwTM48SYbwhBy6ROnQ&oe=68F71C6A)
+![product-backlog](assets/product-backlog/Product_Backlog_1.png)
 
 | #Orden | User Story ID | Titulo                                         | Descripción                                                                                                                                            | Story Points (1/2/3/5/8) |
 |--------|---------------|------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
@@ -882,7 +882,7 @@ La elección de Roboto, además de responder a criterios de legibilidad y accesi
 La elección de la paleta de colores en nuestro proyecto obedece a una estrategia visual cuidadosamente planificada, orientada a reflejar tecnología, confianza y sofisticación, valores fundamentales en la propuesta de CcaritaTech.
 
 - **Landing Page** <br>
-![Imagen de la paleta de colores del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551467552_1204326681534642_7846861878436825793_n.png?stp=dst-png_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_yJEc8uNcNgQ7kNvwE3J9ba&_nc_oc=AdlEqKkEFMuVuEUG5LCo8hhGoibPc4kMuN9DZNErNylLdUqcwujOq6RjV9I1XPBoVS_8SvZmLr3qyv1eifdEVKVB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGd7zGVhfdZc5ybOms216R9L3g90CLfzz_d_1Ab9NhD6Q&oe=68F6E051)
+![Imagen de la paleta de colores del landing page](assets/web-style-guidelines/Paleta_de_Colores.png)
 
 En la sección de inicio, se utiliza un degradado entre el **azul brillante (#389DFB)** y el **verde agua (#69E8CC)**. Esta combinación transmite frescura, dinamismo y modernidad, generando un impacto visual inmediato que invita al usuario a explorar la interfaz. El degradado no solo aporta profundidad y movimiento, sino que también refuerza una identidad vibrante y tecnológica.
 
@@ -917,7 +917,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
 - Menú de navegación con las opciones: Home, About, Features, Pricing y Team.
 - Selector de idioma (inglés y español).
 
-![Imagen del Header del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552517489_1509003707105479_8981678970381266145_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=FOhn2O4JIKEQ7kNvwFeqk4D&_nc_oc=AdlObFdLAuVzQFzMjlIGkROA43V0DFKLPDSK3YiFBSHN7bSZM9ZIyW1kgDPNvnpZ8fnlEGsoiVKc2XT2uGhxxGZH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QFPgvawWqGHm-PwyoM3xGdT0n0OCKpzIzCO6DbNQvjP8A&oe=68F6C003)
+![Imagen del Header del landing page](assets/web-style-guidelines/Header.png)
 <br>
 
 **Home:**
@@ -926,7 +926,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - **“Request a Demo”:** Para una demostración personalizada del producto.
     - **"Learn More":** Para los que necesitan más información.
 
-![Imagen de la sección Home del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551980900_1455555945559627_2539296983521088313_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=n5Eoac-1s8YQ7kNvwE9TRyC&_nc_oc=Adl5lr6fouI6WsprMso3_Vc6Rsf39cCuutk5gVhkR9-DF4Kb3yGV2CJ7aPTISC4R90o9yxdjzhhXLRFSjY49Moe2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGbG0eTAkFhbB2PusWAl5DlmZcAaRwWeXunXdgasTRAZw&oe=68F6C9E9)
+![Imagen de la sección Home del landing page](assets/web-style-guidelines/Home.png)
 <br>
 
 **About:**
@@ -937,7 +937,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - Garantizar la seguridad del paciente 
     - Sistema de alertas instantáneas
 
-![Imagen de la sección About del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551625397_788590637241916_1633254094399550872_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DZvaMGAjZ2EQ7kNvwF771A-&_nc_oc=AdkkzynTEkoeBywTChyzmZ4UXunkCBQTdORx5xmRe3hyBW2Zj_iULhwLBl1_2xx3-0px3ZVCWc01CEm0h2AYVwA6&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QG6T6buecRJF3vTvNWGeiLKkH38KnU5skYPLs_eY_CCpA&oe=68F6B250)
+![Imagen de la sección About del landing page](assets/web-style-guidelines/About_Us.png)
 <br>
 
 **Features:**
@@ -951,8 +951,8 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - **“Request a Demo”:** Para una demostración personalizada del producto.
     - **"Learn More":** Para los que necesitan más información.
 
-![Imagen de la sección Features 1 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551508554_1428802668209421_1980168407098881757_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=izDLsief3LIQ7kNvwHOqk8Q&_nc_oc=AdkIX6iJFz2uLY5IRSpb1a1dVRcvbWRF1xO_LocNA9Asx9uq3MhCtWxxmYM5asR9NxukAqIHw9DRxbAf7i0WMyhK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGXxnOScMl2hUQppHbeVa_c-LOYxawS5ZME7nn2ZllUqA&oe=68F6E3A0)
-![Imagen de la sección Features 2 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551988888_795952772901996_4051626875202561435_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=l_o4h10K-zgQ7kNvwFk9Qq4&_nc_oc=AdnxTDTxNKWuK5_Z0-c8Cd24l_lCBNRA1qy-2koDRuPt-ideSLtPyjFzLx3Z2RYm7qEYbxkeZymN0LlCYv359XLE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QHiFEbL3D5EHlRTsdw7lsGJ04twEckIMrCmkgQCHro5VQ&oe=68F6E6B4)
+![Imagen de la sección Features 1 del landing page](assets/web-style-guidelines/Features_1.png)
+![Imagen de la sección Features 2 del landing page](assets/web-style-guidelines/Features_2.png)
 <br>
 
 **Pricing:**
@@ -965,14 +965,13 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - **"Get Started":** Para planes Freemium y Premium
     - **"Contact Us":** Para el plan Enterprise
 
-![Imagen de la sección Pricing 1 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551367873_2865558340296441_5739976421169864080_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=MkUDXBisvcgQ7kNvwHyH4WV&_nc_oc=Adlul_weGYjiiiWLI4lYI-MDQBD-qNuz2FExZCtmiJ6fs4JfiAFGmJAlD1li2ox5dVNSOLFl4nkoTGMpVrFwTs8S&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFBk82qkr4zv2YGRJ_7sqH66WA6WtMCcaWS6eC9tXjraA&oe=68F6DC93)
-![Imagen de la sección Pricing 2 del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552179408_1453972955870141_3540120401386792185_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9T2F5tRQFMQQ7kNvwEjJXII&_nc_oc=AdlkPvwYQe7JQ6-5G62jEtqptHIn-zOhzUnKTHM5ClINas_2_xRR-x08WIpCOWkCHNqLnTQx5agVKJ1EUM1KAFnu&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEHNEgjbI7RNeDkC35Lo8qJaiaFEf7fnZ6lFsI078-BWQ&oe=68F6D255)
+![Imagen de la sección Pricing 1 del landing page](assets/web-style-guidelines/Pricing.png)
 <br>
 
 **Team:**
 - En esta sección se presentan a los cinco miembros que trabajamos en ThermaTrace, en las tarjetas podemos ver las fotos de los miembros junto a una pequeña descripción de cada uno de ellos.
 
-![Imagen de la sección Team del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551573701_807759051728158_8074941570635994558_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cudlvw6WkXoQ7kNvwESyRsl&_nc_oc=AdkmZy0GXexyBmlymnD6dLg7qRpXekSKq7WbtdFH8nky9MmOmVzr0aodiomzJW64b8UfV714WqVj4bYyLpzVTPZ9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHXTWUq84IF8s3GHvOpgp8j_TZr8hwxFYSm_1Oo5wzpgQ&oe=68F6B69A)
+![Imagen de la sección Team del landing page](assets/web-style-guidelines/Team.png)
 <br>
 
 **Footer:**
@@ -981,7 +980,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
 - También se cuenta con un llamado a la acción final (CTA):
     - **“Request a Demo”:** Para una demostración personalizada del producto.
 
-![Imagen del Footer del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551278630_1310296877312907_5488212415700416345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=1Dy62vy85CsQ7kNvwExCS8Q&_nc_oc=AdkYETHrLp52u4Dj8uzGJ1kAQYawci_ocDW3l3od97ZHhWibsiLYXQeNgYzLUrDIQegOU5pfTPisO-oZKLQ4kDtV&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGAH6FT2-Pl2DTdhxmoxPsY_JXsGKwIFgkDfOmYCXeFGQ&oe=68F6C786)
+![Imagen del Footer del landing page](assets/web-style-guidelines/Footer.png)
 <br>
 
 
@@ -1048,7 +1047,7 @@ En el caso de la landing page de ThermaTrace, se han implementado meta etiquetas
 
 #### 1. Index
 La página principal de ThermaTrace integra etiquetas esenciales que aseguran su correcta visualización y compatibilidad en distintos dispositivos. La declaración ```<meta charset="UTF-8" />``` define la codificación de caracteres para evitar errores en la interpretación del contenido, mientras que ```<meta name="viewport" content="width=device-width, initial-scale=1.0"/>``` garantiza un diseño responsivo adaptable a móviles y computadoras. Además, la etiqueta ```<title>ThermaTrace</title>``` comunica la identidad del sitio en navegadores y motores de búsqueda, y el enlace a la hoja de estilos externos (styles.css) permite mantener un diseño coherente y escalable.
-![Imagen de Meta Tags Index](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551037625_1403827341084256_2440517561009606020_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=NLOv8tVg9ZcQ7kNvwHSCGOa&_nc_oc=AdlTRClVRxaLav4S-jXXcEUvscNi-rFteRBq2uAAEFdovD4SrmPXMAEN0cRDgmY9L7Z0i4uJAk4ZyqERIhYoFg3L&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFhiHegV_4ykYiMV5EJnGddutsp8fVi_5osSvQp_KQUew&oe=68F6D663)
+![Imagen de Meta Tags Index](assets/seo-tags/SEO_tags.png)
 
 
 ### 4.2.4. Searching Systems.
@@ -1090,7 +1089,7 @@ Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseñ
 [Link ded Figma]<https://shorturl.at/Ugeev>
 
 #### 1. Home
-![Landing page Home Wireframe](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550907381_1162581522431402_5217389235647826514_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Wc5KTtxjw8wQ7kNvwGLnrXP&_nc_oc=AdkHd4Ba47howOwOWccvwa4LZA-n-adO-K57TSTwxGUBzhrGvnfgqINkruzyNnqKN0QzCh7WXnxOhPxwQEmob0_B&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEp3lO1BGz-5QeRW90s2T3X9WNHbZi_4sexM566DFcnPw&oe=68F6E75E)
+![Landing page Home Wireframe](assets/landing-page-design/Landing_Page_Wireframe.png)
 <br>
 
 
@@ -1098,7 +1097,7 @@ Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseñ
 [Link ded Figma]<https://shorturl.at/Ugeev>
 
 #### 1. Home
-![Landing page Home Wireframe](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552094212_1082920210706136_1194857642523743090_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9a0P015tZ4oQ7kNvwEe57DU&_nc_oc=AdnE9Qx2o5nsgwHOCXPo7bOqX_oWWTkF7sRZZjGdvCNlMYIPsHfPjaNpQeaQBCgicHoDZbhum6UEwsJgLKctp80G&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QEdn0i5x3FoMQOvUg0jYdnsKtqgQsNSBJHJbDhiYfGBQg&oe=68F6D4BA)
+![Landing page Home Wireframe](assets/landing-page-design/Landing_Page_Mock-Up.png)
 <br>
 
 
@@ -1113,15 +1112,15 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 
 
 ### 4.4.1. Web Applications Wireframes.
-![Web Application Wireframe Home](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552727029_1145427430983711_8170167009929062933_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=aHpO8CFxj_4Q7kNvwGhNNMX&_nc_oc=AdkUTV_aVxLZSunHIjJk6GPdlQpoOeEP9X5_Ck7Kd-WR2SYf-I4TDfbySAaPIJRF8BTIS3K68ql90WZx40Ei94I9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QE5bCISPRTpblOfWSssswuPlQ9XxTliY-3yZsnlDy_P0w&oe=68F6D359)
+![Web Application Wireframe Home](assets/web-applications-wireframes/Home.png)
 
-![Web Application Wireframe Profile](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551306779_1304600621413466_1924840106879520977_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=xHmh3yHu-JUQ7kNvwF03Ec8&_nc_oc=AdkFNWQpN_EjZ0ubFgxwo5nlSq8INPhifmjLS4Ijo15zGriFcVHvYImTBD7NDSmg5UCeqRq9ylX9Ztr9xum0EhSH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGWkbmDYrt-fvyHSPAoWuCmBN44hEcGG5z08mFWTvMv2w&oe=68F6DBEF)
+![Web Application Wireframe Profile](assets/web-applications-wireframes/Profile.png)
 
-![Web Application Wireframe Medications](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550909985_1156427363024210_7991027152396015937_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=L4c5WfgfGigQ7kNvwFg72h8&_nc_oc=AdlJBJg6uBY6eLcygFlGFYHr4-j_Rsm11vq0k_Iz9Nf2SjmN3UF-JhKMNW-GqFaSJcZIoPUSrkMeiCdoftAOv43y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHfmDt1I4kyv3vbu7mPbfNHPujkvhVmMPQoP5rMXLzxRg&oe=68F70248)
+![Web Application Wireframe Medications](assets/web-applications-wireframes/Medications.png)
 
-![Web Application Wireframe Temperature Management](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552577646_1127060045590960_7933546858104650091_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=dlA3AfYMZxwQ7kNvwF96Wsz&_nc_oc=AdlWLe9RXH7N8UH5vVwUOw6r0AO4sgvhRPSgpqw5pWos0mJlTFJ0Z9Eu3tL2CidIOEPOhJ5nfrZuL5NBwNMAEx1e&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHlMWp-Nh0Ipcqa-VJs8wdnHHMIEt5IjJiCvV1-rwz8Vw&oe=68F6E98E)
+![Web Application Wireframe Temperature Management](assets/web-applications-wireframes/Temperaute%20Management.png)
 
-![Web Application Wireframe Configuration](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552094790_1939322060256727_1400558595771695713_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cikGB8TVvi4Q7kNvwFGebDL&_nc_oc=Adk9F3bAN08IcOmalTUpwF52ms1j9U0kDCv6_sfEvcCT1zScJRQUliXhNhFKj2TKulGkgj-mK45GETob6jtyTrIO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHnsXTJcz_D_eUIzbJ1u66HisOc4uBPysTUd90QPDqqmA&oe=68F6EDBF)
+![Web Application Wireframe Configuration](assets/web-applications-wireframes/Configuration.png)
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -1174,18 +1173,18 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 **Acción esperada:** Personalizar el uso de la plataforma y asegurar un entorno confiable y seguro para hospitales y farmacias<br><br>
 
 [Web Applications Wireflow Diagrams] <https://shorturl.at/brHvb><br>
-![Web Aplication Wireflow](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551393735_1812588996010424_4462557880510505087_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=mrZi8EgiM1kQ7kNvwHJSnwi&_nc_oc=Adkuzjgrc1VYOZ_SE-l3A44wNSB2rZIZPi8XsckZ9vJORLIPIVTjLV1Qah5q5XgMJ2egpr8BTJqGnzjy-vF3RyyR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEaSWxMaRiOvPf227JgM-hYeWD2642vqc0ftPQutxsBdQ&oe=68F6D7A2)
+![Web Aplication Wireflow](assets/user-flow-and-wireflow/Wireflow.png)
 
 ### 4.4.2. Web Applications Mock-ups.
-![Web Application Mock-up Home](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551880997_2058659524878132_5916162712347533812_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=iwmviOxrCLsQ7kNvwHvsCcZ&_nc_oc=AdngHerW0YWbhtd1PvxcM2xQF3GZ0cuCDyKB9J5xyAIVJ7Z0R9gmV3XCCmhcBRzEbuAangx5HRfnq3zpg7cfypuI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEgdYX2kl96Y6gZP9GHr90ETxm-NLY-_zyrDJUwX2KTqg&oe=68F7287F)
+![Web Application Mock-up Home](assets/web-applications-mock-ups/Main_Page.png)
 
-![Web Application Mock-up Profile](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551606189_31354094044239380_2369385178151158883_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Iw4pKMKREDYQ7kNvwFXkDU_&_nc_oc=AdkBs6pqMfQObzWKV3UpdZNLwm3jnvdHl-G6bBbGsB5hV86qX5wR4dRzekOrGFojeqDCzE6XNMdku-Gvyt3or-1U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFVMmZ5CdQAwctvsG55vud7VA_sDEpi2Efoe4D3RQoiYw&oe=68F6F6C1)
+![Web Application Mock-up Profile](assets/web-applications-mock-ups/Profile_Page.png)
 
-![Web Application Mock-up Medications](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552063277_796016780261836_2434472456845484608_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=AqbTLntwu1gQ7kNvwET3PW2&_nc_oc=Adn3__C9HQ_wQGLgHPtw8aYrjRt8E4Nby1eRZTNvx3hqjgqnREWIBmPefbiVn8tVhrrtMqXQpfCORTkjQfDBMK60&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGCak3U_QCNTbut7F-HYTRtFV-DPJRMdSvdaQt9dw0lLQ&oe=68F70433)
+![Web Application Mock-up Medications](assets/web-applications-mock-ups/Medications_Page.png)
 
-![Web Application WirefraMock-upme Temperature Management](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552028856_795212612968117_589327344764506_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=u-IB9S1IobsQ7kNvwGsr1Ga&_nc_oc=Adl6mwAQC199mJS7jrz3edERjS_-DFzOEuUYdT3q9wZanY3PZRCrkqRXTJ_ErpnVFmF4w68v4AHLHfF2Jalt8hOp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QEFVB9o0V10GfCyvx8stVEB9ytgXJixBzG_7umuKki4og&oe=68F709F3)
+![Web Application WirefraMock-upme Temperature Management](assets/web-applications-mock-ups/Temperature_Page.png)
 
-![Web Application Mock-up Configuration](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552641563_1355015796016438_873113837991350119_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=fUgfnH2ikuIQ7kNvwHhorL0&_nc_oc=Adkxdq4V6TkOxavrl1rCIlGzwCMbZfdrCIKswIFssUEhJ-j2Ins9axBpYVLcVciuXvbRXJUB23DnQT3n-1tJPgfH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QHadcWfY2GU8_T8SKGNEJM6mtcPJwU9pm5D9WpynBCp5w&oe=68F71329)
+![Web Application Mock-up Configuration](assets/web-applications-mock-ups/Config_Page.png)
 
 
 ### 4.4.3. Web Applications User Flow Diagrams.
@@ -1193,10 +1192,10 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 En el Happy Path se modeló el flujo ideal que sigue este tipo de usuario desde el menú Home hasta la consulta del estado de los componentes de uno de sus clientes. El recorrido inicia en el menú Home, donde el médico o farmacéutico encuentra accesos a los menús Profile, Medicaments, Temperature Management y Configuration. Al ingresar a Temperature Management, se muestra un listado de medicinas con información básica, como temperatura, fecha de expiración y opciones de acciones. Finalmente, al seleccionar una de estas opciones, el usuario puede visualizar las distintas acciones disponibles.
 
 **Happy Path:**
-![Web Aplication User Flow Diagram Happy Path](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551383472_1743258933060137_5660664688873956591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Rozyc2V7DWgQ7kNvwGJ2Qrm&_nc_oc=AdmFqc77eQohdhV8wktSE5_0cR0lBgQoCFNSz0kAf_tjxgZ5QEYyRkWSRtojZQFWVk4c385b0Tp19RjFqo5o33T0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QF8Ou2qtVOtD0AOoA5c2_trcr8kuaBtnWxGAWkQ6ASKMg&oe=68F70F19)
+![Web Aplication User Flow Diagram Happy Path](assets/user-flow-and-wireflow/Happy_Path.png)
 
 **Unhappy Path:**
-![Web Aplication User Flow Diagram Unhappy Path](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551436278_1325295242299192_3845563985249782317_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=3Mb2Z54h8A0Q7kNvwGcy-ky&_nc_oc=AdktF0Gyb0hjKsV1xEO30uX5NYPXPVdOxhGiMxtB98QLapOU0b1v_-u-PEnYTevjdhJ98kps38qybB0bb4xtIheg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGuKy7KeQ_1KCEbd4PH3sYbcHrGTn3SPf0rmZFplbkjFQ&oe=68F7268A)
+![Web Aplication User Flow Diagram Unhappy Path](assets/user-flow-and-wireflow/Unhappy_Path.png)
 
 
 ## 4.5. Web Applications Prototyping.
@@ -1253,7 +1252,7 @@ Simplificar la preparación de reportes regulatorios.
 
 Gracias a este análisis, se identifican los puntos críticos del proceso actual y se definen los beneficios de digitalizar y automatizar la cadena de frío, asegurando tanto la seguridad de los medicamentos como la eficiencia operativa de las farmacias.
 
-![imagen event storming](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552093384_1859106671485942_941564253455647534_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=o8sSaqW1e6YQ7kNvwGnBYUd&_nc_oc=Adk75T3tWuKBg6r4w6OkEYtWjy878f5Xo1BDNAY-vpuQN97OAaxPMLjmZ6yW5KX2904&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEQQEaxu--l58jRaaOvCopDYyREhTg1r7mf0leiG05kaw&oe=68F75D79)
+![imagen event storming](assets/software-architecture/EventStorming.png)
 
 ### 4.6.2. Software Architecture Context Diagram.
 El diagrama de contexto muestra la vista más general de ThermaTrace, destacando a sus actores principales y cómo se relacionan con la plataforma. En este nivel aparecen dos roles clave: las Pharmaceutical Companies, que utilizan ThermaTrace para garantizar la conservación y trazabilidad de medicamentos sensibles durante la distribución; y el Hospital Staff, que accede al sistema para supervisar las condiciones de refrigeración y asegurar la disponibilidad de tratamientos en entornos clínicos.
@@ -1262,7 +1261,8 @@ Aunque sus objetivos son distintos, ambos se conectan a la misma plataforma, que
 
 Este modelo refuerza la misión de ThermaTrace: democratizar el acceso a herramientas tecnológicas simples y confiables para el monitoreo de medicamentos. Además, gracias a su diseño modular y escalable, la plataforma puede adaptarse a diferentes instituciones del sector salud y escenarios de distribución sin perder su esencia.
 <br>
-![imagen context](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552056985_820465340375274_3361582920554422829_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=x0lDlToi8SsQ7kNvwHuqxFQ&_nc_oc=Adn29BGC95eC7iMbIf57yjD_YRcJnwHu3bptJOBGhEuhwmXfyzPfWLUo7jRUaX2iSMc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QF0Yl_B0YiEZTbWh3V0rH5vUlgqwyRavKmXgcINDnB0Yw&oe=68F79055)
+
+![imagen context](assets/software-architecture/Diagrama_Contexto.jpg)
 
 
 ### 4.6.3. Software Architecture Container Diagrams.
@@ -1274,7 +1274,8 @@ Esta SPA se conecta con un API Backend central, responsable de coordinar las ope
 
 Gracias a este diseño modular, ThermaTrace mantiene una separación clara entre la experiencia de usuario y la lógica de negocio, lo que permite escalar sus capacidades, integrar nuevas tecnologías como IoT, y reducir el tiempo de despliegue de mejoras y nuevas funcionalidades.
 <br>
-![imagen container](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/550910542_1302101488271057_3444686991983191978_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ZBaupey2ymEQ7kNvwG-L6e5&_nc_oc=AdmPQ681HS5NN1YYqn2xN_EVKmvoatwb3YF7EZpdZZ_bDtGYDXanYRGjzJfoY3CkkV8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QGYFX_2Km77Uago0n9QsmIxGwS9QNJUEU1TkkWViQeXHA&oe=68F77A2F)
+
+![imagen container](assets/software-architecture/Diagrama_Contenedores.jpg)
 
 ### 4.6.4. Software Architecture Components Diagrams.
 El diagrama de componentes profundiza aún más en la vista del sistema, enfocándose en la arquitectura interna del API Backend de ThermaTrace. Aquí se muestra cómo las responsabilidades de la lógica de negocio se dividen en distintos controladores, servicios y repositorios, lo que garantiza una separación clara de preocupaciones y un código más mantenible.
@@ -1297,7 +1298,8 @@ Cada servicio se apoya en un repositorio especializado que gestiona la persisten
 
 Finalmente, todos los repositorios interactúan con el contenedor externo de base de datos (MySQL), donde se almacenan los datos de usuarios, registros de monitoreo, alertas y reportes.
 <br>
-![imagen componente](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552450427_3141029769380694_6334333273828721259_n.png?stp=dst-png_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=I3MvSHeh1tUQ7kNvwH8Qx7y&_nc_oc=AdmQlsDklIEjooCwOoOS9OxhBip05blnDT4tZidK58mZnjHa7mmK60kt4YLlhxEZ9cU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEravrsxURqV94YGIVmBWF1rEl4nDZX8z8cAwj1dVYZTQ&oe=68F76A22)
+
+![imagen componente](assets/software-architecture/Diagrama_Componentes.jpg)
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
@@ -1366,7 +1368,7 @@ En cuanto a la estructura técnica, se adoptan buenas prácticas de colaboració
 
 Finalmente, se mantiene un repositorio denominado upc-pre-202520-1ASI0729-7357 (https://github.com/upc-pre-202520-1ASI0729-7357), donde se concentran versiones exploratorias y entornos de prueba orientados a hospitales y farmacias. Este repositorio funciona como espacio experimental para validar nuevas funcionalidades relacionadas con la gestión de temperatura, trazabilidad de medicamentos y optimización de inventarios, antes de su incorporación al sistema central de producción. Además, permite realizar pruebas funcionales y demostraciones internas con usuarios clave, asegurando que las mejoras propuestas respondan a las necesidades reales del sector salud.
 
-![Repositorios de ThermaTrace](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551311708_1323660692748451_3932849482348297948_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=dJu0MelnnfEQ7kNvwGjEPuJ&_nc_oc=AdkwQjuJrYOZrD6Cdh0tSjsHqFvTlv_qG7yvHDI127Xs5b21ei5PSNgqIxWtj3nLOdTAG9NQQsGrlwbl8zTocC29&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHdjnqPex30s0KJaw66HYPHW3BnFRk4unhWH4G6i13FPw&oe=68F75E84)
+![Repositorios de ThermaTrace](assets/Repositorios_Thermatrace.png)
 <br>
 
 ### 5.1.3. Source Code Style Guide & Conventions.
@@ -1395,9 +1397,9 @@ Para gestionar el desarrollo de ThermaTrace de manera colaborativa, el equipo em
 
 Una vez creado, el fork quedaba disponible en el perfil de cada colaborador como una copia independiente del repositorio original, lista para ser modificada y sincronizada según el avance del proyecto. Este flujo de trabajo garantizó la seguridad e integridad del repositorio upstream, mientras fomentaba la autonomía individual y la organización del equipo, asegurando que todas las mejoras o correcciones pasaran por un proceso de validación antes de incorporarse oficialmente al sistema central de ThermaTrace.
 
-![imagen deploy 1](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552223944_1701654900496595_1803262069206559475_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=fCsE5_KsgoEQ7kNvwG3rLII&_nc_oc=AdkTGB493FgiNCQwgtFHSbbDtqDD-3G3A38irKxA2bgLWz45Wc-a79x1LZbYpHy-yy6X1lctu_XC575-Y6ZchPoC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QESHZ8HZuobdmmHm2wGfDPxEcUZcBjzCoIaSSin0C8LPA&oe=68F78028)
-![imagen deploy 2](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551712165_1139658748260941_9019660909457222181_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9f936UuILAsQ7kNvwGkWLRJ&_nc_oc=Adl7KuWGcCZtRvliQR2jK9AWnmo_CqdFhZtnDooMd6-6m4ArdzvEVnJcBLUY1K2BvbVW0NQTjhj1_o_wtYGrFERK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QFcwaRaLPiQPuPdrY42PbauW2ERYxF-nqRfq0Cj90g5XQ&oe=68F75F26)
-![imagen deploy 3](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550981287_1424460261979165_2063420566730392179_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=brCVl0LZ7P4Q7kNvwFkbnQp&_nc_oc=AdnmbXIJnTETzsU-fgCuwDbi_RWwxixHy7udFtXOmVT1KNqHVFdwYeN_CEO7xsQSjtqiOPUZSlqZhMesgk8TWoxB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QERic9QDaBvpA0yPQ-W72p0mX5IKYIW9et7u43p9EAaiQ&oe=68F77C84)
+![imagen deploy 1](assets/deply_landing/Deploy_1.png)
+![imagen deploy 2](assets/deply_landing/Deploy_2.png)
+![imagen deploy 3](assets/deply_landing/Deploy_3.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ## 5.2.1. Sprint 1
@@ -1662,7 +1664,7 @@ A continuación se presentan las principales vistas implementadas:
 
 **Vista 1: Dashboard Principal**
 
-![Dashboard Home View](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/562993677_2200690630421645_3519390199710055160_n.png?stp=dst-png_p526x395&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_pnJnNhx8mYQ7kNvwE5olTi&_nc_oc=AdlCfbs_llBSwzlXmHzBW47GK9lMqUfJUZY5x1QLe7TKQytvv48yPpcmRkFxNvz8glg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gH66vfrx7ZGxJjMx6qd-zwtbXLH8-wGN1rYs8W1DMe6-w&oe=69104072)
+![Dashboard Home View](assets/execution-evidence-sprint-2/Vista_1.png)
 
 **Vista 2: Dashboard - Gráficos de Temperatura**
 
@@ -1670,50 +1672,50 @@ A continuación se presentan las principales vistas implementadas:
 
 **Vista 3: User Profile - Visualización**
 
-![User Profile View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/541329815_24825392580461402_1106036149479778653_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=jayB6TFkj0oQ7kNvwEWAgsN&_nc_oc=AdnHsgwcOXt-ra1KGe17RGJXV9BO7ePTQoGDpYBCAb8v1wbEDLAN8p-4zNG_chzcPtY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gFFiiNq48MBNICPuKuMjftQmuZDSoFbyTbKvPl0ETXwxw&oe=69102D06)
+![User Profile View](assets/execution-evidence-sprint-2/Vista_3.png)
 
 **Vista 4: User Profile - Edición**
 
-![User Profile Edit Form](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552408592_1519649522799307_5959383570953439181_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=wnZld0q4Dx4Q7kNvwGiUQQP&_nc_oc=AdmiV-FSCm-cr9CZ5f-KVUl_Up-taUe5O8D437DlzRXTfjzgzEKL2Fn3bd45BDgyD9c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gGE9Zz9aS8ByV04mwjIqYN7U1VgrbLuXXolrD2u2NN7tg&oe=69104295)
+![User Profile Edit Form](assets/execution-evidence-sprint-2/Vista_4.png)
 
 **Vista 5: Medicaments - Catálogo (Grid de Cards)**
 
-![Medicaments Grid View](https://scontent.flim33-1.fna.fbcdn.net/v/t1.15752-9/541676120_1553140116136067_5354319648110809301_n.png?stp=dst-png_p526x395&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=5IcQHPW_DtcQ7kNvwERrj_v&_nc_oc=AdmH2PIioQ3lsLOvUn_kZacCxWtjGShKYYYUximbtvTI1P3ZXOuA8fh73G4jEGEoFS8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&oh=03_Q7cD3gGDOAPlYMiP4IiyIIeDbODHzRS049uDpRTkaihbOqlYiQ&oe=691055FB)
+![Medicaments Grid View](assets/execution-evidence-sprint-2/Vista_5.png)
 
 **Vista 6: Medicaments - Edición**
 
-![Medication Detail View](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/553134115_1973281776782535_7885852261648421200_n.png?stp=dst-png_p526x395&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9M3jwGzYnCgQ7kNvwFDAHrk&_nc_oc=Adm-Gzbd3bZLKuWOhOGIZyn01BvxkAmBGDamujZZgg4Qgy0q_8ixcvDOwhv0ACnP5EQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gGGPoL8izttkQdoS8pDfJysoL7JPeGTAab5Qeo0sbc71A&oe=69102FB4)
+![Medication Detail View](assets/execution-evidence-sprint-2/Vista_6.png)
 
 **Vista 7: Medicaments - Agregar Medicamento**
 
-![Add Medication Form](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/553086764_2644472355892307_5136205146736707801_n.png?stp=dst-png_s843x403&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Os0YgNmJg1gQ7kNvwGtHEJS&_nc_oc=AdlzqZkwznLkN3rrQhBUfMgU7d5XVZXGyBpVCX-rQSrB_fKqytRlBwNpwS6ec4pfDqM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gEy_OIbtUXx-CcsIXUZKAVSCWRn5pznwic9hv2amQ4bjA&oe=691032C0)
+![Add Medication Form](assets/execution-evidence-sprint-2/Vista_7.png)
 
 **Vista 8: Temperature Management - Status**
 
-![Medication Status Example](https://scontent.flim33-1.fna.fbcdn.net/v/t1.15752-9/554247293_1467254454527120_5265777946859977169_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=z5ELa5AY0x8Q7kNvwG9NFty&_nc_oc=AdmK_6wmYUBaUm3NVXKqnEoLx6VELwqUt0OceTBxfoq31eL4jgIkUqRdTiY2dULJFWo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&oh=03_Q7cD3gHqfbsjIdoOAxtSgXFjOFU0ntxiwe7fVoJHjpNn_LRgwg&oe=69104D67)
+![Medication Status Example](assets/execution-evidence-sprint-2/Vista_8.png)
 
 **Vista 9: Temperature Management - Edición**
 
-![Configuration Preferences](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/554224902_1871794287093927_2158042499257602984_n.png?stp=dst-png_p526x395&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=6plZNiQ-RQkQ7kNvwGIbcM7&_nc_oc=AdkzWJPn-4ubar9HMb24IXavvLYkpVG3glZxTNhMPjugWE0luF_qrrJwbTvBVDnlRp0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gH-sPxf_NWfy3F1rOF4hGzV0qEXzLZOjgvlbFSZpch0pQ&oe=69103560)
+![Configuration Preferences](assets/execution-evidence-sprint-2/Vista_9.png)
 
 **Vista 10: Configuration**
 
-![Configuration Security](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/555042734_603194632784386_2387401039702687919_n.png?stp=dst-png_p526x395&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=wmPViOFpgr4Q7kNvwGIEmdV&_nc_oc=AdkuobjDOrmlBFBNIraAXTPb6j6VWLXphrGdSIg5H5Lt8gwqosou2M_5yBL7uG1vi_o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gF52MWnmiUsIDLxP0GSBPFAcRKI2T6mnaBHYOQbE6MoDQ&oe=691049D2)
+![Configuration Security](assets/execution-evidence-sprint-2/Vista_10.png)
 
 **Vista 11: Responsive - Mobile View**
 
-![Mobile Responsive View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/553800183_1367633761390793_1174800594587457537_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=COHyC39LDW0Q7kNvwEkFbxJ&_nc_oc=AdngYDoJJEXlirbkTbCDIfmi2OnbYpPCcESpfkr3dX6xqwYvjplHcv80HvI2O22XxG0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gE-4gChasR2JhbrLXpUZVYllsFF1WZE7v8S9_XNPJNwDg&oe=69103B5E)
-![Mobile Responsive View](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/551864088_1449802842797850_3136004247797351046_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ZBsKH0peJKgQ7kNvwEYdU4C&_nc_oc=AdnO0uUvtIfA7R3MB4Di7lPm68GkaWD946PeantSoW75S1hrimwWX8xg3rTOU9dmyq8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gEBLrfnH3oEJ41b2J7LEwRbfjkuRvWeNKGXWNCy_k_b0w&oe=69102BBC)
-![Mobile Responsive View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/557833495_1358180275982871_921950843190123338_n.png?stp=dst-png_p480x480&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=8A67JKXLegQQ7kNvwHLrkXi&_nc_oc=Adm3GROqlrBNv-fFWIEHEJFprJ_LsURnGXpdoL_8UGXi2ydmtYAB-itqlMCf_fjliWU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gHZr8PJjkxkQ0QcO76dq4QETPfvd2mRS9O1HejmI_e5dw&oe=69105BF2)
-![Mobile Responsive View](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/553272350_1388911906172978_1567212630711678086_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=XzHTFEh3jXQQ7kNvwEtU-tF&_nc_oc=AdmYzV_Mu5wbkH4njkQY4trCA6nw3ZfH7bqLY8dnaFNVGhy-HxS_V0m8P2XOgJHG6-M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gG4MG-4OqjEXrZX_26AfouZxkYC4Y1ndRbsYWKtyNTJww&oe=6910326C)
-![Mobile Responsive View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/553410256_1504971253878241_4551693363232742857_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=X9_e-1jR_WsQ7kNvwEyumYL&_nc_oc=Adl4hLGyvVFqRsXTVhJRoRON6XgPxZCDOclix5_pb2GX-Tw8Ym7_C81VX1RFENuhgek&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gFBSkvLGBfqfimJxjYFcgxQp_F2FZQq1CBKPUk-_hPX4A&oe=69103F39)
-![Mobile Responsive View](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/553589250_1522887315724264_4605816432189396264_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=52es-VMAPA4Q7kNvwHH6zoC&_nc_oc=Adm2QiAn84sUTMVpklEwBBJ_6dVfRALngQtZNSxHX_H795fLav2CZ5-40oOKq5hdVc4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gGmHasvDUxUuegh3_uwO0tTK700J_jWFrWNEdXeKZ8fZQ&oe=69104DD9)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_1.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_2.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_3.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_4.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_5.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_6.png)
 
 **Vista 12: Internacionalización - English Version**
 - Versión de la pagina en inglés, con todos los textos traducidos y cambio dinámico de idioma.
-![English Language Version](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/554318514_1850400339243556_3214344405687880186_n.png?stp=dst-png_p526x395&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=AOcso0U662AQ7kNvwFGLJTd&_nc_oc=AdmWVPATSlKp22Z8Q00zitkhyffe6QrDz88J1znT22KpBtK6gALV4Nr1bD1w2FQggbE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gFo1kbr-uY4j0gS80SQWpTFGX4tW2uEBLXoYhL2UlYbSw&oe=69103B32)
+![English Language Version](assets/execution-evidence-sprint-2/Ingles_1.png)
 - Versión de la pagina en español, vista del Dashboard principal.
-![English Language Version](https://scontent.flim33-1.fna.fbcdn.net/v/t1.15752-9/541660199_1259979826142420_8416395218181182298_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=4gC90Z7LLs8Q7kNvwGI7LgF&_nc_oc=AdkPwwRoZqPJZ2Y9Dtfhjq99Ml1qVEuF1b4M2lPI9wTRZcGlgFKObBHuDc39xBPUpaI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&oh=03_Q7cD3gHBwfVZQWx4sBUn2NEZUO7So3YbsGcqeyT4Wo_8ou09RQ&oe=69102910)
+![English Language Version](assets/execution-evidence-sprint-2/Ingles_2.png)
 
 **Video demostrativo del Sprint 2:**
 
