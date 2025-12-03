@@ -2028,126 +2028,221 @@ Se utilizó **Trello** para la gestión de tareas y **GitHub** para el control d
   Colaboró en la integración final y despliegue del backend en Render.
 
 ## 5.2.4. Sprint 4
-### 5.2.4.1. Sprint Planning 1.
 
-El Sprint Planning 1 establece la organización inicial del equipo para desarrollar el MVP de ThermaTrace. Se definen el objetivo del Sprint, las User Stories que serán trabajadas, la capacidad del equipo, y los entregables esperados. Este proceso permite una planificación clara y el alineamiento de todo el equipo hacia un mismo objetivo para la entrega de valor.
+En esta sección se registra y explica el avance del **Sprint 4**, enfocado en la **mejora continua** de los artefactos desarrollados en los Sprints 1, 2 y 3: Landing Page, frontend Angular y backend Spring Boot.  
+El objetivo principal fue **refinar la experiencia de usuario, mejorar el rendimiento, asegurar la calidad del código y consolidar la integración completa entre frontend, backend y servicios**.
 
-| Field | Information |
-|:------|:------------|
-| **Sprint #** | Sprint 1 |
-| **Date** | 2025-09-05 |
-| **Time** | 05:00 PM |
-| **Location** | Virtual (Discord y Zoom) |
-| **Prepared By** | Espinoza Quijandria, Oscar Leonardo |
-| **Attendees (to planning meeting)** | Oscar Espinoza, Fabrizio Panta, Axel Ordoñez, Jean Grandez, Frezzia Espinoza |
-| **Sprint n – 1 Review Summary** | Not applicable (First Sprint of the Mascota Match project) |
-| **Sprint n – 1 Retrospective Summary** | Not applicable (First Sprint of the Mascota Match project). |
-| **Sprint n Goal** | Finalize the first version of Therma Trace, including the sections of Home, features, precing , Team and about.<br><br>**Sprint Goal:**<br>Our focus is on launching ThermaTrace MVP.<br>We believe it delivers essential functionality and first user experience.<br>This will be confirmed when users can register, navigate, consult services, choose a plan successfully. |
-| **Sprint n Velocity** | 23 Story Points |
-| **Sprint Goal & User Stories** | **User Stories:**<br> HU1, HU2, HU3, HU4 , HU5, HU6, HU7 |
-| **Sum of Story Points** | **23 Story Points** |
+---
+
+### 5.2.4.1. Sprint Planning 4
+
+El Sprint Planning 4 organiza el trabajo del equipo para completar un ciclo de **optimización, refactorización y cierre técnico** del producto ThermaTrace.  
+Se priorizaron historias orientadas a:
+
+- Mejoras de **UX/UI** en landing y aplicación web.  
+- Aumento de **cobertura de pruebas** (frontend y backend).  
+- Refinamiento de **seguridad y manejo de errores**.  
+- Optimización del **rendimiento** en consultas y carga inicial.  
+- Mejora del **proceso de despliegue** y monitoreo de los servicios.
+
+| **Sprint #**                           | **Sprint 4** |
+|:---------------------------------------|:------------|
+| **Sprint Planning Background**         | En los Sprints 1, 2 y 3 se construyeron la Landing Page, el frontend en Angular 20 y el backend en Spring Boot con JWT y MySQL. El Sprint 4 se centra en refinar estos componentes, corrigiendo errores detectados, mejorando la experiencia de usuario, optimizando rendimiento y fortaleciendo la seguridad e integración extremo a extremo. |
+| **Date**                               | 2025-12-02 |
+| **Time**                               | 06:00 PM |
+| **Location**                           | Virtual (Discord y Zoom) |
+| **Prepared By**                        | Espinoza Quijandría, Oscar Leonardo |
+| **Attendees (to planning meeting)**    | Oscar Espinoza, Fabrizio Panta, Axel Ordoñez, Jean Grandez, Frezzia Espinoza |
+| **Sprint 4 – 1 Review Summary**        | En el Sprint 3 se completó el 80 % del backend con endpoints seguros para autenticación, usuarios, sensores, medicamentos y alertas, además de la documentación con Swagger y despliegue en Render. El frontend ya consumía parte de estos servicios y la landing se encontraba operativa desde Sprint 1. Sin embargo, se identificaron oportunidades de mejora en tiempos de respuesta, validaciones, manejo de errores, consistencia visual y automatización de despliegues. |
+| **Sprint 4 – 1 Retrospective Summary** | Como aprendizajes, el equipo reconoció la necesidad de: (1) incrementar la cobertura de pruebas automatizadas, (2) unificar los criterios de diseño visual entre landing y app, (3) mejorar el monitoreo post-despliegue y (4) reducir retrabajos mediante revisiones tempranas de código. Para este Sprint se acordó reforzar las prácticas de **code review**, aplicar **pair programming** en tareas críticas y configurar flujos básicos de **CI/CD**. |
+| **Sprint 4 Goal**                      | **Our focus is on** improving quality, performance, and user experience across the Landing Page, Angular frontend, and Spring Boot backend of ThermaTrace.<br>**We believe it delivers** a more robust, reliable, and user-friendly product, with consistent design, better error handling, and optimized communication between all layers.<br>**This will be confirmed when** users can navegar sin errores, recibir mensajes claros ante fallos, experimentar tiempos de respuesta estables, y cuando los despliegues a Netlify y Render se ejecuten de forma reproducible y controlada. |
+| **Sprint 4 Velocity**                  | **40 Story Points** |
+| **Sum of Story Points**                | **39 Story Points** |
+
+**User Stories y tareas incluidas en Sprint 4 (visión general):**
+
+- US20: Mejora de UX/UI en Landing Page (5 SP)  
+- US21: Unificación visual entre Landing y Dashboard (4 SP)  
+- TS07: Incrementar cobertura de pruebas unitarias en backend (6 SP)  
+- TS08: Implementar pruebas básicas de integración frontend–backend (5 SP)  
+- TS09: Optimizar consumo de APIs y manejo de errores en frontend (6 SP)  
+- TS10: Mejorar logs, manejo global de excepciones y mensajes de error en backend (5 SP)  
+- TS11: Configurar pipeline inicial de CI/CD para frontend y backend (8 SP)
+
+---
 
 ### 5.2.4.2. Aspect Leaders and Collaborators
 
-Para asegurar una ejecución eficiente del Sprint 1, se definieron líderes y colaboradores responsables de las principales áreas del proyecto. Cada miembro del equipo lidera o apoya aspectos específicos como el desarrollo de páginas, integración de funcionalidades, diseño visual y animaciones. Esta matriz garantiza una asignación clara de tareas y fomenta el trabajo colaborativo.
+En el Sprint 4 se organizaron los roles en función de **mejoras transversales**: UX/UI, Calidad, Rendimiento e Infraestructura/DevOps.
 
-| Team Member      | GitHub Username |  Index | languageSwitcher  | Layout  | Base | Components| 
-|------------------|-----------------|---|---|---|---|---|
-| Oscar Espinoza   | Carbocnito5443  | L | C | C | C | C | 
-| Axel Ordoñez     | noomzzzzz       | C | L | C | C | C | 
-| Jean Grandez     | JeanGrandez     | C | C | L | C | C | 
-| Fabrizio Panta   | F4brizio24      | C | C | C | L | C | 
-| Frezzia Espinoza |                 | C | C | C | C | L | 
+| **Team Member** | **GitHub Username** | **UX / UI & Landing** | **Frontend Quality & Performance** | **Backend Quality & Security** | **DevOps & Deployment** |
+|-----------------|---------------------|:---------------------:|:----------------------------------:|:------------------------------:|:------------------------:|
+| Espinoza Quijandría, Oscar Leonardo | Carbocnito5443 | **L** | **L** | C | C |
+| Grandez Mansilla, Jean Pierre       | JeanGrandez          | C   | C   | **L** | **L** |
+| Espinoza Samaniego, Frezzia Milagros| FrezziaEspinoza      | C   | C   | C | C |
+| Ordoñez Chirinos, Axel Brahan       | noomzzzzz            | C   | C   | C | C |
+| Panta Salazar, Fabrizio Gabriel     | F4brizio24           | C   | C   | C | C |
 
-### 5.2.4.3. Sprint Backlog 1
-El Sprint Backlog 1 consolida todas las funcionalidades principales de ThermaTrace, enfocándose en completar toda la experiencia de usuario inicial: About, Home, Pricing, Team, Features.
+> **L = Leader (Líder del aspecto)** **C = Collaborator (Colaborador)**
 
-| Historia de Usuario | Tarea ID | Descripción de la Tarea | Duración Estimada | Responsable | Estado |
-|---------------------|----------|--------------------------|-------------------|-------------|--------|
-| HU1 | T01 | Implementar sección **Home** con encabezado, logo y menú de navegación responsive. | 6h | Oscar | Done |
-| HU2 | T02 | Desarrollar sección **About** con misión, visión, historia de la startup y valores del equipo. | 4h | Axel | Done |
-| HU3 | T03 | Construir sección **Pricing** con tarjetas de planes (Basic, Pro, Enterprise), estilos y botón de registro. | 5h | Jean | Done |
-| HU4 | T04 | Diseñar sección **Team** con fotos, nombres, roles y enlaces de contacto de los integrantes. | 5h | Fabrizzio | Done |
-| HU5 | T05 | Crear sección **Features** listando los servicios principales con íconos, descripciones y opción “ver más”. | 4h | Frezzia | Done |
-| HU6 | T06 | Implementar sección **FAQ** con acordeón desplegable para resolver dudas frecuentes. | 3h | Oscar | Done |
-| HU6 | T07 | Añadir funcionalidad de **Internacionalización (i18n)** en la landing page (ES/EN), guardando preferencia de idioma. | 3h | Oscar | Done |
+---
 
-<img width="1280" height="522" alt="image" src="https://github.com/user-attachments/assets/abbed86b-8f7a-4c47-b489-7ef0a7359a5f" />
+### 5.2.4.3. Sprint Backlog 4
 
-### 5.2.4.4. Development Evidence for Sprint Review.
+El Sprint Backlog 4 agrupa las tareas de **pulido funcional y técnico** sobre los artefactos existentes.
 
+| **User Story / Tipo** | **Task Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|-----------------------|------------|-----------|-----------------|------------------------|-----------------|-----------|
+| US20 – Mejora de UX en Landing | T43 | Refinar estructura de Home | Ajustar jerarquía visual, tipografía y espaciado de la sección principal para mejorar legibilidad y foco en el valor de ThermaTrace. | 4h | Oscar | Done |
+| US20 – Mejora de UX en Landing | T44 | Optimizar sección Pricing | Homogeneizar tarjetas de planes, mejorar contraste de botones y destacar plan recomendado. | 3h | Jean | Done |
+| US20 – Mejora de UX en Landing | T45 | Accesibilidad básica | Agregar atributos ARIA, textos alternativos y mejorar contraste para usuarios con discapacidad visual. | 3h | Frezzia | Done |
+| US21 – Unificación visual | T46 | Actualizar paleta y componentes | Alinear colores, tipografías y estilos de botones entre Landing y Dashboard. | 4h | Oscar | Done |
+| US21 – Unificación visual | T47 | Revisar responsive design | Ajustar breakpoints para que la experiencia sea consistente en móviles, tablets y desktop en todas las vistas. | 3h | Axel | Done |
+| TS07 – Tests backend | T48 | Pruebas unitarias servicios | Implementar pruebas JUnit para servicios de Users, Medicaments y Sensors. | 6h | Jean | Done |
+| TS07 – Tests backend | T49 | Pruebas de repositorios JPA | Validar consultas y relaciones con base MySQL en entorno de prueba. | 4h | Fabrizio | In Progress |
+| TS08 – Tests integración | T50 | Pruebas de integración API | Crear colecciones Postman/Rest Client para flujos completos: login → dashboard → medicamentos → alertas. | 4h | Oscar | Done |
+| TS08 – Tests integración | T51 | E2E básicos frontend | Definir y ejecutar 2–3 flujos críticos con herramientas E2E (por ejemplo, Cypress/Playwright) para navegación general. | 5h | Frezzia | To Do |
+| TS09 – Manejo de errores frontend | T52 | Interceptor HTTP global | Implementar interceptor Angular para capturar errores HTTP y mostrar mensajes consistentes al usuario. | 4h | Oscar | Done |
+| TS09 – Manejo de errores frontend | T53 | Estados vacíos y loading | Revisar vistas de Dashboard, Medicaments y Profile agregando estados vacíos, loaders y mensajes de error. | 4h | Axel | Done |
+| TS10 – Errores backend | T54 | Handler global de excepciones | Implementar `@ControllerAdvice` y respuestas estandarizadas de error con códigos HTTP adecuados. | 4h | Jean | Done |
+| TS10 – Logs y monitoreo | T55 | Añadir logs estructurados | Incluir logs en puntos clave (login, creación de alertas, registro de sensores) y configurar niveles de log. | 3h | Fabrizio | Done |
+| TS11 – CI/CD | T56 | Pipeline frontend en GitHub Actions | Configurar workflow para ejecutar tests y build de Angular en cada push a `develop`. | 4h | Jean | Done |
+| TS11 – CI/CD | T57 | Pipeline backend en GitHub Actions | Configurar workflow para ejecutar tests y build de Spring Boot antes del despliegue a Render. | 4h | Oscar | Done |
+| TS11 – CI/CD | T58 | Documentar flujo de despliegue | Crear guía interna con pasos de build, variables de entorno y endpoints de verificación post-deploy. | 3h | Fabrizio | Done |
 
-| Repository   | Branch               | Commit ID | Commit Message                  | Commit Message Body | Committed on Date     |
-|--------------|----------------------|-----------|----------------------------------|----------------------|------------------------|
-| ThermaTrace  | feature/index             | 298c45a   | feat: add index.html         | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/components             | e856efe   | feat: add components.css                | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/layout             | d08a274   | feat: add layout.css             | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/base             | b8fe11d   | feat: add base.css            | -                    | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/LenguageSwitcher             | afe5753   | feat: add LenguageSwitcher.js                | -                    | 21 de septiembre de 2025    |
-|
+---
 
-## Detalles
-Cada feature fue desarrollado en una branch diferente siguiendo buenas prácticas de control de versiones y trabajo en equipo. Se utilizaron mensajes de commit descriptivos y cada cambio fue verificado.
+### 5.2.4.4. Development Evidence for Sprint Review
 
-### 5.2.4.5. Execution Evidence for Sprint Review.
+Durante el Sprint 4 se realizaron refactorizaciones y mejoras sobre los repositorios existentes:
 
-Durante el Sprint 1, el equipo ejecutó las tareas de desarrollo de la Landing Page de MascotaMatch siguiendo el plan establecido. Se completó el objetivo de crear, implementar y desplegar la página con una estructura HTML básica, diseño UX/UI optimizado y estilos responsivos, todo dentro del plazo asignado.
+#### Commits destacados – Landing Page (`ThermaTrace / LANDING-PAGE`)
 
-<img width="1899" height="942" alt="image" src="https://github.com/user-attachments/assets/ea59668f-a472-414b-b16e-253a875d035b" />
+| Repository | Branch | Commit Id | Commit Message | Committed on Date |
+|-----------|--------|-----------|----------------|-------------------|
+| ThermaTrace | feature/ux-landing | 4c9f2a1 | feat: improve landing hero section and CTA buttons | 04/12/2025 |
+| ThermaTrace | feature/ux-landing | a8d3e5c | feat: update pricing cards and highlight recommended plan | 04/12/2025 |
+| ThermaTrace | feature/ux-landing | f2b1c7d | chore: add accessibility tags and alt texts | 05/12/2025 |
 
-<img width="1905" height="944" alt="image" src="https://github.com/user-attachments/assets/45f4e51f-0027-4ce4-8c04-173e7b5f3fb9" />
+#### Commits destacados – Frontend (`therma-trace-frontend`)
 
-<img width="1896" height="946" alt="image" src="https://github.com/user-attachments/assets/0cb431a1-293a-48bf-9b91-7a5fe8e5899c" />
+| Repository | Branch | Commit Id | Commit Message | Committed on Date |
+|-----------|--------|-----------|----------------|-------------------|
+| therma-trace-frontend | feature/error-handling | 91c3e8b | feat: add global http error interceptor and toast notifications | 05/12/2025 |
+| therma-trace-frontend | feature/ui-consistency | 7bd4a23 | style: align dashboard theme with landing page palette | 05/12/2025 |
+| therma-trace-frontend | feature/tests | c4e2f90 | test: add unit tests for dashboard and profile components | 06/12/2025 |
+| therma-trace-frontend | ci/frontend-pipeline | d7a5e31 | chore: add GitHub Actions workflow for Angular build | 06/12/2025 |
 
-<img width="1899" height="939" alt="image" src="https://github.com/user-attachments/assets/94af8220-cb60-433f-af4f-ec5a98ca6ef9" />
+#### Commits destacados – Backend (`therma-trace-backend`)
 
-<img width="1894" height="943" alt="image" src="https://github.com/user-attachments/assets/5ba7db68-cccb-4e6f-9a8c-8d60f2f2aa9a" />
+| Repository | Branch | Commit Id | Commit Message | Committed on Date |
+|-----------|--------|-----------|----------------|-------------------|
+| therma-trace-backend | feature/exception-handler | e3c7b1a | feat: add global exception handler with standardized error responses | 05/12/2025 |
+| therma-trace-backend | feature/tests | f1a9d4c | test: add unit tests for user, sensor and alert services | 06/12/2025 |
+| therma-trace-backend | feature/logging | b5d8c9e | chore: improve structured logging for critical operations | 06/12/2025 |
+| therma-trace-backend | ci/backend-pipeline | a0c3f7d | chore: configure GitHub Actions pipeline for Spring Boot build and tests | 06/12/2025 |
 
-<img width="1896" height="935" alt="image" src="https://github.com/user-attachments/assets/7a38cdb1-ba98-4f6c-ac4a-132197f48900" />
+**Detalles:**  
+Igual que en sprints anteriores, cada mejora se desarrolló en una **branch independiente**, se realizó **code review** y luego se integró a las ramas principales (`develop` / `main`) tras verificar el correcto funcionamiento en local.
 
-<img width="1900" height="978" alt="image" src="https://github.com/user-attachments/assets/853de6a2-e10b-41c0-89e0-607652ed05a5" />
+---
 
--Enlace al Landing Page desplegado: <https://upc-pre-202520-1asi0729-7357.github.io/LANDING-PAGE-/>
+### 5.2.4.5. Execution Evidence for Sprint Review
 
-### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+Durante el Sprint 4 se validó la ejecución de las mejoras en entorno de desarrollo y en los despliegues productivos de Netlify y Render. 
 
-Durante el Sprint 1, el equipo de ThermaTrace se enfocó en el desarrollo de la Landing Page del proyecto, por lo que no se implementaron ni consumieron servicios (APIs) en esta etapa. La documentación de servicios se realizará en futuros sprints, conforme se avance en el desarrollo del backend y las funcionalidades dinámicas de la aplicación.
+Ejemplos de evidencias que se pueden adjuntar como capturas:
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+- **Vista 1 – Landing Page refinada:**  
+  Nueva sección *hero* con CTA más visible, precios resaltando el plan recomendado y mensajes claros de valor.
 
-En el Sprint 1 se realizó el lanzamiento de la primera versión del Landing Page, la cual fue publicada mediante GitHub Pages. A continuación, se muestran las evidencias correspondientes al despliegue.
+- **Vista 2 – Dashboard con mensajes de error y loaders:**  
+  Indicadores de carga mientras se consultan métricas y mensajes amigables cuando no hay datos disponibles.
 
-Cómo acceder a la landing page:
+- **Vista 3 – Gestión de medicamentos con estados vacíos:**  
+  Vista cuando aún no se han registrado medicamentos y mensaje invitando a agregar el primero.
 
-<img width="1899" height="942" alt="image" src="https://github.com/user-attachments/assets/ea59668f-a472-414b-b16e-253a875d035b" />
+- **Vista 4 – Formulario de perfil con validaciones mejoradas:**  
+  Mensajes de error debajo de cada campo y feedback visual al guardar correctamente.
 
-<img width="1905" height="944" alt="image" src="https://github.com/user-attachments/assets/45f4e51f-0027-4ce4-8c04-173e7b5f3fb9" />
+- **Vista 5 – Navegación fluida entre módulos con estilo unificado (desktop y mobile).**
 
-<img width="1896" height="946" alt="image" src="https://github.com/user-attachments/assets/0cb431a1-293a-48bf-9b91-7a5fe8e5899c" />
+Además, se ejecutaron:
 
-<img width="1899" height="939" alt="image" src="https://github.com/user-attachments/assets/94af8220-cb60-433f-af4f-ec5a98ca6ef9" />
+- Flujos completos de prueba:  
+  - Login → Dashboard → Medicaments → Alerts → Logout.  
+  - Cambio de idioma ES/EN y verificación de textos.  
+- Colecciones Postman para validar endpoints protegidos con JWT.  
 
-<img width="1894" height="943" alt="image" src="https://github.com/user-attachments/assets/5ba7db68-cccb-4e6f-9a8c-8d60f2f2aa9a" />
+---
 
-<img width="1896" height="935" alt="image" src="https://github.com/user-attachments/assets/7a38cdb1-ba98-4f6c-ac4a-132197f48900" />
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-<img width="1900" height="978" alt="image" src="https://github.com/user-attachments/assets/853de6a2-e10b-41c0-89e0-607652ed05a5" />
+En el Sprint 4 no se crearon nuevos endpoints, pero sí se **actualizó y refinó la documentación existente** en Swagger/OpenAPI:
 
-### 5.2.4.8. Team Collaboration Insights during Sprint.
+- Documentación de respuestas de error estandarizadas (códigos 400, 401, 404, 500).  
+- Ejemplos de payloads para endpoints de:
+  - Autenticación (`/auth/login`, `/auth/register`)  
+  - Gestión de medicamentos (`/medicines`, `/medicines/{id}`)  
+  - Sensores (`/sensors`, `/sensors/{id}`)  
+  - Alertas (`/alerts`, `/medicine-monitoring/alerts`)  
+- Actualización de la descripción general de la API incluyendo información de seguridad JWT.
 
-En el Sprint 1, el equipo se centró en el desarrollo, implementación y despliegue de la Landing Page de MascotaMatch. El trabajo se distribuyó de manera colaborativa, con cada miembro asumiendo responsabilidades en áreas clave como el desarrollo de la estructura HTML, el diseño de la interfaz y la experiencia de usuario, y la creación de estilos responsivos. Además, algunos miembros se encargaron del control de versiones y del despliegue en GitHub Pages.
+**URL de Swagger UI:**  
+`https://therma-trace-backend.onrender.com/swagger-ui/index.html#/`  
+(A)
 
-La comunicación fue constante a través de plataforma usada: Discord, WhatsApp, Slack; y utilizamos herramientas como Trello, GitHub Projects para gestionar tareas y hacer seguimiento de los avances. La colaboración fue eficiente y fluida, pero se identificó la necesidad de mejorar la planificación temporal para optimizar la entrega de futuros sprints.
+---
 
-| Repository     | Branch     | Commit ID      | Commit Message                     | Commit Message Body                                        | Committed on Date     |
-|----------------|------------|----------------|-------------------------------------|-------------------------------------------------------------|------------------------|
-| ThermaTrace   | feature/index      | a1c3f4e     | feat: add landing page view                | Implementación de la vista de bienvenida personalizada       | 21 de septiembre de 2025    |
-| ThermaTrace   | feature/components    | b7d8e2c     | feat: add Styles css            | Creación del módulo de edición de perfil con campos dinámicos| 21 de septiembre de 2025    |
-| ThermaTrace   | feature/layout    | c2e9a8d     | feat: Styles css                 | Diseño e implementación de la sección de servicios           | 21 de septiembre de 2025    |
-| ThermaTrace   | feature/base        | d4b7f3a     | feat: Styles css                | Incorporación de los tres planes de suscripción con botones  | 21 de septiembre de 2025    |
-| ThermaTrace  | feature/LenguageSwitcher         | e5f6b0d     | feat: Cambio de idioma                     | Desarrollo de la sección FAQ con preguntas frecuentes        | 21 de septiembre de 2025    |
-| ThermaTrace   | deploy | f9c2a1b     | chore: deploy to GitHub Pages      | Despliegue de la landing actualizada en entorno de producción| 21 de septiembre de 2025    |
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+En este Sprint se reforzó el proceso de despliegue tanto para frontend como backend:
+
+1. **Netlify – Frontend Angular**
+   - Actualización del comando de build para incluir optimizaciones y generación de archivos de i18n.  
+   - Verificación automática de build mediante GitHub Actions antes de desplegar.  
+   - Prueba manual de flujos principales tras cada deployment exitoso.
+
+2. **Render – Backend Spring Boot**
+   - Ajuste de variables de entorno para JWT, conexión a MySQL y niveles de log.  
+   - Pipeline de GitHub Actions que ejecuta:  
+     - `mvn test`  
+     - `mvn -DskipTests=false clean package`  
+   - Solo se despliega a Render cuando los tests pasan correctamente.
+
+3. **Evidencias sugeridas (capturas):**
+   - Logs de build exitoso en Netlify y Render.  
+   - Panel de Netlify mostrando la última versión desplegada.  
+   - Panel de Render con el servicio backend en estado “Healthy”.
+
+---
+
+### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En el Sprint 4, el equipo se enfocó en **mejorar la calidad global del producto** y cerrar la iteración con una versión más robusta y madura de ThermaTrace.
+
+- Se mantuvieron **reuniones cortas diarias** por Discord para revisar bloqueos y reasignar tareas cuando fue necesario.  
+- Se utilizó Trello y GitHub Projects para dar seguimiento a las tareas de mejora y bugs reportados durante pruebas integradas.  
+- Las branches de mejora (`ux-landing`, `error-handling`, `tests`, `ci`) se trabajaron con **pair programming** en puntos críticos, como:  
+  - Manejo global de errores en frontend/backend.  
+  - Configuración de CI/CD.  
+
+**Distribución del trabajo en el Sprint 4:**
+
+- **Oscar Espinoza:**  
+  Lideró las mejoras de **UX/UI** y manejo de errores en el frontend, refinando la Landing Page y la experiencia general de navegación. También participó en la configuración del pipeline del backend.  
+
+- **Jean Grandez:**  
+  Lideró la parte de **calidad backend y DevOps**, implementando pruebas unitarias, el *handler* global de excepciones, logs estructurados y los workflows de GitHub Actions.  
+
+- **Frezzia Espinoza:**  
+  Apoyó en la mejora de formularios y validaciones, así como en pruebas manuales y documentación funcional de flujos de usuario.  
+
+- **Axel Ordoñez:**  
+  Colaboró en la mejora de vistas de Medicaments, estados vacíos y pruebas de integración ligadas a sensores y datos simulados.  
+
+- **Fabrizio Panta:**  
+  Apoyó en la mejora del módulo de alertas y configuración, así como en la documentación del proceso de despliegue y configuración de parámetros del sistema.
 
 
 
