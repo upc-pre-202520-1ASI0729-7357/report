@@ -1262,7 +1262,7 @@ Aunque sus objetivos son distintos, ambos se conectan a la misma plataforma, que
 Este modelo refuerza la misión de ThermaTrace: democratizar el acceso a herramientas tecnológicas simples y confiables para el monitoreo de medicamentos. Además, gracias a su diseño modular y escalable, la plataforma puede adaptarse a diferentes instituciones del sector salud y escenarios de distribución sin perder su esencia.
 <br>
 
-![imagen context](assets/software-architecture/Diagrama_Contexto.png)
+![imagen context](assets/software-architecture/Diagrama_Contexto.jpg)
 
 
 ### 4.6.3. Software Architecture Container Diagrams.
@@ -1275,7 +1275,7 @@ Esta SPA se conecta con un API Backend central, responsable de coordinar las ope
 Gracias a este diseño modular, ThermaTrace mantiene una separación clara entre la experiencia de usuario y la lógica de negocio, lo que permite escalar sus capacidades, integrar nuevas tecnologías como IoT, y reducir el tiempo de despliegue de mejoras y nuevas funcionalidades.
 <br>
 
-![imagen container](assets/software-architecture/Diagrama_Contenedores.png)
+![imagen container](assets/software-architecture/Diagrama_Contenedores.jpg)
 
 ### 4.6.4. Software Architecture Components Diagrams.
 El diagrama de componentes profundiza aún más en la vista del sistema, enfocándose en la arquitectura interna del API Backend de ThermaTrace. Aquí se muestra cómo las responsabilidades de la lógica de negocio se dividen en distintos controladores, servicios y repositorios, lo que garantiza una separación clara de preocupaciones y un código más mantenible.
@@ -1299,7 +1299,7 @@ Cada servicio se apoya en un repositorio especializado que gestiona la persisten
 Finalmente, todos los repositorios interactúan con el contenedor externo de base de datos (MySQL), donde se almacenan los datos de usuarios, registros de monitoreo, alertas y reportes.
 <br>
 
-![imagen componente](assets/software-architecture/Diagrama_Componentes.png)
+![imagen componente](assets/software-architecture/Diagrama_Componentes.jpg)
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
@@ -1368,7 +1368,7 @@ En cuanto a la estructura técnica, se adoptan buenas prácticas de colaboració
 
 Finalmente, se mantiene un repositorio denominado upc-pre-202520-1ASI0729-7357 (https://github.com/upc-pre-202520-1ASI0729-7357), donde se concentran versiones exploratorias y entornos de prueba orientados a hospitales y farmacias. Este repositorio funciona como espacio experimental para validar nuevas funcionalidades relacionadas con la gestión de temperatura, trazabilidad de medicamentos y optimización de inventarios, antes de su incorporación al sistema central de producción. Además, permite realizar pruebas funcionales y demostraciones internas con usuarios clave, asegurando que las mejoras propuestas respondan a las necesidades reales del sector salud.
 
-![Repositorios de ThermaTrace](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551311708_1323660692748451_3932849482348297948_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=dJu0MelnnfEQ7kNvwGjEPuJ&_nc_oc=AdkwQjuJrYOZrD6Cdh0tSjsHqFvTlv_qG7yvHDI127Xs5b21ei5PSNgqIxWtj3nLOdTAG9NQQsGrlwbl8zTocC29&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHdjnqPex30s0KJaw66HYPHW3BnFRk4unhWH4G6i13FPw&oe=68F75E84)
+![Repositorios de ThermaTrace](assets/Repositorios_Thermatrace.png)
 <br>
 
 ### 5.1.3. Source Code Style Guide & Conventions.
@@ -1397,9 +1397,9 @@ Para gestionar el desarrollo de ThermaTrace de manera colaborativa, el equipo em
 
 Una vez creado, el fork quedaba disponible en el perfil de cada colaborador como una copia independiente del repositorio original, lista para ser modificada y sincronizada según el avance del proyecto. Este flujo de trabajo garantizó la seguridad e integridad del repositorio upstream, mientras fomentaba la autonomía individual y la organización del equipo, asegurando que todas las mejoras o correcciones pasaran por un proceso de validación antes de incorporarse oficialmente al sistema central de ThermaTrace.
 
-![imagen deploy 1](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552223944_1701654900496595_1803262069206559475_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=fCsE5_KsgoEQ7kNvwG3rLII&_nc_oc=AdkTGB493FgiNCQwgtFHSbbDtqDD-3G3A38irKxA2bgLWz45Wc-a79x1LZbYpHy-yy6X1lctu_XC575-Y6ZchPoC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QESHZ8HZuobdmmHm2wGfDPxEcUZcBjzCoIaSSin0C8LPA&oe=68F78028)
-![imagen deploy 2](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551712165_1139658748260941_9019660909457222181_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9f936UuILAsQ7kNvwGkWLRJ&_nc_oc=Adl7KuWGcCZtRvliQR2jK9AWnmo_CqdFhZtnDooMd6-6m4ArdzvEVnJcBLUY1K2BvbVW0NQTjhj1_o_wtYGrFERK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QFcwaRaLPiQPuPdrY42PbauW2ERYxF-nqRfq0Cj90g5XQ&oe=68F75F26)
-![imagen deploy 3](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550981287_1424460261979165_2063420566730392179_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=brCVl0LZ7P4Q7kNvwFkbnQp&_nc_oc=AdnmbXIJnTETzsU-fgCuwDbi_RWwxixHy7udFtXOmVT1KNqHVFdwYeN_CEO7xsQSjtqiOPUZSlqZhMesgk8TWoxB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QERic9QDaBvpA0yPQ-W72p0mX5IKYIW9et7u43p9EAaiQ&oe=68F77C84)
+![imagen deploy 1](assets/deply_landing/Deploy_1.png)
+![imagen deploy 2](assets/deply_landing/Deploy_2.png)
+![imagen deploy 3](assets/deply_landing/Deploy_3.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ## 5.2.1. Sprint 1
@@ -1664,7 +1664,7 @@ A continuación se presentan las principales vistas implementadas:
 
 **Vista 1: Dashboard Principal**
 
-![Dashboard Home View](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/562993677_2200690630421645_3519390199710055160_n.png?stp=dst-png_p526x395&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_pnJnNhx8mYQ7kNvwE5olTi&_nc_oc=AdlCfbs_llBSwzlXmHzBW47GK9lMqUfJUZY5x1QLe7TKQytvv48yPpcmRkFxNvz8glg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gH66vfrx7ZGxJjMx6qd-zwtbXLH8-wGN1rYs8W1DMe6-w&oe=69104072)
+![Dashboard Home View](assets/execution-evidence-sprint-2/Vista_1.png)
 
 **Vista 2: Dashboard - Gráficos de Temperatura**
 
@@ -1672,50 +1672,50 @@ A continuación se presentan las principales vistas implementadas:
 
 **Vista 3: User Profile - Visualización**
 
-![User Profile View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/541329815_24825392580461402_1106036149479778653_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=jayB6TFkj0oQ7kNvwEWAgsN&_nc_oc=AdnHsgwcOXt-ra1KGe17RGJXV9BO7ePTQoGDpYBCAb8v1wbEDLAN8p-4zNG_chzcPtY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gFFiiNq48MBNICPuKuMjftQmuZDSoFbyTbKvPl0ETXwxw&oe=69102D06)
+![User Profile View](assets/execution-evidence-sprint-2/Vista_3.png)
 
 **Vista 4: User Profile - Edición**
 
-![User Profile Edit Form](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552408592_1519649522799307_5959383570953439181_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=wnZld0q4Dx4Q7kNvwGiUQQP&_nc_oc=AdmiV-FSCm-cr9CZ5f-KVUl_Up-taUe5O8D437DlzRXTfjzgzEKL2Fn3bd45BDgyD9c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gGE9Zz9aS8ByV04mwjIqYN7U1VgrbLuXXolrD2u2NN7tg&oe=69104295)
+![User Profile Edit Form](assets/execution-evidence-sprint-2/Vista_4.png)
 
 **Vista 5: Medicaments - Catálogo (Grid de Cards)**
 
-![Medicaments Grid View](https://scontent.flim33-1.fna.fbcdn.net/v/t1.15752-9/541676120_1553140116136067_5354319648110809301_n.png?stp=dst-png_p526x395&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=5IcQHPW_DtcQ7kNvwERrj_v&_nc_oc=AdmH2PIioQ3lsLOvUn_kZacCxWtjGShKYYYUximbtvTI1P3ZXOuA8fh73G4jEGEoFS8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&oh=03_Q7cD3gGDOAPlYMiP4IiyIIeDbODHzRS049uDpRTkaihbOqlYiQ&oe=691055FB)
+![Medicaments Grid View](assets/execution-evidence-sprint-2/Vista_5.png)
 
 **Vista 6: Medicaments - Edición**
 
-![Medication Detail View](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/553134115_1973281776782535_7885852261648421200_n.png?stp=dst-png_p526x395&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9M3jwGzYnCgQ7kNvwFDAHrk&_nc_oc=Adm-Gzbd3bZLKuWOhOGIZyn01BvxkAmBGDamujZZgg4Qgy0q_8ixcvDOwhv0ACnP5EQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gGGPoL8izttkQdoS8pDfJysoL7JPeGTAab5Qeo0sbc71A&oe=69102FB4)
+![Medication Detail View](assets/execution-evidence-sprint-2/Vista_6.png)
 
 **Vista 7: Medicaments - Agregar Medicamento**
 
-![Add Medication Form](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/553086764_2644472355892307_5136205146736707801_n.png?stp=dst-png_s843x403&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Os0YgNmJg1gQ7kNvwGtHEJS&_nc_oc=AdlzqZkwznLkN3rrQhBUfMgU7d5XVZXGyBpVCX-rQSrB_fKqytRlBwNpwS6ec4pfDqM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gEy_OIbtUXx-CcsIXUZKAVSCWRn5pznwic9hv2amQ4bjA&oe=691032C0)
+![Add Medication Form](assets/execution-evidence-sprint-2/Vista_7.png)
 
 **Vista 8: Temperature Management - Status**
 
-![Medication Status Example](https://scontent.flim33-1.fna.fbcdn.net/v/t1.15752-9/554247293_1467254454527120_5265777946859977169_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=z5ELa5AY0x8Q7kNvwG9NFty&_nc_oc=AdmK_6wmYUBaUm3NVXKqnEoLx6VELwqUt0OceTBxfoq31eL4jgIkUqRdTiY2dULJFWo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&oh=03_Q7cD3gHqfbsjIdoOAxtSgXFjOFU0ntxiwe7fVoJHjpNn_LRgwg&oe=69104D67)
+![Medication Status Example](assets/execution-evidence-sprint-2/Vista_8.png)
 
 **Vista 9: Temperature Management - Edición**
 
-![Configuration Preferences](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/554224902_1871794287093927_2158042499257602984_n.png?stp=dst-png_p526x395&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=6plZNiQ-RQkQ7kNvwGIbcM7&_nc_oc=AdkzWJPn-4ubar9HMb24IXavvLYkpVG3glZxTNhMPjugWE0luF_qrrJwbTvBVDnlRp0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gH-sPxf_NWfy3F1rOF4hGzV0qEXzLZOjgvlbFSZpch0pQ&oe=69103560)
+![Configuration Preferences](assets/execution-evidence-sprint-2/Vista_9.png)
 
 **Vista 10: Configuration**
 
-![Configuration Security](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/555042734_603194632784386_2387401039702687919_n.png?stp=dst-png_p526x395&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=wmPViOFpgr4Q7kNvwGIEmdV&_nc_oc=AdkuobjDOrmlBFBNIraAXTPb6j6VWLXphrGdSIg5H5Lt8gwqosou2M_5yBL7uG1vi_o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gF52MWnmiUsIDLxP0GSBPFAcRKI2T6mnaBHYOQbE6MoDQ&oe=691049D2)
+![Configuration Security](assets/execution-evidence-sprint-2/Vista_10.png)
 
 **Vista 11: Responsive - Mobile View**
 
-![Mobile Responsive View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/553800183_1367633761390793_1174800594587457537_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=COHyC39LDW0Q7kNvwEkFbxJ&_nc_oc=AdngYDoJJEXlirbkTbCDIfmi2OnbYpPCcESpfkr3dX6xqwYvjplHcv80HvI2O22XxG0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gE-4gChasR2JhbrLXpUZVYllsFF1WZE7v8S9_XNPJNwDg&oe=69103B5E)
-![Mobile Responsive View](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/551864088_1449802842797850_3136004247797351046_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ZBsKH0peJKgQ7kNvwEYdU4C&_nc_oc=AdnO0uUvtIfA7R3MB4Di7lPm68GkaWD946PeantSoW75S1hrimwWX8xg3rTOU9dmyq8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gEBLrfnH3oEJ41b2J7LEwRbfjkuRvWeNKGXWNCy_k_b0w&oe=69102BBC)
-![Mobile Responsive View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/557833495_1358180275982871_921950843190123338_n.png?stp=dst-png_p480x480&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=8A67JKXLegQQ7kNvwHLrkXi&_nc_oc=Adm3GROqlrBNv-fFWIEHEJFprJ_LsURnGXpdoL_8UGXi2ydmtYAB-itqlMCf_fjliWU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gHZr8PJjkxkQ0QcO76dq4QETPfvd2mRS9O1HejmI_e5dw&oe=69105BF2)
-![Mobile Responsive View](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/553272350_1388911906172978_1567212630711678086_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=XzHTFEh3jXQQ7kNvwEtU-tF&_nc_oc=AdmYzV_Mu5wbkH4njkQY4trCA6nw3ZfH7bqLY8dnaFNVGhy-HxS_V0m8P2XOgJHG6-M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gG4MG-4OqjEXrZX_26AfouZxkYC4Y1ndRbsYWKtyNTJww&oe=6910326C)
-![Mobile Responsive View](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/553410256_1504971253878241_4551693363232742857_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=X9_e-1jR_WsQ7kNvwEyumYL&_nc_oc=Adl4hLGyvVFqRsXTVhJRoRON6XgPxZCDOclix5_pb2GX-Tw8Ym7_C81VX1RFENuhgek&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3gFBSkvLGBfqfimJxjYFcgxQp_F2FZQq1CBKPUk-_hPX4A&oe=69103F39)
-![Mobile Responsive View](https://scontent.flim28-1.fna.fbcdn.net/v/t1.15752-9/553589250_1522887315724264_4605816432189396264_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=52es-VMAPA4Q7kNvwHH6zoC&_nc_oc=Adm2QiAn84sUTMVpklEwBBJ_6dVfRALngQtZNSxHX_H795fLav2CZ5-40oOKq5hdVc4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&oh=03_Q7cD3gGmHasvDUxUuegh3_uwO0tTK700J_jWFrWNEdXeKZ8fZQ&oe=69104DD9)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_1.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_2.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_3.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_4.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_5.png)
+![Mobile Responsive View](assets/execution-evidence-sprint-2/Movil_6.png)
 
 **Vista 12: Internacionalización - English Version**
 - Versión de la pagina en inglés, con todos los textos traducidos y cambio dinámico de idioma.
-![English Language Version](https://scontent.flim28-2.fna.fbcdn.net/v/t1.15752-9/554318514_1850400339243556_3214344405687880186_n.png?stp=dst-png_p526x395&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=AOcso0U662AQ7kNvwFGLJTd&_nc_oc=AdmWVPATSlKp22Z8Q00zitkhyffe6QrDz88J1znT22KpBtK6gALV4Nr1bD1w2FQggbE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim28-2.fna&oh=03_Q7cD3gFo1kbr-uY4j0gS80SQWpTFGX4tW2uEBLXoYhL2UlYbSw&oe=69103B32)
+![English Language Version](assets/execution-evidence-sprint-2/Ingles_1.png)
 - Versión de la pagina en español, vista del Dashboard principal.
-![English Language Version](https://scontent.flim33-1.fna.fbcdn.net/v/t1.15752-9/541660199_1259979826142420_8416395218181182298_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=4gC90Z7LLs8Q7kNvwGI7LgF&_nc_oc=AdkPwwRoZqPJZ2Y9Dtfhjq99Ml1qVEuF1b4M2lPI9wTRZcGlgFKObBHuDc39xBPUpaI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim33-1.fna&oh=03_Q7cD3gHBwfVZQWx4sBUn2NEZUO7So3YbsGcqeyT4Wo_8ou09RQ&oe=69102910)
+![English Language Version](assets/execution-evidence-sprint-2/Ingles_2.png)
 
 **Video demostrativo del Sprint 2:**
 
