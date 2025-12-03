@@ -1112,15 +1112,15 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 
 
 ### 4.4.1. Web Applications Wireframes.
-![Web Application Wireframe Home](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552727029_1145427430983711_8170167009929062933_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=aHpO8CFxj_4Q7kNvwGhNNMX&_nc_oc=AdkUTV_aVxLZSunHIjJk6GPdlQpoOeEP9X5_Ck7Kd-WR2SYf-I4TDfbySAaPIJRF8BTIS3K68ql90WZx40Ei94I9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QE5bCISPRTpblOfWSssswuPlQ9XxTliY-3yZsnlDy_P0w&oe=68F6D359)
+![Web Application Wireframe Home](assets/web-applications-wireframes/Home.png)
 
-![Web Application Wireframe Profile](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551306779_1304600621413466_1924840106879520977_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=xHmh3yHu-JUQ7kNvwF03Ec8&_nc_oc=AdkFNWQpN_EjZ0ubFgxwo5nlSq8INPhifmjLS4Ijo15zGriFcVHvYImTBD7NDSmg5UCeqRq9ylX9Ztr9xum0EhSH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGWkbmDYrt-fvyHSPAoWuCmBN44hEcGG5z08mFWTvMv2w&oe=68F6DBEF)
+![Web Application Wireframe Profile](assets/web-applications-wireframes/Profile.png)
 
-![Web Application Wireframe Medications](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550909985_1156427363024210_7991027152396015937_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=L4c5WfgfGigQ7kNvwFg72h8&_nc_oc=AdlJBJg6uBY6eLcygFlGFYHr4-j_Rsm11vq0k_Iz9Nf2SjmN3UF-JhKMNW-GqFaSJcZIoPUSrkMeiCdoftAOv43y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHfmDt1I4kyv3vbu7mPbfNHPujkvhVmMPQoP5rMXLzxRg&oe=68F70248)
+![Web Application Wireframe Medications](assets/web-applications-wireframes/Medications.png)
 
-![Web Application Wireframe Temperature Management](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552577646_1127060045590960_7933546858104650091_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=dlA3AfYMZxwQ7kNvwF96Wsz&_nc_oc=AdlWLe9RXH7N8UH5vVwUOw6r0AO4sgvhRPSgpqw5pWos0mJlTFJ0Z9Eu3tL2CidIOEPOhJ5nfrZuL5NBwNMAEx1e&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHlMWp-Nh0Ipcqa-VJs8wdnHHMIEt5IjJiCvV1-rwz8Vw&oe=68F6E98E)
+![Web Application Wireframe Temperature Management](assets/web-applications-wireframes/Temperaute%20Management.png)
 
-![Web Application Wireframe Configuration](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552094790_1939322060256727_1400558595771695713_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cikGB8TVvi4Q7kNvwFGebDL&_nc_oc=Adk9F3bAN08IcOmalTUpwF52ms1j9U0kDCv6_sfEvcCT1zScJRQUliXhNhFKj2TKulGkgj-mK45GETob6jtyTrIO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHnsXTJcz_D_eUIzbJ1u66HisOc4uBPysTUd90QPDqqmA&oe=68F6EDBF)
+![Web Application Wireframe Configuration](assets/web-applications-wireframes/Configuration.png)
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
