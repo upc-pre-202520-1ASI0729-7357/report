@@ -26,7 +26,7 @@
 | Ordoñez Ricaldi, Axel        | U202216827 |
 | Panta Castro, Fabrizio Martin| U20231A810 |
 | Grandez Mansilla, Jean Pierre| U202212484 |
-| Espinoza Quijandria, Oscar   | u202311842 |
+| Espinoza Quijandria, Oscar   | U202311842 |
 | Espinoza Paredes, Frezzia Eldaa Isabel  | u815121 |
 
 </div>
