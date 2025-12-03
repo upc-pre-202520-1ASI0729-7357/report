@@ -882,7 +882,7 @@ La elección de Roboto, además de responder a criterios de legibilidad y accesi
 La elección de la paleta de colores en nuestro proyecto obedece a una estrategia visual cuidadosamente planificada, orientada a reflejar tecnología, confianza y sofisticación, valores fundamentales en la propuesta de CcaritaTech.
 
 - **Landing Page** <br>
-![Imagen de la paleta de colores del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551467552_1204326681534642_7846861878436825793_n.png?stp=dst-png_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_yJEc8uNcNgQ7kNvwE3J9ba&_nc_oc=AdlEqKkEFMuVuEUG5LCo8hhGoibPc4kMuN9DZNErNylLdUqcwujOq6RjV9I1XPBoVS_8SvZmLr3qyv1eifdEVKVB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGd7zGVhfdZc5ybOms216R9L3g90CLfzz_d_1Ab9NhD6Q&oe=68F6E051)
+![Imagen de la paleta de colores del landing page](assets/web-style-guidelines/Paleta_de_Colores.png)
 
 En la sección de inicio, se utiliza un degradado entre el **azul brillante (#389DFB)** y el **verde agua (#69E8CC)**. Esta combinación transmite frescura, dinamismo y modernidad, generando un impacto visual inmediato que invita al usuario a explorar la interfaz. El degradado no solo aporta profundidad y movimiento, sino que también refuerza una identidad vibrante y tecnológica.
 
@@ -917,7 +917,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
 - Menú de navegación con las opciones: Home, About, Features, Pricing y Team.
 - Selector de idioma (inglés y español).
 
-![Imagen del Header del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552517489_1509003707105479_8981678970381266145_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=FOhn2O4JIKEQ7kNvwFeqk4D&_nc_oc=AdlObFdLAuVzQFzMjlIGkROA43V0DFKLPDSK3YiFBSHN7bSZM9ZIyW1kgDPNvnpZ8fnlEGsoiVKc2XT2uGhxxGZH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QFPgvawWqGHm-PwyoM3xGdT0n0OCKpzIzCO6DbNQvjP8A&oe=68F6C003)
+![Imagen del Header del landing page](assets/web-style-guidelines/Header.png)
 <br>
 
 **Home:**
@@ -926,7 +926,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - **“Request a Demo”:** Para una demostración personalizada del producto.
     - **"Learn More":** Para los que necesitan más información.
 
-![Imagen de la sección Home del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551980900_1455555945559627_2539296983521088313_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=n5Eoac-1s8YQ7kNvwE9TRyC&_nc_oc=Adl5lr6fouI6WsprMso3_Vc6Rsf39cCuutk5gVhkR9-DF4Kb3yGV2CJ7aPTISC4R90o9yxdjzhhXLRFSjY49Moe2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGbG0eTAkFhbB2PusWAl5DlmZcAaRwWeXunXdgasTRAZw&oe=68F6C9E9)
+![Imagen de la sección Home del landing page](assets/web-style-guidelines/Home.png)
 <br>
 
 **About:**
@@ -937,7 +937,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - Garantizar la seguridad del paciente 
     - Sistema de alertas instantáneas
 
-![Imagen de la sección About del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551625397_788590637241916_1633254094399550872_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DZvaMGAjZ2EQ7kNvwF771A-&_nc_oc=AdkkzynTEkoeBywTChyzmZ4UXunkCBQTdORx5xmRe3hyBW2Zj_iULhwLBl1_2xx3-0px3ZVCWc01CEm0h2AYVwA6&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QG6T6buecRJF3vTvNWGeiLKkH38KnU5skYPLs_eY_CCpA&oe=68F6B250)
+![Imagen de la sección About del landing page](assets/web-style-guidelines/About_Us.png)
 <br>
 
 **Features:**
@@ -951,8 +951,8 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - **“Request a Demo”:** Para una demostración personalizada del producto.
     - **"Learn More":** Para los que necesitan más información.
 
-![Imagen de la sección Features 1 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551508554_1428802668209421_1980168407098881757_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=izDLsief3LIQ7kNvwHOqk8Q&_nc_oc=AdkIX6iJFz2uLY5IRSpb1a1dVRcvbWRF1xO_LocNA9Asx9uq3MhCtWxxmYM5asR9NxukAqIHw9DRxbAf7i0WMyhK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGXxnOScMl2hUQppHbeVa_c-LOYxawS5ZME7nn2ZllUqA&oe=68F6E3A0)
-![Imagen de la sección Features 2 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551988888_795952772901996_4051626875202561435_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=l_o4h10K-zgQ7kNvwFk9Qq4&_nc_oc=AdnxTDTxNKWuK5_Z0-c8Cd24l_lCBNRA1qy-2koDRuPt-ideSLtPyjFzLx3Z2RYm7qEYbxkeZymN0LlCYv359XLE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QHiFEbL3D5EHlRTsdw7lsGJ04twEckIMrCmkgQCHro5VQ&oe=68F6E6B4)
+![Imagen de la sección Features 1 del landing page](assets/web-style-guidelines/Features_1.png)
+![Imagen de la sección Features 2 del landing page](assets/web-style-guidelines/Features_2.png)
 <br>
 
 **Pricing:**
@@ -965,14 +965,13 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
     - **"Get Started":** Para planes Freemium y Premium
     - **"Contact Us":** Para el plan Enterprise
 
-![Imagen de la sección Pricing 1 del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551367873_2865558340296441_5739976421169864080_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=MkUDXBisvcgQ7kNvwHyH4WV&_nc_oc=Adlul_weGYjiiiWLI4lYI-MDQBD-qNuz2FExZCtmiJ6fs4JfiAFGmJAlD1li2ox5dVNSOLFl4nkoTGMpVrFwTs8S&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFBk82qkr4zv2YGRJ_7sqH66WA6WtMCcaWS6eC9tXjraA&oe=68F6DC93)
-![Imagen de la sección Pricing 2 del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/552179408_1453972955870141_3540120401386792185_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9T2F5tRQFMQQ7kNvwEjJXII&_nc_oc=AdlkPvwYQe7JQ6-5G62jEtqptHIn-zOhzUnKTHM5ClINas_2_xRR-x08WIpCOWkCHNqLnTQx5agVKJ1EUM1KAFnu&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEHNEgjbI7RNeDkC35Lo8qJaiaFEf7fnZ6lFsI078-BWQ&oe=68F6D255)
+![Imagen de la sección Pricing 1 del landing page](assets/web-style-guidelines/Pricing.png)
 <br>
 
 **Team:**
 - En esta sección se presentan a los cinco miembros que trabajamos en ThermaTrace, en las tarjetas podemos ver las fotos de los miembros junto a una pequeña descripción de cada uno de ellos.
 
-![Imagen de la sección Team del landing page](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551573701_807759051728158_8074941570635994558_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cudlvw6WkXoQ7kNvwESyRsl&_nc_oc=AdkmZy0GXexyBmlymnD6dLg7qRpXekSKq7WbtdFH8nky9MmOmVzr0aodiomzJW64b8UfV714WqVj4bYyLpzVTPZ9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QHXTWUq84IF8s3GHvOpgp8j_TZr8hwxFYSm_1Oo5wzpgQ&oe=68F6B69A)
+![Imagen de la sección Team del landing page](assets/web-style-guidelines/Team.png)
 <br>
 
 **Footer:**
@@ -981,7 +980,7 @@ Este diseño corresponde a la aplicación web de ThermaTrace, una plataforma tec
 - También se cuenta con un llamado a la acción final (CTA):
     - **“Request a Demo”:** Para una demostración personalizada del producto.
 
-![Imagen del Footer del landing page](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551278630_1310296877312907_5488212415700416345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=1Dy62vy85CsQ7kNvwExCS8Q&_nc_oc=AdkYETHrLp52u4Dj8uzGJ1kAQYawci_ocDW3l3od97ZHhWibsiLYXQeNgYzLUrDIQegOU5pfTPisO-oZKLQ4kDtV&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGAH6FT2-Pl2DTdhxmoxPsY_JXsGKwIFgkDfOmYCXeFGQ&oe=68F6C786)
+![Imagen del Footer del landing page](assets/web-style-guidelines/Footer.png)
 <br>
 
 
@@ -1048,7 +1047,7 @@ En el caso de la landing page de ThermaTrace, se han implementado meta etiquetas
 
 #### 1. Index
 La página principal de ThermaTrace integra etiquetas esenciales que aseguran su correcta visualización y compatibilidad en distintos dispositivos. La declaración ```<meta charset="UTF-8" />``` define la codificación de caracteres para evitar errores en la interpretación del contenido, mientras que ```<meta name="viewport" content="width=device-width, initial-scale=1.0"/>``` garantiza un diseño responsivo adaptable a móviles y computadoras. Además, la etiqueta ```<title>ThermaTrace</title>``` comunica la identidad del sitio en navegadores y motores de búsqueda, y el enlace a la hoja de estilos externos (styles.css) permite mantener un diseño coherente y escalable.
-![Imagen de Meta Tags Index](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551037625_1403827341084256_2440517561009606020_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=NLOv8tVg9ZcQ7kNvwHSCGOa&_nc_oc=AdlTRClVRxaLav4S-jXXcEUvscNi-rFteRBq2uAAEFdovD4SrmPXMAEN0cRDgmY9L7Z0i4uJAk4ZyqERIhYoFg3L&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFhiHegV_4ykYiMV5EJnGddutsp8fVi_5osSvQp_KQUew&oe=68F6D663)
+![Imagen de Meta Tags Index](assets/seo-tags/SEO_tags.png)
 
 
 ### 4.2.4. Searching Systems.
@@ -1090,7 +1089,7 @@ Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseñ
 [Link ded Figma]<https://shorturl.at/Ugeev>
 
 #### 1. Home
-![Landing page Home Wireframe](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/550907381_1162581522431402_5217389235647826514_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Wc5KTtxjw8wQ7kNvwGLnrXP&_nc_oc=AdkHd4Ba47howOwOWccvwa4LZA-n-adO-K57TSTwxGUBzhrGvnfgqINkruzyNnqKN0QzCh7WXnxOhPxwQEmob0_B&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEp3lO1BGz-5QeRW90s2T3X9WNHbZi_4sexM566DFcnPw&oe=68F6E75E)
+![Landing page Home Wireframe](assets/landing-page-design/Landing_Page_Wireframe.png)
 <br>
 
 
@@ -1098,7 +1097,7 @@ Posteriormente, se desarrollaron mockups de alta fidelidad que aplican un diseñ
 [Link ded Figma]<https://shorturl.at/Ugeev>
 
 #### 1. Home
-![Landing page Home Wireframe](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552094212_1082920210706136_1194857642523743090_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9a0P015tZ4oQ7kNvwEe57DU&_nc_oc=AdnE9Qx2o5nsgwHOCXPo7bOqX_oWWTkF7sRZZjGdvCNlMYIPsHfPjaNpQeaQBCgicHoDZbhum6UEwsJgLKctp80G&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QEdn0i5x3FoMQOvUg0jYdnsKtqgQsNSBJHJbDhiYfGBQg&oe=68F6D4BA)
+![Landing page Home Wireframe](assets/landing-page-design/Landing_Page_Mock-Up.png)
 <br>
 
 
