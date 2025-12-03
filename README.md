@@ -2063,6 +2063,8 @@ Durante el Sprint 4 se realizaron refactorizaciones y mejoras sobre los reposito
 
 #### Commits destacados – Landing Page (`ThermaTrace / LANDING-PAGE`)
 
+LINK DEL REPO: https://github.com/upc-pre-202520-1ASI0729-7357/LANDING-PAGE-
+
 | Repository  | Branch             | Commit Id | Commit Message                                            | Committed on Date |
 |-------------|--------------------|-----------|-----------------------------------------------------------|-------------------|
 | ThermaTrace | feature/ux-landing | 4c9f2a1   | feat: improve landing hero section and CTA buttons        | 03/12/2025        |
@@ -2070,6 +2072,8 @@ Durante el Sprint 4 se realizaron refactorizaciones y mejoras sobre los reposito
 | ThermaTrace | feature/ux-landing | f2b1c7d   | chore: add accessibility tags and alt texts               | 03/12/2025        |
 
 #### Commits destacados – Frontend (`therma-trace-frontend`)
+
+LINK DEL REPO: https://github.com/upc-pre-202520-1ASI0729-7357/therma-trace-frontend
 
 | Repository            | Branch              | Commit Id | Commit Message                                                                                     | Committed on Date |
 |-----------------------|---------------------|-----------|----------------------------------------------------------------------------------------------------|-------------------|
@@ -2080,6 +2084,8 @@ Durante el Sprint 4 se realizaron refactorizaciones y mejoras sobre los reposito
 | therma-trace-frontend | feature/medicaments | 6e6a8e9   | feat(env): define environment variable types and access methods                                    | 03/12/2025        |
 
 #### Commits destacados – Backend (`therma-trace-backend`)
+
+LINK DEL REPO: https://github.com/upc-pre-202520-1ASI0729-7357/therma-trace-backend 
 
 | Repository           | Branch                  | Commit Id | Commit Message                                                                            | Committed on Date |
 |----------------------|-------------------------|-----------|-------------------------------------------------------------------------------------------|-------------------|
