@@ -1173,18 +1173,18 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 **Acción esperada:** Personalizar el uso de la plataforma y asegurar un entorno confiable y seguro para hospitales y farmacias<br><br>
 
 [Web Applications Wireflow Diagrams] <https://shorturl.at/brHvb><br>
-![Web Aplication Wireflow](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551393735_1812588996010424_4462557880510505087_n.png?stp=dst-png_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=mrZi8EgiM1kQ7kNvwHJSnwi&_nc_oc=Adkuzjgrc1VYOZ_SE-l3A44wNSB2rZIZPi8XsckZ9vJORLIPIVTjLV1Qah5q5XgMJ2egpr8BTJqGnzjy-vF3RyyR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEaSWxMaRiOvPf227JgM-hYeWD2642vqc0ftPQutxsBdQ&oe=68F6D7A2)
+![Web Aplication Wireflow](assets/user-flow-and-wireflow/Wireflow.png)
 
 ### 4.4.2. Web Applications Mock-ups.
-![Web Application Mock-up Home](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551880997_2058659524878132_5916162712347533812_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=iwmviOxrCLsQ7kNvwHvsCcZ&_nc_oc=AdngHerW0YWbhtd1PvxcM2xQF3GZ0cuCDyKB9J5xyAIVJ7Z0R9gmV3XCCmhcBRzEbuAangx5HRfnq3zpg7cfypuI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QEgdYX2kl96Y6gZP9GHr90ETxm-NLY-_zyrDJUwX2KTqg&oe=68F7287F)
+![Web Application Mock-up Home](assets/web-applications-mock-ups/Main_Page.png)
 
-![Web Application Mock-up Profile](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551606189_31354094044239380_2369385178151158883_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Iw4pKMKREDYQ7kNvwFXkDU_&_nc_oc=AdkBs6pqMfQObzWKV3UpdZNLwm3jnvdHl-G6bBbGsB5hV86qX5wR4dRzekOrGFojeqDCzE6XNMdku-Gvyt3or-1U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QFVMmZ5CdQAwctvsG55vud7VA_sDEpi2Efoe4D3RQoiYw&oe=68F6F6C1)
+![Web Application Mock-up Profile](assets/web-applications-mock-ups/Profile_Page.png)
 
-![Web Application Mock-up Medications](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552063277_796016780261836_2434472456845484608_n.png?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=AqbTLntwu1gQ7kNvwET3PW2&_nc_oc=Adn3__C9HQ_wQGLgHPtw8aYrjRt8E4Nby1eRZTNvx3hqjgqnREWIBmPefbiVn8tVhrrtMqXQpfCORTkjQfDBMK60&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QGCak3U_QCNTbut7F-HYTRtFV-DPJRMdSvdaQt9dw0lLQ&oe=68F70433)
+![Web Application Mock-up Medications](assets/web-applications-mock-ups/Medications_Page.png)
 
-![Web Application WirefraMock-upme Temperature Management](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552028856_795212612968117_589327344764506_n.png?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=u-IB9S1IobsQ7kNvwGsr1Ga&_nc_oc=Adl6mwAQC199mJS7jrz3edERjS_-DFzOEuUYdT3q9wZanY3PZRCrkqRXTJ_ErpnVFmF4w68v4AHLHfF2Jalt8hOp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QEFVB9o0V10GfCyvx8stVEB9ytgXJixBzG_7umuKki4og&oe=68F709F3)
+![Web Application WirefraMock-upme Temperature Management](assets/web-applications-mock-ups/Temperature_Page.png)
 
-![Web Application Mock-up Configuration](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/552641563_1355015796016438_873113837991350119_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=fUgfnH2ikuIQ7kNvwHhorL0&_nc_oc=Adkxdq4V6TkOxavrl1rCIlGzwCMbZfdrCIKswIFssUEhJ-j2Ins9axBpYVLcVciuXvbRXJUB23DnQT3n-1tJPgfH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QHadcWfY2GU8_T8SKGNEJM6mtcPJwU9pm5D9WpynBCp5w&oe=68F71329)
+![Web Application Mock-up Configuration](assets/web-applications-mock-ups/Config_Page.png)
 
 
 ### 4.4.3. Web Applications User Flow Diagrams.
@@ -1192,10 +1192,10 @@ En fases posteriores, se prevé la integración del backend mediante servicios R
 En el Happy Path se modeló el flujo ideal que sigue este tipo de usuario desde el menú Home hasta la consulta del estado de los componentes de uno de sus clientes. El recorrido inicia en el menú Home, donde el médico o farmacéutico encuentra accesos a los menús Profile, Medicaments, Temperature Management y Configuration. Al ingresar a Temperature Management, se muestra un listado de medicinas con información básica, como temperatura, fecha de expiración y opciones de acciones. Finalmente, al seleccionar una de estas opciones, el usuario puede visualizar las distintas acciones disponibles.
 
 **Happy Path:**
-![Web Aplication User Flow Diagram Happy Path](https://scontent.flim15-2.fna.fbcdn.net/v/t1.15752-9/551383472_1743258933060137_5660664688873956591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Rozyc2V7DWgQ7kNvwGJ2Qrm&_nc_oc=AdmFqc77eQohdhV8wktSE5_0cR0lBgQoCFNSz0kAf_tjxgZ5QEYyRkWSRtojZQFWVk4c385b0Tp19RjFqo5o33T0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-2.fna&oh=03_Q7cD3QF8Ou2qtVOtD0AOoA5c2_trcr8kuaBtnWxGAWkQ6ASKMg&oe=68F70F19)
+![Web Aplication User Flow Diagram Happy Path](assets/user-flow-and-wireflow/Happy_Path.png)
 
 **Unhappy Path:**
-![Web Aplication User Flow Diagram Unhappy Path](https://scontent.flim15-1.fna.fbcdn.net/v/t1.15752-9/551436278_1325295242299192_3845563985249782317_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=3Mb2Z54h8A0Q7kNvwGcy-ky&_nc_oc=AdktF0Gyb0hjKsV1xEO30uX5NYPXPVdOxhGiMxtB98QLapOU0b1v_-u-PEnYTevjdhJ98kps38qybB0bb4xtIheg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim15-1.fna&oh=03_Q7cD3QGuKy7KeQ_1KCEbd4PH3sYbcHrGTn3SPf0rmZFplbkjFQ&oe=68F7268A)
+![Web Aplication User Flow Diagram Unhappy Path](assets/user-flow-and-wireflow/Unhappy_Path.png)
 
 
 ## 4.5. Web Applications Prototyping.
@@ -1252,7 +1252,7 @@ Simplificar la preparación de reportes regulatorios.
 
 Gracias a este análisis, se identifican los puntos críticos del proceso actual y se definen los beneficios de digitalizar y automatizar la cadena de frío, asegurando tanto la seguridad de los medicamentos como la eficiencia operativa de las farmacias.
 
-![imagen event storming](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552093384_1859106671485942_941564253455647534_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=o8sSaqW1e6YQ7kNvwGnBYUd&_nc_oc=Adk75T3tWuKBg6r4w6OkEYtWjy878f5Xo1BDNAY-vpuQN97OAaxPMLjmZ6yW5KX2904&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEQQEaxu--l58jRaaOvCopDYyREhTg1r7mf0leiG05kaw&oe=68F75D79)
+![imagen event storming](assets/software-architecture/EventStorming.png)
 
 ### 4.6.2. Software Architecture Context Diagram.
 El diagrama de contexto muestra la vista más general de ThermaTrace, destacando a sus actores principales y cómo se relacionan con la plataforma. En este nivel aparecen dos roles clave: las Pharmaceutical Companies, que utilizan ThermaTrace para garantizar la conservación y trazabilidad de medicamentos sensibles durante la distribución; y el Hospital Staff, que accede al sistema para supervisar las condiciones de refrigeración y asegurar la disponibilidad de tratamientos en entornos clínicos.
@@ -1261,7 +1261,8 @@ Aunque sus objetivos son distintos, ambos se conectan a la misma plataforma, que
 
 Este modelo refuerza la misión de ThermaTrace: democratizar el acceso a herramientas tecnológicas simples y confiables para el monitoreo de medicamentos. Además, gracias a su diseño modular y escalable, la plataforma puede adaptarse a diferentes instituciones del sector salud y escenarios de distribución sin perder su esencia.
 <br>
-![imagen context](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552056985_820465340375274_3361582920554422829_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=x0lDlToi8SsQ7kNvwHuqxFQ&_nc_oc=Adn29BGC95eC7iMbIf57yjD_YRcJnwHu3bptJOBGhEuhwmXfyzPfWLUo7jRUaX2iSMc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QF0Yl_B0YiEZTbWh3V0rH5vUlgqwyRavKmXgcINDnB0Yw&oe=68F79055)
+
+![imagen context](assets/software-architecture/Diagrama_Contexto.png)
 
 
 ### 4.6.3. Software Architecture Container Diagrams.
@@ -1273,7 +1274,8 @@ Esta SPA se conecta con un API Backend central, responsable de coordinar las ope
 
 Gracias a este diseño modular, ThermaTrace mantiene una separación clara entre la experiencia de usuario y la lógica de negocio, lo que permite escalar sus capacidades, integrar nuevas tecnologías como IoT, y reducir el tiempo de despliegue de mejoras y nuevas funcionalidades.
 <br>
-![imagen container](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/550910542_1302101488271057_3444686991983191978_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ZBaupey2ymEQ7kNvwG-L6e5&_nc_oc=AdmPQ681HS5NN1YYqn2xN_EVKmvoatwb3YF7EZpdZZ_bDtGYDXanYRGjzJfoY3CkkV8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QGYFX_2Km77Uago0n9QsmIxGwS9QNJUEU1TkkWViQeXHA&oe=68F77A2F)
+
+![imagen container](assets/software-architecture/Diagrama_Contenedores.png)
 
 ### 4.6.4. Software Architecture Components Diagrams.
 El diagrama de componentes profundiza aún más en la vista del sistema, enfocándose en la arquitectura interna del API Backend de ThermaTrace. Aquí se muestra cómo las responsabilidades de la lógica de negocio se dividen en distintos controladores, servicios y repositorios, lo que garantiza una separación clara de preocupaciones y un código más mantenible.
@@ -1296,7 +1298,8 @@ Cada servicio se apoya en un repositorio especializado que gestiona la persisten
 
 Finalmente, todos los repositorios interactúan con el contenedor externo de base de datos (MySQL), donde se almacenan los datos de usuarios, registros de monitoreo, alertas y reportes.
 <br>
-![imagen componente](https://scontent.flim38-1.fna.fbcdn.net/v/t1.15752-9/552450427_3141029769380694_6334333273828721259_n.png?stp=dst-png_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=I3MvSHeh1tUQ7kNvwH8Qx7y&_nc_oc=AdmQlsDklIEjooCwOoOS9OxhBip05blnDT4tZidK58mZnjHa7mmK60kt4YLlhxEZ9cU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&oh=03_Q7cD3QEravrsxURqV94YGIVmBWF1rEl4nDZX8z8cAwj1dVYZTQ&oe=68F76A22)
+
+![imagen componente](assets/software-architecture/Diagrama_Componentes.png)
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
